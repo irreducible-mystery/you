@@ -29,10 +29,27 @@ def git(*args):
         raise RuntimeError(f"git {' '.join(args)}: {out.stderr.strip()}")
     return out.stdout
 
+def mainline_ref():
+    """Resolve the mainline ref robustly across measurement contexts.
+
+    Locally, `main` exists as a branch. On pull_request CI checkouts the
+    working tree is a detached merge commit and only `origin/main` is a
+    visible ref. This difference in ref visibility is itself an instance of
+    the projection inheriting the measurement geometry (REL-0028): the same
+    accepted-state sequence, observed from different vantage points, is
+    reachable under different names. We resolve the name, not the history.
+    """
+    for ref in ("main", "origin/main"):
+        ok = subprocess.run(["git", "rev-parse", "--verify", "--quiet", ref],
+                            capture_output=True, text=True, cwd=REPO)
+        if ok.returncode == 0:
+            return ref
+    return "HEAD"
+
 def accepted_states():
-    """First-parent commits on main, oldest first. Each is an accepted state F_n."""
+    """First-parent commits on the mainline, oldest first. Each is an accepted state F_n."""
     lines = git("log", "--first-parent", "--reverse",
-                "--format=%H|%cI|%s", "main").strip().splitlines()
+                "--format=%H|%cI|%s", mainline_ref()).strip().splitlines()
     states = []
     for n, line in enumerate(lines):
         sha, time, subject = line.split("|", 2)
