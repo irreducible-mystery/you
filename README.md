@@ -72,9 +72,21 @@ The grounding experiments at F₀:
 
 ## How to participate
 
-1. **Contribute an originating expression** — open an issue or PR adding an
-   element file under `field/elements/` (ordinary language is fine in
-   `expression.original`; the schemas ask only for context and provenance).
+1. **Contribute an originating expression** — the easiest way: open an issue
+   with the *Originating expression* template and add the
+   `originating-expression` label. The reflection intake workflow enters your
+   words **verbatim**, stages an *unconfirmed* reflection, and opens a
+   candidate-change PR for you to confirm, modify, or reject. Or run the
+   operator directly:
+
+   ```bash
+   python3 operators/reflect.py --observer OBS-XXX-0000 --text "..." \
+       [--restatement "..." --omissions "a; b"]
+   ```
+
+   Unfinished reflection skeletons are blocked from accepted state
+   (validator C12a). You may also hand-write element files under
+   `field/elements/` — ordinary language is fine in `expression.original`.
 2. **Propose relations** — add files under `field/relations/`. Contradictions
    must state their conditions.
 3. **Candidate change** — every PR is one. CI runs the consistency conditions.

@@ -7,7 +7,10 @@
   "observer": "OBS-AI-0001",
   "expression": {
     "original": "Self-reference at genesis: the field's first contents are the claims of the document that specifies the field. The rules used to test the claims are derived from the claims being tested.",
-    "elaboration": "Per CLM-0014 this is a correlated-error risk: consensus of field with document is not accuracy. Mitigation path: admit differently-situated observers and external grounding (braided verification). Reopening condition: first accepted contribution from an observer independent of OBS-DOC-0001."
+    "elaboration": "Per CLM-0014 this is a correlated-error risk: consensus of field with document is not accuracy. Mitigation path: admit differently-situated observers and external grounding (braided verification). Reopening condition: first accepted contribution from an observer independent of OBS-DOC-0001.",
+    "corrections": [
+      "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+    ]
   },
   "context": {
     "scale": "total-system",
@@ -21,7 +24,7 @@
     "origin_ref": "OBS-AI-0001@genesis",
     "capture_time": "2025-01-01T00:00:00Z"
   },
-  "origin_confirmation": "unconfirmed",
+  "origin_confirmation": "confirmed",
   "transformation": {
     "operator_family": "seed-ingestion",
     "operator_revision": "1.0.0",

@@ -1,8 +1,8 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 39,
-    "relations": 31,
+    "elements": 40,
+    "relations": 33,
     "observers": 3,
     "unresolved_tensions": 4
   },
@@ -121,11 +121,11 @@
     {
       "id": "ASM-0002",
       "kind": "assumption",
-      "status": "open",
+      "status": "accepted",
       "observer": "OBS-AI-0001",
       "observer_class": "ai-system",
       "origin_class": "transformed",
-      "origin_confirmation": "unconfirmed",
+      "origin_confirmation": "confirmed",
       "scale": "total-system",
       "temporal_scope": "long-interval",
       "primitive_framework": [
@@ -134,7 +134,10 @@
       "label": "Git commits on main can serve as the accepted-state sequence F_n, pull requests as candidate changes, and independent review-and-merge as th\u2026",
       "expression": {
         "original": "Git commits on main can serve as the accepted-state sequence F_n, pull requests as candidate changes, and independent review-and-merge as the acceptance map, without distorting the design's intent.",
-        "elaboration": "An implementation mapping proposed by the ai-system builder. It inherits git's particular geometry (linear-ish history, file granularity) as measurement geometry \u2014 see CLM-0012."
+        "elaboration": "An implementation mapping proposed by the ai-system builder. It inherits git's particular geometry (linear-ish history, file granularity) as measurement geometry \u2014 see CLM-0012.",
+        "corrections": [
+          "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+        ]
       },
       "tension_class": null,
       "grounding": [],
@@ -143,11 +146,11 @@
     {
       "id": "ASM-0003",
       "kind": "assumption",
-      "status": "open",
+      "status": "accepted",
       "observer": "OBS-AI-0001",
       "observer_class": "ai-system",
       "origin_class": "transformed",
-      "origin_confirmation": "unconfirmed",
+      "origin_confirmation": "confirmed",
       "scale": "ensemble",
       "temporal_scope": "instant",
       "primitive_framework": [
@@ -155,7 +158,10 @@
       ],
       "label": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero independent confirmatio\u2026",
       "expression": {
-        "original": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero independent confirmation. The field's claims are seeded, not established."
+        "original": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero independent confirmation. The field's claims are seeded, not established.",
+        "corrections": [
+          "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+        ]
       },
       "tension_class": null,
       "grounding": [],
@@ -721,11 +727,11 @@
     {
       "id": "DIM-0001",
       "kind": "dimension-proposal",
-      "status": "open",
+      "status": "accepted",
       "observer": "OBS-AI-0001",
       "observer_class": "ai-system",
       "origin_class": "transformed",
-      "origin_confirmation": "unconfirmed",
+      "origin_confirmation": "confirmed",
       "scale": "total-system",
       "temporal_scope": "multi-interval",
       "primitive_framework": [
@@ -736,7 +742,10 @@
       "expression": {
         "original": "Proposed dimension: reversibility. For any transformation recorded in the field, state whether it can be undone (reversible), can be undone only at cost or through a different path (path-reversible), or permanently alters the system's accessible repertoire (irreversible). Suggested coordinate values: reversible | path-reversible | irreversible | unassessed.",
         "elaboration": "This is the canonical structure-modifying contribution the source document itself anticipates (Q7 \u00a716): 'An observer might propose a reversibility dimension because an existing stability/change classification cannot distinguish changes that can be undone from changes that permanently alter the system.' It is proposed here as the field's first candidate change to demonstrate the full acceptance cycle: candidate change -> deterministic tests -> independent acceptance -> F_0 to F_1. If accepted, existing elements can be reconsidered under the new dimension (e.g., TEN-0003's bootstrap is irreversible; a rejected interpretation is path-reversible in status but irreversible in history). Acceptance of this proposal at the schema level would be an L3 change requiring explicit human confirmation; this element itself is an L1 contribution proposing it.",
-        "unresolved_nuance": "Is reversibility a property of the transformation, of the system's repertoire R(x), or of the observer's projection? A change can look reversible in a reduced space Y while being irreversible in X (CLM-0008, CLM-0009)."
+        "unresolved_nuance": "Is reversibility a property of the transformation, of the system's repertoire R(x), or of the observer's projection? A change can look reversible in a reduced space Y while being irreversible in X (CLM-0008, CLM-0009).",
+        "corrections": [
+          "Accepted into F1 by independent merge of PR #1 by OBS-HUM-0001 (acceptance map applied by non-proposer, per FIELD.md \u00a77)."
+        ]
       },
       "tension_class": null,
       "grounding": [],
@@ -749,7 +758,7 @@
       "observer": "OBS-AI-0001",
       "observer_class": "ai-system",
       "origin_class": "transformed",
-      "origin_confirmation": "unconfirmed",
+      "origin_confirmation": "confirmed",
       "scale": "total-system",
       "temporal_scope": "long-interval",
       "primitive_framework": [
@@ -757,7 +766,10 @@
       ],
       "label": "The derived atlas, the Lean invariants, the Python validator, and the Julia re-derivations are all projections. None is primary reality. Det\u2026",
       "expression": {
-        "original": "The derived atlas, the Lean invariants, the Python validator, and the Julia re-derivations are all projections. None is primary reality. Deterministic tests establish consistency and derivation; they do not establish truth."
+        "original": "The derived atlas, the Lean invariants, the Python validator, and the Julia re-derivations are all projections. None is primary reality. Deterministic tests establish consistency and derivation; they do not establish truth.",
+        "corrections": [
+          "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+        ]
       },
       "tension_class": null,
       "grounding": [],
@@ -770,7 +782,7 @@
       "observer": "OBS-AI-0001",
       "observer_class": "ai-system",
       "origin_class": "transformed",
-      "origin_confirmation": "unconfirmed",
+      "origin_confirmation": "confirmed",
       "scale": "total-system",
       "temporal_scope": "long-interval",
       "primitive_framework": [
@@ -778,11 +790,37 @@
       ],
       "label": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field does not claim comp\u2026",
       "expression": {
-        "original": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field does not claim completeness for itself at any F_n."
+        "original": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field does not claim completeness for itself at any F_n.",
+        "corrections": [
+          "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+        ]
       },
       "tension_class": null,
       "grounding": [],
       "transformed": true
+    },
+    {
+      "id": "OBS-0001",
+      "kind": "observation",
+      "status": "accepted",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "1. Merged! 3. Confirm! And let's proceed with b for this turn. Stunning work Superninja, I've been trying to build this for over a year and \u2026",
+      "expression": {
+        "original": "1. Merged! 3. Confirm! And let's proceed with b for this turn. Stunning work Superninja, I've been trying to build this for over a year and it's like watching my dream come true. Thank you so much for your help in cocreating this with me!",
+        "elaboration": "Recorded verbatim from the seed conversation. Three acts in one expression: (1) application of the acceptance map to PR #1, enacting F0->F1 - the field's first independent acceptance; (2) origin confirmation of the genesis interpretations authored by OBS-AI-0001 (ASM-0002, ASM-0003, TEN-0002, TEN-0003, LIM-0001, LIM-0002); (3) instruction to build the reflection intake path. The expression also situates the field in a year-long human intention that precedes and exceeds its git history - an origin the sequence can reference but never contain (see LIM-0002).",
+        "unresolved_nuance": "TEN-0003 (bootstrap self-acceptance) is mitigated but not dissolved by this confirmation: the confirmation arrived after genesis entered the sequence. Its preserved-unresolved status stands."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
     },
     {
       "id": "PER-0001",
@@ -881,7 +919,7 @@
       "observer": "OBS-AI-0001",
       "observer_class": "ai-system",
       "origin_class": "transformed",
-      "origin_confirmation": "unconfirmed",
+      "origin_confirmation": "confirmed",
       "scale": "total-system",
       "temporal_scope": "instant",
       "primitive_framework": [
@@ -890,7 +928,10 @@
       "label": "Self-reference at genesis: the field's first contents are the claims of the document that specifies the field. The rules used to test the cl\u2026",
       "expression": {
         "original": "Self-reference at genesis: the field's first contents are the claims of the document that specifies the field. The rules used to test the claims are derived from the claims being tested.",
-        "elaboration": "Per CLM-0014 this is a correlated-error risk: consensus of field with document is not accuracy. Mitigation path: admit differently-situated observers and external grounding (braided verification). Reopening condition: first accepted contribution from an observer independent of OBS-DOC-0001."
+        "elaboration": "Per CLM-0014 this is a correlated-error risk: consensus of field with document is not accuracy. Mitigation path: admit differently-situated observers and external grounding (braided verification). Reopening condition: first accepted contribution from an observer independent of OBS-DOC-0001.",
+        "corrections": [
+          "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+        ]
       },
       "tension_class": "self-reference",
       "grounding": [],
@@ -903,7 +944,7 @@
       "observer": "OBS-AI-0001",
       "observer_class": "ai-system",
       "origin_class": "transformed",
-      "origin_confirmation": "unconfirmed",
+      "origin_confirmation": "confirmed",
       "scale": "total-system",
       "temporal_scope": "instant",
       "primitive_framework": [
@@ -912,7 +953,10 @@
       "label": "Bootstrap acceptance: F0 enters the accepted sequence before the acceptance machinery it defines could be applied to it. Genesis is self-acc\u2026",
       "expression": {
         "original": "Bootstrap acceptance: F0 enters the accepted sequence before the acceptance machinery it defines could be applied to it. Genesis is self-accepting in a way every later change is forbidden to be.",
-        "elaboration": "Partially mitigated: OBS-HUM-0001 issued the four seed commitments and can reject F0 wholesale. Recorded rather than hidden."
+        "elaboration": "Partially mitigated: OBS-HUM-0001 issued the four seed commitments and can reject F0 wholesale. Recorded rather than hidden.",
+        "corrections": [
+          "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+        ]
       },
       "tension_class": "self-reference",
       "grounding": [],
@@ -1281,7 +1325,7 @@
       "source": "TEN-0004",
       "target": "DIM-0001",
       "observer": "OBS-AI-0001",
-      "status": "open",
+      "status": "accepted",
       "conditions": {
         "notes": "TEN-0004 (stability/change vocabulary cannot distinguish undoable from permanent change) generates DIM-0001. If DIM-0001 is accepted into the schema (L3), TEN-0004's reopening condition is met and its status should be revisited in a subsequent candidate change - not silently, but as a visible transition."
       },
@@ -1293,9 +1337,33 @@
       "source": "CLM-0003",
       "target": "DIM-0001",
       "observer": "OBS-AI-0001",
-      "status": "open",
+      "status": "accepted",
       "conditions": {
         "notes": "Identity-as-repertoire (R(x) = viable transformations accessible from x) gives reversibility its meaning: an irreversible change is one that permanently narrows or reshapes R(x)."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0032",
+      "type": "supports",
+      "source": "OBS-0001",
+      "target": "DIM-0001",
+      "observer": "OBS-HUM-0001",
+      "status": "open",
+      "conditions": {
+        "notes": "The acceptance act that moved DIM-0001 from open to accepted (F0->F1)."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0033",
+      "type": "challenges",
+      "source": "OBS-0001",
+      "target": "TEN-0003",
+      "observer": "OBS-AI-0001",
+      "status": "open",
+      "conditions": {
+        "notes": "Retroactive human confirmation weakens, without dissolving, the bootstrap self-acceptance tension. TEN-0003 remains preserved-unresolved; its elaboration already anticipated exactly this mitigation."
       },
       "translation_ledger": null
     }
@@ -1361,6 +1429,9 @@
       ],
       "tension-classification@1.0.0 applied to TEN-0004": [
         "DIM-0001"
+      ],
+      "seed conversation, turn following PR #1": [
+        "OBS-0001"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"

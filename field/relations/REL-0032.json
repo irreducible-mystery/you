@@ -1,0 +1,16 @@
+{
+  "id": "REL-0032",
+  "type": "supports",
+  "source": "OBS-0001",
+  "target": "DIM-0001",
+  "observer": "OBS-HUM-0001",
+  "status": "open",
+  "conditions": {
+    "notes": "The acceptance act that moved DIM-0001 from open to accepted (F0->F1)."
+  },
+  "origin_trace": {
+    "origin_kind": "human-expression",
+    "origin_ref": "seed conversation / OBS-0001",
+    "capture_time": "2025-01-02T00:00:00Z"
+  }
+}

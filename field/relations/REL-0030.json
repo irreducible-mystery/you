@@ -4,7 +4,7 @@
   "source": "TEN-0004",
   "target": "DIM-0001",
   "observer": "OBS-AI-0001",
-  "status": "open",
+  "status": "accepted",
   "conditions": {
     "notes": "TEN-0004 (stability/change vocabulary cannot distinguish undoable from permanent change) generates DIM-0001. If DIM-0001 is accepted into the schema (L3), TEN-0004's reopening condition is met and its status should be revisited in a subsequent candidate change - not silently, but as a visible transition."
   },
@@ -17,7 +17,10 @@
     "operator_family": "tension-classification",
     "operator_revision": "1.0.0",
     "ruleset_revision": "FIELD.md@F0",
-    "inputs": ["TEN-0004", "DIM-0001"],
+    "inputs": [
+      "TEN-0004",
+      "DIM-0001"
+    ],
     "generation_time": "2025-01-01T00:00:00Z"
   }
 }

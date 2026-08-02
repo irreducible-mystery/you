@@ -169,6 +169,13 @@ def main():
         if key in seen: V(f"C11 {eid}: duplicate expression of {seen[key]} by same observer (correlated agreement)")
         else: seen[key] = eid
 
+    # ---- C12a: reflection skeletons may not hold accepted/preserved status ----
+    for eid, (e, _) in elements.items():
+        blob = json.dumps(e)
+        if ("TODO-RESTATEMENT" in blob or "TODO-OMISSIONS" in blob) and \
+           e.get("status") in ("accepted", "preserved-unresolved"):
+            V(f"C12a {eid}: unfinished reflection skeleton cannot enter accepted state")
+
     # ---- C12: atlas regeneration succeeds ----
     sys.path.insert(0, os.path.join(REPO, "projections"))
     try:
