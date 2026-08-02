@@ -1,8 +1,8 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 38,
-    "relations": 29,
+    "elements": 39,
+    "relations": 31,
     "observers": 3,
     "unresolved_tensions": 4
   },
@@ -719,6 +719,30 @@
       "transformed": false
     },
     {
+      "id": "DIM-0001",
+      "kind": "dimension-proposal",
+      "status": "open",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "transformed",
+      "origin_confirmation": "unconfirmed",
+      "scale": "total-system",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "process-centered",
+        "state-centered"
+      ],
+      "label": "Proposed dimension: reversibility. For any transformation recorded in the field, state whether it can be undone (reversible), can be undone \u2026",
+      "expression": {
+        "original": "Proposed dimension: reversibility. For any transformation recorded in the field, state whether it can be undone (reversible), can be undone only at cost or through a different path (path-reversible), or permanently alters the system's accessible repertoire (irreversible). Suggested coordinate values: reversible | path-reversible | irreversible | unassessed.",
+        "elaboration": "This is the canonical structure-modifying contribution the source document itself anticipates (Q7 \u00a716): 'An observer might propose a reversibility dimension because an existing stability/change classification cannot distinguish changes that can be undone from changes that permanently alter the system.' It is proposed here as the field's first candidate change to demonstrate the full acceptance cycle: candidate change -> deterministic tests -> independent acceptance -> F_0 to F_1. If accepted, existing elements can be reconsidered under the new dimension (e.g., TEN-0003's bootstrap is irreversible; a rejected interpretation is path-reversible in status but irreversible in history). Acceptance of this proposal at the schema level would be an L3 change requiring explicit human confirmation; this element itself is an L1 contribution proposing it.",
+        "unresolved_nuance": "Is reversibility a property of the transformation, of the system's repertoire R(x), or of the observer's projection? A change can look reversible in a reduced space Y while being irreversible in X (CLM-0008, CLM-0009)."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": true
+    },
+    {
       "id": "LIM-0001",
       "kind": "limit",
       "status": "accepted",
@@ -1250,6 +1274,30 @@
         "valid_range": "governance of F0 onward",
         "invalid_range": "reconstruction of the seed conversation"
       }
+    },
+    {
+      "id": "REL-0030",
+      "type": "requires-new-dimension",
+      "source": "TEN-0004",
+      "target": "DIM-0001",
+      "observer": "OBS-AI-0001",
+      "status": "open",
+      "conditions": {
+        "notes": "TEN-0004 (stability/change vocabulary cannot distinguish undoable from permanent change) generates DIM-0001. If DIM-0001 is accepted into the schema (L3), TEN-0004's reopening condition is met and its status should be revisited in a subsequent candidate change - not silently, but as a visible transition."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0031",
+      "type": "supports",
+      "source": "CLM-0003",
+      "target": "DIM-0001",
+      "observer": "OBS-AI-0001",
+      "status": "open",
+      "conditions": {
+        "notes": "Identity-as-repertoire (R(x) = viable transformations accessible from x) gives reversibility its meaning: an irreversible change is one that permanently narrows or reshapes R(x)."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -1263,6 +1311,9 @@
         "TEN-0002",
         "TEN-0003",
         "TEN-0004"
+      ],
+      "tension-classification@1.0.0": [
+        "DIM-0001"
       ]
     },
     "shared_source": {
@@ -1307,6 +1358,9 @@
         "TEN-0002",
         "TEN-0003",
         "TEN-0004"
+      ],
+      "tension-classification@1.0.0 applied to TEN-0004": [
+        "DIM-0001"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"

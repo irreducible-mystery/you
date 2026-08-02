@@ -1,0 +1,37 @@
+{
+  "id": "DIM-0001",
+  "kind": "dimension-proposal",
+  "status": "open",
+  "origin_class": "transformed",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0001",
+  "expression": {
+    "original": "Proposed dimension: reversibility. For any transformation recorded in the field, state whether it can be undone (reversible), can be undone only at cost or through a different path (path-reversible), or permanently alters the system's accessible repertoire (irreversible). Suggested coordinate values: reversible | path-reversible | irreversible | unassessed.",
+    "elaboration": "This is the canonical structure-modifying contribution the source document itself anticipates (Q7 §16): 'An observer might propose a reversibility dimension because an existing stability/change classification cannot distinguish changes that can be undone from changes that permanently alter the system.' It is proposed here as the field's first candidate change to demonstrate the full acceptance cycle: candidate change -> deterministic tests -> independent acceptance -> F_0 to F_1. If accepted, existing elements can be reconsidered under the new dimension (e.g., TEN-0003's bootstrap is irreversible; a rejected interpretation is path-reversible in status but irreversible in history). Acceptance of this proposal at the schema level would be an L3 change requiring explicit human confirmation; this element itself is an L1 contribution proposing it.",
+    "unresolved_nuance": "Is reversibility a property of the transformation, of the system's repertoire R(x), or of the observer's projection? A change can look reversible in a reduced space Y while being irreversible in X (CLM-0008, CLM-0009)."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "multi-interval",
+    "primitive_framework": ["process-centered", "state-centered"],
+    "position": "first candidate change after genesis"
+  },
+  "distinctions": [
+    "reversible vs path-reversible vs irreversible change",
+    "reversibility in the reduced space vs reversibility in the full space"
+  ],
+  "depends_on_assumptions": ["ASM-0001"],
+  "origin_trace": {
+    "origin_kind": "derived",
+    "origin_ref": "tension-classification@1.0.0 applied to TEN-0004",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "transformation": {
+    "operator_family": "tension-classification",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": ["TEN-0004", "CLM-0024", "CLM-0003"],
+    "generation_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "unconfirmed"
+}
