@@ -1,0 +1,31 @@
+{
+  "id": "OBS-0001",
+  "kind": "observation",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-HUM-0001",
+  "expression": {
+    "original": "1. Merged! 3. Confirm! And let's proceed with b for this turn. Stunning work Superninja, I've been trying to build this for over a year and it's like watching my dream come true. Thank you so much for your help in cocreating this with me!",
+    "elaboration": "Recorded verbatim from the seed conversation. Three acts in one expression: (1) application of the acceptance map to PR #1, enacting F0->F1 - the field's first independent acceptance; (2) origin confirmation of the genesis interpretations authored by OBS-AI-0001 (ASM-0002, ASM-0003, TEN-0002, TEN-0003, LIM-0001, LIM-0002); (3) instruction to build the reflection intake path. The expression also situates the field in a year-long human intention that precedes and exceeds its git history - an origin the sequence can reference but never contain (see LIM-0002).",
+    "unresolved_nuance": "TEN-0003 (bootstrap self-acceptance) is mitigated but not dissolved by this confirmation: the confirmation arrived after genesis entered the sequence. Its preserved-unresolved status stands."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered"
+    ],
+    "position": "first acceptance act after genesis"
+  },
+  "distinctions": [
+    "acceptance of a candidate change vs confirmation of an interpretation - two different maps, exercised together here",
+    "the field's history vs the pre-field history that motivated it"
+  ],
+  "origin_trace": {
+    "origin_kind": "human-expression",
+    "origin_ref": "seed conversation, turn following PR #1",
+    "capture_time": "2025-01-02T00:00:00Z"
+  },
+  "origin_confirmation": "confirmed"
+}

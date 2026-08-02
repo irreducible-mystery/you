@@ -1,0 +1,64 @@
+name: reflection-intake
+
+# Intake path (FIELD.md / doc Q7 §8, step 1-2):
+# when an issue is labeled 'originating-expression', run the bounded
+# reflection operator: the expression enters VERBATIM, a reflection skeleton
+# is staged (origin_confirmation: unconfirmed), and a candidate-change PR is
+# opened. The workflow NEVER merges: acceptance stays independent (§7).
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  reflect:
+    if: github.event.label.name == 'originating-expression'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+
+      - name: Run reflection operator on the issue
+        id: reflect
+        run: |
+          set -e
+          BRANCH="candidate-change/issue-${{ github.event.issue.number }}-reflection"
+          git checkout -b "$BRANCH"
+          python3 operators/reflect.py --issue ${{ github.event.issue.number }} \
+            || { gh issue comment ${{ github.event.issue.number }} --body \
+                 "reflection@1.0.0 could not stage this expression automatically (likely an unregistered observer id). A registered observer can run \`python3 operators/reflect.py --issue ${{ github.event.issue.number }} --observer <id>\` locally. Your words remain here, untransformed, until then."; exit 0; }
+          python3 verification/python/validate.py || true  # skeleton passes as 'open'; report only
+          git config user.name "reflection-operator"
+          git config user.email "field@users.noreply.github.com"
+          git add field/
+          git commit -m "Candidate change: reflection@1.0.0 intake of issue #${{ github.event.issue.number }}
+
+          Originating expression entered verbatim; reflection skeleton staged
+          (origin_confirmation: unconfirmed). Proposer: reflection-operator.
+          Per FIELD.md §5/§7 this workflow never applies the acceptance map."
+          git push origin "$BRANCH"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+
+      - name: Open candidate-change PR
+        if: steps.reflect.outputs.branch != ''
+        run: |
+          gh pr create --base main --head "${{ steps.reflect.outputs.branch }}" \
+            --title "Candidate change: reflection intake of issue #${{ github.event.issue.number }}" \
+            --body "## Reflection intake (bounded operator, reflection@1.0.0)
+
+          - Originating expression from #${{ github.event.issue.number }} entered **verbatim** (origin_confirmation: confirmed — the origin's own words).
+          - Reflection element staged with **origin_confirmation: unconfirmed** and TODO markers: a situated transformer must complete the restatement and list its omissions before this can be accepted (validator C12a blocks skeletons from accepted state).
+          - The origin then **confirms / modifies / rejects** the interpretation in this PR.
+          - Acceptance (merge) must come from someone independent of the transformer (FIELD.md §7).
+
+          Closes nothing automatically; nothing is permanently settled."
+          gh issue comment ${{ github.event.issue.number }} --body \
+            "Your expression has entered the field **verbatim** on branch \`${{ steps.reflect.outputs.branch }}\`. A reflection awaits completion and *your* confirmation — it stays \`unconfirmed\` until you speak. No transformation may silently replace your origin."

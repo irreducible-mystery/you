@@ -7,7 +7,10 @@
   "observer": "OBS-AI-0001",
   "expression": {
     "original": "Bootstrap acceptance: F0 enters the accepted sequence before the acceptance machinery it defines could be applied to it. Genesis is self-accepting in a way every later change is forbidden to be.",
-    "elaboration": "Partially mitigated: OBS-HUM-0001 issued the four seed commitments and can reject F0 wholesale. Recorded rather than hidden."
+    "elaboration": "Partially mitigated: OBS-HUM-0001 issued the four seed commitments and can reject F0 wholesale. Recorded rather than hidden.",
+    "corrections": [
+      "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+    ]
   },
   "context": {
     "scale": "total-system",
@@ -21,7 +24,7 @@
     "origin_ref": "OBS-AI-0001@genesis",
     "capture_time": "2025-01-01T00:00:00Z"
   },
-  "origin_confirmation": "unconfirmed",
+  "origin_confirmation": "confirmed",
   "transformation": {
     "operator_family": "seed-ingestion",
     "operator_revision": "1.0.0",

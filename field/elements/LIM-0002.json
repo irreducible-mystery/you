@@ -6,7 +6,10 @@
   "attribution_mode": "direct",
   "observer": "OBS-AI-0001",
   "expression": {
-    "original": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field does not claim completeness for itself at any F_n."
+    "original": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field does not claim completeness for itself at any F_n.",
+    "corrections": [
+      "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+    ]
   },
   "context": {
     "scale": "total-system",
@@ -20,7 +23,7 @@
     "origin_ref": "OBS-AI-0001@genesis",
     "capture_time": "2025-01-01T00:00:00Z"
   },
-  "origin_confirmation": "unconfirmed",
+  "origin_confirmation": "confirmed",
   "transformation": {
     "operator_family": "seed-ingestion",
     "operator_revision": "1.0.0",

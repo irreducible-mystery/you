@@ -1,12 +1,15 @@
 {
   "id": "ASM-0003",
   "kind": "assumption",
-  "status": "open",
+  "status": "accepted",
   "origin_class": "transformed",
   "attribution_mode": "direct",
   "observer": "OBS-AI-0001",
   "expression": {
-    "original": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero independent confirmation. The field's claims are seeded, not established."
+    "original": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero independent confirmation. The field's claims are seeded, not established.",
+    "corrections": [
+      "Genesis interpretation confirmed by OBS-HUM-0001 (seed-giver, acting as living origin proxy for the seed instructions), recorded in OBS-0001."
+    ]
   },
   "context": {
     "scale": "ensemble",
@@ -20,7 +23,7 @@
     "origin_ref": "OBS-AI-0001@genesis",
     "capture_time": "2025-01-01T00:00:00Z"
   },
-  "origin_confirmation": "unconfirmed",
+  "origin_confirmation": "confirmed",
   "transformation": {
     "operator_family": "seed-ingestion",
     "operator_revision": "1.0.0",
