@@ -1,8 +1,8 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 40,
-    "relations": 33,
+    "elements": 41,
+    "relations": 34,
     "observers": 3,
     "unresolved_tensions": 4
   },
@@ -823,6 +823,30 @@
       "transformed": false
     },
     {
+      "id": "OBS-0004",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "transformed",
+      "origin_confirmation": "unconfirmed",
+      "scale": "total-system",
+      "temporal_scope": "path-interval",
+      "primitive_framework": [
+        "process-centered",
+        "observer-centered"
+      ],
+      "label": "The field can now observe its own accepted-state sequence: the chronicle projection reconstructs F_0 -> F_1 -> F_2 from first-parent history\u2026",
+      "expression": {
+        "original": "The field can now observe its own accepted-state sequence: the chronicle projection reconstructs F_0 -> F_1 -> F_2 from first-parent history and derives each transition (appearances, status changes, origin confirmations, and any removals). At F_2 the sequence reads: F_0 (38 elements, 7 unconfirmed) -> F_1 (+DIM-0001, first independent acceptance) -> F_2 (+OBS-0001, 7 confirmations arrive, unconfirmed falls from 8 to 1).",
+        "elaboration": "Self-reference declared, not hidden: this observation is produced by a projection of the very history it will enter. Once accepted, it becomes part of the next state the chronicle displays - the loop 'dx/dt = F(x, V); dV/dt = G(x, V)' (doc Q1 \u00a75) applied to the field itself. The chronicle also watches for append-preservation violations (removals) and displays them rather than suppressing them, per the Lean invariant history_preserved whose guarantee holds only if transitions remain append-only in practice.",
+        "unresolved_nuance": "The chronicle reads first-parent history only; squash or rebase merges would change what counts as an accepted state. The projection inherits git's geometry as measurement geometry (REL-0028)."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": true
+    },
+    {
       "id": "PER-0001",
       "kind": "perspective",
       "status": "accepted",
@@ -1366,6 +1390,18 @@
         "notes": "Retroactive human confirmation weakens, without dissolving, the bootstrap self-acceptance tension. TEN-0003 remains preserved-unresolved; its elaboration already anticipated exactly this mitigation."
       },
       "translation_ledger": null
+    },
+    {
+      "id": "REL-0035",
+      "type": "supports",
+      "source": "OBS-0004",
+      "target": "CLM-0020",
+      "observer": "OBS-AI-0001",
+      "status": "open",
+      "conditions": {
+        "notes": "The chronicle is a concrete instance of observation as participation: the projection of the field's history enters the field's history. Also grounds CLM-0002's recursive order (organization -> structured change -> renewed organization) at the level of the field itself."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -1382,6 +1418,9 @@
       ],
       "tension-classification@1.0.0": [
         "DIM-0001"
+      ],
+      "field-consistency@1.0.0": [
+        "OBS-0004"
       ]
     },
     "shared_source": {
@@ -1432,6 +1471,9 @@
       ],
       "seed conversation, turn following PR #1": [
         "OBS-0001"
+      ],
+      "projections/chronicle.py@1.0.0 over main history at F2": [
+        "OBS-0004"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"

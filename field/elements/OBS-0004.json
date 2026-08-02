@@ -1,0 +1,36 @@
+{
+  "id": "OBS-0004",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "transformed",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0001",
+  "expression": {
+    "original": "The field can now observe its own accepted-state sequence: the chronicle projection reconstructs F_0 -> F_1 -> F_2 from first-parent history and derives each transition (appearances, status changes, origin confirmations, and any removals). At F_2 the sequence reads: F_0 (38 elements, 7 unconfirmed) -> F_1 (+DIM-0001, first independent acceptance) -> F_2 (+OBS-0001, 7 confirmations arrive, unconfirmed falls from 8 to 1).",
+    "elaboration": "Self-reference declared, not hidden: this observation is produced by a projection of the very history it will enter. Once accepted, it becomes part of the next state the chronicle displays - the loop 'dx/dt = F(x, V); dV/dt = G(x, V)' (doc Q1 §5) applied to the field itself. The chronicle also watches for append-preservation violations (removals) and displays them rather than suppressing them, per the Lean invariant history_preserved whose guarantee holds only if transitions remain append-only in practice.",
+    "unresolved_nuance": "The chronicle reads first-parent history only; squash or rebase merges would change what counts as an accepted state. The projection inherits git's geometry as measurement geometry (REL-0028)."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "path-interval",
+    "primitive_framework": ["process-centered", "observer-centered"],
+    "position": "first self-observation of the state sequence"
+  },
+  "distinctions": [
+    "the field's contents vs the field's trajectory as itself observable",
+    "append-preservation as an invariant to be watched, not assumed"
+  ],
+  "origin_trace": {
+    "origin_kind": "derived",
+    "origin_ref": "projections/chronicle.py@1.0.0 over main history at F2",
+    "capture_time": "2025-01-03T00:00:00Z"
+  },
+  "transformation": {
+    "operator_family": "field-consistency",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F2",
+    "inputs": ["F0:ea5bfdf", "F1:0fdbb2a", "F2:743b5c5"],
+    "generation_time": "2025-01-03T00:00:00Z"
+  },
+  "origin_confirmation": "unconfirmed"
+}

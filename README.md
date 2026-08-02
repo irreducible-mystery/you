@@ -41,8 +41,9 @@ verification/
   lean/                     machine-checked invariants of the field's rules
   results/                  executed grounding outputs, committed for comparison
 projections/
-  atlas.py                  atlas generator
-  viewer/                   TypeScript viewer (a projection, not primary reality)
+  atlas.py                  atlas generator (current state)
+  chronicle.py              chronicle generator (the sequence F_0 -> F_1 -> ... itself)
+  viewer/                   TypeScript viewers: index.html (atlas), chronicle.html (time)
 ```
 
 ## The braid of grounding

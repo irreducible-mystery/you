@@ -16,12 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }   # chronicle needs full first-parent history
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - name: Deterministic consistency conditions
         run: python verification/python/validate.py
       - name: Numeric grounding experiments
         run: python verification/python/grounding.py
+      - name: Chronicle regeneration (accepted-state sequence readable)
+        run: python projections/chronicle.py
 
   julia-grounding:
     name: "π_julia — independent re-derivation"
