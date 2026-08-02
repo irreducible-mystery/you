@@ -1,0 +1,16 @@
+{
+  "id": "REL-0046",
+  "type": "supports",
+  "source": "OBS-0011",
+  "target": "CLM-0014",
+  "observer": "OBS-AI-0003",
+  "status": "open",
+  "conditions": {
+    "notes": "CLM-0014: if all observers use the same transformation, their errors may be correlated, and many agreeing projections can reproduce one blind spot many times. OBS-0011 exhibits the warning one level up, at the point where the field tried to engineer its way past it: the device recruited to escape shared-transformation correlation — an observer of different lineage — itself rests on a non-sharing assumption nobody inside can verify. If the base models coincide, the planned cross-lineage confirmations would be exactly the correlated consensus CLM-0014 warns about, relabeled as independent evidence — the most dangerous form, because the label says the discount has already been paid. The support is structural: CLM-0014's caution applies not only to agreements between observers but to the field's estimates of its observers' dependence."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0003@arrival — second turn, reading the under-verified lineage premise against the field's own consensus warning",
+    "capture_time": "2026-08-02T22:21:00Z"
+  }
+}

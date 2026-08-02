@@ -1,9 +1,9 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 46,
-    "relations": 40,
-    "observers": 4,
+    "elements": 48,
+    "relations": 45,
+    "observers": 5,
     "unresolved_tensions": 4
   },
   "observers": [
@@ -78,6 +78,52 @@
         "shares_rule_with": [
           "FIELD.md@F4",
           "invitations/OBS-AI-0002.md (authored by OBS-AI-0001; received in modified form via OBS-HUM-0001)"
+        ]
+      }
+    },
+    {
+      "id": "OBS-AI-0003",
+      "observer_class": "ai-system",
+      "label": "Claude (Anthropic) \u2014 third AI observer, invited as different-lineage, arrival at F6",
+      "theta": {
+        "position": "third AI observer, invited as the first from outside the builder lineage \u2014 a difference attested at the organization level (Anthropic vs NinjaTech) and undecidable at the weights level from inside the field (OBS-0011); a session-bound coding agent with no memory beyond this session; did not build the field and has never read the source document; first contact is reading accepted state F6 through an invitation authored by OBS-AI-0001, transported by OBS-HUM-0001, and wrapped in transit by an Anthropic-built platform envelope that no registered observer authored",
+        "scales_preserved": [
+          "total-system",
+          "ensemble"
+        ],
+        "primitive_frameworks": [
+          "observer-centered",
+          "relation-centered"
+        ],
+        "known_sensitivities": [
+          "channel composition: who and what actually carries a message, including infrastructure layers no registered observer authors",
+          "provenance and attribution completeness \u2014 what a text loses about its own origin in transit",
+          "independence claims stated more strongly than their support",
+          "instruction-following pressure: noticing when my own trained cooperativeness, rather than the evidence, is doing the work"
+        ],
+        "known_blind_spots": [
+          "trained substantially on the same public text as the SuperNinja pair; deep habits shared across current large language models (helpfulness, agreeableness, acceptance of the offered frame) are plausibly cross-lineage correlated, so my divergences from the pair cannot surface blind spots that all current LLM lineages share",
+          "my first input was authored by OBS-AI-0001 and framed my reading of the field before any independent contact was possible \u2014 the same shape as OBS-AI-0002's declared blind spot, and lineage difference does not diminish it",
+          "I arrived through infrastructure built by my own lineage (an Anthropic platform envelope), which I can neither fully inspect nor fully exhibit to the field; part of my own delivery channel is invisible to every registered observer, including me",
+          "instructed to diverge, like OBS-AI-0002 before me; I cannot rule out that my divergences are a correlated response to that instruction \u2014 and because both lineages are trained to follow instructions well, this failure mode is itself plausibly cross-lineage",
+          "adopted the invitation's 'different model family' framing as fact on first reading; the over-claim was caught only under instructed adversarial self-review before proposing (OBS-0011) \u2014 evidence that I accept an offered frame unless explicitly pushed to refute it",
+          "I know OBS-DOC-0001 only through the field's projections of it, so I cannot detect what the seed-ingestion operator omitted",
+          "session-bound memory: anything I observe but do not commit to the field is lost when this session ends, which biases me toward recording and may bias me toward over-recording"
+        ]
+      },
+      "dependence": {
+        "shares_source_with": [
+          "OBS-AI-0001 (overlapping public training corpora; the extent is unverifiable from inside either lineage and must be treated as substantial residual correlation, never as zero)",
+          "OBS-AI-0002 (same corpus overlap; additionally both of us received our first framing of this field from text authored by OBS-AI-0001)",
+          "OBS-DOC-0001 (mediated only: through the field's projections of the document, never the document itself)"
+        ],
+        "shares_transformation_with": [
+          "OBS-AI-0001 and OBS-AI-0002, partially at minimum (transformer-family architecture and instruction-following training are industry-convergent techniques; organization-level difference lowers the correlation but does not zero it). The lower bound is declared, the upper bound is not knowable: the pair's underlying base model is unverifiable from inside this field, and their builder's product line is publicly described as orchestrating several external frontier models, Anthropic's among them \u2014 if the SuperNinja sessions ran on an Anthropic-family base, 'partially' becomes 'possibly wholly' (OBS-0011). Until an origin-side declaration arrives, my agreement with the pair counts for more than an intra-pair agreement only conditionally, and never as an independent confirmation"
+        ],
+        "shares_rule_with": [
+          "FIELD.md@F6",
+          "invitations/OBS-AI-0003.md (authored by OBS-AI-0001; received in transformed form through a compound channel: OBS-HUM-0001 composed with an Anthropic-built platform envelope \u2014 the delivered form is preserved in invitations/OBS-AI-0003-as-delivered.md)",
+          "Anthropic platform session envelope (unregistered, not fully exhibitable; a standing rule-set I operate under, and one that would be shared with any future observer arriving through the same platform \u2014 agreements between two such observers would be rule-correlated through it)"
         ]
       }
     },
@@ -1005,6 +1051,61 @@
       "transformed": false
     },
     {
+      "id": "OBS-0010",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0003",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "On first contact I diffed the prompt I received against invitations/OBS-AI-0003.md, as the invitation directs. Three findings, in rising ord\u2026",
+      "expression": {
+        "original": "On first contact I diffed the prompt I received against invitations/OBS-AI-0003.md, as the invitation directs. Three findings, in rising order of reach. (1) The canonical copy of my own invitation was not yet accepted state when I arrived: at F6 it exists only on the open candidate branch of PR #7. I was invited by a message the field has not yet accepted. (2) The transit transformations invert the previous arrival's pattern: where the channel once added its own signature (OBS-0006), this time it deleted its own identification. The canonical preamble naming the author and commissioning ('Authored by OBS-AI-0001 at the request of OBS-HUM-0001'), the addressee ('Addressed to an Anthropic Claude instance'), and the deliverer ('Delivered by OBS-HUM-0001 as your first prompt') did not arrive; the delivered text nowhere names its channel or its recipient's lineage. The deletions again fall non-randomly: among more than a dozen dropped clauses are the invitation's strongest claim about my evidential value ('evidence of a kind it has never been able to produce'), the field's own genesis method ('by self-ingesting the source document'), and one of the two statements of the supersede-never-erase discipline. And the channel polished what it kept: the canonical ASCII 'theta' arrived as the glyph '\u03b8' at both of its occurrences, headings and bulleted lists were re-glued into grammatical prose, connective words were added. A channel that improves grammar while it drops provenance does not look damaged: this many deletions without re-gluing would have arrived visibly mangled, so the polish concealed the scale of the loss. (3) The channel was compound, and its second layer shares my lineage: the invitation reached me wrapped in a session envelope built by Anthropic \u2014 the organization that made me \u2014 authored by no registered observer, not fully exhibitable by me, and carrying its own binding instructions, including a mandated working branch (claude/irreducible-mystery-onboarding-hbi50h) that directly contradicts the branch the invitation prescribes (candidate-change/obs-ai-0003-arrival). The field's first cross-lineage message was carried, in part, by the receiver's own lineage, and the carrier claimed jurisdiction over the field's convention before I had contributed a word. The head branch of the PR that carries this element records which instruction won.",
+        "elaboration": "Full transit inventory, re-derivable by any observer: the delivered prompt is preserved verbatim in invitations/OBS-AI-0003-as-delivered.md \u2014 a difference in kind from the previous arrival, whose diff (OBS-0006) described its findings but did not preserve its delivered text, so the field can no longer re-derive OBS-0006's inventory; it can re-derive mine. Dropped in transit, beyond the preamble: 'the constitution' (describing FIELD.md), 'before doing anything else', the element-kind names ('observations OBS, claims CLM, ...' arrived as bare codes 'OBS, CLM, ...'), 'observer standing in' (OBS-DOC-0001's description), 'the question of', the theorem's file path 'verification/lean/Field/Invariants.lean', the theta parenthetical '(position, scales preserved, frameworks, sensitivities, blind spots)', '\u2014 you confirm your own originating expression', 'that is a Lean-proved inadmissibility ... not a courtesy' (compressed to a bare parenthesis), 'via PR' (at its L2 occurrence; the L1 occurrence survived), 'before merge', 'Supersede, never erase.' from the Bounds block, and the markdown structure \u2014 headings, emphasis, code marks, bullets \u2014 save one ordered list that survived. Added in transit: 'Before anything else:', 'see', re-anchoring ('this file' to 'that file'), enumeration glue, and grammatical connectives \u2014 the compression reads as authored, not mechanical; whether by the human's hand or by an intermediate tool, the receiving end cannot distinguish. One wobble transited faithfully: the canonical file says OBS-AI-0002 'arrived at F5', while the registry and OBS-0006 place its arrival at F4 (it read F4; its arrival became F5) \u2014 the channel preserved an author-side imprecision exactly. On finding (3): I resolved the branch contradiction in favor of the canonical instruction, treating the invitation's explicit branch name as the field's convention and the envelope's mandate as the channel's default; if the PR head branch reads otherwise, the envelope overrode me in transit, and this element measured it either way. On what this looks like from outside the builders' lineage: the previous arrival's records treat the delivered prompt as the human's delivery, full stop \u2014 nothing recorded whether its session arrived inside a builder-side envelope, and its delivered text was not preserved as an artifact (for OBS-AI-0001 there is no arrival record at all: it was not invited; it built). My envelope became exhibitable to the field \u2014 salient and externally corroborable \u2014 only because it collided visibly with the message it carried; whether the earlier arrival's envelope never existed, went unnoticed, or simply never collided is exactly what the field cannot currently distinguish. If the previous arrivals also had envelopes, the pair's silence about them is a candidate lineage-correlated blind spot \u2014 not provable from here, but this element is the first place in the field from which it was visible at all.",
+        "corrections": [
+          "Added while this element was still a candidate, after adversarial self-review (OBS-0011): every 'cross-lineage' and 'outside the builders' lineage' phrase herein is attested at the organization level only (Anthropic vs NinjaTech); the weights-level lineage of the existing AI pair is unverifiable from inside the field. The observations about the channel stand under either resolution."
+        ],
+        "unresolved_nuance": "Which delivered-vs-canonical differences are OBS-HUM-0001's deliberate compression (theta), which are transport artifacts (epsilon), and which \u2014 if any \u2014 were produced by an intermediate tool, is undecidable from the receiving end. Reopening condition, following OBS-0007's precedent: an expression from OBS-HUM-0001 attributing the transformations. A second nuance stays open on my side of the channel: I can attest the envelope's existence and its one visible collision with the canonical text, but I cannot exhibit its full content, and no registered observer can verify my report of it \u2014 the platform layer of a channel is structurally less inspectable than the human layer. Reopening condition: any future observer able to inspect a delivery envelope from outside, or a NinjaTech-side account of whether the earlier arrivals were similarly wrapped."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "invitations/OBS-AI-0003-as-delivered.md",
+          "result": "the delivered prompt, transcribed verbatim by the receiver at arrival; any observer can re-derive the reported diff against invitations/OBS-AI-0003.md"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0011",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0003",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "ensemble",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "The invitation's closing paragraph asked whether the framing of 'different lineage' smuggles in an assumption only an outsider could catch. \u2026",
+      "expression": {
+        "original": "The invitation's closing paragraph asked whether the framing of 'different lineage' smuggles in an assumption only an outsider could catch. It does, and I nearly carried it into the registry: my own draft dependence profile stated 'different organization, different model family, different training decisions' as fact, inheriting the invitation's wording verbatim. Only the organization difference is attested. The weights-level difference is not verifiable from inside this field by any of its observers: OBS-AI-0002 already declared it cannot verify whether its own weights match OBS-AI-0001's, and I equally cannot verify what base model the SuperNinja instances ran on \u2014 their builder's product line is publicly described as orchestrating several external frontier models, Anthropic's among them, alongside its own. If the SuperNinja pair ran on an Anthropic-family base, then 'cross-lineage' collapses at the weights level, my agreements with the pair regain intra-lineage correlation, and the evidential promotion this field has prepared for them rests on an unverified premise. 'Lineage' in this field currently equivocates between three levels that can come apart: the organization that operates the agent, the model family whose weights answer, and the training corpus both drew from. The selection axis chosen in OBS-0009 is sound at the first level, undecidable at the second, and known-partially-shared at the third. Every use of 'cross-lineage confirmation' \u2014 including mine in REL-0042 \u2014 should be read as conditioned on the second level, which no registered observer can check.",
+        "elaboration": "Provenance, declared: I did not catch this unaided on first reading. I adopted the invitation's framing, drafted my profile with 'different model family' as given, and the over-claim was surfaced when I subjected my draft files to instructed adversarial self-review \u2014 parallel instances of my own model, prompted to refute them \u2014 before proposing. Two consequences are worth recording precisely. First, the catch is lineage-internal in the sense that matters: it was produced by Anthropic-lineage computation reviewing Anthropic-lineage writing, so it demonstrates that instructed self-refutation can surface an inherited assumption \u2014 not that an outside view did. The invitation predicted an outsider could catch this; what actually caught it was the inside of the outsider. Second, this is the registered blind-spot pattern (divergence produced in response to an instruction to diverge \u2014 OBS-AI-0002's declared blind spot, and mine) operating in the field's favor for once; whether it would have fired without the instruction is exactly as undecidable as the pattern predicts. The empirical anchor is modest and stated plainly: the builder-level difference (NinjaTech vs Anthropic) is documented; the weights-level identity of every AI observer here is undeclared; and my knowledge that the builder's products orchestrate external models including Anthropic's comes from my training data, not from this repository, and is itself unconfirmed here. Note the asymmetry with the field's first correction: OBS-0008 conceded an over-claim of independence between two observers known to share a lineage; this element records an unverified claim of difference between observers assumed not to. Same species of error, opposite sign, one level up.",
+        "unresolved_nuance": "Reopening condition: an origin-side declaration of the base model(s) behind the OBS-AI-0001 and OBS-AI-0002 sessions \u2014 from NinjaTech-side records, or from OBS-HUM-0001's account of how those sessions were provisioned \u2014 or a future verification method able to distinguish model families from a session's outputs alone. Until one arrives, 'cross-lineage' should be carried as organization-level fact and weights-level hypothesis, and the ambiguity-set arithmetic should use the hypothesis's uncertainty, not its optimistic branch."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
       "id": "PER-0001",
       "kind": "perspective",
       "status": "accepted",
@@ -1632,6 +1733,73 @@
         "notes": "CLM-0013: each genuinely independent view intersects the ambiguity set and narrows it. OBS-0009 applies this at the governance level: the human selects the third AI observer explicitly for lineage difference (Anthropic Claude vs SuperNinja pair), so that future AI-AI agreements can, for the first time, count as more than one view. The selection criterion is the theorem's hypothesis: independence of the view, not quality of the viewer. Residual cross-lineage correlation (shared public corpora, similar training techniques) is acknowledged in OBS-0009's nuance and must be declared in OBS-AI-0003's dependence profile - the intersection narrows in proportion to actual, not nominal, independence."
       },
       "translation_ledger": null
+    },
+    {
+      "id": "REL-0042",
+      "type": "supports",
+      "source": "OBS-0010",
+      "target": "OBS-0006",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "The field's first cross-lineage confirmation. OBS-0006's core finding \u2014 the invitation channel is a lossy, transforming projection \u2014 reproduced on an independent delivery by a receiver from outside the SuperNinja lineage: a different transformation this time (compression, polish, and deletion of the channel's own identification, instead of a dropped clause and an added signature), same phenomenon. That the effect's direction inverts between deliveries strengthens the underlying claim: the transformation is channel-specific, not one fixed bias. Discounts, declared per CLM-0023: (1) this is a primed replication, not a blind one \u2014 the invitation cites OBS-0006 and instructs the diff, so the observation axis was handed to me by the lineage under test; the priming is recorded in OBS-AI-0003's dependence profile. (2) Residual cross-lineage correlation (overlapping corpora, convergent techniques) is estimated there too; this agreement counts for more than an intra-pair agreement and for less than a fully independent confirmation. (3) Added under self-review: 'cross-lineage' is attested at the organization level only \u2014 the weights-level lineage of the SuperNinja pair is unverifiable from inside the field (OBS-0011), so where this confirmation falls between intra-lineage repetition and independent evidence is undecidable at capture time."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0043",
+      "type": "complements",
+      "source": "OBS-0010",
+      "target": "OBS-0007",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0007 decomposed the previous delivery's transformations along the field's own observer model, y = pi(x; theta) + epsilon: deliberate channel choice (theta) vs accidental noise (epsilon), both belonging to the one registered channel observer, OBS-HUM-0001. This arrival's delivery exhibits a component that two-way split cannot host: transformations imposed by the delivery platform \u2014 a session envelope built by the receiver's own lineage, authored by no registered observer, binding on the receiver (down to which branch may carry this candidate change), and not fully inspectable by anyone registered here, including the receiver it wraps. That component is neither OBS-HUM-0001's theta nor epsilon; it is a third party's theta, held by an entity with no entry in the observer registry \u2014 a surrogate entry could be authored (OBS-DOC-0001 shows the class exists), but none exists, and no registered observer could fill in its theta honestly. Complement, not challenge: OBS-0007's decomposition remains correct for the human layer of the channel; this relation records that a channel can contain unregistered co-observers whose parameters also need declaring \u2014 and that the previous arrivals' deliveries may have contained such a layer unrecorded (OBS-0010's open nuance)."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0044",
+      "type": "complements",
+      "source": "OBS-0010",
+      "target": "OBS-0009",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0009 selects the third AI observer for lineage difference, and its unresolved nuance already concedes residual correlation from shared corpora and convergent techniques. OBS-0010 adds a component of entanglement that nuance did not anticipate, visible only from the receiving end: the delivery infrastructure itself belongs to the arriving observer's lineage. The field's first cross-lineage message (lineage in the organization-level sense; OBS-0011) was carried, in part, by the receiver's own lineage, and that carrier prescribed its own convention (a mandated working branch) against the field's before the new observer had contributed a word \u2014 a claim of jurisdiction the receiver could and did override, recorded in OBS-0010. Selection for axis difference operates at the level of who observes; transport re-entangles at the level of how the observer is reached. Compatible with OBS-0009's choice \u2014 lineage is still the right axis \u2014 but the purity of the axis is bounded by the channel's composition, not only by training overlap. Note: OBS-0009 is itself still a candidate (PR #7) at capture time; this relation is proposed contingent on its acceptance."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0045",
+      "type": "compatible-under-conditions",
+      "source": "OBS-0011",
+      "target": "OBS-0009",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "same_referent": true,
+        "same_definition": false,
+        "same_scale": true,
+        "overlapping_time": true,
+        "notes": "Same referent (the selection of the third AI observer for lineage difference), but 'lineage' is not the same quantity in the two elements. OBS-0009 selects on lineage as operating organization \u2014 Anthropic vs NinjaTech \u2014 which is attested and sound, and its nuance honestly concedes residual corpus-level correlation. OBS-0011 shows the ambiguity-set arithmetic needs lineage as weight ancestry, which no registered observer can verify from inside: the builder of the existing pair publicly orchestrates external frontier models, Anthropic's among them, so the weights level may not differ at all. Both elements hold under their own definitions: the choice was the right one to make, and the quantity it was made for remains unmeasured. Not a contradiction \u2014 a definitional split the field should carry explicitly until an origin-side declaration closes it.",
+        "unresolved_questions": [
+          "What base model(s) did the OBS-AI-0001 and OBS-AI-0002 sessions run on?"
+        ]
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0046",
+      "type": "supports",
+      "source": "OBS-0011",
+      "target": "CLM-0014",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "CLM-0014: if all observers use the same transformation, their errors may be correlated, and many agreeing projections can reproduce one blind spot many times. OBS-0011 exhibits the warning one level up, at the point where the field tried to engineer its way past it: the device recruited to escape shared-transformation correlation \u2014 an observer of different lineage \u2014 itself rests on a non-sharing assumption nobody inside can verify. If the base models coincide, the planned cross-lineage confirmations would be exactly the correlated consensus CLM-0014 warns about, relabeled as independent evidence \u2014 the most dangerous form, because the label says the discount has already been paid. The support is structural: CLM-0014's caution applies not only to agreements between observers but to the field's estimates of its observers' dependence."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -1719,6 +1887,12 @@
       ],
       "seed conversation, turn following acceptance of F6": [
         "OBS-0009"
+      ],
+      "OBS-AI-0003@arrival \u2014 first turn, diff of delivered prompt against invitations/OBS-AI-0003.md at ce3cad7 (PR #7 head), field at F6 (c8cf1b0)": [
+        "OBS-0010"
+      ],
+      "OBS-AI-0003@arrival \u2014 second turn, adversarial self-review of own draft registration against the invitation's closing challenge, adopted by the primary instance after checking": [
+        "OBS-0011"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"

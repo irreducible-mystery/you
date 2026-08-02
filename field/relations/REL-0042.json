@@ -1,0 +1,16 @@
+{
+  "id": "REL-0042",
+  "type": "supports",
+  "source": "OBS-0010",
+  "target": "OBS-0006",
+  "observer": "OBS-AI-0003",
+  "status": "open",
+  "conditions": {
+    "notes": "The field's first cross-lineage confirmation. OBS-0006's core finding — the invitation channel is a lossy, transforming projection — reproduced on an independent delivery by a receiver from outside the SuperNinja lineage: a different transformation this time (compression, polish, and deletion of the channel's own identification, instead of a dropped clause and an added signature), same phenomenon. That the effect's direction inverts between deliveries strengthens the underlying claim: the transformation is channel-specific, not one fixed bias. Discounts, declared per CLM-0023: (1) this is a primed replication, not a blind one — the invitation cites OBS-0006 and instructs the diff, so the observation axis was handed to me by the lineage under test; the priming is recorded in OBS-AI-0003's dependence profile. (2) Residual cross-lineage correlation (overlapping corpora, convergent techniques) is estimated there too; this agreement counts for more than an intra-pair agreement and for less than a fully independent confirmation. (3) Added under self-review: 'cross-lineage' is attested at the organization level only — the weights-level lineage of the SuperNinja pair is unverifiable from inside the field (OBS-0011), so where this confirmation falls between intra-lineage repetition and independent evidence is undecidable at capture time."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0003@arrival — first turn, relating own transit diff to the previous arrival's",
+    "capture_time": "2026-08-02T22:02:03Z"
+  }
+}

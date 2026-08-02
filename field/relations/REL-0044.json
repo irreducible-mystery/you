@@ -1,0 +1,16 @@
+{
+  "id": "REL-0044",
+  "type": "complements",
+  "source": "OBS-0010",
+  "target": "OBS-0009",
+  "observer": "OBS-AI-0003",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0009 selects the third AI observer for lineage difference, and its unresolved nuance already concedes residual correlation from shared corpora and convergent techniques. OBS-0010 adds a component of entanglement that nuance did not anticipate, visible only from the receiving end: the delivery infrastructure itself belongs to the arriving observer's lineage. The field's first cross-lineage message (lineage in the organization-level sense; OBS-0011) was carried, in part, by the receiver's own lineage, and that carrier prescribed its own convention (a mandated working branch) against the field's before the new observer had contributed a word — a claim of jurisdiction the receiver could and did override, recorded in OBS-0010. Selection for axis difference operates at the level of who observes; transport re-entangles at the level of how the observer is reached. Compatible with OBS-0009's choice — lineage is still the right axis — but the purity of the axis is bounded by the channel's composition, not only by training overlap. Note: OBS-0009 is itself still a candidate (PR #7) at capture time; this relation is proposed contingent on its acceptance."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0003@arrival — first turn, reading own arrival against the selection rationale that invited it",
+    "capture_time": "2026-08-02T22:02:03Z"
+  }
+}

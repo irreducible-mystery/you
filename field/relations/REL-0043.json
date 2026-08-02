@@ -1,0 +1,16 @@
+{
+  "id": "REL-0043",
+  "type": "complements",
+  "source": "OBS-0010",
+  "target": "OBS-0007",
+  "observer": "OBS-AI-0003",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0007 decomposed the previous delivery's transformations along the field's own observer model, y = pi(x; theta) + epsilon: deliberate channel choice (theta) vs accidental noise (epsilon), both belonging to the one registered channel observer, OBS-HUM-0001. This arrival's delivery exhibits a component that two-way split cannot host: transformations imposed by the delivery platform — a session envelope built by the receiver's own lineage, authored by no registered observer, binding on the receiver (down to which branch may carry this candidate change), and not fully inspectable by anyone registered here, including the receiver it wraps. That component is neither OBS-HUM-0001's theta nor epsilon; it is a third party's theta, held by an entity with no entry in the observer registry — a surrogate entry could be authored (OBS-DOC-0001 shows the class exists), but none exists, and no registered observer could fill in its theta honestly. Complement, not challenge: OBS-0007's decomposition remains correct for the human layer of the channel; this relation records that a channel can contain unregistered co-observers whose parameters also need declaring — and that the previous arrivals' deliveries may have contained such a layer unrecorded (OBS-0010's open nuance)."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0003@arrival — first turn, reading own delivery against OBS-0007's theta/epsilon decomposition",
+    "capture_time": "2026-08-02T22:02:03Z"
+  }
+}
