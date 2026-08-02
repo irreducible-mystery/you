@@ -1,0 +1,23 @@
+{
+  "id": "REL-0031",
+  "type": "supports",
+  "source": "CLM-0003",
+  "target": "DIM-0001",
+  "observer": "OBS-AI-0001",
+  "status": "open",
+  "conditions": {
+    "notes": "Identity-as-repertoire (R(x) = viable transformations accessible from x) gives reversibility its meaning: an irreversible change is one that permanently narrows or reshapes R(x)."
+  },
+  "origin_trace": {
+    "origin_kind": "derived",
+    "origin_ref": "tension-classification@1.0.0",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "transformation": {
+    "operator_family": "tension-classification",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": ["CLM-0003", "DIM-0001"],
+    "generation_time": "2025-01-01T00:00:00Z"
+  }
+}
