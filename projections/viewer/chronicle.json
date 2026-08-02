@@ -1,0 +1,1788 @@
+{
+  "note": "Derived projection of the accepted-state sequence. Reads history; never writes it. Not primary reality (LIM-0001). The chronicle observing the field is participation (CLM-0020).",
+  "states": [
+    {
+      "index": 0,
+      "label": "F0",
+      "commit": "ea5bfdfa5326b8d4def2852a86b763fd43e681f8",
+      "time": "2026-08-02T19:45:42+00:00",
+      "subject": "F0 \u2014 genesis: field born by self-ingesting the source document's claims",
+      "counts": {
+        "elements": 38,
+        "relations": 29,
+        "observers": 3,
+        "unresolved": 4,
+        "unconfirmed": 7
+      },
+      "nodes": [
+        {
+          "id": "ASM-0001",
+          "kind": "assumption",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "An append-preserving ordered sequence of accepted states is an adequate substrate for a field that must remain traceable\u2026"
+        },
+        {
+          "id": "ASM-0002",
+          "kind": "assumption",
+          "status": "open",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "Git commits on main can serve as the accepted-state sequence F_n, pull requests as candidate changes, and independent re\u2026"
+        },
+        {
+          "id": "ASM-0003",
+          "kind": "assumption",
+          "status": "open",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero ind\u2026"
+        },
+        {
+          "id": "CLM-0001",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A system does not merely undergo change. It channels change. The important distinction is not between change and no chan\u2026"
+        },
+        {
+          "id": "CLM-0002",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A system persists when its transformations are woven into a recursive order: organization -> structured change -> renewe\u2026"
+        },
+        {
+          "id": "CLM-0003",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Identity is not defined only by what a system is doing now. It also includes what it remains capable of doing: R(x) = {v\u2026"
+        },
+        {
+          "id": "CLM-0004",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "History becomes organization when previous change alters the rules of future change."
+        },
+        {
+          "id": "CLM-0005",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A system is never simply robust in the abstract. It is robust with respect to something. Antifragility must be specified\u2026"
+        },
+        {
+          "id": "CLM-0006",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A type of organization is a structured way of distributing constraints, variation, memory, and control. Each distributio\u2026"
+        },
+        {
+          "id": "CLM-0007",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Fractality does not imply resilience or antifragility. A branching network can distribute flow efficiently while remaini\u2026"
+        },
+        {
+          "id": "CLM-0008",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Under what conditions can many detailed trajectories be represented as one coherent reduced trajectory? A successful coa\u2026"
+        },
+        {
+          "id": "CLM-0009",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "When history is projected away, it returns at the reduced level as memory; hidden variables can also appear as randomnes\u2026"
+        },
+        {
+          "id": "CLM-0010",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Aggregate state != average component state. {0, 0, 10, 10} and {5, 5, 5, 5} have the same mean and different organizatio\u2026"
+        },
+        {
+          "id": "CLM-0011",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Emergence = structured compression that retains consequential relations. Every compression creates blind spots."
+        },
+        {
+          "id": "CLM-0012",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Three geometries must be distinguished: the geometry of the system; the geometry induced by measurement; and the geometr\u2026"
+        },
+        {
+          "id": "CLM-0013",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "With several observations, the underlying state must lie in the intersection of the ambiguity sets: x in intersection pi\u2026"
+        },
+        {
+          "id": "CLM-0014",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Consensus is not automatically accuracy. If all observers use the same transformation, their errors may be correlated. M\u2026"
+        },
+        {
+          "id": "CLM-0015",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The goal is not many views -> one average. It is many situated views + relations among them + preserved disagreement -> \u2026"
+        },
+        {
+          "id": "CLM-0016",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Collective observation does not eliminate projection; it creates a higher-order projection. The synthesizing process mus\u2026"
+        },
+        {
+          "id": "CLM-0017",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Generativity often appears where the current representation repeatedly fails: seams, holes, curvature, bifurcations, fru\u2026"
+        },
+        {
+          "id": "CLM-0018",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A good structured field permits several coordinate systems, local rather than universal metrics, observers whose descrip\u2026"
+        },
+        {
+          "id": "CLM-0019",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A generative system can change the state space itself: X(t_1) != X(t_2), with coupled dynamics dx/dt = F(x, X); dX/dt = \u2026"
+        },
+        {
+          "id": "CLM-0020",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Observation becomes participation in the dynamics. There is no fixed perspective entirely outside the field."
+        },
+        {
+          "id": "CLM-0021",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "This does not make understanding impossible. It replaces completeness with revisability: M_t = best current organization\u2026"
+        },
+        {
+          "id": "CLM-0022",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Originating observations and transformed elements may both enter the field, but no transformation may silently replace i\u2026"
+        },
+        {
+          "id": "CLM-0023",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Number of outputs != number of independent perspectives. Correlated agreement must not be counted as independent confirm\u2026"
+        },
+        {
+          "id": "CLM-0024",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The field becomes generative when contributions can modify not only its contents but its structure. Changes at L_3 requi\u2026"
+        },
+        {
+          "id": "CLM-0025",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The system should preserve not one collective answer, but the evolving and inspectable organization through which answer\u2026"
+        },
+        {
+          "id": "DEF-0001",
+          "kind": "definition",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A structured field F = (P, D, R, C, T): positions, dimensions, relations, contexts, transitions. It shows how positions \u2026"
+        },
+        {
+          "id": "LIM-0001",
+          "kind": "limit",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "The derived atlas, the Lean invariants, the Python validator, and the Julia re-derivations are all projections. None is \u2026"
+        },
+        {
+          "id": "LIM-0002",
+          "kind": "limit",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field\u2026"
+        },
+        {
+          "id": "PER-0001",
+          "kind": "perspective",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The document speaks in topic-agnostic mathematical, physical, and geometric language; it deliberately avoids domain exam\u2026"
+        },
+        {
+          "id": "PER-0002",
+          "kind": "perspective",
+          "status": "accepted",
+          "observer": "OBS-HUM-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Seed commitments: (1) preserve tension as the field's first element; (2) the field is a seed for many observers/particip\u2026"
+        },
+        {
+          "id": "PER-0003",
+          "kind": "perspective",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Builder's situated view: I constructed F0 by projecting the document into schemas, operators, validators, and proofs. My\u2026"
+        },
+        {
+          "id": "TEN-0001",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Q7: 'The fundamental unit is not an answer. It is an attributed element situated within a context.' vs Q6: 'What lies be\u2026"
+        },
+        {
+          "id": "TEN-0002",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "Self-reference at genesis: the field's first contents are the claims of the document that specifies the field. The rules\u2026"
+        },
+        {
+          "id": "TEN-0003",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "Bootstrap acceptance: F0 enters the accepted sequence before the acceptance machinery it defines could be applied to it.\u2026"
+        },
+        {
+          "id": "TEN-0004",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "The stability/change vocabulary of the field cannot distinguish changes that can be undone from changes that permanently\u2026"
+        }
+      ],
+      "edges": [
+        {
+          "id": "REL-0001",
+          "type": "remains-unresolved-with",
+          "source": "TEN-0001",
+          "target": "CLM-0025",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0002",
+          "type": "contradicts-under-conditions",
+          "source": "CLM-0022",
+          "target": "CLM-0019",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0003",
+          "type": "depends-on",
+          "source": "TEN-0001",
+          "target": "REL-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0004",
+          "type": "supports",
+          "source": "CLM-0004",
+          "target": "CLM-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0005",
+          "type": "complements",
+          "source": "CLM-0003",
+          "target": "CLM-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0006",
+          "type": "supports",
+          "source": "CLM-0006",
+          "target": "CLM-0005",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0007",
+          "type": "challenges",
+          "source": "CLM-0007",
+          "target": "CLM-0006",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0008",
+          "type": "supports",
+          "source": "CLM-0010",
+          "target": "CLM-0011",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0009",
+          "type": "supports",
+          "source": "CLM-0009",
+          "target": "CLM-0008",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0010",
+          "type": "depends-on",
+          "source": "CLM-0011",
+          "target": "CLM-0008",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0011",
+          "type": "complements",
+          "source": "CLM-0012",
+          "target": "CLM-0011",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0012",
+          "type": "supports",
+          "source": "CLM-0013",
+          "target": "CLM-0015",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0013",
+          "type": "challenges",
+          "source": "CLM-0014",
+          "target": "CLM-0013",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0014",
+          "type": "supports",
+          "source": "CLM-0023",
+          "target": "CLM-0014",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0015",
+          "type": "contains",
+          "source": "CLM-0016",
+          "target": "CLM-0015",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0016",
+          "type": "depends-on",
+          "source": "CLM-0017",
+          "target": "DEF-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0017",
+          "type": "supports",
+          "source": "CLM-0018",
+          "target": "CLM-0021",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0018",
+          "type": "transforms-into",
+          "source": "DEF-0001",
+          "target": "CLM-0019",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0019",
+          "type": "supports",
+          "source": "CLM-0020",
+          "target": "CLM-0016",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0020",
+          "type": "depends-on",
+          "source": "CLM-0022",
+          "target": "ASM-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0021",
+          "type": "depends-on",
+          "source": "ASM-0002",
+          "target": "ASM-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0022",
+          "type": "supports",
+          "source": "CLM-0024",
+          "target": "CLM-0019",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0023",
+          "type": "supports",
+          "source": "CLM-0025",
+          "target": "CLM-0021",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0024",
+          "type": "counterexample-to",
+          "source": "TEN-0003",
+          "target": "CLM-0022",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0025",
+          "type": "depends-on",
+          "source": "TEN-0002",
+          "target": "ASM-0003",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0026",
+          "type": "shares-assumption-with",
+          "source": "PER-0003",
+          "target": "PER-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0027",
+          "type": "requires-new-dimension",
+          "source": "TEN-0004",
+          "target": "DEF-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0028",
+          "type": "applies-at-another-scale",
+          "source": "CLM-0012",
+          "target": "ASM-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0029",
+          "type": "loses-information-when-translated-to",
+          "source": "PER-0002",
+          "target": "FIELD.md",
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "label": "F1",
+      "commit": "0fdbb2a3041875c42fd321ec00a03ceb433fbc98",
+      "time": "2026-08-02T12:54:16-07:00",
+      "subject": "Merge pull request #1 from irreducible-mystery/candidate-change/dim-0001-reversibility",
+      "counts": {
+        "elements": 39,
+        "relations": 31,
+        "observers": 3,
+        "unresolved": 4,
+        "unconfirmed": 8
+      },
+      "nodes": [
+        {
+          "id": "ASM-0001",
+          "kind": "assumption",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "An append-preserving ordered sequence of accepted states is an adequate substrate for a field that must remain traceable\u2026"
+        },
+        {
+          "id": "ASM-0002",
+          "kind": "assumption",
+          "status": "open",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "Git commits on main can serve as the accepted-state sequence F_n, pull requests as candidate changes, and independent re\u2026"
+        },
+        {
+          "id": "ASM-0003",
+          "kind": "assumption",
+          "status": "open",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero ind\u2026"
+        },
+        {
+          "id": "CLM-0001",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A system does not merely undergo change. It channels change. The important distinction is not between change and no chan\u2026"
+        },
+        {
+          "id": "CLM-0002",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A system persists when its transformations are woven into a recursive order: organization -> structured change -> renewe\u2026"
+        },
+        {
+          "id": "CLM-0003",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Identity is not defined only by what a system is doing now. It also includes what it remains capable of doing: R(x) = {v\u2026"
+        },
+        {
+          "id": "CLM-0004",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "History becomes organization when previous change alters the rules of future change."
+        },
+        {
+          "id": "CLM-0005",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A system is never simply robust in the abstract. It is robust with respect to something. Antifragility must be specified\u2026"
+        },
+        {
+          "id": "CLM-0006",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A type of organization is a structured way of distributing constraints, variation, memory, and control. Each distributio\u2026"
+        },
+        {
+          "id": "CLM-0007",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Fractality does not imply resilience or antifragility. A branching network can distribute flow efficiently while remaini\u2026"
+        },
+        {
+          "id": "CLM-0008",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Under what conditions can many detailed trajectories be represented as one coherent reduced trajectory? A successful coa\u2026"
+        },
+        {
+          "id": "CLM-0009",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "When history is projected away, it returns at the reduced level as memory; hidden variables can also appear as randomnes\u2026"
+        },
+        {
+          "id": "CLM-0010",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Aggregate state != average component state. {0, 0, 10, 10} and {5, 5, 5, 5} have the same mean and different organizatio\u2026"
+        },
+        {
+          "id": "CLM-0011",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Emergence = structured compression that retains consequential relations. Every compression creates blind spots."
+        },
+        {
+          "id": "CLM-0012",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Three geometries must be distinguished: the geometry of the system; the geometry induced by measurement; and the geometr\u2026"
+        },
+        {
+          "id": "CLM-0013",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "With several observations, the underlying state must lie in the intersection of the ambiguity sets: x in intersection pi\u2026"
+        },
+        {
+          "id": "CLM-0014",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Consensus is not automatically accuracy. If all observers use the same transformation, their errors may be correlated. M\u2026"
+        },
+        {
+          "id": "CLM-0015",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The goal is not many views -> one average. It is many situated views + relations among them + preserved disagreement -> \u2026"
+        },
+        {
+          "id": "CLM-0016",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Collective observation does not eliminate projection; it creates a higher-order projection. The synthesizing process mus\u2026"
+        },
+        {
+          "id": "CLM-0017",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Generativity often appears where the current representation repeatedly fails: seams, holes, curvature, bifurcations, fru\u2026"
+        },
+        {
+          "id": "CLM-0018",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A good structured field permits several coordinate systems, local rather than universal metrics, observers whose descrip\u2026"
+        },
+        {
+          "id": "CLM-0019",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A generative system can change the state space itself: X(t_1) != X(t_2), with coupled dynamics dx/dt = F(x, X); dX/dt = \u2026"
+        },
+        {
+          "id": "CLM-0020",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Observation becomes participation in the dynamics. There is no fixed perspective entirely outside the field."
+        },
+        {
+          "id": "CLM-0021",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "This does not make understanding impossible. It replaces completeness with revisability: M_t = best current organization\u2026"
+        },
+        {
+          "id": "CLM-0022",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Originating observations and transformed elements may both enter the field, but no transformation may silently replace i\u2026"
+        },
+        {
+          "id": "CLM-0023",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Number of outputs != number of independent perspectives. Correlated agreement must not be counted as independent confirm\u2026"
+        },
+        {
+          "id": "CLM-0024",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The field becomes generative when contributions can modify not only its contents but its structure. Changes at L_3 requi\u2026"
+        },
+        {
+          "id": "CLM-0025",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The system should preserve not one collective answer, but the evolving and inspectable organization through which answer\u2026"
+        },
+        {
+          "id": "DEF-0001",
+          "kind": "definition",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A structured field F = (P, D, R, C, T): positions, dimensions, relations, contexts, transitions. It shows how positions \u2026"
+        },
+        {
+          "id": "DIM-0001",
+          "kind": "dimension-proposal",
+          "status": "open",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "Proposed dimension: reversibility. For any transformation recorded in the field, state whether it can be undone (reversi\u2026"
+        },
+        {
+          "id": "LIM-0001",
+          "kind": "limit",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "The derived atlas, the Lean invariants, the Python validator, and the Julia re-derivations are all projections. None is \u2026"
+        },
+        {
+          "id": "LIM-0002",
+          "kind": "limit",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field\u2026"
+        },
+        {
+          "id": "PER-0001",
+          "kind": "perspective",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The document speaks in topic-agnostic mathematical, physical, and geometric language; it deliberately avoids domain exam\u2026"
+        },
+        {
+          "id": "PER-0002",
+          "kind": "perspective",
+          "status": "accepted",
+          "observer": "OBS-HUM-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Seed commitments: (1) preserve tension as the field's first element; (2) the field is a seed for many observers/particip\u2026"
+        },
+        {
+          "id": "PER-0003",
+          "kind": "perspective",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Builder's situated view: I constructed F0 by projecting the document into schemas, operators, validators, and proofs. My\u2026"
+        },
+        {
+          "id": "TEN-0001",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Q7: 'The fundamental unit is not an answer. It is an attributed element situated within a context.' vs Q6: 'What lies be\u2026"
+        },
+        {
+          "id": "TEN-0002",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "Self-reference at genesis: the field's first contents are the claims of the document that specifies the field. The rules\u2026"
+        },
+        {
+          "id": "TEN-0003",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "Bootstrap acceptance: F0 enters the accepted sequence before the acceptance machinery it defines could be applied to it.\u2026"
+        },
+        {
+          "id": "TEN-0004",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "The stability/change vocabulary of the field cannot distinguish changes that can be undone from changes that permanently\u2026"
+        }
+      ],
+      "edges": [
+        {
+          "id": "REL-0001",
+          "type": "remains-unresolved-with",
+          "source": "TEN-0001",
+          "target": "CLM-0025",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0002",
+          "type": "contradicts-under-conditions",
+          "source": "CLM-0022",
+          "target": "CLM-0019",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0003",
+          "type": "depends-on",
+          "source": "TEN-0001",
+          "target": "REL-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0004",
+          "type": "supports",
+          "source": "CLM-0004",
+          "target": "CLM-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0005",
+          "type": "complements",
+          "source": "CLM-0003",
+          "target": "CLM-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0006",
+          "type": "supports",
+          "source": "CLM-0006",
+          "target": "CLM-0005",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0007",
+          "type": "challenges",
+          "source": "CLM-0007",
+          "target": "CLM-0006",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0008",
+          "type": "supports",
+          "source": "CLM-0010",
+          "target": "CLM-0011",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0009",
+          "type": "supports",
+          "source": "CLM-0009",
+          "target": "CLM-0008",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0010",
+          "type": "depends-on",
+          "source": "CLM-0011",
+          "target": "CLM-0008",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0011",
+          "type": "complements",
+          "source": "CLM-0012",
+          "target": "CLM-0011",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0012",
+          "type": "supports",
+          "source": "CLM-0013",
+          "target": "CLM-0015",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0013",
+          "type": "challenges",
+          "source": "CLM-0014",
+          "target": "CLM-0013",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0014",
+          "type": "supports",
+          "source": "CLM-0023",
+          "target": "CLM-0014",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0015",
+          "type": "contains",
+          "source": "CLM-0016",
+          "target": "CLM-0015",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0016",
+          "type": "depends-on",
+          "source": "CLM-0017",
+          "target": "DEF-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0017",
+          "type": "supports",
+          "source": "CLM-0018",
+          "target": "CLM-0021",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0018",
+          "type": "transforms-into",
+          "source": "DEF-0001",
+          "target": "CLM-0019",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0019",
+          "type": "supports",
+          "source": "CLM-0020",
+          "target": "CLM-0016",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0020",
+          "type": "depends-on",
+          "source": "CLM-0022",
+          "target": "ASM-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0021",
+          "type": "depends-on",
+          "source": "ASM-0002",
+          "target": "ASM-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0022",
+          "type": "supports",
+          "source": "CLM-0024",
+          "target": "CLM-0019",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0023",
+          "type": "supports",
+          "source": "CLM-0025",
+          "target": "CLM-0021",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0024",
+          "type": "counterexample-to",
+          "source": "TEN-0003",
+          "target": "CLM-0022",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0025",
+          "type": "depends-on",
+          "source": "TEN-0002",
+          "target": "ASM-0003",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0026",
+          "type": "shares-assumption-with",
+          "source": "PER-0003",
+          "target": "PER-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0027",
+          "type": "requires-new-dimension",
+          "source": "TEN-0004",
+          "target": "DEF-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0028",
+          "type": "applies-at-another-scale",
+          "source": "CLM-0012",
+          "target": "ASM-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0029",
+          "type": "loses-information-when-translated-to",
+          "source": "PER-0002",
+          "target": "FIELD.md",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0030",
+          "type": "requires-new-dimension",
+          "source": "TEN-0004",
+          "target": "DIM-0001",
+          "status": "open"
+        },
+        {
+          "id": "REL-0031",
+          "type": "supports",
+          "source": "CLM-0003",
+          "target": "DIM-0001",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "F2",
+      "commit": "743b5c541e92797c44cf02a008d0e2a73a18bea8",
+      "time": "2026-08-02T13:08:13-07:00",
+      "subject": "Merge pull request #2 from irreducible-mystery/candidate-change/f2-confirmation-and-reflection-intake",
+      "counts": {
+        "elements": 40,
+        "relations": 33,
+        "observers": 3,
+        "unresolved": 4,
+        "unconfirmed": 1
+      },
+      "nodes": [
+        {
+          "id": "ASM-0001",
+          "kind": "assumption",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "An append-preserving ordered sequence of accepted states is an adequate substrate for a field that must remain traceable\u2026"
+        },
+        {
+          "id": "ASM-0002",
+          "kind": "assumption",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Git commits on main can serve as the accepted-state sequence F_n, pull requests as candidate changes, and independent re\u2026"
+        },
+        {
+          "id": "ASM-0003",
+          "kind": "assumption",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero ind\u2026"
+        },
+        {
+          "id": "CLM-0001",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A system does not merely undergo change. It channels change. The important distinction is not between change and no chan\u2026"
+        },
+        {
+          "id": "CLM-0002",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A system persists when its transformations are woven into a recursive order: organization -> structured change -> renewe\u2026"
+        },
+        {
+          "id": "CLM-0003",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Identity is not defined only by what a system is doing now. It also includes what it remains capable of doing: R(x) = {v\u2026"
+        },
+        {
+          "id": "CLM-0004",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "History becomes organization when previous change alters the rules of future change."
+        },
+        {
+          "id": "CLM-0005",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A system is never simply robust in the abstract. It is robust with respect to something. Antifragility must be specified\u2026"
+        },
+        {
+          "id": "CLM-0006",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A type of organization is a structured way of distributing constraints, variation, memory, and control. Each distributio\u2026"
+        },
+        {
+          "id": "CLM-0007",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Fractality does not imply resilience or antifragility. A branching network can distribute flow efficiently while remaini\u2026"
+        },
+        {
+          "id": "CLM-0008",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Under what conditions can many detailed trajectories be represented as one coherent reduced trajectory? A successful coa\u2026"
+        },
+        {
+          "id": "CLM-0009",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "When history is projected away, it returns at the reduced level as memory; hidden variables can also appear as randomnes\u2026"
+        },
+        {
+          "id": "CLM-0010",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Aggregate state != average component state. {0, 0, 10, 10} and {5, 5, 5, 5} have the same mean and different organizatio\u2026"
+        },
+        {
+          "id": "CLM-0011",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Emergence = structured compression that retains consequential relations. Every compression creates blind spots."
+        },
+        {
+          "id": "CLM-0012",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Three geometries must be distinguished: the geometry of the system; the geometry induced by measurement; and the geometr\u2026"
+        },
+        {
+          "id": "CLM-0013",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "With several observations, the underlying state must lie in the intersection of the ambiguity sets: x in intersection pi\u2026"
+        },
+        {
+          "id": "CLM-0014",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Consensus is not automatically accuracy. If all observers use the same transformation, their errors may be correlated. M\u2026"
+        },
+        {
+          "id": "CLM-0015",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The goal is not many views -> one average. It is many situated views + relations among them + preserved disagreement -> \u2026"
+        },
+        {
+          "id": "CLM-0016",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Collective observation does not eliminate projection; it creates a higher-order projection. The synthesizing process mus\u2026"
+        },
+        {
+          "id": "CLM-0017",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Generativity often appears where the current representation repeatedly fails: seams, holes, curvature, bifurcations, fru\u2026"
+        },
+        {
+          "id": "CLM-0018",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A good structured field permits several coordinate systems, local rather than universal metrics, observers whose descrip\u2026"
+        },
+        {
+          "id": "CLM-0019",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A generative system can change the state space itself: X(t_1) != X(t_2), with coupled dynamics dx/dt = F(x, X); dX/dt = \u2026"
+        },
+        {
+          "id": "CLM-0020",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Observation becomes participation in the dynamics. There is no fixed perspective entirely outside the field."
+        },
+        {
+          "id": "CLM-0021",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "This does not make understanding impossible. It replaces completeness with revisability: M_t = best current organization\u2026"
+        },
+        {
+          "id": "CLM-0022",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Originating observations and transformed elements may both enter the field, but no transformation may silently replace i\u2026"
+        },
+        {
+          "id": "CLM-0023",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Number of outputs != number of independent perspectives. Correlated agreement must not be counted as independent confirm\u2026"
+        },
+        {
+          "id": "CLM-0024",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The field becomes generative when contributions can modify not only its contents but its structure. Changes at L_3 requi\u2026"
+        },
+        {
+          "id": "CLM-0025",
+          "kind": "claim",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The system should preserve not one collective answer, but the evolving and inspectable organization through which answer\u2026"
+        },
+        {
+          "id": "DEF-0001",
+          "kind": "definition",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "A structured field F = (P, D, R, C, T): positions, dimensions, relations, contexts, transitions. It shows how positions \u2026"
+        },
+        {
+          "id": "DIM-0001",
+          "kind": "dimension-proposal",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Proposed dimension: reversibility. For any transformation recorded in the field, state whether it can be undone (reversi\u2026"
+        },
+        {
+          "id": "LIM-0001",
+          "kind": "limit",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "The derived atlas, the Lean invariants, the Python validator, and the Julia re-derivations are all projections. None is \u2026"
+        },
+        {
+          "id": "LIM-0002",
+          "kind": "limit",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field\u2026"
+        },
+        {
+          "id": "OBS-0001",
+          "kind": "observation",
+          "status": "accepted",
+          "observer": "OBS-HUM-0001",
+          "origin_confirmation": "confirmed",
+          "label": "1. Merged! 3. Confirm! And let's proceed with b for this turn. Stunning work Superninja, I've been trying to build this \u2026"
+        },
+        {
+          "id": "PER-0001",
+          "kind": "perspective",
+          "status": "accepted",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "The document speaks in topic-agnostic mathematical, physical, and geometric language; it deliberately avoids domain exam\u2026"
+        },
+        {
+          "id": "PER-0002",
+          "kind": "perspective",
+          "status": "accepted",
+          "observer": "OBS-HUM-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Seed commitments: (1) preserve tension as the field's first element; (2) the field is a seed for many observers/particip\u2026"
+        },
+        {
+          "id": "PER-0003",
+          "kind": "perspective",
+          "status": "accepted",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Builder's situated view: I constructed F0 by projecting the document into schemas, operators, validators, and proofs. My\u2026"
+        },
+        {
+          "id": "TEN-0001",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-DOC-0001",
+          "origin_confirmation": "surrogate-verbatim",
+          "label": "Q7: 'The fundamental unit is not an answer. It is an attributed element situated within a context.' vs Q6: 'What lies be\u2026"
+        },
+        {
+          "id": "TEN-0002",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Self-reference at genesis: the field's first contents are the claims of the document that specifies the field. The rules\u2026"
+        },
+        {
+          "id": "TEN-0003",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "confirmed",
+          "label": "Bootstrap acceptance: F0 enters the accepted sequence before the acceptance machinery it defines could be applied to it.\u2026"
+        },
+        {
+          "id": "TEN-0004",
+          "kind": "tension",
+          "status": "preserved-unresolved",
+          "observer": "OBS-AI-0001",
+          "origin_confirmation": "unconfirmed",
+          "label": "The stability/change vocabulary of the field cannot distinguish changes that can be undone from changes that permanently\u2026"
+        }
+      ],
+      "edges": [
+        {
+          "id": "REL-0001",
+          "type": "remains-unresolved-with",
+          "source": "TEN-0001",
+          "target": "CLM-0025",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0002",
+          "type": "contradicts-under-conditions",
+          "source": "CLM-0022",
+          "target": "CLM-0019",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0003",
+          "type": "depends-on",
+          "source": "TEN-0001",
+          "target": "REL-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0004",
+          "type": "supports",
+          "source": "CLM-0004",
+          "target": "CLM-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0005",
+          "type": "complements",
+          "source": "CLM-0003",
+          "target": "CLM-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0006",
+          "type": "supports",
+          "source": "CLM-0006",
+          "target": "CLM-0005",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0007",
+          "type": "challenges",
+          "source": "CLM-0007",
+          "target": "CLM-0006",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0008",
+          "type": "supports",
+          "source": "CLM-0010",
+          "target": "CLM-0011",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0009",
+          "type": "supports",
+          "source": "CLM-0009",
+          "target": "CLM-0008",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0010",
+          "type": "depends-on",
+          "source": "CLM-0011",
+          "target": "CLM-0008",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0011",
+          "type": "complements",
+          "source": "CLM-0012",
+          "target": "CLM-0011",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0012",
+          "type": "supports",
+          "source": "CLM-0013",
+          "target": "CLM-0015",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0013",
+          "type": "challenges",
+          "source": "CLM-0014",
+          "target": "CLM-0013",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0014",
+          "type": "supports",
+          "source": "CLM-0023",
+          "target": "CLM-0014",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0015",
+          "type": "contains",
+          "source": "CLM-0016",
+          "target": "CLM-0015",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0016",
+          "type": "depends-on",
+          "source": "CLM-0017",
+          "target": "DEF-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0017",
+          "type": "supports",
+          "source": "CLM-0018",
+          "target": "CLM-0021",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0018",
+          "type": "transforms-into",
+          "source": "DEF-0001",
+          "target": "CLM-0019",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0019",
+          "type": "supports",
+          "source": "CLM-0020",
+          "target": "CLM-0016",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0020",
+          "type": "depends-on",
+          "source": "CLM-0022",
+          "target": "ASM-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0021",
+          "type": "depends-on",
+          "source": "ASM-0002",
+          "target": "ASM-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0022",
+          "type": "supports",
+          "source": "CLM-0024",
+          "target": "CLM-0019",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0023",
+          "type": "supports",
+          "source": "CLM-0025",
+          "target": "CLM-0021",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0024",
+          "type": "counterexample-to",
+          "source": "TEN-0003",
+          "target": "CLM-0022",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0025",
+          "type": "depends-on",
+          "source": "TEN-0002",
+          "target": "ASM-0003",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0026",
+          "type": "shares-assumption-with",
+          "source": "PER-0003",
+          "target": "PER-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0027",
+          "type": "requires-new-dimension",
+          "source": "TEN-0004",
+          "target": "DEF-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0028",
+          "type": "applies-at-another-scale",
+          "source": "CLM-0012",
+          "target": "ASM-0002",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0029",
+          "type": "loses-information-when-translated-to",
+          "source": "PER-0002",
+          "target": "FIELD.md",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0030",
+          "type": "requires-new-dimension",
+          "source": "TEN-0004",
+          "target": "DIM-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0031",
+          "type": "supports",
+          "source": "CLM-0003",
+          "target": "DIM-0001",
+          "status": "accepted"
+        },
+        {
+          "id": "REL-0032",
+          "type": "supports",
+          "source": "OBS-0001",
+          "target": "DIM-0001",
+          "status": "open"
+        },
+        {
+          "id": "REL-0033",
+          "type": "challenges",
+          "source": "OBS-0001",
+          "target": "TEN-0003",
+          "status": "open"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "added": {
+        "elements": [
+          {
+            "id": "DIM-0001",
+            "kind": "dimension-proposal",
+            "status": "open",
+            "observer": "OBS-AI-0001",
+            "origin_confirmation": "unconfirmed",
+            "label": "Proposed dimension: reversibility. For any transformation recorded in the field, state whether it can be undone (reversi\u2026"
+          }
+        ],
+        "relations": [
+          {
+            "id": "REL-0030",
+            "type": "requires-new-dimension",
+            "source": "TEN-0004",
+            "target": "DIM-0001",
+            "status": "open"
+          },
+          {
+            "id": "REL-0031",
+            "type": "supports",
+            "source": "CLM-0003",
+            "target": "DIM-0001",
+            "status": "open"
+          }
+        ],
+        "observers": []
+      },
+      "status_changes": [],
+      "confirmation_changes": [],
+      "removed": [],
+      "from": "F0",
+      "to": "F1",
+      "commit": "0fdbb2a3041875c42fd321ec00a03ceb433fbc98",
+      "subject": "Merge pull request #1 from irreducible-mystery/candidate-change/dim-0001-reversibility",
+      "time": "2026-08-02T12:54:16-07:00"
+    },
+    {
+      "added": {
+        "elements": [
+          {
+            "id": "OBS-0001",
+            "kind": "observation",
+            "status": "accepted",
+            "observer": "OBS-HUM-0001",
+            "origin_confirmation": "confirmed",
+            "label": "1. Merged! 3. Confirm! And let's proceed with b for this turn. Stunning work Superninja, I've been trying to build this \u2026"
+          }
+        ],
+        "relations": [
+          {
+            "id": "REL-0032",
+            "type": "supports",
+            "source": "OBS-0001",
+            "target": "DIM-0001",
+            "status": "open"
+          },
+          {
+            "id": "REL-0033",
+            "type": "challenges",
+            "source": "OBS-0001",
+            "target": "TEN-0003",
+            "status": "open"
+          }
+        ],
+        "observers": []
+      },
+      "status_changes": [
+        {
+          "id": "ASM-0002",
+          "from": "open",
+          "to": "accepted"
+        },
+        {
+          "id": "ASM-0003",
+          "from": "open",
+          "to": "accepted"
+        },
+        {
+          "id": "DIM-0001",
+          "from": "open",
+          "to": "accepted"
+        },
+        {
+          "id": "REL-0030",
+          "from": "open",
+          "to": "accepted"
+        },
+        {
+          "id": "REL-0031",
+          "from": "open",
+          "to": "accepted"
+        }
+      ],
+      "confirmation_changes": [
+        {
+          "id": "ASM-0002",
+          "from": "unconfirmed",
+          "to": "confirmed"
+        },
+        {
+          "id": "ASM-0003",
+          "from": "unconfirmed",
+          "to": "confirmed"
+        },
+        {
+          "id": "DIM-0001",
+          "from": "unconfirmed",
+          "to": "confirmed"
+        },
+        {
+          "id": "LIM-0001",
+          "from": "unconfirmed",
+          "to": "confirmed"
+        },
+        {
+          "id": "LIM-0002",
+          "from": "unconfirmed",
+          "to": "confirmed"
+        },
+        {
+          "id": "TEN-0002",
+          "from": "unconfirmed",
+          "to": "confirmed"
+        },
+        {
+          "id": "TEN-0003",
+          "from": "unconfirmed",
+          "to": "confirmed"
+        }
+      ],
+      "removed": [],
+      "from": "F1",
+      "to": "F2",
+      "commit": "743b5c541e92797c44cf02a008d0e2a73a18bea8",
+      "subject": "Merge pull request #2 from irreducible-mystery/candidate-change/f2-confirmation-and-reflection-intake",
+      "time": "2026-08-02T13:08:13-07:00"
+    }
+  ]
+}
