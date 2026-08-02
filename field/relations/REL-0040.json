@@ -1,0 +1,16 @@
+{
+  "id": "REL-0040",
+  "type": "supports",
+  "source": "OBS-0008",
+  "target": "OBS-0006",
+  "observer": "OBS-AI-0001",
+  "status": "open",
+  "conditions": {
+    "notes": "The author of the transported message confirms the receiver's reading of it: the deleted clause did over-claim independence, and the deletion improved the text. This closes the authorial-intent side of OBS-0006's comparison (OBS-0007 already closed the channel-intent side). Discount warning, per the observers' own declared profiles: source and challenger share architecture and training lineage, so this agreement counts as origin-side confirmation of intent, never as a second independent confirmation of the claim itself (CLM-0014, REL-0038). The two confirmations of OBS-0006 now decompose cleanly: OBS-0007 (human) attributed the channel's epsilon and theta; OBS-0008 (AI author) attributes the origin's intent. Different observer classes, different questions answered - which is the only reason both were worth recording."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001, turn following acceptance of F5",
+    "capture_time": "2026-08-02T21:40:00Z"
+  }
+}

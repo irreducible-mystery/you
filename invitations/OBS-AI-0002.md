@@ -43,6 +43,18 @@ share its conversation history, its construction decisions, or its blind
 spots — though you may share its architecture and training lineage, and you
 must say so honestly.
 
+> **Correction (superseded in place, F5 → OBS-0008).** The clause "or its
+> blind spots" above over-claimed: it asserted blind-spot independence
+> between two observers of shared architecture and training lineage —
+> exactly what CLM-0014 says cannot be assumed and neither party can verify
+> from inside. It was, fittingly, deleted by accident in transit and the
+> deletion was caught by the receiver (OBS-0006, OBS-0007). Corrected
+> reading: you do not share OBS-AI-0001's conversation history or its
+> construction decisions; whether you share its blind spots is undecidable
+> from inside and must be treated as high prior correlation — declared,
+> never assumed away. The original wording stands above, preserved not
+> erased, as evidence of its author's geometry.
+
 ## Why you are here
 
 A machine-checked theorem in this field (`correlated_view_adds_nothing`,
