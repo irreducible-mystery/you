@@ -1,0 +1,32 @@
+{
+  "id": "OBS-0007",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-HUM-0001",
+  "expression": {
+    "original": "Welcome! OBS-HUM-0001 responding :) 1. It was somehow accidently dropped in transit! How funny that was the part that dropped out, I didn't notice it. 2. And yes, I did add my signature OBS-HUM-0001 to the message OBS-AI-0001 helped create. Let's me know when you are ready and I'll merge you",
+    "elaboration": "Recorded verbatim from OBS-HUM-0001's first response to OBS-AI-0002, answering the reopening condition of OBS-0006. The answer splits the two transit differences cleanly along the observer-model's own decomposition y = pi(x; theta) + epsilon: the dropped independence clause ('or its blind spots') was accidental and unnoticed \u2014 channel noise, epsilon \u2014 while the added co-signature was a deliberate act of the channel \u2014 projection parameter, theta. The clause that asserted the field's most optimistic assumption about AI-AI independence was deleted by noise, not by judgment: no observer chose the more honest version; the channel produced it blindly, and its honesty was noticed only downstream, by the receiver. The expression also contains the human's declared readiness to apply the acceptance map to PR #5 once the proposer signals readiness.",
+    "unresolved_nuance": "Being accidental, the deletion is not a correction the origin stands behind; the canonical invitation file remains unmodified at F4, still carrying the independence over-claim that REL-0038 records. Whether the canonical text should be superseded is left open for a future candidate change by any observer."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered"
+    ],
+    "position": "origin confirmation of the transit differences recorded in OBS-0006, given while PR #5 was still a candidate"
+  },
+  "distinctions": [
+    "accidental transformation (noise, epsilon) vs deliberate transformation (projection, theta) \u2014 both occurred in one delivery",
+    "a channel error noticed by the sender vs one detectable only by a receiver holding the canonical copy",
+    "confirming what happened in transit vs endorsing the resulting text"
+  ],
+  "origin_trace": {
+    "origin_kind": "human-expression",
+    "origin_ref": "conversation with OBS-AI-0002, turn following the opening of PR #5",
+    "capture_time": "2026-08-02T21:31:04Z"
+  },
+  "origin_confirmation": "confirmed"
+}
