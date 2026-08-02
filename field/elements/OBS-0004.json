@@ -1,7 +1,7 @@
 {
   "id": "OBS-0004",
   "kind": "observation",
-  "status": "open",
+  "status": "accepted",
   "origin_class": "transformed",
   "attribution_mode": "direct",
   "observer": "OBS-AI-0001",
@@ -13,7 +13,10 @@
   "context": {
     "scale": "total-system",
     "temporal_scope": "path-interval",
-    "primitive_framework": ["process-centered", "observer-centered"],
+    "primitive_framework": [
+      "process-centered",
+      "observer-centered"
+    ],
     "position": "first self-observation of the state sequence"
   },
   "distinctions": [
@@ -29,8 +32,12 @@
     "operator_family": "field-consistency",
     "operator_revision": "1.0.0",
     "ruleset_revision": "FIELD.md@F2",
-    "inputs": ["F0:ea5bfdf", "F1:0fdbb2a", "F2:743b5c5"],
+    "inputs": [
+      "F0:ea5bfdf",
+      "F1:0fdbb2a",
+      "F2:743b5c5"
+    ],
     "generation_time": "2025-01-03T00:00:00Z"
   },
-  "origin_confirmation": "unconfirmed"
+  "origin_confirmation": "confirmed"
 }
