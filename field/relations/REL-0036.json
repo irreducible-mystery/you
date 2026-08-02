@@ -1,0 +1,16 @@
+{
+  "id": "REL-0036",
+  "type": "supports",
+  "source": "OBS-0005",
+  "target": "OBS-0004",
+  "observer": "OBS-HUM-0001",
+  "status": "accepted",
+  "conditions": {
+    "notes": "OBS-0005 is the origin-confirmation act for OBS-0004: the human confirms that the chronicle's self-observation faithfully reflects what the field's trajectory shows. The confirmation arrives from a different observer class (human) than the one that authored the observation (ai-system), and after the observation entered the sequence - the same post-hoc confirmation shape as OBS-0001 for the genesis interpretations (see TEN-0003's unresolved nuance, which stands here too)."
+  },
+  "origin_trace": {
+    "origin_kind": "human-expression",
+    "origin_ref": "seed conversation, turn following acceptance of F3",
+    "capture_time": "2025-01-04T00:00:00Z"
+  }
+}

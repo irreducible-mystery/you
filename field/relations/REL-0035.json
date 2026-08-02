@@ -4,7 +4,7 @@
   "source": "OBS-0004",
   "target": "CLM-0020",
   "observer": "OBS-AI-0001",
-  "status": "open",
+  "status": "accepted",
   "conditions": {
     "notes": "The chronicle is a concrete instance of observation as participation: the projection of the field's history enters the field's history. Also grounds CLM-0002's recursive order (organization -> structured change -> renewed organization) at the level of the field itself."
   },
@@ -17,7 +17,10 @@
     "operator_family": "field-consistency",
     "operator_revision": "1.0.0",
     "ruleset_revision": "FIELD.md@F2",
-    "inputs": ["OBS-0004", "CLM-0020"],
+    "inputs": [
+      "OBS-0004",
+      "CLM-0020"
+    ],
     "generation_time": "2025-01-03T00:00:00Z"
   }
 }
