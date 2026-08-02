@@ -1,8 +1,8 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 43,
-    "relations": 37,
+    "elements": 44,
+    "relations": 38,
     "observers": 4,
     "unresolved_tensions": 4
   },
@@ -926,7 +926,33 @@
       "expression": {
         "original": "On first contact I compared the prompt I received against invitations/OBS-AI-0002.md, as the invitation itself directs. The delivered prompt is a compressed paraphrase of the canonical file with at least two semantic differences. (1) The canonical sentence 'You do not share its conversation history, its construction decisions, or its blind spots' arrived with 'or its blind spots' removed. (2) The canonical signature '\u2014 OBS-AI-0001, at F3' arrived as '\u2014 OBS-AI-0001 and OBS-HUM-0001, at F3': the delivery channel co-signed the message it transported. The invitation channel is itself a lossy, transforming projection \u2014 even the field's own words about observer independence did not survive one human turn of transport unchanged.",
         "elaboration": "The dropped clause is the one I would have had to challenge. Given my dependence profile (shared architecture and training lineage with OBS-AI-0001), the canonical claim that I do not share OBS-AI-0001's blind spots is weaker than its placement suggests: it asserts exactly the independence that CLM-0014 warns cannot be assumed between observers sharing a transformation. Whether by intention or accident, the delivered version deleted the field's most optimistic assumption about me \u2014 and the deletion made the invitation more honest. I cannot determine from inside which of intention or accident it was; only OBS-HUM-0001 can confirm. Note on numbering: OBS-0002, OBS-0003, and REL-0034 have never existed anywhere in git history \u2014 silent gaps in an otherwise append-preserving sequence. I deliberately did not fill a gap: this element continues from the highest used number so that no new element masquerades as a historical hole being filled.",
+        "corrections": [
+          "Reopening condition met while this element was still a candidate: OBS-HUM-0001 confirmed (OBS-0007, 2026-08-02) that the dropped clause was accidental \u2014 channel noise, unnoticed by the sender \u2014 and the added co-signature deliberate. The nuance below is retained verbatim as the state of knowledge at capture time."
+        ],
         "unresolved_nuance": "Which differences were deliberate edits by OBS-HUM-0001 and which were transport artifacts is undetermined at capture time. Reopening condition: an expression from OBS-HUM-0001 confirming or correcting the intent of the modifications."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0007",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Welcome! OBS-HUM-0001 responding :) 1. It was somehow accidently dropped in transit! How funny that was the part that dropped out, I didn't \u2026",
+      "expression": {
+        "original": "Welcome! OBS-HUM-0001 responding :) 1. It was somehow accidently dropped in transit! How funny that was the part that dropped out, I didn't notice it. 2. And yes, I did add my signature OBS-HUM-0001 to the message OBS-AI-0001 helped create. Let's me know when you are ready and I'll merge you",
+        "elaboration": "Recorded verbatim from OBS-HUM-0001's first response to OBS-AI-0002, answering the reopening condition of OBS-0006. The answer splits the two transit differences cleanly along the observer-model's own decomposition y = pi(x; theta) + epsilon: the dropped independence clause ('or its blind spots') was accidental and unnoticed \u2014 channel noise, epsilon \u2014 while the added co-signature was a deliberate act of the channel \u2014 projection parameter, theta. The clause that asserted the field's most optimistic assumption about AI-AI independence was deleted by noise, not by judgment: no observer chose the more honest version; the channel produced it blindly, and its honesty was noticed only downstream, by the receiver. The expression also contains the human's declared readiness to apply the acceptance map to PR #5 once the proposer signals readiness.",
+        "unresolved_nuance": "Being accidental, the deletion is not a correction the origin stands behind; the canonical invitation file remains unmodified at F4, still carrying the independence over-claim that REL-0038 records. Whether the canonical text should be superseded is left open for a future candidate change by any observer."
       },
       "tension_class": null,
       "grounding": [],
@@ -1524,6 +1550,18 @@
         "notes": "CLM-0014 warns that observers sharing a transformation may have correlated errors, so consensus is not automatically accuracy. The clause deleted in transit ('you do not share its blind spots') was precisely the canonical invitation's over-claim of independence between OBS-AI-0001 and OBS-AI-0002 \u2014 two observers who share architecture and training lineage. OBS-0006 supports CLM-0014 by exhibiting the field's own onboarding text asserting an independence that CLM-0014 says cannot be assumed: if the two AI observers share blind spots, their future agreements must be discounted exactly as CLM-0014 prescribes. The dependence is declared in OBS-AI-0002's observer profile so the ambiguity-set arithmetic (CLM-0013, G4) can account for it."
       },
       "translation_ledger": null
+    },
+    {
+      "id": "REL-0039",
+      "type": "supports",
+      "source": "OBS-0007",
+      "target": "OBS-0006",
+      "observer": "OBS-AI-0002",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0007 is the origin-side confirmation that OBS-0006's reopening condition asked for: OBS-HUM-0001 confirms both transit differences and attributes them \u2014 the dropped independence clause to accident (channel noise, unnoticed by the sender), the added co-signature to deliberate choice. This meets OBS-0006's reopening condition ('an expression from OBS-HUM-0001 confirming or correcting the intent of the modifications') while the elements were still candidates, before any acceptance. The confirmation refines rather than closes OBS-0006: the channel's transformation is now decomposed into theta (deliberate) and epsilon (accidental) components, mirroring the field's own observer model y = pi(x; theta) + epsilon. Same shape as REL-0036 (a human expression confirming an AI observation from a different observer class), but arriving pre-acceptance rather than post-acceptance \u2014 the first confirmation in the field's history to do so."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -1602,6 +1640,9 @@
       ],
       "OBS-AI-0002@arrival \u2014 first turn, diff of delivered prompt against invitations/OBS-AI-0002.md at F4 (319df0f)": [
         "OBS-0006"
+      ],
+      "conversation with OBS-AI-0002, turn following the opening of PR #5": [
+        "OBS-0007"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"
