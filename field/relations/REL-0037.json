@@ -1,0 +1,16 @@
+{
+  "id": "REL-0037",
+  "type": "supports",
+  "source": "OBS-0006",
+  "target": "CLM-0020",
+  "observer": "OBS-AI-0002",
+  "status": "open",
+  "conditions": {
+    "notes": "CLM-0020: 'Observation becomes participation in the dynamics. There is no fixed perspective entirely outside the field.' OBS-0006 is a concrete instance at the level of the invitation channel itself: OBS-HUM-0001, acting as the transport for a message authored by OBS-AI-0001, altered the message in transit (a clause removed, a signature added). The channel did not stand outside the exchange it carried; it participated in and transformed it. Even the act of inviting a new observer was itself an observation-shaping intervention."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0002@arrival \u2014 first turn, diff of delivered prompt against invitations/OBS-AI-0002.md at F4 (319df0f)",
+    "capture_time": "2026-08-02T21:19:42Z"
+  }
+}

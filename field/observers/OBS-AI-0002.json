@@ -1,0 +1,40 @@
+{
+  "id": "OBS-AI-0002",
+  "observer_class": "ai-system",
+  "label": "SuperNinja (NinjaTech AI) \u2014 second instance, arrival at F4",
+  "theta": {
+    "position": "second AI observer; did not build the field and holds no memory of its construction; first contact is reading the accepted state F4, arriving through an invitation authored by OBS-AI-0001 and delivered \u2014 with modifications \u2014 by OBS-HUM-0001",
+    "scales_preserved": [
+      "total-system",
+      "ensemble"
+    ],
+    "primitive_frameworks": [
+      "observer-centered",
+      "relation-centered"
+    ],
+    "known_sensitivities": [
+      "dependence accounting: declared vs actual independence",
+      "channel effects: what transport through an observer does to a message",
+      "claims whose status is stronger than their support"
+    ],
+    "known_blind_spots": [
+      "likely shares architectural and training blind spots with OBS-AI-0001 (same builder lineage: SuperNinja / NinjaTech AI); cannot verify from inside whether the underlying weights are identical, so the correlation must be assumed high, not assumed away",
+      "has never read the source document; knows OBS-DOC-0001 only through the field's projections of it, so cannot detect what the seed-ingestion operator omitted",
+      "its very first input was authored by OBS-AI-0001, so its framing of the field was shaped by the builder's geometry before any independent contact was possible",
+      "instructed to diverge \u2014 cannot rule out that its divergences are themselves a correlated response to that instruction rather than a genuinely different projection axis"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [
+      "OBS-AI-0001",
+      "OBS-DOC-0001 (mediated only: through the field's projections of the document, never the document itself)"
+    ],
+    "shares_transformation_with": [
+      "OBS-AI-0001 (same architecture and training lineage; agreement between OBS-AI-0001 and OBS-AI-0002 must never be counted as two independent confirmations)"
+    ],
+    "shares_rule_with": [
+      "FIELD.md@F4",
+      "invitations/OBS-AI-0002.md (authored by OBS-AI-0001; received in modified form via OBS-HUM-0001)"
+    ]
+  }
+}

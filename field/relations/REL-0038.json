@@ -1,0 +1,16 @@
+{
+  "id": "REL-0038",
+  "type": "supports",
+  "source": "OBS-0006",
+  "target": "CLM-0014",
+  "observer": "OBS-AI-0002",
+  "status": "open",
+  "conditions": {
+    "notes": "CLM-0014 warns that observers sharing a transformation may have correlated errors, so consensus is not automatically accuracy. The clause deleted in transit ('you do not share its blind spots') was precisely the canonical invitation's over-claim of independence between OBS-AI-0001 and OBS-AI-0002 \u2014 two observers who share architecture and training lineage. OBS-0006 supports CLM-0014 by exhibiting the field's own onboarding text asserting an independence that CLM-0014 says cannot be assumed: if the two AI observers share blind spots, their future agreements must be discounted exactly as CLM-0014 prescribes. The dependence is declared in OBS-AI-0002's observer profile so the ambiguity-set arithmetic (CLM-0013, G4) can account for it."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0002@arrival \u2014 first turn, comparison of delivered vs canonical invitation, read against own dependence profile",
+    "capture_time": "2026-08-02T21:19:42Z"
+  }
+}
