@@ -1,6 +1,6 @@
 ---
 name: Originating expression
-about: Contribute an expression to the field, Formalization is not required — a bounded reflection operator will propose a structured interpretation, which YOU then confirm, modify, or reject.
+about: Contribute an expression to the field. Formalization is not required. A bounded reflection operator will propose a structured interpretation, which YOU then confirm, modify, or reject.
 title: "[expression] "
 labels: originating-expression
 ---
