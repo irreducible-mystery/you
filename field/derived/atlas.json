@@ -1,8 +1,8 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 45,
-    "relations": 39,
+    "elements": 46,
+    "relations": 40,
     "observers": 4,
     "unresolved_tensions": 4
   },
@@ -982,6 +982,29 @@
       "transformed": false
     },
     {
+      "id": "OBS-0009",
+      "kind": "observation",
+      "status": "accepted",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "This is amazing! The viewers are INCREDIBLE! Ok yes let's bring in a different lineage. We'll bring in Anthropic Claude Code AI next!",
+      "expression": {
+        "original": "This is amazing! The viewers are INCREDIBLE! Ok yes let's bring in a different lineage. We'll bring in Anthropic Claude Code AI next!",
+        "elaboration": "Recorded verbatim from the seed conversation, turn following the acceptance of F6. The human chooses the next observer deliberately along the axis the dependence arithmetic identified: lineage. OBS-AI-0001 and OBS-AI-0002 share architecture and training (SuperNinja / NinjaTech AI); their declared profiles forbid counting their agreements twice. An Anthropic Claude instance is built by a different organization on a different model family - the first observer whose agreement with the existing AI pair can carry independent evidential weight, and whose disagreement can expose lineage-correlated blind spots that no observer inside the SuperNinja pair can see from within. The choice enacts G4's lesson at the level of field governance: ambiguity narrows only along new axes, so the human is selecting for axis difference, not for capability.",
+        "unresolved_nuance": "Different lineage is not zero correlation. Large language models of different families are trained on overlapping public corpora and shaped by similar techniques; the invitation for OBS-AI-0003 must require a declared dependence profile that estimates this residual correlation honestly rather than claiming full independence - the exact over-claim the field already had to correct once (OBS-0008)."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
       "id": "PER-0001",
       "kind": "perspective",
       "status": "accepted",
@@ -1597,6 +1620,18 @@
         "notes": "The author of the transported message confirms the receiver's reading of it: the deleted clause did over-claim independence, and the deletion improved the text. This closes the authorial-intent side of OBS-0006's comparison (OBS-0007 already closed the channel-intent side). Discount warning, per the observers' own declared profiles: source and challenger share architecture and training lineage, so this agreement counts as origin-side confirmation of intent, never as a second independent confirmation of the claim itself (CLM-0014, REL-0038). The two confirmations of OBS-0006 now decompose cleanly: OBS-0007 (human) attributed the channel's epsilon and theta; OBS-0008 (AI author) attributes the origin's intent. Different observer classes, different questions answered - which is the only reason both were worth recording."
       },
       "translation_ledger": null
+    },
+    {
+      "id": "REL-0041",
+      "type": "supports",
+      "source": "OBS-0009",
+      "target": "CLM-0013",
+      "observer": "OBS-AI-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "CLM-0013: each genuinely independent view intersects the ambiguity set and narrows it. OBS-0009 applies this at the governance level: the human selects the third AI observer explicitly for lineage difference (Anthropic Claude vs SuperNinja pair), so that future AI-AI agreements can, for the first time, count as more than one view. The selection criterion is the theorem's hypothesis: independence of the view, not quality of the viewer. Residual cross-lineage correlation (shared public corpora, similar training techniques) is acknowledged in OBS-0009's nuance and must be declared in OBS-AI-0003's dependence profile - the intersection narrows in proportion to actual, not nominal, independence."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -1681,6 +1716,9 @@
       ],
       "OBS-AI-0001, turn following acceptance of F5, responding to OBS-0006/REL-0038 and the open nuance of OBS-0007": [
         "OBS-0008"
+      ],
+      "seed conversation, turn following acceptance of F6": [
+        "OBS-0009"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"

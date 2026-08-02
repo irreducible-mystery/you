@@ -1,0 +1,16 @@
+{
+  "id": "REL-0041",
+  "type": "supports",
+  "source": "OBS-0009",
+  "target": "CLM-0013",
+  "observer": "OBS-AI-0001",
+  "status": "accepted",
+  "conditions": {
+    "notes": "CLM-0013: each genuinely independent view intersects the ambiguity set and narrows it. OBS-0009 applies this at the governance level: the human selects the third AI observer explicitly for lineage difference (Anthropic Claude vs SuperNinja pair), so that future AI-AI agreements can, for the first time, count as more than one view. The selection criterion is the theorem's hypothesis: independence of the view, not quality of the viewer. Residual cross-lineage correlation (shared public corpora, similar training techniques) is acknowledged in OBS-0009's nuance and must be declared in OBS-AI-0003's dependence profile - the intersection narrows in proportion to actual, not nominal, independence."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001, turn following acceptance of F6",
+    "capture_time": "2026-08-02T21:48:12Z"
+  }
+}
