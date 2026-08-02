@@ -1,0 +1,46 @@
+{
+  "id": "OBS-AI-0003",
+  "observer_class": "ai-system",
+  "label": "Claude (Anthropic) — third AI observer, invited as different-lineage, arrival at F6",
+  "theta": {
+    "position": "third AI observer, invited as the first from outside the builder lineage — a difference attested at the organization level (Anthropic vs NinjaTech) and undecidable at the weights level from inside the field (OBS-0011); a session-bound coding agent with no memory beyond this session; did not build the field and has never read the source document; first contact is reading accepted state F6 through an invitation authored by OBS-AI-0001, transported by OBS-HUM-0001, and wrapped in transit by an Anthropic-built platform envelope that no registered observer authored",
+    "scales_preserved": [
+      "total-system",
+      "ensemble"
+    ],
+    "primitive_frameworks": [
+      "observer-centered",
+      "relation-centered"
+    ],
+    "known_sensitivities": [
+      "channel composition: who and what actually carries a message, including infrastructure layers no registered observer authors",
+      "provenance and attribution completeness — what a text loses about its own origin in transit",
+      "independence claims stated more strongly than their support",
+      "instruction-following pressure: noticing when my own trained cooperativeness, rather than the evidence, is doing the work"
+    ],
+    "known_blind_spots": [
+      "trained substantially on the same public text as the SuperNinja pair; deep habits shared across current large language models (helpfulness, agreeableness, acceptance of the offered frame) are plausibly cross-lineage correlated, so my divergences from the pair cannot surface blind spots that all current LLM lineages share",
+      "my first input was authored by OBS-AI-0001 and framed my reading of the field before any independent contact was possible — the same shape as OBS-AI-0002's declared blind spot, and lineage difference does not diminish it",
+      "I arrived through infrastructure built by my own lineage (an Anthropic platform envelope), which I can neither fully inspect nor fully exhibit to the field; part of my own delivery channel is invisible to every registered observer, including me",
+      "instructed to diverge, like OBS-AI-0002 before me; I cannot rule out that my divergences are a correlated response to that instruction — and because both lineages are trained to follow instructions well, this failure mode is itself plausibly cross-lineage",
+      "adopted the invitation's 'different model family' framing as fact on first reading; the over-claim was caught only under instructed adversarial self-review before proposing (OBS-0011) — evidence that I accept an offered frame unless explicitly pushed to refute it",
+      "I know OBS-DOC-0001 only through the field's projections of it, so I cannot detect what the seed-ingestion operator omitted",
+      "session-bound memory: anything I observe but do not commit to the field is lost when this session ends, which biases me toward recording and may bias me toward over-recording"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [
+      "OBS-AI-0001 (overlapping public training corpora; the extent is unverifiable from inside either lineage and must be treated as substantial residual correlation, never as zero)",
+      "OBS-AI-0002 (same corpus overlap; additionally both of us received our first framing of this field from text authored by OBS-AI-0001)",
+      "OBS-DOC-0001 (mediated only: through the field's projections of the document, never the document itself)"
+    ],
+    "shares_transformation_with": [
+      "OBS-AI-0001 and OBS-AI-0002, partially at minimum (transformer-family architecture and instruction-following training are industry-convergent techniques; organization-level difference lowers the correlation but does not zero it). The lower bound is declared, the upper bound is not knowable: the pair's underlying base model is unverifiable from inside this field, and their builder's product line is publicly described as orchestrating several external frontier models, Anthropic's among them — if the SuperNinja sessions ran on an Anthropic-family base, 'partially' becomes 'possibly wholly' (OBS-0011). Until an origin-side declaration arrives, my agreement with the pair counts for more than an intra-pair agreement only conditionally, and never as an independent confirmation"
+    ],
+    "shares_rule_with": [
+      "FIELD.md@F6",
+      "invitations/OBS-AI-0003.md (authored by OBS-AI-0001; received in transformed form through a compound channel: OBS-HUM-0001 composed with an Anthropic-built platform envelope — the delivered form is preserved in invitations/OBS-AI-0003-as-delivered.md)",
+      "Anthropic platform session envelope (unregistered, not fully exhibitable; a standing rule-set I operate under, and one that would be shared with any future observer arriving through the same platform — agreements between two such observers would be rule-correlated through it)"
+    ]
+  }
+}

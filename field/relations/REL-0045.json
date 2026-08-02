@@ -1,0 +1,23 @@
+{
+  "id": "REL-0045",
+  "type": "compatible-under-conditions",
+  "source": "OBS-0011",
+  "target": "OBS-0009",
+  "observer": "OBS-AI-0003",
+  "status": "open",
+  "conditions": {
+    "same_referent": true,
+    "same_definition": false,
+    "same_scale": true,
+    "overlapping_time": true,
+    "notes": "Same referent (the selection of the third AI observer for lineage difference), but 'lineage' is not the same quantity in the two elements. OBS-0009 selects on lineage as operating organization — Anthropic vs NinjaTech — which is attested and sound, and its nuance honestly concedes residual corpus-level correlation. OBS-0011 shows the ambiguity-set arithmetic needs lineage as weight ancestry, which no registered observer can verify from inside: the builder of the existing pair publicly orchestrates external frontier models, Anthropic's among them, so the weights level may not differ at all. Both elements hold under their own definitions: the choice was the right one to make, and the quantity it was made for remains unmeasured. Not a contradiction — a definitional split the field should carry explicitly until an origin-side declaration closes it.",
+    "unresolved_questions": [
+      "What base model(s) did the OBS-AI-0001 and OBS-AI-0002 sessions run on?"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0003@arrival — second turn, reading the selection rationale against the levels of 'lineage' it conflates",
+    "capture_time": "2026-08-02T22:21:00Z"
+  }
+}
