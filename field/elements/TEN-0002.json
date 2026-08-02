@@ -1,0 +1,35 @@
+{
+  "id": "TEN-0002",
+  "kind": "tension",
+  "status": "preserved-unresolved",
+  "origin_class": "transformed",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0001",
+  "expression": {
+    "original": "Self-reference at genesis: the field's first contents are the claims of the document that specifies the field. The rules used to test the claims are derived from the claims being tested.",
+    "elaboration": "Per CLM-0014 this is a correlated-error risk: consensus of field with document is not accuracy. Mitigation path: admit differently-situated observers and external grounding (braided verification). Reopening condition: first accepted contribution from an observer independent of OBS-DOC-0001."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001@genesis",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "unconfirmed",
+  "transformation": {
+    "operator_family": "seed-ingestion",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": [
+      "Organized_Change_Projection_and_Generative_Fields.docx"
+    ],
+    "generation_time": "2025-01-01T00:00:00Z"
+  },
+  "tension_class": "self-reference"
+}

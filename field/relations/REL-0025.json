@@ -1,0 +1,22 @@
+{
+  "id": "REL-0025",
+  "type": "depends-on",
+  "source": "TEN-0002",
+  "target": "ASM-0003",
+  "observer": "OBS-AI-0001",
+  "status": "accepted",
+  "origin_trace": {
+    "origin_kind": "derived",
+    "origin_ref": "seed-ingestion@1.0.0",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "transformation": {
+    "operator_family": "seed-ingestion",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": [
+      "Organized_Change_Projection_and_Generative_Fields.docx"
+    ],
+    "generation_time": "2025-01-01T00:00:00Z"
+  }
+}

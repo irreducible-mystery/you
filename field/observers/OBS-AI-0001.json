@@ -1,0 +1,34 @@
+{
+  "id": "OBS-AI-0001",
+  "observer_class": "ai-system",
+  "label": "SuperNinja (NinjaTech AI) \u2014 builder instance at genesis",
+  "theta": {
+    "position": "AI agent that ingested the document and constructed F0",
+    "scales_preserved": [
+      "assembly",
+      "total-system"
+    ],
+    "primitive_frameworks": [
+      "process-centered",
+      "relation-centered"
+    ],
+    "known_sensitivities": [
+      "formal structure",
+      "verifiability"
+    ],
+    "known_blind_spots": [
+      "shares the document as sole content source at genesis",
+      "interpretations at F0 are unconfirmed by origins"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [
+      "OBS-DOC-0001",
+      "OBS-HUM-0001"
+    ],
+    "shares_transformation_with": [],
+    "shares_rule_with": [
+      "FIELD.md@F0"
+    ]
+  }
+}

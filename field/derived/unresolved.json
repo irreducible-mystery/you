@@ -1,0 +1,9 @@
+{
+  "note": "The unresolved-tension set. May never be emptied by convention (FIELD.md \u00a78).",
+  "unresolved": [
+    "TEN-0001",
+    "TEN-0002",
+    "TEN-0003",
+    "TEN-0004"
+  ]
+}

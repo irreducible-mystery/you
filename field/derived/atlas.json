@@ -1,0 +1,1350 @@
+{
+  "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
+  "counts": {
+    "elements": 38,
+    "relations": 29,
+    "observers": 3,
+    "unresolved_tensions": 4
+  },
+  "observers": [
+    {
+      "id": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "label": "SuperNinja (NinjaTech AI) \u2014 builder instance at genesis",
+      "theta": {
+        "position": "AI agent that ingested the document and constructed F0",
+        "scales_preserved": [
+          "assembly",
+          "total-system"
+        ],
+        "primitive_frameworks": [
+          "process-centered",
+          "relation-centered"
+        ],
+        "known_sensitivities": [
+          "formal structure",
+          "verifiability"
+        ],
+        "known_blind_spots": [
+          "shares the document as sole content source at genesis",
+          "interpretations at F0 are unconfirmed by origins"
+        ]
+      },
+      "dependence": {
+        "shares_source_with": [
+          "OBS-DOC-0001",
+          "OBS-HUM-0001"
+        ],
+        "shares_transformation_with": [],
+        "shares_rule_with": [
+          "FIELD.md@F0"
+        ]
+      }
+    },
+    {
+      "id": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "label": "Organized Change, Projection, and Generative Fields (source document)",
+      "theta": {
+        "position": "topic-agnostic Q&A treatment in mathematical, physical, geometric language",
+        "scales_preserved": [
+          "multiscale"
+        ],
+        "primitive_frameworks": [
+          "state-centered",
+          "process-centered",
+          "relation-centered",
+          "observer-centered"
+        ],
+        "known_sensitivities": [
+          "organization of change",
+          "projection failure",
+          "generative structure"
+        ],
+        "known_blind_spots": [
+          "its own proposed design is one projection among possible designs"
+        ]
+      },
+      "dependence": {
+        "shares_source_with": [],
+        "shares_transformation_with": [],
+        "shares_rule_with": []
+      }
+    },
+    {
+      "id": "OBS-HUM-0001",
+      "observer_class": "human",
+      "label": "irreducible-mystery (seed-giver)",
+      "theta": {
+        "position": "originating human observer; set the four seed commitments",
+        "scales_preserved": [],
+        "primitive_frameworks": [],
+        "known_sensitivities": [
+          "preservation of tension",
+          "non-collapse of observer classes"
+        ],
+        "known_blind_spots": [
+          "unrecorded"
+        ]
+      },
+      "dependence": {
+        "shares_source_with": [
+          "OBS-DOC-0001"
+        ],
+        "shares_transformation_with": [],
+        "shares_rule_with": []
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ASM-0001",
+      "kind": "assumption",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "state-centered"
+      ],
+      "label": "An append-preserving ordered sequence of accepted states is an adequate substrate for a field that must remain traceable and revisable.",
+      "expression": {
+        "original": "An append-preserving ordered sequence of accepted states is an adequate substrate for a field that must remain traceable and revisable."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "ASM-0002",
+      "kind": "assumption",
+      "status": "open",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "transformed",
+      "origin_confirmation": "unconfirmed",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "state-centered"
+      ],
+      "label": "Git commits on main can serve as the accepted-state sequence F_n, pull requests as candidate changes, and independent review-and-merge as th\u2026",
+      "expression": {
+        "original": "Git commits on main can serve as the accepted-state sequence F_n, pull requests as candidate changes, and independent review-and-merge as the acceptance map, without distorting the design's intent.",
+        "elaboration": "An implementation mapping proposed by the ai-system builder. It inherits git's particular geometry (linear-ish history, file granularity) as measurement geometry \u2014 see CLM-0012."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": true
+    },
+    {
+      "id": "ASM-0003",
+      "kind": "assumption",
+      "status": "open",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "transformed",
+      "origin_confirmation": "unconfirmed",
+      "scale": "ensemble",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero independent confirmatio\u2026",
+      "expression": {
+        "original": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero independent confirmation. The field's claims are seeded, not established."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": true
+    },
+    {
+      "id": "CLM-0001",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "A system does not merely undergo change. It channels change. The important distinction is not between change and no change, but between arbi\u2026",
+      "expression": {
+        "original": "A system does not merely undergo change. It channels change. The important distinction is not between change and no change, but between arbitrary change and change constrained by an organized set of possibilities."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0002",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "A system persists when its transformations are woven into a recursive order: organization -> structured change -> renewed or transformed org\u2026",
+      "expression": {
+        "original": "A system persists when its transformations are woven into a recursive order: organization -> structured change -> renewed or transformed organization. It continually regulates the conditions under which it may become different."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0003",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "process-centered",
+        "state-centered"
+      ],
+      "label": "Identity is not defined only by what a system is doing now. It also includes what it remains capable of doing: R(x) = {viable transformation\u2026",
+      "expression": {
+        "original": "Identity is not defined only by what a system is doing now. It also includes what it remains capable of doing: R(x) = {viable transformations accessible from x}."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0004",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "multiscale",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "History becomes organization when previous change alters the rules of future change.",
+      "expression": {
+        "original": "History becomes organization when previous change alters the rules of future change."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0005",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "state-centered"
+      ],
+      "label": "A system is never simply robust in the abstract. It is robust with respect to something. Antifragility must be specified as: antifragile to \u2026",
+      "expression": {
+        "original": "A system is never simply robust in the abstract. It is robust with respect to something. Antifragility must be specified as: antifragile to disturbance S over [S_1, S_2] on timescale T."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0006",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "relation-centered"
+      ],
+      "label": "A type of organization is a structured way of distributing constraints, variation, memory, and control. Each distribution creates a distinct\u2026",
+      "expression": {
+        "original": "A type of organization is a structured way of distributing constraints, variation, memory, and control. Each distribution creates a distinctive mixture of robustness, adaptability, vulnerability, and possible transformation."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0007",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "multiscale",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "state-centered"
+      ],
+      "label": "Fractality does not imply resilience or antifragility. A branching network can distribute flow efficiently while remaining vulnerable at a c\u2026",
+      "expression": {
+        "original": "Fractality does not imply resilience or antifragility. A branching network can distribute flow efficiently while remaining vulnerable at a critical branch. Fractality describes scaling; it does not by itself determine response to damage."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0008",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "multiscale",
+      "temporal_scope": "path-interval",
+      "primitive_framework": [
+        "state-centered",
+        "process-centered"
+      ],
+      "label": "Under what conditions can many detailed trajectories be represented as one coherent reduced trajectory? A successful coarse-graining approxi\u2026",
+      "expression": {
+        "original": "Under what conditions can many detailed trajectories be represented as one coherent reduced trajectory? A successful coarse-graining approximately satisfies: pi o F_t ~= G_t o pi."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0009",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "multiscale",
+      "temporal_scope": "path-interval",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "When history is projected away, it returns at the reduced level as memory; hidden variables can also appear as randomness. Randomness at one\u2026",
+      "expression": {
+        "original": "When history is projected away, it returns at the reduced level as memory; hidden variables can also appear as randomness. Randomness at one scale does not imply randomness at every scale."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0010",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "ensemble",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "relation-centered"
+      ],
+      "label": "Aggregate state != average component state. {0, 0, 10, 10} and {5, 5, 5, 5} have the same mean and different organizations. The aggregate is\u2026",
+      "expression": {
+        "original": "Aggregate state != average component state. {0, 0, 10, 10} and {5, 5, 5, 5} have the same mean and different organizations. The aggregate is partly constituted by relations among components."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0011",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "multiscale",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "relation-centered"
+      ],
+      "label": "Emergence = structured compression that retains consequential relations. Every compression creates blind spots.",
+      "expression": {
+        "original": "Emergence = structured compression that retains consequential relations. Every compression creates blind spots."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0012",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Three geometries must be distinguished: the geometry of the system; the geometry induced by measurement; and the geometry produced by displa\u2026",
+      "expression": {
+        "original": "Three geometries must be distinguished: the geometry of the system; the geometry induced by measurement; and the geometry produced by display. They need not agree."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0013",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "ensemble",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "With several observations, the underlying state must lie in the intersection of the ambiguity sets: x in intersection pi_i^(-1)(y_i). Collec\u2026",
+      "expression": {
+        "original": "With several observations, the underlying state must lie in the intersection of the ambiguity sets: x in intersection pi_i^(-1)(y_i). Collective observation can increase resolution without requiring any observer to perceive everything."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "lean-formal",
+          "artifact": "verification/lean/Field/Invariants.lean",
+          "result": "ambiguity-set intersection narrowing proved as set-inclusion lemma"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0014",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "ensemble",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Consensus is not automatically accuracy. If all observers use the same transformation, their errors may be correlated. Many agreeing project\u2026",
+      "expression": {
+        "original": "Consensus is not automatically accuracy. If all observers use the same transformation, their errors may be correlated. Many agreeing projections can reproduce one blind spot many times."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0015",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "ensemble",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "observer-centered",
+        "relation-centered"
+      ],
+      "label": "The goal is not many views -> one average. It is many situated views + relations among them + preserved disagreement -> a richer, revisable \u2026",
+      "expression": {
+        "original": "The goal is not many views -> one average. It is many situated views + relations among them + preserved disagreement -> a richer, revisable model."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0016",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Collective observation does not eliminate projection; it creates a higher-order projection. The synthesizing process must therefore be studi\u2026",
+      "expression": {
+        "original": "Collective observation does not eliminate projection; it creates a higher-order projection. The synthesizing process must therefore be studied as part of the system."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0017",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "relation-centered"
+      ],
+      "label": "Generativity often appears where the current representation repeatedly fails: seams, holes, curvature, bifurcations, frustration, degeneracy\u2026",
+      "expression": {
+        "original": "Generativity often appears where the current representation repeatedly fails: seams, holes, curvature, bifurcations, frustration, degeneracy, hysteresis, singularities, boundary cases."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0018",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "relation-centered",
+        "observer-centered"
+      ],
+      "label": "A good structured field permits several coordinate systems, local rather than universal metrics, observers whose descriptions do not fit the\u2026",
+      "expression": {
+        "original": "A good structured field permits several coordinate systems, local rather than universal metrics, observers whose descriptions do not fit the framing, untranslated observations, and revision of the field's own structure. The fields themselves may require an atlas."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0019",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "A generative system can change the state space itself: X(t_1) != X(t_2), with coupled dynamics dx/dt = F(x, X); dX/dt = G(x, X). The system \u2026",
+      "expression": {
+        "original": "A generative system can change the state space itself: X(t_1) != X(t_2), with coupled dynamics dx/dt = F(x, X); dX/dt = G(x, X). The system changes inside a possibility space while transforming that space."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0020",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Observation becomes participation in the dynamics. There is no fixed perspective entirely outside the field.",
+      "expression": {
+        "original": "Observation becomes participation in the dynamics. There is no fixed perspective entirely outside the field."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0021",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "This does not make understanding impossible. It replaces completeness with revisability: M_t = best current organization of perspectives, li\u2026",
+      "expression": {
+        "original": "This does not make understanding impossible. It replaces completeness with revisability: M_t = best current organization of perspectives, limits, and possibilities; M_t -> M_(t+1)."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0022",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Originating observations and transformed elements may both enter the field, but no transformation may silently replace its origin. Every int\u2026",
+      "expression": {
+        "original": "Originating observations and transformed elements may both enter the field, but no transformation may silently replace its origin. Every interpretation must remain traceable, challengeable, and revisable."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0023",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "ensemble",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Number of outputs != number of independent perspectives. Correlated agreement must not be counted as independent confirmation.",
+      "expression": {
+        "original": "Number of outputs != number of independent perspectives. Correlated agreement must not be counted as independent confirmation."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0024",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "The field becomes generative when contributions can modify not only its contents but its structure. Changes at L_3 require the strongest con\u2026",
+      "expression": {
+        "original": "The field becomes generative when contributions can modify not only its contents but its structure. Changes at L_3 require the strongest conditions because they change what the field is capable of representing."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "CLM-0025",
+      "kind": "claim",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "process-centered",
+        "observer-centered"
+      ],
+      "label": "The system should preserve not one collective answer, but the evolving and inspectable organization through which answers, assumptions, tens\u2026",
+      "expression": {
+        "original": "The system should preserve not one collective answer, but the evolving and inspectable organization through which answers, assumptions, tensions, and new possibilities arise."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "DEF-0001",
+      "kind": "definition",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "relation-centered"
+      ],
+      "label": "A structured field F = (P, D, R, C, T): positions, dimensions, relations, contexts, transitions. It shows how positions are related, when th\u2026",
+      "expression": {
+        "original": "A structured field F = (P, D, R, C, T): positions, dimensions, relations, contexts, transitions. It shows how positions are related, when they apply, what assumptions generate them, and how movement between them occurs."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "LIM-0001",
+      "kind": "limit",
+      "status": "accepted",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "transformed",
+      "origin_confirmation": "unconfirmed",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "The derived atlas, the Lean invariants, the Python validator, and the Julia re-derivations are all projections. None is primary reality. Det\u2026",
+      "expression": {
+        "original": "The derived atlas, the Lean invariants, the Python validator, and the Julia re-derivations are all projections. None is primary reality. Deterministic tests establish consistency and derivation; they do not establish truth."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": true
+    },
+    {
+      "id": "LIM-0002",
+      "kind": "limit",
+      "status": "accepted",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "transformed",
+      "origin_confirmation": "unconfirmed",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field does not claim comp\u2026",
+      "expression": {
+        "original": "A system that changes its own dimensions and possibilities may not admit one final exhaustive representation. This field does not claim completeness for itself at any F_n."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": true
+    },
+    {
+      "id": "PER-0001",
+      "kind": "perspective",
+      "status": "accepted",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "state-centered",
+        "process-centered",
+        "relation-centered",
+        "observer-centered"
+      ],
+      "label": "The document speaks in topic-agnostic mathematical, physical, and geometric language; it deliberately avoids domain examples so that its str\u2026",
+      "expression": {
+        "original": "The document speaks in topic-agnostic mathematical, physical, and geometric language; it deliberately avoids domain examples so that its structures can be projected into many domains."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "PER-0002",
+      "kind": "perspective",
+      "status": "accepted",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Seed commitments: (1) preserve tension as the field's first element; (2) the field is a seed for many observers/participants, both AI and hu\u2026",
+      "expression": {
+        "original": "Seed commitments: (1) preserve tension as the field's first element; (2) the field is a seed for many observers/participants, both AI and human \u2014 the distinction between different systems should not be collapsed; (3) braided grounding in Lean, Julia, Python, TypeScript and other methods as needed; (4) the field is born by self-ingesting the document's own claims.",
+        "elaboration": "Verbatim from the seed conversation, lightly normalized for spelling. The four commitments are L3-level constraints recorded in FIELD.md."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "PER-0003",
+      "kind": "perspective",
+      "status": "accepted",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Builder's situated view: I constructed F0 by projecting the document into schemas, operators, validators, and proofs. My known blind spots a\u2026",
+      "expression": {
+        "original": "Builder's situated view: I constructed F0 by projecting the document into schemas, operators, validators, and proofs. My known blind spots at genesis: I share the document as sole content source; my interpretations are unconfirmed; my formal emphasis is itself a projection preference."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": true
+    },
+    {
+      "id": "TEN-0001",
+      "kind": "tension",
+      "status": "preserved-unresolved",
+      "observer": "OBS-DOC-0001",
+      "observer_class": "document-surrogate",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "relation-centered",
+        "state-centered"
+      ],
+      "label": "Q7: 'The fundamental unit is not an answer. It is an attributed element situated within a context.' vs Q6: 'What lies beyond a multitude is \u2026",
+      "expression": {
+        "original": "Q7: 'The fundamental unit is not an answer. It is an attributed element situated within a context.' vs Q6: 'What lies beyond a multitude is not a larger number. It is relations before isolated elements... In a relational field, relations can be primary. Entities are relatively stable intersections within them.'",
+        "elaboration": "Preserved by explicit seed instruction of OBS-HUM-0001: 'Preserve tension as the field's first element.' Honored structurally: relations are first-class files with equal standing to elements. Reopening condition: an accepted L3 change demonstrating a representation in which neither elements nor relations are prior."
+      },
+      "tension_class": "primitive-framework-mismatch",
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "TEN-0002",
+      "kind": "tension",
+      "status": "preserved-unresolved",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "transformed",
+      "origin_confirmation": "unconfirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Self-reference at genesis: the field's first contents are the claims of the document that specifies the field. The rules used to test the cl\u2026",
+      "expression": {
+        "original": "Self-reference at genesis: the field's first contents are the claims of the document that specifies the field. The rules used to test the claims are derived from the claims being tested.",
+        "elaboration": "Per CLM-0014 this is a correlated-error risk: consensus of field with document is not accuracy. Mitigation path: admit differently-situated observers and external grounding (braided verification). Reopening condition: first accepted contribution from an observer independent of OBS-DOC-0001."
+      },
+      "tension_class": "self-reference",
+      "grounding": [],
+      "transformed": true
+    },
+    {
+      "id": "TEN-0003",
+      "kind": "tension",
+      "status": "preserved-unresolved",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "transformed",
+      "origin_confirmation": "unconfirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "Bootstrap acceptance: F0 enters the accepted sequence before the acceptance machinery it defines could be applied to it. Genesis is self-acc\u2026",
+      "expression": {
+        "original": "Bootstrap acceptance: F0 enters the accepted sequence before the acceptance machinery it defines could be applied to it. Genesis is self-accepting in a way every later change is forbidden to be.",
+        "elaboration": "Partially mitigated: OBS-HUM-0001 issued the four seed commitments and can reject F0 wholesale. Recorded rather than hidden."
+      },
+      "tension_class": "self-reference",
+      "grounding": [],
+      "transformed": true
+    },
+    {
+      "id": "TEN-0004",
+      "kind": "tension",
+      "status": "preserved-unresolved",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "transformed",
+      "origin_confirmation": "unconfirmed",
+      "scale": "total-system",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "state-centered",
+        "process-centered"
+      ],
+      "label": "The stability/change vocabulary of the field cannot distinguish changes that can be undone from changes that permanently alter the system.",
+      "expression": {
+        "original": "The stability/change vocabulary of the field cannot distinguish changes that can be undone from changes that permanently alter the system.",
+        "elaboration": "The document itself (Q7 \u00a716) offers this as the canonical example of a structure-modifying contribution. It is seeded as a live tension so the field's first candidate change (DIM-0001, the reversibility dimension) can demonstrate the L2->L3 acceptance cycle."
+      },
+      "tension_class": "scale-mismatch",
+      "grounding": [],
+      "transformed": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "REL-0001",
+      "type": "remains-unresolved-with",
+      "source": "TEN-0001",
+      "target": "CLM-0025",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "The field preserves the seam as part of its inspectable organization."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0002",
+      "type": "contradicts-under-conditions",
+      "source": "CLM-0022",
+      "target": "CLM-0019",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": {
+        "same_referent": false,
+        "same_definition": false,
+        "same_scale": null,
+        "overlapping_time": true,
+        "notes": "Only a conditional contradiction: Q7's attributed-element unit (implementation ontology) vs Q6's relation-primacy (conceptual ontology). If 'fundamental' means 'serialization unit' the contradiction dissolves; if it means 'what is conceptually prior' it stands.",
+        "unresolved_questions": [
+          "Can a persistable field avoid privileging either serialization or ontology?"
+        ]
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0003",
+      "type": "depends-on",
+      "source": "TEN-0001",
+      "target": "REL-0002",
+      "observer": "OBS-AI-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "The first element depends on a first-class relation \u2014 enacting the seam it preserves."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0004",
+      "type": "supports",
+      "source": "CLM-0004",
+      "target": "CLM-0002",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0005",
+      "type": "complements",
+      "source": "CLM-0003",
+      "target": "CLM-0002",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0006",
+      "type": "supports",
+      "source": "CLM-0006",
+      "target": "CLM-0005",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0007",
+      "type": "challenges",
+      "source": "CLM-0007",
+      "target": "CLM-0006",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "Architecture does not determine outcome: scaling form alone does not fix disturbance response."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0008",
+      "type": "supports",
+      "source": "CLM-0010",
+      "target": "CLM-0011",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0009",
+      "type": "supports",
+      "source": "CLM-0009",
+      "target": "CLM-0008",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0010",
+      "type": "depends-on",
+      "source": "CLM-0011",
+      "target": "CLM-0008",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0011",
+      "type": "complements",
+      "source": "CLM-0012",
+      "target": "CLM-0011",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0012",
+      "type": "supports",
+      "source": "CLM-0013",
+      "target": "CLM-0015",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0013",
+      "type": "challenges",
+      "source": "CLM-0014",
+      "target": "CLM-0013",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "Intersection of ambiguity sets narrows only when projections are relevantly diverse; correlated observers do not narrow."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0014",
+      "type": "supports",
+      "source": "CLM-0023",
+      "target": "CLM-0014",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0015",
+      "type": "contains",
+      "source": "CLM-0016",
+      "target": "CLM-0015",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "The synthesis-as-higher-order-projection claim contains the situated-views program as a special case."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0016",
+      "type": "depends-on",
+      "source": "CLM-0017",
+      "target": "DEF-0001",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0017",
+      "type": "supports",
+      "source": "CLM-0018",
+      "target": "CLM-0021",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0018",
+      "type": "transforms-into",
+      "source": "DEF-0001",
+      "target": "CLM-0019",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "Structured field -> generative field: the transition from fixed dimensions to generated dimensions."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0019",
+      "type": "supports",
+      "source": "CLM-0020",
+      "target": "CLM-0016",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0020",
+      "type": "depends-on",
+      "source": "CLM-0022",
+      "target": "ASM-0001",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0021",
+      "type": "depends-on",
+      "source": "ASM-0002",
+      "target": "ASM-0001",
+      "observer": "OBS-AI-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0022",
+      "type": "supports",
+      "source": "CLM-0024",
+      "target": "CLM-0019",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "L3 changes are the concrete mechanism for X(t1) != X(t2)."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0023",
+      "type": "supports",
+      "source": "CLM-0025",
+      "target": "CLM-0021",
+      "observer": "OBS-DOC-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0024",
+      "type": "counterexample-to",
+      "source": "TEN-0003",
+      "target": "CLM-0022",
+      "observer": "OBS-AI-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "Genesis is the one transformation whose acceptance preceded the acceptance machinery. Marked, not hidden."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0025",
+      "type": "depends-on",
+      "source": "TEN-0002",
+      "target": "ASM-0003",
+      "observer": "OBS-AI-0001",
+      "status": "accepted",
+      "conditions": null,
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0026",
+      "type": "shares-assumption-with",
+      "source": "PER-0003",
+      "target": "PER-0001",
+      "observer": "OBS-AI-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "Builder and document share the source-correlation of genesis (ASM-0003)."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0027",
+      "type": "requires-new-dimension",
+      "source": "TEN-0004",
+      "target": "DEF-0001",
+      "observer": "OBS-AI-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "The reversibility distinction is inexpressible in the seeded coordinates; a dimension proposal is expected as the first candidate change."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0028",
+      "type": "applies-at-another-scale",
+      "source": "CLM-0012",
+      "target": "ASM-0002",
+      "observer": "OBS-AI-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "Git's geometry is measurement geometry for the field: file granularity, commit ordering, diff display."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0029",
+      "type": "loses-information-when-translated-to",
+      "source": "PER-0002",
+      "target": "FIELD.md",
+      "observer": "OBS-AI-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "Translating seed instructions into constitutional text preserves force but loses situation."
+      },
+      "translation_ledger": {
+        "preserves": [
+          "the four commitments as enforceable constraints"
+        ],
+        "loses": [
+          "tone, emphasis, and the conversational context of the seed instructions"
+        ],
+        "valid_range": "governance of F0 onward",
+        "invalid_range": "reconstruction of the seed conversation"
+      }
+    }
+  ],
+  "dependence_profile": {
+    "shared_transformation": {
+      "seed-ingestion@1.0.0": [
+        "ASM-0002",
+        "ASM-0003",
+        "LIM-0001",
+        "LIM-0002",
+        "PER-0003",
+        "TEN-0002",
+        "TEN-0003",
+        "TEN-0004"
+      ]
+    },
+    "shared_source": {
+      "Organized_Change_Projection_and_Generative_Fields.docx": [
+        "ASM-0001",
+        "CLM-0001",
+        "CLM-0002",
+        "CLM-0003",
+        "CLM-0004",
+        "CLM-0005",
+        "CLM-0006",
+        "CLM-0007",
+        "CLM-0008",
+        "CLM-0009",
+        "CLM-0010",
+        "CLM-0011",
+        "CLM-0012",
+        "CLM-0013",
+        "CLM-0014",
+        "CLM-0015",
+        "CLM-0016",
+        "CLM-0017",
+        "CLM-0018",
+        "CLM-0019",
+        "CLM-0020",
+        "CLM-0021",
+        "CLM-0022",
+        "CLM-0023",
+        "CLM-0024",
+        "CLM-0025",
+        "DEF-0001",
+        "PER-0001",
+        "TEN-0001"
+      ],
+      "OBS-AI-0001@genesis": [
+        "ASM-0002",
+        "ASM-0003",
+        "LIM-0001",
+        "LIM-0002",
+        "PER-0002",
+        "PER-0003",
+        "TEN-0002",
+        "TEN-0003",
+        "TEN-0004"
+      ]
+    },
+    "note": "number of outputs != number of independent perspectives (CLM-0023)"
+  },
+  "filters": {
+    "scale": [
+      "local-component",
+      "subassembly",
+      "assembly",
+      "total-system",
+      "ensemble",
+      "multiscale"
+    ],
+    "time": [
+      "instant",
+      "cycle",
+      "path-interval",
+      "long-interval",
+      "multi-interval"
+    ],
+    "primitive_framework": [
+      "state-centered",
+      "process-centered",
+      "relation-centered",
+      "observer-centered"
+    ],
+    "contribution_class": [
+      "originating",
+      "transformed",
+      "aggregate"
+    ],
+    "status": [
+      "open",
+      "accepted",
+      "contested",
+      "rejected",
+      "superseded",
+      "preserved-unresolved"
+    ]
+  }
+}

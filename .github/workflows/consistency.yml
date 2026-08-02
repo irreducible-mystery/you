@@ -1,0 +1,59 @@
+name: deterministic-consistency-conditions
+
+# FIELD.md §6 — run on every candidate change (PR) and every accepted state (push to main).
+# These tests establish consistency and derivation. They do not establish truth (LIM-0001).
+# They must not allow a transformation to accept its own proposed change:
+# acceptance (merge) remains a separate, independent act (FIELD.md §7).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python-validate:
+    name: "π_python — consistency + numeric grounding"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Deterministic consistency conditions
+        run: python verification/python/validate.py
+      - name: Numeric grounding experiments
+        run: python verification/python/grounding.py
+
+  julia-grounding:
+    name: "π_julia — independent re-derivation"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: julia-actions/setup-julia@v2
+        with: { version: "1.10" }
+      - name: Grounding experiments (independent projection)
+        run: julia verification/julia/grounding.jl
+
+  lean-invariants:
+    name: "π_lean — machine-checked rule invariants"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install elan
+        run: |
+          curl -fsSL https://elan.lean-lang.org/elan-init.sh | sh -s -- -y --default-toolchain leanprover/lean4:v4.9.0
+          echo "$HOME/.elan/bin" >> $GITHUB_PATH
+      - name: Verify invariants
+        run: cd verification/lean && lean Field/Invariants.lean
+
+  typescript-projection:
+    name: "π_ts — atlas viewer compiles"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: Compile viewer
+        run: |
+          npm install -g typescript@5.4.5
+          cd projections/viewer
+          tsc src/atlas-viewer.ts --target ES2020 --lib ES2020,DOM --strict --outFile atlas-viewer.js

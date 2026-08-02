@@ -1,0 +1,24 @@
+{
+  "id": "ASM-0001",
+  "kind": "assumption",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "surrogate",
+  "observer": "OBS-DOC-0001",
+  "expression": {
+    "original": "An append-preserving ordered sequence of accepted states is an adequate substrate for a field that must remain traceable and revisable."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "long-interval",
+    "primitive_framework": [
+      "state-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "document",
+    "origin_ref": "Organized_Change_Projection_and_Generative_Fields.docx",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "surrogate-verbatim"
+}

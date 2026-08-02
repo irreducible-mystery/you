@@ -1,0 +1,30 @@
+{
+  "id": "OBS-DOC-0001",
+  "observer_class": "document-surrogate",
+  "label": "Organized Change, Projection, and Generative Fields (source document)",
+  "theta": {
+    "position": "topic-agnostic Q&A treatment in mathematical, physical, geometric language",
+    "scales_preserved": [
+      "multiscale"
+    ],
+    "primitive_frameworks": [
+      "state-centered",
+      "process-centered",
+      "relation-centered",
+      "observer-centered"
+    ],
+    "known_sensitivities": [
+      "organization of change",
+      "projection failure",
+      "generative structure"
+    ],
+    "known_blind_spots": [
+      "its own proposed design is one projection among possible designs"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [],
+    "shares_transformation_with": [],
+    "shares_rule_with": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "TEN-0004",
+  "kind": "tension",
+  "status": "preserved-unresolved",
+  "origin_class": "transformed",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0001",
+  "expression": {
+    "original": "The stability/change vocabulary of the field cannot distinguish changes that can be undone from changes that permanently alter the system.",
+    "elaboration": "The document itself (Q7 \u00a716) offers this as the canonical example of a structure-modifying contribution. It is seeded as a live tension so the field's first candidate change (DIM-0001, the reversibility dimension) can demonstrate the L2->L3 acceptance cycle."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "multi-interval",
+    "primitive_framework": [
+      "state-centered",
+      "process-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001@genesis",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "unconfirmed",
+  "transformation": {
+    "operator_family": "seed-ingestion",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": [
+      "Organized_Change_Projection_and_Generative_Fields.docx"
+    ],
+    "generation_time": "2025-01-01T00:00:00Z"
+  },
+  "tension_class": "scale-mismatch"
+}

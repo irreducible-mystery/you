@@ -1,0 +1,27 @@
+{
+  "id": "CLM-0005",
+  "kind": "claim",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "surrogate",
+  "observer": "OBS-DOC-0001",
+  "expression": {
+    "original": "A system is never simply robust in the abstract. It is robust with respect to something. Antifragility must be specified as: antifragile to disturbance S over [S_1, S_2] on timescale T."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "multi-interval",
+    "primitive_framework": [
+      "state-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "document",
+    "origin_ref": "Organized_Change_Projection_and_Generative_Fields.docx",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "surrogate-verbatim",
+  "distinctions": [
+    "robustness vs resilience vs adaptation vs antifragility vs transformation vs collapse"
+  ]
+}

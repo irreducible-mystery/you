@@ -1,0 +1,35 @@
+{
+  "id": "TEN-0003",
+  "kind": "tension",
+  "status": "preserved-unresolved",
+  "origin_class": "transformed",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0001",
+  "expression": {
+    "original": "Bootstrap acceptance: F0 enters the accepted sequence before the acceptance machinery it defines could be applied to it. Genesis is self-accepting in a way every later change is forbidden to be.",
+    "elaboration": "Partially mitigated: OBS-HUM-0001 issued the four seed commitments and can reject F0 wholesale. Recorded rather than hidden."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "process-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001@genesis",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "unconfirmed",
+  "transformation": {
+    "operator_family": "seed-ingestion",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": [
+      "Organized_Change_Projection_and_Generative_Fields.docx"
+    ],
+    "generation_time": "2025-01-01T00:00:00Z"
+  },
+  "tension_class": "self-reference"
+}

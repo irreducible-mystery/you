@@ -1,0 +1,27 @@
+{
+  "id": "CLM-0001",
+  "kind": "claim",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "surrogate",
+  "observer": "OBS-DOC-0001",
+  "expression": {
+    "original": "A system does not merely undergo change. It channels change. The important distinction is not between change and no change, but between arbitrary change and change constrained by an organized set of possibilities."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "multi-interval",
+    "primitive_framework": [
+      "process-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "document",
+    "origin_ref": "Organized_Change_Projection_and_Generative_Fields.docx",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "surrogate-verbatim",
+  "distinctions": [
+    "arbitrary change vs organized change"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "PER-0003",
+  "kind": "perspective",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0001",
+  "expression": {
+    "original": "Builder's situated view: I constructed F0 by projecting the document into schemas, operators, validators, and proofs. My known blind spots at genesis: I share the document as sole content source; my interpretations are unconfirmed; my formal emphasis is itself a projection preference."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001@genesis",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "transformation": {
+    "operator_family": "seed-ingestion",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": [
+      "Organized_Change_Projection_and_Generative_Fields.docx"
+    ],
+    "generation_time": "2025-01-01T00:00:00Z"
+  }
+}

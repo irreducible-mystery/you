@@ -1,0 +1,25 @@
+{
+  "id": "PER-0002",
+  "kind": "perspective",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-HUM-0001",
+  "expression": {
+    "original": "Seed commitments: (1) preserve tension as the field's first element; (2) the field is a seed for many observers/participants, both AI and human \u2014 the distinction between different systems should not be collapsed; (3) braided grounding in Lean, Julia, Python, TypeScript and other methods as needed; (4) the field is born by self-ingesting the document's own claims.",
+    "elaboration": "Verbatim from the seed conversation, lightly normalized for spelling. The four commitments are L3-level constraints recorded in FIELD.md."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "long-interval",
+    "primitive_framework": [
+      "observer-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001@genesis",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "confirmed"
+}

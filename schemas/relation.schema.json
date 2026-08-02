@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/irreducible-mystery/you/schemas/relation.schema.json",
+  "title": "First-Class Relation",
+  "description": "Relations are stored with equal standing to elements (structural honoring of TEN-0001). A relation has its own id, provenance, observer, and — for contradictions — explicit conditions.",
+  "type": "object",
+  "required": ["id", "type", "source", "target", "observer", "origin_trace", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^REL-[0-9]{4}$" },
+    "type": { "enum": ["supports", "challenges", "contradicts-under-conditions", "compatible-under-conditions", "complements", "overlaps", "contains", "depends-on", "caused-by", "correlated-with", "translates-to", "partially-translates-to", "loses-information-when-translated-to", "applies-at-another-scale", "applies-at-another-time", "transforms-into", "counterexample-to", "shares-assumption-with", "requires-new-dimension", "remains-unresolved-with"] },
+    "source": { "type": "string" },
+    "target": { "type": "string" },
+    "observer": { "type": "string", "pattern": "^OBS-(HUM|AI|HYB|DOC)-[0-9]{4}$" },
+    "status": { "enum": ["open", "accepted", "contested", "rejected", "superseded"] },
+    "conditions": {
+      "type": "object",
+      "description": "Mandatory for contradicts-under-conditions and compatible-under-conditions.",
+      "properties": {
+        "same_referent": { "type": ["boolean", "null"] },
+        "same_definition": { "type": ["boolean", "null"] },
+        "same_scale": { "type": ["boolean", "null"] },
+        "overlapping_time": { "type": ["boolean", "null"] },
+        "notes": { "type": "string" },
+        "unresolved_questions": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "translation_ledger": {
+      "type": "object",
+      "description": "Mandatory for translation-type relations: what is preserved, lost, and the validity range.",
+      "properties": {
+        "preserves": { "type": "array", "items": { "type": "string" } },
+        "loses": { "type": "array", "items": { "type": "string" } },
+        "valid_range": { "type": "string" },
+        "invalid_range": { "type": "string" }
+      }
+    },
+    "origin_trace": {
+      "type": "object",
+      "required": ["origin_kind", "origin_ref", "capture_time"],
+      "properties": {
+        "origin_kind": { "enum": ["human-expression", "ai-expression", "document", "instrument", "derived"] },
+        "origin_ref": { "type": "string" },
+        "capture_time": { "type": "string", "format": "date-time" }
+      }
+    },
+    "transformation": {
+      "type": "object",
+      "properties": {
+        "operator_family": { "type": "string" },
+        "operator_revision": { "type": "string" },
+        "ruleset_revision": { "type": "string" },
+        "inputs": { "type": "array", "items": { "type": "string" } },
+        "generation_time": { "type": "string" }
+      }
+    }
+  }
+}

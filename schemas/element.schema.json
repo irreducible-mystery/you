@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/irreducible-mystery/you/schemas/element.schema.json",
+  "title": "Attributed Element",
+  "type": "object",
+  "required": ["id", "kind", "status", "origin_class", "attribution_mode", "expression", "context", "origin_trace", "origin_confirmation", "observer"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^(OBS|CLM|ASM|DEF|PER|TEN|BRG|TST|DIM|SYN|LIM)-[0-9]{4}$" },
+    "kind": { "enum": ["observation", "claim", "assumption", "definition", "perspective", "tension", "bridge", "test", "dimension-proposal", "synthesis", "limit"] },
+    "status": { "enum": ["open", "accepted", "contested", "rejected", "superseded", "preserved-unresolved"] },
+    "origin_class": { "enum": ["originating", "transformed", "aggregate"] },
+    "attribution_mode": { "enum": ["direct", "surrogate", "abstract"] },
+    "observer": { "type": "string", "pattern": "^OBS-(HUM|AI|HYB|DOC)-[0-9]{4}$" },
+    "expression": {
+      "type": "object",
+      "required": ["original"],
+      "properties": {
+        "original": { "type": "string", "minLength": 1 },
+        "elaboration": { "type": "string" },
+        "corrections": { "type": "array", "items": { "type": "string" } },
+        "unresolved_nuance": { "type": "string" }
+      }
+    },
+    "context": {
+      "type": "object",
+      "required": ["scale", "temporal_scope", "primitive_framework"],
+      "properties": {
+        "scale": { "enum": ["local-component", "subassembly", "assembly", "total-system", "ensemble", "multiscale"] },
+        "temporal_scope": { "enum": ["instant", "cycle", "path-interval", "long-interval", "multi-interval"] },
+        "primitive_framework": {
+          "type": "array", "minItems": 1,
+          "items": { "enum": ["state-centered", "process-centered", "relation-centered", "observer-centered"] }
+        },
+        "position": { "type": "string" }
+      }
+    },
+    "distinctions": { "type": "array", "items": { "type": "string" } },
+    "depends_on_assumptions": { "type": "array", "items": { "type": "string", "pattern": "^ASM-[0-9]{4}$" } },
+    "origin_trace": {
+      "type": "object",
+      "required": ["origin_kind", "origin_ref", "capture_time"],
+      "properties": {
+        "origin_kind": { "enum": ["human-expression", "ai-expression", "document", "instrument", "derived"] },
+        "origin_ref": { "type": "string" },
+        "capture_time": { "type": "string", "format": "date-time" }
+      }
+    },
+    "transformation": {
+      "type": "object",
+      "required": ["operator_family", "operator_revision", "ruleset_revision", "inputs", "generation_time"],
+      "properties": {
+        "operator_family": { "enum": ["reflection", "assumption-map", "tension-classification", "counterexample", "translation", "difference-preserving", "synthesis", "field-consistency", "seed-ingestion"] },
+        "operator_revision": { "type": "string" },
+        "ruleset_revision": { "type": "string" },
+        "inputs": { "type": "array", "items": { "type": "string" } },
+        "generation_time": { "type": "string", "format": "date-time" }
+      }
+    },
+    "origin_confirmation": { "enum": ["confirmed", "modified", "rejected", "unconfirmed", "surrogate-verbatim"] },
+    "tension_class": { "enum": ["logical-contradiction", "equivocation", "scale-mismatch", "temporal-mismatch", "primitive-framework-mismatch", "measurement-disagreement", "false-dichotomy", "self-reference", "undecidability", "uncomputability", "irreducible-priority-conflict"] },
+    "grounding": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["method", "artifact"],
+        "properties": {
+          "method": { "enum": ["python-numeric", "julia-numeric", "lean-formal", "typescript-projection", "external"] },
+          "artifact": { "type": "string" },
+          "result": { "type": "string" }
+        }
+      }
+    },
+    "synthesis_ledger": {
+      "type": "object",
+      "properties": {
+        "supporting": { "type": "array", "items": { "type": "string" } },
+        "partial": { "type": "array", "items": { "type": "string" } },
+        "opposing": { "type": "array", "items": { "type": "string" } },
+        "counterstatements": { "type": "array", "items": { "type": "string" } },
+        "unresolved_questions": { "type": "array", "items": { "type": "string" } },
+        "reopening_conditions": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

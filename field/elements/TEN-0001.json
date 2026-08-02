@@ -1,0 +1,32 @@
+{
+  "id": "TEN-0001",
+  "kind": "tension",
+  "status": "preserved-unresolved",
+  "origin_class": "originating",
+  "attribution_mode": "surrogate",
+  "observer": "OBS-DOC-0001",
+  "expression": {
+    "original": "Q7: 'The fundamental unit is not an answer. It is an attributed element situated within a context.' vs Q6: 'What lies beyond a multitude is not a larger number. It is relations before isolated elements... In a relational field, relations can be primary. Entities are relatively stable intersections within them.'",
+    "elaboration": "Preserved by explicit seed instruction of OBS-HUM-0001: 'Preserve tension as the field's first element.' Honored structurally: relations are first-class files with equal standing to elements. Reopening condition: an accepted L3 change demonstrating a representation in which neither elements nor relations are prior."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "long-interval",
+    "primitive_framework": [
+      "relation-centered",
+      "state-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "document",
+    "origin_ref": "Organized_Change_Projection_and_Generative_Fields.docx",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "surrogate-verbatim",
+  "distinctions": [
+    "element-primacy vs relation-primacy",
+    "a field's implementation substrate need not share its ontology",
+    "the tension is structural, not accidental: any persistable field must serialize *something*"
+  ],
+  "tension_class": "primitive-framework-mismatch"
+}

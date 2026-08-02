@@ -1,0 +1,24 @@
+{
+  "id": "OBS-HUM-0001",
+  "observer_class": "human",
+  "label": "irreducible-mystery (seed-giver)",
+  "theta": {
+    "position": "originating human observer; set the four seed commitments",
+    "scales_preserved": [],
+    "primitive_frameworks": [],
+    "known_sensitivities": [
+      "preservation of tension",
+      "non-collapse of observer classes"
+    ],
+    "known_blind_spots": [
+      "unrecorded"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [
+      "OBS-DOC-0001"
+    ],
+    "shares_transformation_with": [],
+    "shares_rule_with": []
+  }
+}

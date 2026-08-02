@@ -1,0 +1,24 @@
+{
+  "id": "CLM-0010",
+  "kind": "claim",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "surrogate",
+  "observer": "OBS-DOC-0001",
+  "expression": {
+    "original": "Aggregate state != average component state. {0, 0, 10, 10} and {5, 5, 5, 5} have the same mean and different organizations. The aggregate is partly constituted by relations among components."
+  },
+  "context": {
+    "scale": "ensemble",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "relation-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "document",
+    "origin_ref": "Organized_Change_Projection_and_Generative_Fields.docx",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "surrogate-verbatim"
+}

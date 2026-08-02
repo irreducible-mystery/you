@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>you — derived atlas (a generated projection, not primary reality)</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0d1117; color: #c9d1e0; font-family: 'Segoe UI', system-ui, sans-serif; }
+  header { padding: 14px 22px; border-bottom: 1px solid #232a36; display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; }
+  header h1 { font-size: 17px; margin: 0; font-weight: 600; letter-spacing: .04em; }
+  header .note { font-size: 12px; color: #7d8799; font-style: italic; }
+  #counts { font-size: 12px; color: #9aa5b8; margin-left: auto; }
+  #filters { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 22px; border-bottom: 1px solid #232a36; }
+  #filters label { font-size: 11px; color: #7d8799; display: flex; flex-direction: column; gap: 2px; }
+  select { background: #161c26; color: #c9d1e0; border: 1px solid #2b3442; border-radius: 4px; padding: 3px 6px; font-size: 12px; }
+  main { display: flex; flex-wrap: wrap; }
+  #canvas { background: #0d1117; max-width: 100%; flex: 2 1 640px; }
+  aside { flex: 1 1 320px; padding: 16px 20px; border-left: 1px solid #232a36; max-height: 800px; overflow-y: auto; }
+  #legend { font-size: 11px; color: #9aa5b8; padding: 8px 22px; border-bottom: 1px solid #232a36; display: flex; gap: 16px; flex-wrap: wrap; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+  #detail h3 { margin: 0 0 8px; font-size: 15px; }
+  #detail .kind { font-size: 11px; color: #7d8799; font-weight: normal; }
+  #detail .expr { font-size: 13px; line-height: 1.5; color: #d8dee9; border-left: 3px solid #3b4657; padding-left: 10px; }
+  #detail .elab { font-size: 12px; color: #9aa5b8; }
+  #detail table { font-size: 12px; border-collapse: collapse; width: 100%; }
+  #detail td { padding: 3px 6px; border-bottom: 1px solid #1c2330; vertical-align: top; }
+  #detail td:first-child { color: #7d8799; white-space: nowrap; }
+  #detail ul { font-size: 12px; padding-left: 18px; }
+  .preserved-unresolved { color: #e5c07b; }
+  .accepted { color: #98c379; }
+  .open { color: #61afef; }
+  .oc { font-size: 10px; padding: 1px 6px; border-radius: 8px; }
+  .oc-human { background: #4a3a1a; color: #e8b04b; }
+  .oc-ai-system { background: #16324a; color: #5aa9e6; }
+  .oc-document-surrogate { background: #2e2a44; color: #9b8ec4; }
+  footer { padding: 10px 22px; font-size: 11px; color: #5c6675; border-top: 1px solid #232a36; }
+</style>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+<header>
+  <h1>you · derived atlas</h1>
+  <span class="note">a generated projection — traceable to accepted elements; never primary reality (LIM-0001)</span>
+  <span id="counts"></span>
+</header>
+<div id="legend">
+  <span><span class="dot" style="background:#e8b04b"></span>human</span>
+  <span><span class="dot" style="background:#5aa9e6"></span>ai-system</span>
+  <span><span class="dot" style="background:#9b8ec4"></span>document-surrogate</span>
+  <span><span class="dot" style="border:2px solid #9b8ec4; background:transparent"></span>preserved-unresolved tension</span>
+  <span><span class="dot" style="border:1.5px dashed #e06c75; background:#5aa9e6"></span>unconfirmed interpretation</span>
+  <span style="color:#e06c75">— conflict relation</span>
+  <span style="color:#8c96aa">- - translation relation</span>
+</div>
+<div id="filters">
+  <label>scale
+    <select id="f-scale"><option value="">all</option><option>local-component</option><option>subassembly</option><option>assembly</option><option>total-system</option><option>ensemble</option><option>multiscale</option></select>
+  </label>
+  <label>time
+    <select id="f-time"><option value="">all</option><option>instant</option><option>cycle</option><option>path-interval</option><option>long-interval</option><option>multi-interval</option></select>
+  </label>
+  <label>primitive framework
+    <select id="f-framework"><option value="">all</option><option>state-centered</option><option>process-centered</option><option>relation-centered</option><option>observer-centered</option></select>
+  </label>
+  <label>contribution class
+    <select id="f-contribution"><option value="">all</option><option>originating</option><option>transformed</option><option>aggregate</option></select>
+  </label>
+  <label>status
+    <select id="f-status"><option value="">all</option><option>open</option><option>accepted</option><option>contested</option><option>rejected</option><option>superseded</option><option>preserved-unresolved</option></select>
+  </label>
+  <label>observer class (never collapsed)
+    <select id="f-observer"><option value="">all</option><option>human</option><option>ai-system</option><option>hybrid</option><option>document-surrogate</option></select>
+  </label>
+</div>
+<main>
+  <canvas id="canvas" width="1200" height="800"></canvas>
+  <aside><div id="detail"></div></aside>
+</main>
+<footer>
+  Field state F<sub>0</sub> · first element: TEN-0001 (preserved-unresolved, per seed instruction of OBS-HUM-0001) ·
+  every displayed element is traceable to <code>field/elements</code>, <code>field/relations</code> and the transformations that produced it.
+</footer>
+<script src="atlas-viewer.js"></script>
+</body>
+</html>

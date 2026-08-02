@@ -1,0 +1,32 @@
+{
+  "G1": {
+    "claim": "CLM-0008",
+    "commutation_gap_good": 4.440892098500626e-16,
+    "fiber_divergence_bad": 0.31809638168547394,
+    "passes": true
+  },
+  "G2": {
+    "claim": "CLM-0010",
+    "mean_A": 5.0,
+    "mean_B": 5.0,
+    "var_A": 25.0,
+    "var_B": 0.0,
+    "passes": true
+  },
+  "G3": {
+    "claim": "CLM-0004/CLM-0009",
+    "x_end_hidden_y0_0.0": 0.11314518244082145,
+    "x_end_hidden_y0_0.8": 2.0098613279432804,
+    "observed_divergence": 1.896716145502459,
+    "passes": true
+  },
+  "G4": {
+    "claim": "CLM-0013 (+CLM-0014 corollary)",
+    "ambiguity_1_view": 80,
+    "ambiguity_2_views": 16,
+    "ambiguity_3_views": 6,
+    "ambiguity_correlated_second_view": 80,
+    "passes": true
+  },
+  "all_pass": true
+}

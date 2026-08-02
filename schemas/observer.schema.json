@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/irreducible-mystery/you/schemas/observer.schema.json",
+  "title": "Observer",
+  "description": "Observers are modeled, not assumed transparent: y_i = pi_i(x; theta_i) + epsilon_i. Observer classes are never collapsed.",
+  "type": "object",
+  "required": ["id", "observer_class", "label", "theta"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^OBS-(HUM|AI|HYB|DOC)-[0-9]{4}$" },
+    "observer_class": { "enum": ["human", "ai-system", "hybrid", "document-surrogate"] },
+    "label": { "type": "string" },
+    "theta": {
+      "type": "object",
+      "description": "Position, scale, measurement rule, concepts, prior expectations — the observer's own projection parameters.",
+      "properties": {
+        "position": { "type": "string" },
+        "scales_preserved": { "type": "array", "items": { "type": "string" } },
+        "primitive_frameworks": { "type": "array", "items": { "type": "string" } },
+        "known_sensitivities": { "type": "array", "items": { "type": "string" } },
+        "known_blind_spots": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "dependence": {
+      "type": "object",
+      "description": "Shared sources, transformations, or rules with other observers. Correlated agreement is never independent confirmation.",
+      "properties": {
+        "shares_source_with": { "type": "array", "items": { "type": "string" } },
+        "shares_transformation_with": { "type": "array", "items": { "type": "string" } },
+        "shares_rule_with": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

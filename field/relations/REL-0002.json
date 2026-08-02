@@ -1,0 +1,32 @@
+{
+  "id": "REL-0002",
+  "type": "contradicts-under-conditions",
+  "source": "CLM-0022",
+  "target": "CLM-0019",
+  "observer": "OBS-DOC-0001",
+  "status": "accepted",
+  "origin_trace": {
+    "origin_kind": "derived",
+    "origin_ref": "seed-ingestion@1.0.0",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "transformation": {
+    "operator_family": "seed-ingestion",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": [
+      "Organized_Change_Projection_and_Generative_Fields.docx"
+    ],
+    "generation_time": "2025-01-01T00:00:00Z"
+  },
+  "conditions": {
+    "same_referent": false,
+    "same_definition": false,
+    "same_scale": null,
+    "overlapping_time": true,
+    "notes": "Only a conditional contradiction: Q7's attributed-element unit (implementation ontology) vs Q6's relation-primacy (conceptual ontology). If 'fundamental' means 'serialization unit' the contradiction dissolves; if it means 'what is conceptually prior' it stands.",
+    "unresolved_questions": [
+      "Can a persistable field avoid privileging either serialization or ontology?"
+    ]
+  }
+}

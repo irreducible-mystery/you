@@ -1,0 +1,33 @@
+{
+  "id": "ASM-0003",
+  "kind": "assumption",
+  "status": "open",
+  "origin_class": "transformed",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0001",
+  "expression": {
+    "original": "At genesis, all content descends from a single source document; therefore F0 has maximal source correlation and zero independent confirmation. The field's claims are seeded, not established."
+  },
+  "context": {
+    "scale": "ensemble",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001@genesis",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "unconfirmed",
+  "transformation": {
+    "operator_family": "seed-ingestion",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": [
+      "Organized_Change_Projection_and_Generative_Fields.docx"
+    ],
+    "generation_time": "2025-01-01T00:00:00Z"
+  }
+}

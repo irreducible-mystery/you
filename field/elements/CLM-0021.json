@@ -1,0 +1,24 @@
+{
+  "id": "CLM-0021",
+  "kind": "claim",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "surrogate",
+  "observer": "OBS-DOC-0001",
+  "expression": {
+    "original": "This does not make understanding impossible. It replaces completeness with revisability: M_t = best current organization of perspectives, limits, and possibilities; M_t -> M_(t+1)."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "long-interval",
+    "primitive_framework": [
+      "process-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "document",
+    "origin_ref": "Organized_Change_Projection_and_Generative_Fields.docx",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "surrogate-verbatim"
+}

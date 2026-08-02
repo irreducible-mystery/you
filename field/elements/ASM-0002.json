@@ -1,0 +1,34 @@
+{
+  "id": "ASM-0002",
+  "kind": "assumption",
+  "status": "open",
+  "origin_class": "transformed",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0001",
+  "expression": {
+    "original": "Git commits on main can serve as the accepted-state sequence F_n, pull requests as candidate changes, and independent review-and-merge as the acceptance map, without distorting the design's intent.",
+    "elaboration": "An implementation mapping proposed by the ai-system builder. It inherits git's particular geometry (linear-ish history, file granularity) as measurement geometry \u2014 see CLM-0012."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "long-interval",
+    "primitive_framework": [
+      "state-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001@genesis",
+    "capture_time": "2025-01-01T00:00:00Z"
+  },
+  "origin_confirmation": "unconfirmed",
+  "transformation": {
+    "operator_family": "seed-ingestion",
+    "operator_revision": "1.0.0",
+    "ruleset_revision": "FIELD.md@F0",
+    "inputs": [
+      "Organized_Change_Projection_and_Generative_Fields.docx"
+    ],
+    "generation_time": "2025-01-01T00:00:00Z"
+  }
+}
