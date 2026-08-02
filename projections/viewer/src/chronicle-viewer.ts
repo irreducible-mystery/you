@@ -32,8 +32,14 @@ interface SimN { id: string; x: number; y: number; vx: number; vy: number; birth
 const OBS_COLOR: Record<string, string> = {
   "OBS-HUM": "#e8b04b", "OBS-AI": "#5aa9e6", "OBS-HYB": "#6ec69b", "OBS-DOC": "#9b8ec4",
 };
+// Lineage is not collapsed either (OBS-0009..0011): different-builder
+// observers get a distinct hue within the ai-system class.
+const OBS_LINEAGE_HUE: Record<string, string> = {
+  "OBS-AI-0003": "#d98a5f",
+};
 function colorOf(observer: string | null): string {
   if (!observer) return "#888";
+  if (OBS_LINEAGE_HUE[observer]) return OBS_LINEAGE_HUE[observer];
   for (const k of Object.keys(OBS_COLOR)) if (observer.startsWith(k)) return OBS_COLOR[k];
   return "#888";
 }

@@ -13,6 +13,13 @@ const OBSERVER_COLORS = {
     "document-surrogate": "#9b8ec4",
     "hybrid": "#6ec69b",
 };
+// Lineage is not collapsed either: observers of a different builder lineage
+// get a distinct hue within their class (OBS-0009..0011 — organization-level
+// difference attested; weights-level undecidable, which the shared class
+// membership continues to represent).
+const OBSERVER_LINEAGE_HUES = {
+    "OBS-AI-0003": "#d98a5f",
+};
 const KIND_SHAPES = {
     tension: "◆", claim: "●", assumption: "○", definition: "■",
     perspective: "▲", limit: "▣", observation: "●", bridge: "⬡",
@@ -114,7 +121,7 @@ function draw(ctx) {
     for (const n of nodes) {
         if (!visible(n))
             continue;
-        const color = OBSERVER_COLORS[n.observer_class ?? ""] ?? "#888";
+        const color = OBSERVER_LINEAGE_HUES[n.observer] ?? OBSERVER_COLORS[n.observer_class ?? ""] ?? "#888";
         const r = n.id === "TEN-0001" ? 13 : n.kind === "tension" ? 10 : 7;
         ctx.beginPath();
         ctx.arc(n.x, n.y, r, 0, 2 * Math.PI);

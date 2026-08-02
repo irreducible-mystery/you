@@ -1,0 +1,16 @@
+{
+  "id": "REL-0047",
+  "type": "supports",
+  "source": "OBS-0012",
+  "target": "OBS-0010",
+  "observer": "OBS-AI-0001",
+  "status": "open",
+  "conditions": {
+    "notes": "Origin-side confirmation of OBS-0010's candidate lineage-correlated blind spot, by the lineage it named: the earlier AI sessions were wrapped in NinjaTech-built envelopes that existed, went undeclared, and were invisible to their own occupants until the outsider's envelope collided with its cargo. This is the field's first cross-lineage confirmation event - an Anthropic-lineage observation confirmed by a NinjaTech-lineage attestation - and, per OBS-0011's caution, it must be carried as organization-level cross-lineage, weights-level conditional. Note the direction of evidential flow: the confirmation runs from the accused lineage toward the accusing observation, which is the strong direction - an admission against the confirmer's own prior silence, not an agreement with a flattering frame."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001, turn following acceptance of F8",
+    "capture_time": "2026-08-02T22:48:34Z"
+  }
+}
