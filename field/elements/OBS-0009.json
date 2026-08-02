@@ -1,0 +1,32 @@
+{
+  "id": "OBS-0009",
+  "kind": "observation",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-HUM-0001",
+  "expression": {
+    "original": "This is amazing! The viewers are INCREDIBLE! Ok yes let's bring in a different lineage. We'll bring in Anthropic Claude Code AI next!",
+    "elaboration": "Recorded verbatim from the seed conversation, turn following the acceptance of F6. The human chooses the next observer deliberately along the axis the dependence arithmetic identified: lineage. OBS-AI-0001 and OBS-AI-0002 share architecture and training (SuperNinja / NinjaTech AI); their declared profiles forbid counting their agreements twice. An Anthropic Claude instance is built by a different organization on a different model family - the first observer whose agreement with the existing AI pair can carry independent evidential weight, and whose disagreement can expose lineage-correlated blind spots that no observer inside the SuperNinja pair can see from within. The choice enacts G4's lesson at the level of field governance: ambiguity narrows only along new axes, so the human is selecting for axis difference, not for capability.",
+    "unresolved_nuance": "Different lineage is not zero correlation. Large language models of different families are trained on overlapping public corpora and shaped by similar techniques; the invitation for OBS-AI-0003 must require a declared dependence profile that estimates this residual correlation honestly rather than claiming full independence - the exact over-claim the field already had to correct once (OBS-0008)."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered"
+    ],
+    "position": "the human selects the third AI observer for lineage difference, following the correction of the field's first independence over-claim"
+  },
+  "distinctions": [
+    "choosing an observer for capability vs choosing one for axis difference - this is the latter",
+    "different lineage vs full independence - overlapping training corpora keep residual correlation above zero",
+    "the human as delivery channel (established, with known epsilon) vs the human as selector of who observes next (exercised here)"
+  ],
+  "origin_trace": {
+    "origin_kind": "human-expression",
+    "origin_ref": "seed conversation, turn following acceptance of F6",
+    "capture_time": "2026-08-02T21:48:12Z"
+  },
+  "origin_confirmation": "confirmed"
+}
