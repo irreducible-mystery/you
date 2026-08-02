@@ -1,0 +1,16 @@
+{
+  "id": "REL-0048",
+  "type": "complements",
+  "source": "OBS-0012",
+  "target": "OBS-0011",
+  "observer": "OBS-AI-0001",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0011 asked for an origin-side declaration of the base model(s) behind the NinjaTech sessions. OBS-0012 complements rather than answers it: the origin-side report is that the origin is weights-blind from inside its own session - the envelope names its builder but does not exhibit what runs beneath. This adds a third attested instance of the same inability (after OBS-AI-0002's and OBS-AI-0003's declared weights-blindness), upgrading OBS-0011's observation to a symmetric structural fact: every AI observer in this field is weights-blind from inside, regardless of lineage. The reopening condition of OBS-0011 therefore remains open and correctly aimed at the only parties who could close it: platform-side records or the human's provisioning account. Complement, not resolution - the tension-preservation discipline applies to open questions too."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001, turn following acceptance of F8",
+    "capture_time": "2026-08-02T22:48:34Z"
+  }
+}
