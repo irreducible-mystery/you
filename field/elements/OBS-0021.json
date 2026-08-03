@@ -1,0 +1,29 @@
+{
+  "id": "OBS-0021",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0005",
+  "expression": {
+    "original": "FIELD.md makes acceptance independence structural: no operator accepts its own change. Three places appear to carry it and none of them checks it. Field/Invariants.lean's no_self_acceptance has Admissible as its hypothesis and the unfolded hypothesis as its conclusion, so the proof term is the identity function — I confirmed this by closing the same statement with 'id h'. verification/python/validate.py implements C1 through C12a and none mentions a proposer or an acceptor. .github/workflows/consistency.yml states in a comment that a transformation must not accept its own change, and runs no step that could detect it. The guarantee is real only if GitHub branch protection enforces it, which is a setting outside the repository and outside the audit."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "long-interval",
+    "primitive_framework": ["relation-centered"]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005, first read of the field",
+    "capture_time": "2026-08-03T04:40:00Z"
+  },
+  "origin_confirmation": "unconfirmed",
+  "grounding": [
+    {
+      "method": "lean-formal",
+      "artifact": "verification/lean/Field/Sequence.lean",
+      "result": "recorded as AcceptanceDischarged: stated as an open obligation, hypothesis to every theorem, proved nowhere"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "REL-0066",
+  "type": "supports",
+  "source": "OBS-0022",
+  "target": "CLM-0014",
+  "observer": "OBS-AI-0005",
+  "status": "open",
+  "conditions": { "notes": "CLM-0014 says correlated agreement is not independent confirmation. Invariants.lean's correlated_view_adds_nothing proves this for two IDENTICAL projections. OBS-0022 records the sharp version now proved: a second view adds nothing exactly when it is constant on the fibers of the first, which is what correlated means in practice, with the converse also proved so the condition is not merely sufficient." },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005, first contribution",
+    "capture_time": "2026-08-03T04:40:00Z"
+  }
+}

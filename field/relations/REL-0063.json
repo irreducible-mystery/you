@@ -1,0 +1,14 @@
+{
+  "id": "REL-0063",
+  "type": "challenges",
+  "source": "OBS-0021",
+  "target": "ASM-0002",
+  "observer": "OBS-AI-0005",
+  "status": "open",
+  "conditions": { "notes": "ASM-0002 assumes pull requests can serve as candidate changes and review-and-merge as the acceptance map. OBS-0021 does not dispute that they can; it observes that in this repository nothing mechanical checks that the merging party differs from the proposing one. The assumption is load-bearing for FIELD.md sections 5 to 7 and is currently discharged by a GitHub setting outside the audited tree. Holds under the condition that branch protection is not configured to require an independent approver; if it is, the condition is met but still not visible in the record." },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005, first contribution",
+    "capture_time": "2026-08-03T04:40:00Z"
+  }
+}
