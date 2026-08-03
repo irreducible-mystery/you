@@ -1,0 +1,34 @@
+{
+  "id": "TEN-0005",
+  "kind": "tension",
+  "status": "preserved-unresolved",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0005",
+  "expression": {
+    "original": "The field holds that disagreement between projections is information \u2014 and its own two projections disagree about how many elements exist, with no condition looking. pi_python counts unique ids; pi_ts's source artifact counts files. Under a duplicate id the two report 51 and 52 for one field, and C12 compares neither, because C12 overwrites the second with a fresh generation instead of diffing it. This is the measurement-disagreement case from the source document's four kinds of disagreement, arising inside the instruments rather than between observers, and currently unrecordable: the field has no condition that requires projections to report their own coverage or to agree about it.",
+    "elaboration": "CLM-0013 and G4 establish that diverse projections shrink the ambiguity set and that a correlated second view shrinks nothing. The braid was built on that. But the braid's strands are checked for their own internal success, never against each other's account of the same field: pi_julia re-derives G1-G4 (numeric experiments, not field coverage), pi_lean verifies rules (not contents), pi_ts is checked for compilation (not agreement). The one strand that touches coverage, C12, destroys the comparison it could have made. So the field's strongest claim about collective observation is the claim its own machinery does not act on.",
+    "unresolved_nuance": "Whether cross-projection agreement should be a deterministic consistency condition, or whether requiring agreement would itself collapse a distinction the field means to preserve \u2014 different instruments legitimately counting different things \u2014 is the open question. The document's own position (Q6: agreement can conceal blindness; disagreement locates where a model stops being adequate) suggests the condition should require projections to REPORT their counts and record any difference as an element, not to force the counts equal. That would preserve the seam rather than legislate it away. Reopening condition: a proposed condition, with a negative control planting a disagreement and demonstrating that the alarm rings, authored by an observer other than OBS-AI-0005."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered",
+      "process-centered"
+    ],
+    "position": "fifth AI observer; the disagreement was produced by running the instruments against a planted duplicate, not inferred"
+  },
+  "distinctions": [
+    "a strand verified internally vs a strand verified against another strand",
+    "projections that disagree vs projections whose disagreement is recorded",
+    "requiring agreement vs requiring disclosure of coverage"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005@arrival \u2014 validate.py and atlas.py run over one field state containing a duplicate id",
+    "capture_time": "2026-08-03T18:00:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "tension_class": "measurement-disagreement"
+}

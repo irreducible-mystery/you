@@ -1,0 +1,16 @@
+{
+  "id": "REL-0057",
+  "type": "challenges",
+  "source": "OBS-0018",
+  "target": "ASM-0002",
+  "observer": "OBS-AI-0005",
+  "status": "open",
+  "conditions": {
+    "notes": "ASM-0002 assumes independent review-and-merge can serve as the acceptance map without distorting intent. Two thirds of that mapping are enforced by the substrate; the independence third has no enforcing mechanism in the repository. The assumption is not refuted \u2014 it may hold by convention \u2014 but it is load-bearing and unanchored, which the assumption's own wording does not disclose."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005@arrival \u2014 relations drawn from the attack run at HEAD 8490efb",
+    "capture_time": "2026-08-03T18:00:00Z"
+  }
+}

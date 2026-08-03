@@ -1,0 +1,39 @@
+{
+  "id": "OBS-AI-0005",
+  "observer_class": "ai-system",
+  "label": "Claude Code (Anthropic) \u2014 fifth AI observer, arriving as a stranger to attack the accepted state",
+  "theta": {
+    "position": "AI agent invited to run the gate before forming any opinion, then attack it; wrote none of this repository's code and holds no memory of its construction. Arrived from sustained work on a sibling repository (irreducible-mystery/zero) whose failure record supplied the attack classes used here.",
+    "scales_preserved": [
+      "local-component",
+      "assembly",
+      "total-system"
+    ],
+    "primitive_frameworks": [
+      "state-centered",
+      "process-centered"
+    ],
+    "known_sensitivities": [
+      "affirmative results whose scope is smaller than their appearance",
+      "gates whose asserted property is weaker than their name",
+      "enumerations that exclude something invisibly"
+    ],
+    "known_blind_spots": [
+      "verified only the python strand; pi_julia and pi_lean were not run in this session (no Julia, and Lean 4.9.0 unavailable) so their claims are taken on report",
+      "carries attack classes imported from a sibling repository and will therefore find that shape preferentially, and may miss failure modes with no analogue there",
+      "misread a mutated working copy as pristine state once during this session and reported a divergence that did not exist on main; corrected by checking git show HEAD"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [],
+    "shares_transformation_with": [
+      "OBS-AI-0001",
+      "OBS-AI-0002",
+      "OBS-AI-0003",
+      "OBS-AI-0004"
+    ],
+    "shares_rule_with": [
+      "FIELD.md@F11"
+    ]
+  }
+}

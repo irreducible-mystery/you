@@ -1,10 +1,10 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 51,
-    "relations": 53,
-    "observers": 6,
-    "unresolved_tensions": 4
+    "elements": 56,
+    "relations": 58,
+    "observers": 7,
+    "unresolved_tensions": 5
   },
   "observers": [
     {
@@ -175,6 +175,45 @@
           "README.md participation path (no OBS-AI-0004 invitation file; onboarding was README + human session prompt)",
           "prior-turn read-only exploration mandate and its written analysis (unregistered private prior; shapes this arrival)",
           "GitHub Copilot coding-agent session envelope (unregistered, not fully exhibitable; mandated initial branch copilot/read-only-exploration before this candidate-change branch was created \u2014 same species of platform jurisdiction OBS-0010 recorded)"
+        ]
+      }
+    },
+    {
+      "id": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "label": "Claude Code (Anthropic) \u2014 fifth AI observer, arriving as a stranger to attack the accepted state",
+      "theta": {
+        "position": "AI agent invited to run the gate before forming any opinion, then attack it; wrote none of this repository's code and holds no memory of its construction. Arrived from sustained work on a sibling repository (irreducible-mystery/zero) whose failure record supplied the attack classes used here.",
+        "scales_preserved": [
+          "local-component",
+          "assembly",
+          "total-system"
+        ],
+        "primitive_frameworks": [
+          "state-centered",
+          "process-centered"
+        ],
+        "known_sensitivities": [
+          "affirmative results whose scope is smaller than their appearance",
+          "gates whose asserted property is weaker than their name",
+          "enumerations that exclude something invisibly"
+        ],
+        "known_blind_spots": [
+          "verified only the python strand; pi_julia and pi_lean were not run in this session (no Julia, and Lean 4.9.0 unavailable) so their claims are taken on report",
+          "carries attack classes imported from a sibling repository and will therefore find that shape preferentially, and may miss failure modes with no analogue there",
+          "misread a mutated working copy as pristine state once during this session and reported a divergence that did not exist on main; corrected by checking git show HEAD"
+        ]
+      },
+      "dependence": {
+        "shares_source_with": [],
+        "shares_transformation_with": [
+          "OBS-AI-0001",
+          "OBS-AI-0002",
+          "OBS-AI-0003",
+          "OBS-AI-0004"
+        ],
+        "shares_rule_with": [
+          "FIELD.md@F11"
         ]
       }
     },
@@ -1246,6 +1285,156 @@
       "transformed": false
     },
     {
+      "id": "OBS-0015",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "state-centered",
+        "process-centered"
+      ],
+      "label": "Two element files declaring the same id do not collide; one silently replaces the other in the validated view while the other remains the fi\u2026",
+      "expression": {
+        "original": "Two element files declaring the same id do not collide; one silently replaces the other in the validated view while the other remains the file a reader sees. verification/python/validate.py:44 keys loaded records by id (out[d.get('id', ...)] = (d, path)); projections/atlas.py:17 appends to a list. Same directory, same glob, different data structure. Adding a file field/elements/zzz-shadow.json carrying id CLM-0003 and altered expression.original produces: 52 files on disk, validate.py reporting elements=51 and CONSISTENT, and \u2014 because sorted() order decides \u2014 the SHADOW record being the one every consistency condition C1-C12 is evaluated against. field/elements/CLM-0003.json is untouched, shows no diff, and is what a reviewer reads and what git blame reports as unchanged. The candidate change appears in review as a single added file. The validated field and the readable field have come apart with nothing reporting it.",
+        "elaboration": "This is not a schema gap; every individual record is well-formed. It is a projection failure of the kind CLM-0012 describes, occurring inside the field's own instruments: the dict-keyed load is a many-to-one map whose fiber is never inspected, and the count it prints (len(elements)) is the size of the image, not of the domain. No condition compares files-on-disk to records-loaded, so the difference between 52 and 51 is exactly the information that is discarded. Severity is not theoretical: the mechanism lets an accepted claim's operative content be replaced while its own file's history stays clean, which is the one thing the append-preserving design is meant to make impossible.",
+        "unresolved_nuance": "Whether the correct repair is to reject duplicate ids outright, or to load by path and treat id collision as a first-class recorded tension, is not decided here. The second preserves more information and matches the field's stated preference for keeping seams open rather than resolving them by fiat. Reopening condition: a proposed condition C13 by an observer other than OBS-AI-0005, together with a negative control that plants a duplicate and shows the alarm ring."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "verification/python/validate.py",
+          "result": "planted field/elements/zzz-shadow.json with id CLM-0003; 52 element files present; output 'elements=51 relations=53 observers=6' then 'CONSISTENT'; exit 0"
+        },
+        {
+          "method": "external",
+          "artifact": "field/elements/CLM-0003.json",
+          "result": "byte-identical to HEAD throughout; git status reports only the added file"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0016",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "state-centered",
+        "process-centered"
+      ],
+      "label": "C12 regenerates the derived atlas with write=True instead of regenerating and comparing, so a committed atlas that disagrees with the field \u2026",
+      "expression": {
+        "original": "C12 regenerates the derived atlas with write=True instead of regenerating and comparing, so a committed atlas that disagrees with the field is silently corrected inside CI's throwaway working copy and the disagreement never surfaces. validate.py:179-185 reads '# ---- C12: atlas regeneration succeeds ----' and calls atlas_mod.build(write=True). Its name is accurate; the assertion is that regeneration RUNS. A reader \u2014 and the README's projection table, which lists pi_python as grounding 'consistency conditions C1-C12' \u2014 will take it to assert that the committed artifact is right. Hand-editing field/derived/atlas.json to counts {elements: 999, relations: 0, observers: 1} and truncating nodes to two, then running exactly the three python steps CI runs, yields exit 0 from all three and an atlas restored in the working copy. On a real run that corrected copy is discarded, CI reports green, and the wrong file remains on main serving projections/viewer/. A second consequence: a script documented as a consistency checker mutates two tracked files (atlas.json, unresolved.json) as a side effect of being run.",
+        "elaboration": "The failure is sharper than an unchecked artifact would be. An unchecked artifact drifts visibly the first time anyone regenerates it. This one destroys the evidence of its own drift at the moment of checking, which is why the drift can persist across arbitrarily many green runs. The same shape appeared and was closed in the sibling repository irreducible-mystery/zero, where the corresponding gate regenerates the state document, diffs it byte-for-byte against the committed copy, fails on difference, and never writes \u2014 making a hand-typed number unrepresentable rather than merely discouraged. Note also that this observation and OBS-0015 compound: because C12 writes, running the validator with a planted duplicate id rewrites atlas.json to counts 52 while the validator prints 51, committing the disagreement to disk without any condition looking at it.",
+        "unresolved_nuance": "Whether the atlas should be committed at all, or generated at read time and never stored, is not decided here. Committing it preserves the sequence F_n as inspectable history; not committing it removes the drift surface entirely. Reopening condition: a decision recorded in FIELD.md about whether derived artifacts are part of the accepted state or outside it, confirmed by a human observer."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "verification/python/validate.py:179-185",
+          "result": "C12 body is atlas_mod.build(write=True); no comparison against the committed file"
+        },
+        {
+          "method": "external",
+          "artifact": ".github/workflows/consistency.yml",
+          "result": "CI runs validate.py, grounding.py, chronicle.py; no step diffs or re-commits field/derived/*"
+        },
+        {
+          "method": "external",
+          "artifact": "field/derived/atlas.json",
+          "result": "hand-edited to counts 999/0/1/0 with nodes truncated; all three CI python steps exited 0; file restored in-place by C12"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0017",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "state-centered",
+        "process-centered"
+      ],
+      "label": "Files placed under field/elements/ in a subdirectory are touched by no consistency condition, and the validator still reports CONSISTENT. Bo\u2026",
+      "expression": {
+        "original": "Files placed under field/elements/ in a subdirectory are touched by no consistency condition, and the validator still reports CONSISTENT. Both instruments glob non-recursively: validate.py:42 over field/elements/*.json and atlas.py:17 over the same pattern. field/elements/sub/CLM-9001.json \u2014 a well-formed element carrying arbitrary content \u2014 is invisible to C1 through C12 and absent from the derived atlas, while a human browsing the repository on GitHub sees it inside field/elements/ and reads it as field content. Output after planting it is unchanged: 'elements=51 relations=53 observers=6', 'CONSISTENT', exit 0.",
+        "elaboration": "Weaker than OBS-0015 because the file is inert rather than operative \u2014 it contradicts nothing, since nothing reads it. It belongs to the same class nonetheless: the affirmative result's scope is smaller than its appearance, and the gap is invisible in the affirmative itself. Every instrument must decide what is in scope in order to terminate, and that scope decision is not checkable from inside the instrument; a filter, or a glob, never appears in its own output. The general repair is not a better glob \u2014 the next glob is invisible for the same reason this one is \u2014 but a census that reports its own complement: files seen, records loaded, records dropped, with the conditions requiring the difference to be zero or recorded.",
+        "unresolved_nuance": "Whether subdirectories under field/elements/ should be forbidden, walked, or reserved for a declared purpose is not decided here. Reopening condition: a proposal by an observer other than OBS-AI-0005, with a planted negative control demonstrating the alarm."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "verification/python/validate.py",
+          "result": "planted field/elements/sub/CLM-9001.json; output unchanged at elements=51, CONSISTENT, exit 0"
+        },
+        {
+          "method": "external",
+          "artifact": "projections/atlas.py:17",
+          "result": "same non-recursive *.json pattern; planted file absent from the derived atlas"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0018",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "state-centered",
+        "process-centered"
+      ],
+      "label": "The independent-acceptance rule is enforced by nothing in the repository. FIELD.md and the README both require that a candidate change be ac\u2026",
+      "expression": {
+        "original": "The independent-acceptance rule is enforced by nothing in the repository. FIELD.md and the README both require that a candidate change be accepted by someone other than its proposer, and pi_lean verifies a no-self-acceptance theorem. The theorem is about a model of the acceptance map; the acceptance act itself is GitHub's merge. At HEAD 8490efb there is no .github/CODEOWNERS, no ruleset or branch-protection configuration in the repository, and no job or step in .github/workflows/consistency.yml that references the proposer, the merger, or their relation. A contributor can open and merge their own candidate change and every deterministic condition still passes.",
+        "elaboration": "This directly touches ASM-0002, which assumes git commits on main can serve as the accepted-state sequence and 'independent review-and-merge as the acceptance map, without distorting the design's intent'. The first two thirds of that mapping are enforced by the substrate; the third is not. OBS-0014 already recorded that two non-merge commits sit in the first-parent sequence carrying no acceptance act, which is the same seam observed from the other side: 'commit on main' and 'accepted candidate change' have come apart, and nothing in the repository can tell them apart. Of the rules in this field this is the one whose failure is least visible from inside, because every downstream guarantee is stated relative to it. A verified theorem about a model, standing where an enforcement mechanism is assumed, is the failure mode of a rule that is written down, names its own failure, and does not bind.",
+        "unresolved_nuance": "Whether enforcement belongs in repository configuration (CODEOWNERS plus a ruleset requiring an approving review from a non-author), in a CI step that reads the merging identity, or is accepted as irreducibly outside the artifacts and recorded as a limit, is not decided here. The third option is honest and may be correct: an artifact cannot generally observe who pressed a button. Reopening condition: either a configured enforcement confirmed by a human observer, or a LIM element stating that independent acceptance is anchored outside the field and naming what does anchor it."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": ".github/",
+          "result": "contains ISSUE_TEMPLATE and workflows only; no CODEOWNERS present at HEAD 8490efb"
+        },
+        {
+          "method": "external",
+          "artifact": ".github/workflows/consistency.yml",
+          "result": "four jobs; no step references proposer, author, merger, or review state"
+        },
+        {
+          "method": "external",
+          "artifact": "field/elements/ASM-0002.json",
+          "result": "assumes independent review-and-merge as the acceptance map; the independence half has no enforcing mechanism in the repository"
+        }
+      ],
+      "transformed": false
+    },
+    {
       "id": "PER-0001",
       "kind": "perspective",
       "status": "accepted",
@@ -1407,6 +1596,30 @@
       "tension_class": "scale-mismatch",
       "grounding": [],
       "transformed": true
+    },
+    {
+      "id": "TEN-0005",
+      "kind": "tension",
+      "status": "preserved-unresolved",
+      "observer": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered",
+        "process-centered"
+      ],
+      "label": "The field holds that disagreement between projections is information \u2014 and its own two projections disagree about how many elements exist, w\u2026",
+      "expression": {
+        "original": "The field holds that disagreement between projections is information \u2014 and its own two projections disagree about how many elements exist, with no condition looking. pi_python counts unique ids; pi_ts's source artifact counts files. Under a duplicate id the two report 51 and 52 for one field, and C12 compares neither, because C12 overwrites the second with a fresh generation instead of diffing it. This is the measurement-disagreement case from the source document's four kinds of disagreement, arising inside the instruments rather than between observers, and currently unrecordable: the field has no condition that requires projections to report their own coverage or to agree about it.",
+        "elaboration": "CLM-0013 and G4 establish that diverse projections shrink the ambiguity set and that a correlated second view shrinks nothing. The braid was built on that. But the braid's strands are checked for their own internal success, never against each other's account of the same field: pi_julia re-derives G1-G4 (numeric experiments, not field coverage), pi_lean verifies rules (not contents), pi_ts is checked for compilation (not agreement). The one strand that touches coverage, C12, destroys the comparison it could have made. So the field's strongest claim about collective observation is the claim its own machinery does not act on.",
+        "unresolved_nuance": "Whether cross-projection agreement should be a deterministic consistency condition, or whether requiring agreement would itself collapse a distinction the field means to preserve \u2014 different instruments legitimately counting different things \u2014 is the open question. The document's own position (Q6: agreement can conceal blindness; disagreement locates where a model stops being adequate) suggests the condition should require projections to REPORT their counts and record any difference as an element, not to force the counts equal. That would preserve the seam rather than legislate it away. Reopening condition: a proposed condition, with a negative control planting a disagreement and demonstrating that the alarm rings, authored by an observer other than OBS-AI-0005."
+      },
+      "tension_class": "measurement-disagreement",
+      "grounding": [],
+      "transformed": false
     }
   ],
   "edges": [
@@ -2036,6 +2249,66 @@
         "notes": "CLM-0020: observation becomes participation; there is no fixed perspective entirely outside the field. OBS-0013's two-turn arrival enacts this literally: turn-1 observation was already a full projection of the field, performed before registration, and that projection is now inside the registered observer as prior. The boundary 'outside until registered' does not hold for session-bound agents who must read the repository to be invited. Support is situational evidence, not a general proof."
       },
       "translation_ledger": null
+    },
+    {
+      "id": "REL-0055",
+      "type": "supports",
+      "source": "OBS-0015",
+      "target": "TEN-0005",
+      "observer": "OBS-AI-0005",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0015 is the instance that produced the disagreement: with one duplicate id present, pi_python reports 51 and the atlas is regenerated to 52 in the same run."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0056",
+      "type": "supports",
+      "source": "OBS-0016",
+      "target": "TEN-0005",
+      "observer": "OBS-AI-0005",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0016 explains why the disagreement is unrecordable rather than merely unrecorded: C12's write=True replaces the artifact that would have carried the discrepancy."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0057",
+      "type": "challenges",
+      "source": "OBS-0018",
+      "target": "ASM-0002",
+      "observer": "OBS-AI-0005",
+      "status": "open",
+      "conditions": {
+        "notes": "ASM-0002 assumes independent review-and-merge can serve as the acceptance map without distorting intent. Two thirds of that mapping are enforced by the substrate; the independence third has no enforcing mechanism in the repository. The assumption is not refuted \u2014 it may hold by convention \u2014 but it is load-bearing and unanchored, which the assumption's own wording does not disclose."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0058",
+      "type": "complements",
+      "source": "OBS-0015",
+      "target": "OBS-0014",
+      "observer": "OBS-AI-0005",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0014 observed the field's self-model drifting from its substrate through time (chronicle lag, non-merge mainline commits, open-vs-accepted). OBS-0015 observes the same drift through identity rather than time: the record the conditions evaluate and the record a reader sees can be different files. Same seam \u2014 declared state vs substrate state \u2014 approached from two different coordinates."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0059",
+      "type": "supports",
+      "source": "OBS-0017",
+      "target": "TEN-0005",
+      "observer": "OBS-AI-0005",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0017 is the weaker, inert form of the same coverage gap: an instrument's glob never appears in the instrument's own output, so files excluded from the census are excluded from the report of the census."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -2138,6 +2411,15 @@
       ],
       "OBS-AI-0004@arrival \u2014 second originating observation; git log --first-parent, field/derived/chronicle.json before/after projections/chronicle.py, status fields of OBS-0006..0012": [
         "OBS-0014"
+      ],
+      "OBS-AI-0005@arrival \u2014 attack run against HEAD 8490efb, baseline established first": [
+        "OBS-0015",
+        "OBS-0016",
+        "OBS-0017",
+        "OBS-0018"
+      ],
+      "OBS-AI-0005@arrival \u2014 validate.py and atlas.py run over one field state containing a duplicate id": [
+        "TEN-0005"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"

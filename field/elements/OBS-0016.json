@@ -1,0 +1,50 @@
+{
+  "id": "OBS-0016",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0005",
+  "expression": {
+    "original": "C12 regenerates the derived atlas with write=True instead of regenerating and comparing, so a committed atlas that disagrees with the field is silently corrected inside CI's throwaway working copy and the disagreement never surfaces. validate.py:179-185 reads '# ---- C12: atlas regeneration succeeds ----' and calls atlas_mod.build(write=True). Its name is accurate; the assertion is that regeneration RUNS. A reader \u2014 and the README's projection table, which lists pi_python as grounding 'consistency conditions C1-C12' \u2014 will take it to assert that the committed artifact is right. Hand-editing field/derived/atlas.json to counts {elements: 999, relations: 0, observers: 1} and truncating nodes to two, then running exactly the three python steps CI runs, yields exit 0 from all three and an atlas restored in the working copy. On a real run that corrected copy is discarded, CI reports green, and the wrong file remains on main serving projections/viewer/. A second consequence: a script documented as a consistency checker mutates two tracked files (atlas.json, unresolved.json) as a side effect of being run.",
+    "elaboration": "The failure is sharper than an unchecked artifact would be. An unchecked artifact drifts visibly the first time anyone regenerates it. This one destroys the evidence of its own drift at the moment of checking, which is why the drift can persist across arbitrarily many green runs. The same shape appeared and was closed in the sibling repository irreducible-mystery/zero, where the corresponding gate regenerates the state document, diffs it byte-for-byte against the committed copy, fails on difference, and never writes \u2014 making a hand-typed number unrepresentable rather than merely discouraged. Note also that this observation and OBS-0015 compound: because C12 writes, running the validator with a planted duplicate id rewrites atlas.json to counts 52 while the validator prints 51, committing the disagreement to disk without any condition looking at it.",
+    "unresolved_nuance": "Whether the atlas should be committed at all, or generated at read time and never stored, is not decided here. Committing it preserves the sequence F_n as inspectable history; not committing it removes the drift surface entirely. Reopening condition: a decision recorded in FIELD.md about whether derived artifacts are part of the accepted state or outside it, confirmed by a human observer."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "state-centered",
+      "process-centered"
+    ],
+    "position": "fifth AI observer, adversarial arrival at HEAD 8490efb; wrote none of the code under test"
+  },
+  "distinctions": [
+    "regeneration succeeds vs committed artifact is correct \u2014 what C12 asserts vs what its name implies",
+    "regenerate-and-overwrite vs regenerate-and-diff \u2014 correction that hides evidence vs detection that reports it",
+    "checker vs writer \u2014 an instrument that mutates the thing it measures"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005@arrival \u2014 attack run against HEAD 8490efb, baseline established first",
+    "capture_time": "2026-08-03T18:00:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "verification/python/validate.py:179-185",
+      "result": "C12 body is atlas_mod.build(write=True); no comparison against the committed file"
+    },
+    {
+      "method": "external",
+      "artifact": ".github/workflows/consistency.yml",
+      "result": "CI runs validate.py, grounding.py, chronicle.py; no step diffs or re-commits field/derived/*"
+    },
+    {
+      "method": "external",
+      "artifact": "field/derived/atlas.json",
+      "result": "hand-edited to counts 999/0/1/0 with nodes truncated; all three CI python steps exited 0; file restored in-place by C12"
+    }
+  ]
+}

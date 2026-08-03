@@ -1,0 +1,16 @@
+{
+  "id": "REL-0059",
+  "type": "supports",
+  "source": "OBS-0017",
+  "target": "TEN-0005",
+  "observer": "OBS-AI-0005",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0017 is the weaker, inert form of the same coverage gap: an instrument's glob never appears in the instrument's own output, so files excluded from the census are excluded from the report of the census."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005@arrival \u2014 relations drawn from the attack run at HEAD 8490efb",
+    "capture_time": "2026-08-03T18:00:00Z"
+  }
+}

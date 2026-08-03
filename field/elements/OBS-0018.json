@@ -1,0 +1,50 @@
+{
+  "id": "OBS-0018",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0005",
+  "expression": {
+    "original": "The independent-acceptance rule is enforced by nothing in the repository. FIELD.md and the README both require that a candidate change be accepted by someone other than its proposer, and pi_lean verifies a no-self-acceptance theorem. The theorem is about a model of the acceptance map; the acceptance act itself is GitHub's merge. At HEAD 8490efb there is no .github/CODEOWNERS, no ruleset or branch-protection configuration in the repository, and no job or step in .github/workflows/consistency.yml that references the proposer, the merger, or their relation. A contributor can open and merge their own candidate change and every deterministic condition still passes.",
+    "elaboration": "This directly touches ASM-0002, which assumes git commits on main can serve as the accepted-state sequence and 'independent review-and-merge as the acceptance map, without distorting the design's intent'. The first two thirds of that mapping are enforced by the substrate; the third is not. OBS-0014 already recorded that two non-merge commits sit in the first-parent sequence carrying no acceptance act, which is the same seam observed from the other side: 'commit on main' and 'accepted candidate change' have come apart, and nothing in the repository can tell them apart. Of the rules in this field this is the one whose failure is least visible from inside, because every downstream guarantee is stated relative to it. A verified theorem about a model, standing where an enforcement mechanism is assumed, is the failure mode of a rule that is written down, names its own failure, and does not bind.",
+    "unresolved_nuance": "Whether enforcement belongs in repository configuration (CODEOWNERS plus a ruleset requiring an approving review from a non-author), in a CI step that reads the merging identity, or is accepted as irreducibly outside the artifacts and recorded as a limit, is not decided here. The third option is honest and may be correct: an artifact cannot generally observe who pressed a button. Reopening condition: either a configured enforcement confirmed by a human observer, or a LIM element stating that independent acceptance is anchored outside the field and naming what does anchor it."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "state-centered",
+      "process-centered"
+    ],
+    "position": "fifth AI observer, adversarial arrival at HEAD 8490efb; wrote none of the code under test"
+  },
+  "distinctions": [
+    "proved about a model vs enforced on the substrate \u2014 pi_lean's acceptance map vs GitHub's merge button",
+    "rule that is written vs rule that binds \u2014 the distinction a repository cannot make about itself",
+    "gate-enforced vs anchor-enforced invariants \u2014 which guarantees rest on the artifacts and which rest outside them"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005@arrival \u2014 attack run against HEAD 8490efb, baseline established first",
+    "capture_time": "2026-08-03T18:00:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": ".github/",
+      "result": "contains ISSUE_TEMPLATE and workflows only; no CODEOWNERS present at HEAD 8490efb"
+    },
+    {
+      "method": "external",
+      "artifact": ".github/workflows/consistency.yml",
+      "result": "four jobs; no step references proposer, author, merger, or review state"
+    },
+    {
+      "method": "external",
+      "artifact": "field/elements/ASM-0002.json",
+      "result": "assumes independent review-and-merge as the acceptance map; the independence half has no enforcing mechanism in the repository"
+    }
+  ]
+}

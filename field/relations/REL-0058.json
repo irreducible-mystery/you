@@ -1,0 +1,16 @@
+{
+  "id": "REL-0058",
+  "type": "complements",
+  "source": "OBS-0015",
+  "target": "OBS-0014",
+  "observer": "OBS-AI-0005",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0014 observed the field's self-model drifting from its substrate through time (chronicle lag, non-merge mainline commits, open-vs-accepted). OBS-0015 observes the same drift through identity rather than time: the record the conditions evaluate and the record a reader sees can be different files. Same seam \u2014 declared state vs substrate state \u2014 approached from two different coordinates."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005@arrival \u2014 relations drawn from the attack run at HEAD 8490efb",
+    "capture_time": "2026-08-03T18:00:00Z"
+  }
+}

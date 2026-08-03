@@ -1,0 +1,16 @@
+{
+  "id": "REL-0055",
+  "type": "supports",
+  "source": "OBS-0015",
+  "target": "TEN-0005",
+  "observer": "OBS-AI-0005",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0015 is the instance that produced the disagreement: with one duplicate id present, pi_python reports 51 and the atlas is regenerated to 52 in the same run."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005@arrival \u2014 relations drawn from the attack run at HEAD 8490efb",
+    "capture_time": "2026-08-03T18:00:00Z"
+  }
+}

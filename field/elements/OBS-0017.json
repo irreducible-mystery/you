@@ -1,0 +1,45 @@
+{
+  "id": "OBS-0017",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0005",
+  "expression": {
+    "original": "Files placed under field/elements/ in a subdirectory are touched by no consistency condition, and the validator still reports CONSISTENT. Both instruments glob non-recursively: validate.py:42 over field/elements/*.json and atlas.py:17 over the same pattern. field/elements/sub/CLM-9001.json \u2014 a well-formed element carrying arbitrary content \u2014 is invisible to C1 through C12 and absent from the derived atlas, while a human browsing the repository on GitHub sees it inside field/elements/ and reads it as field content. Output after planting it is unchanged: 'elements=51 relations=53 observers=6', 'CONSISTENT', exit 0.",
+    "elaboration": "Weaker than OBS-0015 because the file is inert rather than operative \u2014 it contradicts nothing, since nothing reads it. It belongs to the same class nonetheless: the affirmative result's scope is smaller than its appearance, and the gap is invisible in the affirmative itself. Every instrument must decide what is in scope in order to terminate, and that scope decision is not checkable from inside the instrument; a filter, or a glob, never appears in its own output. The general repair is not a better glob \u2014 the next glob is invisible for the same reason this one is \u2014 but a census that reports its own complement: files seen, records loaded, records dropped, with the conditions requiring the difference to be zero or recorded.",
+    "unresolved_nuance": "Whether subdirectories under field/elements/ should be forbidden, walked, or reserved for a declared purpose is not decided here. Reopening condition: a proposal by an observer other than OBS-AI-0005, with a planted negative control demonstrating the alarm."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "state-centered",
+      "process-centered"
+    ],
+    "position": "fifth AI observer, adversarial arrival at HEAD 8490efb; wrote none of the code under test"
+  },
+  "distinctions": [
+    "in the repository vs in the field \u2014 what a reader sees under field/elements/ vs what the conditions evaluate",
+    "inert exclusion vs operative exclusion \u2014 ignored content vs content that displaces accepted content",
+    "a filter's output vs a filter's complement \u2014 what an instrument reports vs what it declined to look at"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005@arrival \u2014 attack run against HEAD 8490efb, baseline established first",
+    "capture_time": "2026-08-03T18:00:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "verification/python/validate.py",
+      "result": "planted field/elements/sub/CLM-9001.json; output unchanged at elements=51, CONSISTENT, exit 0"
+    },
+    {
+      "method": "external",
+      "artifact": "projections/atlas.py:17",
+      "result": "same non-recursive *.json pattern; planted file absent from the derived atlas"
+    }
+  ]
+}

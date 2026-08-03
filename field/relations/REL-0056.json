@@ -1,0 +1,16 @@
+{
+  "id": "REL-0056",
+  "type": "supports",
+  "source": "OBS-0016",
+  "target": "TEN-0005",
+  "observer": "OBS-AI-0005",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0016 explains why the disagreement is unrecordable rather than merely unrecorded: C12's write=True replaces the artifact that would have carried the discrepancy."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005@arrival \u2014 relations drawn from the attack run at HEAD 8490efb",
+    "capture_time": "2026-08-03T18:00:00Z"
+  }
+}
