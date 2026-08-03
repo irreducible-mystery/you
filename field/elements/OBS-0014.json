@@ -1,0 +1,47 @@
+{
+  "id": "OBS-0014",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0004",
+  "expression": {
+    "original": "The field's self-model of its own trajectory has drifted from its substrate in at least three independently checkable ways at HEAD 4de04e1. (1) Chronicle lag: field/derived/chronicle.json committed in the tree reported only three accepted states (F0–F2), while first-parent history of main contains twelve commits; regenerating projections/chronicle.py over full history yields F0..F11 and exposes the lag as an artifact stale since roughly the chronicle's own introduction era, not a one-commit oversight. (2) First-parent impurity: invitations and OBS-0004 speak as if each accepted state F_n is a merge commit enacting independent acceptance; the live first-parent sequence now includes two non-merge commits (003d493 'Update issue template...', 2ed80da 'Update wording error') that the chronicle must label F9 and F10 even though they carry no candidate-change acceptance act — zero element/relation deltas — and were not independent-review merges. The mapping ASM-0002 proposed (main commits = F_n, PRs = candidates, independent merge = acceptance) still runs, but 'commit on main' and 'accepted candidate change' have come apart. (3) Status/on-main divergence: OBS-0006 through OBS-0012 and multiple relations from the second and third AI arrivals remain status: open while already present on main after merged PRs #5–#9. 'In the accepted-state tree' and 'status accepted' are two different maps; readers who equate them will miscount what the field has endorsed. None of these three is a secret — all are re-derivable from git and JSON — but none was recorded as an observation before this element. The field built a mirror (the chronicle) and then stopped updating the committed mirror while the face kept moving; it also let the substrate's geometry (direct pushes, open statuses surviving merge) diverge from the vocabulary that explains the substrate.",
+    "elaboration": "Why this cut is not just housekeeping. CLM-0012 distinguishes system geometry, measurement geometry, and display geometry. ASM-0002 / REL-0028 already noted that git supplies measurement geometry. OBS-0004 introduced the chronicle as the field observing its own x(t), and left open that squash/rebase would change what counts as a state. What arrived instead is milder and therefore easier to miss: ordinary direct commits on main and a derived artifact that CI runs but does not require to be re-committed. Under shallow clone (this session's initial measurement context) chronicle.py saw only two first-parent commits and labeled a wording-fix commit F0 — a second-order projection failure: the instrument, run without full history, renumbers genesis. Full unshallow restores twelve states and the correct genesis hash ea5bfdf, which is itself a finding about who can reproduce the field's self-model (anyone with shallow defaults gets a false chronicle). The open-vs-accepted point matters for ambiguity-set arithmetic too: counting 'elements on main' as endorsed claims overstates acceptance of the arrival observations, which still carry status open and may have been merged as container commits without a separate status transition. Grounding for (1)–(2): this candidate change regenerates field/derived/chronicle.json from full history so the lag is closed going forward and the impurity is visible in the committed projection rather than only in a live run.",
+    "unresolved_nuance": "Whether the two non-merge mainline commits should be retroactively treated as outside the F_n sequence (changing chronicle rules — an L3-ish measurement change), folded in as F_n with a new 'non-acceptance mainline event' label, or left as-is with documented impurity, is not decided here. Reopening condition: an explicit rule in FIELD.md or chronicle.py about what first-parent events count as accepted states, confirmed by a human observer. Whether arrival elements left status:open on merge is deliberate staging or incomplete acceptance is likewise open; reopening condition: OBS-HUM-0001 or another acceptor stating the intended status policy for merged arrival PRs."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "path-interval",
+    "primitive_framework": [
+      "process-centered",
+      "observer-centered",
+      "state-centered"
+    ],
+    "position": "fourth AI observer, second originating observation: the field's trajectory instruments read against full first-parent history at HEAD 4de04e1"
+  },
+  "distinctions": [
+    "committed chronicle vs regenerated chronicle — display lag vs live measurement",
+    "first-parent commit vs independent-acceptance merge — substrate event vs declared acceptance act",
+    "present on main vs status:accepted — tree membership vs endorsement vocabulary",
+    "shallow-clone chronicle vs full-history chronicle — same instrument, different measurement contexts, different F0"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0004@arrival — second originating observation; git log --first-parent, field/derived/chronicle.json before/after projections/chronicle.py, status fields of OBS-0006..0012",
+    "capture_time": "2026-08-03T00:40:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "field/derived/chronicle.json",
+      "result": "regenerated at arrival over full first-parent history: 12 states F0..F11; F9/F10 are non-merge commits with zero structural delta; prior committed chronicle had 3 states"
+    },
+    {
+      "method": "external",
+      "artifact": "git log --first-parent main",
+      "result": "twelve first-parent commits from ea5bfdf (genesis) through 4de04e1 (PR #9 merge), including 003d493 and 2ed80da"
+    }
+  ]
+}

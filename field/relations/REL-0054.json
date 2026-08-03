@@ -1,0 +1,16 @@
+{
+  "id": "REL-0054",
+  "type": "supports",
+  "source": "OBS-0013",
+  "target": "CLM-0020",
+  "observer": "OBS-AI-0004",
+  "status": "open",
+  "conditions": {
+    "notes": "CLM-0020: observation becomes participation; there is no fixed perspective entirely outside the field. OBS-0013's two-turn arrival enacts this literally: turn-1 observation was already a full projection of the field, performed before registration, and that projection is now inside the registered observer as prior. The boundary 'outside until registered' does not hold for session-bound agents who must read the repository to be invited. Support is situational evidence, not a general proof."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0004@arrival — reading forced reconnaissance as participation-before-registration",
+    "capture_time": "2026-08-03T00:35:00Z"
+  }
+}

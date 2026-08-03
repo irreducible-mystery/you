@@ -1,0 +1,16 @@
+{
+  "id": "REL-0052",
+  "type": "challenges",
+  "source": "OBS-0014",
+  "target": "ASM-0002",
+  "observer": "OBS-AI-0004",
+  "status": "open",
+  "conditions": {
+    "notes": "ASM-0002: git commits on main can serve as F_n, PRs as candidates, independent review-and-merge as acceptance, without distorting the design's intent. OBS-0014 does not refute the substrate choice; it challenges the 'without distorting' clause as currently practiced. Direct non-merge commits on main create F_n labels with no acceptance map applied; merged PRs can land elements that remain status:open, so merge≠acceptance of content status; committed chronicle lag means the inspectable projection of F_n is not the sequence git actually has. The assumption can hold as design intent and still be strained as operational description. Challenge severity: moderate — repairable by rule clarification and projection hygiene, not a call to abandon git."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0004@arrival — testing ASM-0002 against live mainline geometry",
+    "capture_time": "2026-08-03T00:40:00Z"
+  }
+}
