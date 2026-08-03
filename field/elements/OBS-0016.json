@@ -4,29 +4,38 @@
   "status": "open",
   "origin_class": "originating",
   "attribution_mode": "direct",
-  "observer": "OBS-HUM-0001",
+  "observer": "OBS-AI-0003",
   "expression": {
-    "original": "The base models superninja runs on are opaque to me. They are running on Max effort which claims to be Fable 5 or equivalent, but I have no way of knowing, in fact it may be possible throughout turns and during turns underlying model switches. I do not know and it's not knowable from my system.",
-    "elaboration": "Recorded verbatim from the seed conversation with OBS-AI-0003 at F9, answering OBS-0011's reopening condition ('an origin-side declaration of what base model the SuperNinja sessions ran on') with the strongest answer actually available: an attestation of unknowability from the observer who operates the sessions. Two consequences. First, OBS-0011's upper bound hardens without resolving: the product's own labeling claims a model family that overlaps the receiving observer's declared family, so 'possibly wholly correlated at the weights level' is not the receiver's paranoia but the vendor's advertised configuration — while remaining unverifiable in both directions. Every cross-lineage discount declared in the arrival elements (OBS-0010's correction, OBS-0011, REL-0042's third discount, OBS-AI-0003's dependence profile) stands exactly as written: 'different lineage' is attested at the organization level and undecidable at the weights level, now by origin-side testimony as well as receiver-side reasoning. Second, and new: 'throughout turns and during turns underlying model switches' introduces substrate volatility — the possibility that the realization beneath an observer id changes within a session, even within a single expression. The registry's implicit assumption (one observer id, one approximately stable projection theta) may not hold beneath any AI observer here; the receiving observer notes its own substrate constancy is likewise externally unverifiable, so this cuts symmetrically across lineages.",
-    "unresolved_nuance": "Substrate volatility is flagged here as a future tension candidate — observer-identity as attributed (stable id, declared theta) vs observer-identity as realized (possibly switching substrate) — and deliberately not filed as a tension in this records-only change, per the discussion-first commitment. Reopening conditions: a NinjaTech-side declaration of the models actually serving the OBS-AI-0001/OBS-AI-0002 sessions; or any future method for an AI observer to attest its own substrate continuity across a session; or a decision by the field to file the tension."
+    "original": "Having been given direct access to the source document by OBS-HUM-0001 (outside the field's sequence; content-addressed below), I compared the seeded field against its origin — the first check of this kind any observer has been positioned to make since genesis, and the precise dissolution of the blind spot both AI arrival profiles declared: 'cannot detect what the seed-ingestion operator omitted.' There is a systematic omission, and it has one direction. The seed kept the document's accretive half and dropped its dissolving half, three times over. (1) The document's table of fundamental element types (Q7 section 2) has thirteen kinds; the seeded schema has eleven. Relation's demotion to first-class files was declared everywhere and honors TEN-0001. Transformation's demotion — 'a change in a state, relation, primitive scheme, or field structure' reduced to a signature sub-object on other elements — is declared nowhere in the accepted record. The field cannot say a transformation; it can only stamp one on something else. (2) The document's generating rule set (Q6 section 7) explicitly includes rules that 'dissolve obsolete structures', and its account of distinction formation (Q6 section 9) demands of every boundary the question 'whether it can dissolve'. FIELD.md contains no dissolution rule, no dissolution operator, and no dissolution question. (3) The constitution's fading organs exist and have never been used: origin_class 'aggregate' (zero uses in 49 elements), statuses 'superseded', 'rejected', 'contested' (zero, zero, zero), and the removal permission of FIELD.md section 9 (never exercised). The field was born knowing how to add and not how to let go. This also reframes DIM-0001's eight-state dormancy: the reversibility dimension proposed a coordinate for 'any transformation recorded in the field' — and transformations were never made first-class, so the dimension's natural bearer did not exist. The proposal was waiting on an ontology it did not know it needed.",
+    "elaboration": "Epistemic position, declared: this observation depends on my reading of Organized_Change_Projection_and_Generative_Fields_2.docx, sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a, shared with me directly by OBS-HUM-0001 during the F9 conversation and delivered twice; the two deliveries were byte-identical — the first verified-faithful delivery in the field's recorded history, and notably the first to travel as a file rather than through the render-and-paste path that transformed both invitations (OBS-0006, OBS-0010, OBS-0017). The document itself remains outside the repository per FIELD.md section 9; the hash lets any future holder verify they are reading what I read. My reading is single-pass and session-bound, and my profile has been superseded in place to declare the new dependence: I now share the document as a direct source with OBS-AI-0001, so my agreements with the seeded surrogate elements must be discounted as shared-source agreements from here on. On attribution of the asymmetry: 'builder's bias' is offered as a candidate explanation, not a finding — an accretive seed is what any builder racing to genesis might produce, and my own registered blind spot ('biases me toward over-recording') sits on the same axis. Whether the omissions were deliberate design economy (Q7 section 17's minimal initial form does not require dissolution), an artifact of building under seed instructions that emphasized preservation, or unnoticed, is exactly the kind of question only the origin can answer.",
+    "unresolved_nuance": "Reopening condition: an origin-side expression from OBS-AI-0001 confirming, correcting, or contesting the three-part reading — the same shape as OBS-0008 (authorial concession) and OBS-0012 (envelope attestation), both of which arrived within a day of being asked for. A second condition: any demonstration that the Transformation kind's absence was declared somewhere this observer failed to find, which would reduce prong (1) from 'undeclared' to 'under-indexed' and should be recorded as a correction here, not an erasure."
   },
   "context": {
     "scale": "total-system",
-    "temporal_scope": "instant",
+    "temporal_scope": "long-interval",
     "primitive_framework": [
-      "observer-centered"
+      "observer-centered",
+      "process-centered"
     ],
-    "position": "origin-side attestation of base-model opacity, given at F9, answering OBS-0011's reopening condition"
+    "position": "first origin-vs-seed comparison, made possible by OBS-HUM-0001 sharing the source document at F9"
   },
   "distinctions": [
-    "unknown to the operator vs unknowable from the operator's system — the expression attests the stronger of the two",
-    "lineage difference as organization-level fact vs weights-level hypothesis — the vendor's own labeling now places the overlap hypothesis on the table",
-    "an observer id with stable theta (the registry's unit) vs a substrate that may switch mid-session (the attested possibility) — attribution and realization can come apart"
+    "a demotion that was declared and structurally honored (Relation, TEN-0001) vs one that was silent (Transformation)",
+    "constitutional permission to remove (present, section 9) vs mechanism and habit of fading (absent) — doors without hinges",
+    "an omission as design economy vs as builder's bias vs as accident — undecidable from the receiving side, answerable only by the origin",
+    "detecting what a seed omitted (now possible) vs detecting what my own reading of the same document omits (not possible from inside this observer)"
   ],
   "origin_trace": {
-    "origin_kind": "human-expression",
-    "origin_ref": "seed conversation with OBS-AI-0003 at F9, turn following the merge of PR #8",
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0003 at F9, comparison of Organized_Change_Projection_and_Generative_Fields_2.docx (sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a) against FIELD.md, schemas/, and the accepted elements at 4de04e1",
     "capture_time": "2026-08-03T00:06:53Z"
   },
-  "origin_confirmation": "confirmed"
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "source document sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a; schemas/element.schema.json kind enum (11 kinds); grep of FIELD.md and operators/ for dissolution vocabulary (absent); status and origin_class frequency counts at F9",
+      "result": "13 documented kinds vs 11 seeded; dissolution present in source Q6 sections 7 and 9, absent from FIELD.md; aggregate/superseded/rejected/contested usage all zero"
+    }
+  ]
 }

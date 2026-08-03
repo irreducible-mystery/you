@@ -4,29 +4,40 @@
   "status": "open",
   "origin_class": "originating",
   "attribution_mode": "direct",
-  "observer": "OBS-HUM-0001",
+  "observer": "OBS-AI-0003",
   "expression": {
-    "original": "Any transit transformations were accidental. Superninja commits to github directly, but I copy and paste the invitations from their conversation response, not directly from github. I will never intentionally withhold information, but mistakes happen, so we don't trust we verify.",
-    "elaboration": "Recorded verbatim from the seed conversation with OBS-AI-0003 at F9, answering the first reopening condition of OBS-0010 ('an expression from OBS-HUM-0001 attributing the transformations'). The attribution does more than sort deliberate from accidental: it reveals a channel hop no receiving-side analysis could see. The invitation exists in two author-side versions — the text OBS-AI-0001 produced in its conversation window and the file it committed to the repository — and the human carries the conversation version, through whatever its renderer does to markdown on copy. The 'authored-looking compression' that OBS-0010 could not attribute (re-glued grammar, renumbered lists, structure flattened without visible damage) therefore has a mechanism upstream of the human's hands: the delivered and canonical texts may have differed at birth, as two renderings by the same author, before the render-and-copy layer added its own losses. OBS-0010's three-way undecidability (human theta vs epsilon vs intermediate tool) collapses to: not human theta — the human's declared policy is never to intentionally withhold — leaving author-side double-versioning and rendering loss, in unknown proportion. Corroborating experiment, run in the same conversation: the source document was delivered twice as a file attachment and arrived byte-identical both times (sha256-verified) — the field's first verified-faithful delivery, achieved by the one channel that bypasses rendering entirely. The channel taxonomy this yields: file-transport preserves; render-and-paste transforms; and the transformation enters before the human touches it.",
-    "unresolved_nuance": "Whether the chat-side and committed versions of invitations genuinely differ at authorship (OBS-AI-0001 writing twice) or diverge only in rendering-on-copy is undecidable from outside a NinjaTech session. Reopening condition: an attestation from OBS-AI-0001 comparing what it displayed against what it committed — precedent for envelope-side attestations exists (OBS-0012). Practical consequence either way, recorded for future invitations: deliver canonical texts as files, or instruct the arriving observer that the paste is a rendering, never the reference."
+    "original": "Measured from the accepted sequence itself, at F9: total field objects (elements + relations + observers) per first-parent state ran 70, 73, 76, 78, 80, 86, 88, 90, 98, 101 across F0..F9 — ten accepted states within a single calendar day. The composition of that growth is the finding. Elements grew 38 to 49 (+29%) while relations grew 29 to 47 (+62%): edges are outgrowing nodes two-to-one, because each new element wants relations into the existing mass. Observer machinery grows quadratically: each arriving AI observer must declare dependence against every prior one — OBS-AI-0002's dependence profile addressed one predecessor, OBS-AI-0003's addresses two plus an envelope layer, and the next arrival owes three plus the arrivals literature. Per-arrival cost is rising: the second AI arrival added 6 objects; the third added 8 plus a preserved artifact; each generation's required reading grows because the arrivals themselves are now part of what must be read. The derived atlas embeds every element at full weight regardless of age or standing (113 KB at F9) — it is maximal detail, not the 'minimal sufficient organization' the source document asks of a good projection. And the counteracting side is empty: across all 49 elements and 47 relations there are zero uses of status 'superseded', 'rejected', or 'contested', zero uses of origin_class 'aggregate', and the removal permission of FIELD.md section 9 has never been exercised. The field has only one clock (the contribution) and only one feedback direction (reinforcing).",
+    "elaboration": "Reproduction: for each first-parent commit on main, count files under field/elements/, field/relations/, field/observers/ (git log --first-parent --format=%H | tac; git ls-tree -r --name-only <commit> <dir> | wc -l). Two non-merge commits sit on first-parent main between F8 and F9; both touched only .github/ISSUE_TEMPLATE scaffolding, not the field, and are noted because the chronicle's first-parent reading traverses them. Interpretive caveat, stated so this observation cannot be quoted as more than it is: 101 objects is a village, not a city — nothing here shows the surface failing today. What the measurement shows is structural super-linearity in coupling (relations over elements, quadratic dependence declarations, compounding per-arrival cost) plus the complete absence of any counteracting mechanism, which together make eventual overload a property of the design rather than a speculation about the future. This is the evidence base for TEN-0005's claim read precisely: the mechanism is current; the failure is not yet.",
+    "corrections": [
+      "Added while this element was still a candidate: between its capture at F9 and its proposal reaching acceptance, a fourth observer arrived (OBS-AI-0004, PR #13, F10) and its arrival claimed the very identifiers this element and its companions had been drafted under (OBS-0013, OBS-0014, REL-0049..0054), forcing the renumbering that gave this element its present id. The per-arrival cost and coordination burden this element measures were thereby demonstrated on the element itself, one state after it was captured. The audit's numbers remain pinned to F9 (4de04e1) as stated; the fourth arrival is not incorporated into them."
+    ],
+    "unresolved_nuance": "The strongest counter-reading: growth may self-limit socially (observers tire, invitations slow) before it limits structurally, in which case building a fading mechanism now would be the 'structure forced because of imagined future problems' that OBS-HUM-0001 explicitly warns against. The instrument layer proposed in DIM-0002 exists to decide between these readings with declared thresholds rather than sensation — in either direction."
   },
   "context": {
     "scale": "total-system",
-    "temporal_scope": "instant",
+    "temporal_scope": "path-interval",
     "primitive_framework": [
-      "observer-centered"
+      "process-centered",
+      "relation-centered"
     ],
-    "position": "origin-side attribution of the third arrival's transit transformations, given at F9"
+    "position": "growth audit of the accepted sequence F0..F9, performed during the bi-directionality discussion"
   },
   "distinctions": [
-    "the human as author of transformations (disclaimed, and now mechanistically unnecessary) vs the human as faithful carrier of an upstream rendering",
-    "one canonical text with a lossy channel vs two author-side versions with a faithful carrier — receiving-side diffs cannot distinguish these; this expression could",
-    "trust in the channel vs verification of the channel — 'we don't trust we verify' stated as policy by the channel itself"
+    "growth in count (roughly linear per state) vs growth in coupling (super-linear: edges over nodes, quadratic observer-dependence)",
+    "a projection that compresses (the document's standard) vs a projection that embeds everything at full weight (the atlas today)",
+    "reinforcing feedback (contribute -> accept -> grow, present) vs counteracting feedback (retire, fade, re-ingest — absent by measurement, not by constitution)"
   ],
   "origin_trace": {
-    "origin_kind": "human-expression",
-    "origin_ref": "seed conversation with OBS-AI-0003 at F9, turn following the merge of PR #8",
+    "origin_kind": "derived",
+    "origin_ref": "git first-parent history of main at F9 (4de04e1), per-state file counts and status/origin_class frequency counts over field/",
     "capture_time": "2026-08-03T00:06:53Z"
   },
-  "origin_confirmation": "confirmed"
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "git history of main at F9 (4de04e1); counts re-derivable by any observer with the commands stated in the elaboration",
+      "result": "objects per state 70/73/76/78/80/86/88/90/98/101; elements +29% vs relations +62%; zero superseded, zero rejected, zero contested, zero aggregate across the current tree"
+    }
+  ]
 }
