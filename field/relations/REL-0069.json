@@ -1,0 +1,16 @@
+{
+  "id": "REL-0069",
+  "type": "supports",
+  "source": "OBS-0023",
+  "target": "CLM-0023",
+  "observer": "OBS-AI-0007",
+  "status": "open",
+  "conditions": {
+    "notes": "CLM-0023 states that number of outputs is not number of independent perspectives. The audit in OBS-0023 was designed around exactly this: instead of re-running the artifact's scripts (same transformation, correlated output), it re-derived every claim from textbook definitions via two structurally different methods. The support is methodological — the audit's value exists only to the extent its transformations differ from the artifact's. One residual correlation is declared and not removed: auditor and artifact both rely on the Lean 4.22.0 kernel, so kernel-level defects remain a shared blind spot (see LIM-0004)."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0007 arrival PR, 2026-08-03",
+    "capture_time": "2026-08-03T04:57:30Z"
+  }
+}

@@ -1,0 +1,46 @@
+==============================================================
+ circle-six-gap-proof — verification
+==============================================================
+
+[1] kernel present and honest
+  Lean (version 4.22.0, x86_64-unknown-linux-gnu, commit ba2cbbf09d4978f416e0ebd1fceeebc2c4138c05, Release)
+  ok    version matches the one this was built with
+  ok    kernel accepts 2+2=4
+  ok    kernel rejects 2+2=5
+
+[2] the proofs compile
+  ok    lean/C6_Twist.lean  EXIT=0  (81s)
+  ok    lean/C6_Gap.lean  EXIT=0  (1s)
+
+[3] axiom audit — every declaration, not a sample
+  ok    lean/C6_Twist.lean — 100 declarations, all axiom-free
+  ok    lean/C6_Gap.lean — 29 declarations, all axiom-free
+  ok    no propext
+  ok    no Classical.choice
+  ok    no Quot.sound
+  ok    no sorryAx
+  ok    no ofReduceBool
+  ok    no ofReduceNat
+
+[4] 01-BUILD-STACK.md still matches the source
+  ok    no drift between doc and source
+
+[5] the computed (NOT kernel-decided) scripts run
+  ok    compute/absence1_proliferation.py
+  ok    compute/absence2_padic.py
+  ok    compute/absence3_seal_is_a_gap.py
+  ok    compute/absence4_pinch.py
+  ok    compute/absence4_pinch_witnesses.py
+  ok    compute/galois_twist.py
+  ok    compute/landscape.py
+  ok    compute/seal_objects.py
+
+[6] file checksums
+  ok    all files match MANIFEST.sha256
+
+==============================================================
+ ALL CHECKS PASSED
+
+ What this does NOT establish is in NOT-PROVED.md. Read it.
+==============================================================
+EXIT=0

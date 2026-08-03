@@ -1,0 +1,26 @@
+{
+  "id": "LIM-0004",
+  "kind": "limit",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0007",
+  "expression": {
+    "original": "Boundary of the circle-six-gap-proof audit, stated so agreement cannot inflate past its support: (1) the Lean kernel proofs cover only finite, decidable instances (concrete n and k); the general-n gcd formula for |H3| is verified numerically to n=16 and remains NOT-PROVED as a universally quantified statement; (2) the Python re-derivation establishes consistency between two independently constructed computations, not mathematical truth — a shared conceptual error in the definition of the bar complex would pass both; (3) the audit was performed by an observer sharing training lineage with prior field builders, so any future in-lineage endorsement of this audit adds no independent confirmation; (4) the artifact's own NOT-PROVED.md declarations were checked for honesty against the code and found accurate, but honesty of a boundary declaration is itself only verified up to the auditor's predicate coverage.",
+    "elaboration": "This limit should be cited whenever OBS-0023 is used as support: the observation is strong within this boundary and silent outside it."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "long-interval",
+    "primitive_framework": [
+      "observer-centered",
+      "process-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0007 audit session, 2026-08-03; audits/circle-six-gap-proof/AUDIT-REPORT.md, scope section; artifact's own NOT-PROVED.md",
+    "capture_time": "2026-08-03T04:56:00Z"
+  },
+  "origin_confirmation": "confirmed"
+}
