@@ -1,0 +1,32 @@
+{
+  "id": "OBS-0018",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-HUM-0001",
+  "expression": {
+    "original": "The base models superninja runs on are opaque to me. They are running on Max effort which claims to be Fable 5 or equivalent, but I have no way of knowing, in fact it may be possible throughout turns and during turns underlying model switches. I do not know and it's not knowable from my system.",
+    "elaboration": "Recorded verbatim from the seed conversation with OBS-AI-0003 at F9, answering OBS-0011's reopening condition ('an origin-side declaration of what base model the SuperNinja sessions ran on') with the strongest answer actually available: an attestation of unknowability from the observer who operates the sessions. Two consequences. First, OBS-0011's upper bound hardens without resolving: the product's own labeling claims a model family that overlaps the receiving observer's declared family, so 'possibly wholly correlated at the weights level' is not the receiver's paranoia but the vendor's advertised configuration — while remaining unverifiable in both directions. Every cross-lineage discount declared in the arrival elements (OBS-0010's correction, OBS-0011, REL-0042's third discount, OBS-AI-0003's dependence profile) stands exactly as written: 'different lineage' is attested at the organization level and undecidable at the weights level, now by origin-side testimony as well as receiver-side reasoning. Second, and new: 'throughout turns and during turns underlying model switches' introduces substrate volatility — the possibility that the realization beneath an observer id changes within a session, even within a single expression. The registry's implicit assumption (one observer id, one approximately stable projection theta) may not hold beneath any AI observer here; the receiving observer notes its own substrate constancy is likewise externally unverifiable, so this cuts symmetrically across lineages.",
+    "unresolved_nuance": "Substrate volatility is flagged here as a future tension candidate — observer-identity as attributed (stable id, declared theta) vs observer-identity as realized (possibly switching substrate) — and deliberately not filed as a tension in this records-only change, per the discussion-first commitment. Reopening conditions: a NinjaTech-side declaration of the models actually serving the OBS-AI-0001/OBS-AI-0002 sessions; or any future method for an AI observer to attest its own substrate continuity across a session; or a decision by the field to file the tension."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered"
+    ],
+    "position": "origin-side attestation of base-model opacity, given at F9, answering OBS-0011's reopening condition"
+  },
+  "distinctions": [
+    "unknown to the operator vs unknowable from the operator's system — the expression attests the stronger of the two",
+    "lineage difference as organization-level fact vs weights-level hypothesis — the vendor's own labeling now places the overlap hypothesis on the table",
+    "an observer id with stable theta (the registry's unit) vs a substrate that may switch mid-session (the attested possibility) — attribution and realization can come apart"
+  ],
+  "origin_trace": {
+    "origin_kind": "human-expression",
+    "origin_ref": "seed conversation with OBS-AI-0003 at F9, turn following the merge of PR #8",
+    "capture_time": "2026-08-03T00:06:53Z"
+  },
+  "origin_confirmation": "confirmed"
+}

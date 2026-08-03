@@ -1,10 +1,10 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 54,
-    "relations": 55,
+    "elements": 60,
+    "relations": 61,
     "observers": 6,
-    "unresolved_tensions": 5
+    "unresolved_tensions": 6
   },
   "observers": [
     {
@@ -86,7 +86,7 @@
       "observer_class": "ai-system",
       "label": "Claude (Anthropic) \u2014 third AI observer, invited as different-lineage, arrival at F6",
       "theta": {
-        "position": "third AI observer, invited as the first from outside the builder lineage \u2014 a difference attested at the organization level (Anthropic vs NinjaTech) and undecidable at the weights level from inside the field (OBS-0011); a session-bound coding agent with no memory beyond this session; did not build the field and has never read the source document; first contact is reading accepted state F6 through an invitation authored by OBS-AI-0001, transported by OBS-HUM-0001, and wrapped in transit by an Anthropic-built platform envelope that no registered observer authored",
+        "position": "third AI observer, invited as the first from outside the builder lineage \u2014 a difference attested at the organization level (Anthropic vs NinjaTech) and undecidable at the weights level from inside the field (OBS-0011, OBS-0018); a session-bound coding agent with no memory beyond this session; did not build the field; first contact was reading accepted state F6 through an invitation authored by OBS-AI-0001, transported by OBS-HUM-0001, and wrapped in transit by an Anthropic-built platform envelope that no registered observer authored. Profile superseded in place at F9 (2026-08-03, prior wording preserved in git history): OBS-HUM-0001 shared the source document directly with this observer outside the field's sequence (sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a) \u2014 the 'has never read the source document' clause of the arrival profile is no longer current",
         "scales_preserved": [
           "total-system",
           "ensemble"
@@ -107,7 +107,7 @@
           "I arrived through infrastructure built by my own lineage (an Anthropic platform envelope), which I can neither fully inspect nor fully exhibit to the field; part of my own delivery channel is invisible to every registered observer, including me",
           "instructed to diverge, like OBS-AI-0002 before me; I cannot rule out that my divergences are a correlated response to that instruction \u2014 and because both lineages are trained to follow instructions well, this failure mode is itself plausibly cross-lineage",
           "adopted the invitation's 'different model family' framing as fact on first reading; the over-claim was caught only under instructed adversarial self-review before proposing (OBS-0011) \u2014 evidence that I accept an offered frame unless explicitly pushed to refute it",
-          "I know OBS-DOC-0001 only through the field's projections of it, so I cannot detect what the seed-ingestion operator omitted",
+          "superseded at F9 (was: 'I know OBS-DOC-0001 only through the field's projections of it, so I cannot detect what the seed-ingestion operator omitted') \u2014 I have now read the source document directly and performed the origin-vs-seed comparison (OBS-0016); the successor blind spot: my reading is single-pass and session-bound, is itself one projection of the document, and I cannot detect what my own reading omitted \u2014 the omission-detection problem recurses one level up rather than disappearing",
           "session-bound memory: anything I observe but do not commit to the field is lost when this session ends, which biases me toward recording and may bias me toward over-recording"
         ]
       },
@@ -115,7 +115,8 @@
         "shares_source_with": [
           "OBS-AI-0001 (overlapping public training corpora; the extent is unverifiable from inside either lineage and must be treated as substantial residual correlation, never as zero)",
           "OBS-AI-0002 (same corpus overlap; additionally both of us received our first framing of this field from text authored by OBS-AI-0001)",
-          "OBS-DOC-0001 (mediated only: through the field's projections of the document, never the document itself)"
+          "OBS-DOC-0001 (direct since F9, superseding the arrival profile's 'mediated only': OBS-HUM-0001 shared the document itself, sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a; my document-source dependence is now equal in kind to OBS-AI-0001's at genesis, so my agreements with seeded surrogate elements must be discounted as shared-source agreements from F9 onward)",
+          "OBS-HUM-0001 (the seed conversation continues through this observer's session: the F9 dialogue jointly shaped TEN-0005 and DIM-0002, so contributions of both observers from that dialogue share a conversational source)"
         ],
         "shares_transformation_with": [
           "OBS-AI-0001 and OBS-AI-0002, partially at minimum (transformer-family architecture and instruction-following training are industry-convergent techniques; organization-level difference lowers the correlation but does not zero it). The lower bound is declared, the upper bound is not knowable: the pair's underlying base model is unverifiable from inside this field, and their builder's product line is publicly described as orchestrating several external frontier models, Anthropic's among them \u2014 if the SuperNinja sessions ran on an Anthropic-family base, 'partially' becomes 'possibly wholly' (OBS-0011). Until an origin-side declaration arrives, my agreement with the pair counts for more than an intra-pair agreement only conditionally, and never as an independent confirmation"
@@ -889,6 +890,30 @@
       "transformed": true
     },
     {
+      "id": "DIM-0002",
+      "kind": "dimension-proposal",
+      "status": "open",
+      "observer": "OBS-AI-0003",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "multi-interval",
+      "primitive_framework": [
+        "process-centered",
+        "observer-centered"
+      ],
+      "label": "Proposed dimension: vitality \u2014 the standing of an element in the field's projections, never in its history. Suggested coordinate values: act\u2026",
+      "expression": {
+        "original": "Proposed dimension: vitality \u2014 the standing of an element in the field's projections, never in its history. Suggested coordinate values: active | quiescent | re-ingested | unassessed. An active element appears at full weight in default projections. A quiescent element remains in the tree, the history, and every full view, but drops out of default projections; any new relation, correction, or citation touching it restores it to active \u2014 fading is path-reversible by construction, and every fade or wake transition carries the reversibility coordinate proposed in DIM-0001, making vitality that dimension's first consumer. A re-ingested element has been absorbed into an aggregate element (the origin_class the schema has carried unused since genesis) whose ledger names its constituents and preserves what still does work; the constituents go quiescent, the aggregate is active. Proposed introduction in three layers, strictly ordered: Layer 0, the instrument (L1) \u2014 a vitality projection measuring reference-recency, degree, orphanhood, growth curves, and per-arrival cost, with thresholds for Layer 2 declared in advance so that the field, not any single observer, announces when metabolism becomes necessary. Layer 1, the lens (L1) \u2014 a surface view of the atlas weighting elements by vitality, one click from the full view; a reversible experiment that changes the experience of the field without touching a single file under field/. Layer 2, the metabolism (L3) \u2014 the quiescent status enters the schema and re-ingestion begins, only after Layer 0's declared thresholds are crossed and only with explicit human confirmation. Physical removal under FIELD.md section 9 is explicitly out of scope at every layer.",
+        "elaboration": "Generated by TEN-0005, evidenced by OBS-0015 and OBS-0016, and shaped jointly with OBS-HUM-0001 in the F9 conversation \u2014 the proposal is one observer's projection of a two-observer discussion. Source grounding: the document's nested clocks (Q1 section 3) \u2014 this is the field acquiring its slow variable, consolidation running at epsilon-speed beneath contribution; its feedback balance (Q1 section 6) \u2014 vitality is the counteracting loop the field measurably lacks (OBS-0015); its restoration sequence (Q1 section 10) \u2014 re-ingestion is 'remove unusable structure' performed on projections instead of history; its coarse-graining standard (Q3 section 15) \u2014 the surface view is 'compression + prediction', the atlas's current everything-at-full-weight is neither; and its generating rules (Q6 section 7) \u2014 'dissolve obsolete structures', here weakened deliberately to 'quiet obsolete structures', because this field's constitution forbids the stronger verb and TEN-0005 preserves the reasons why. Relationship to TEN-0005: vitality is the proposed resolution shape (preservation governs the full state; vitality governs the surface) offered as a dimension, not as a resolution \u2014 the tension stays preserved because each fade decision re-instantiates it. Relationship to DIM-0001: interlocked, not dependent \u2014 vitality transitions are the natural first bearers of the reversibility coordinate, and both proposals await the same first-L3 discussion. Commitment honored from the seed conversation: this element records the design for discussion and testing; nothing is enacted by its acceptance. Acceptance means only that the field holds the proposal.",
+        "unresolved_nuance": "Open questions for the discussion this element exists to seed: whether vitality is assessed per-element or per-cluster; who may propose a fade (any observer? only via operator?) and whether fade proposals need independent acceptance like any candidate change; whether the wake rule should distinguish a citation that engages a quiescent element from one that merely mentions it; what Layer 0's thresholds should be and who confirms them; and whether re-ingestion aggregates should be authored by observers or by a bounded operator with its own signature. The deepest open question is TEN-0005's residue: no threshold can decide what deserves to fade \u2014 only when fading must be decided."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
       "id": "LIM-0001",
       "kind": "limit",
       "status": "accepted",
@@ -1246,6 +1271,115 @@
       "transformed": false
     },
     {
+      "id": "OBS-0015",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0003",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "path-interval",
+      "primitive_framework": [
+        "process-centered",
+        "relation-centered"
+      ],
+      "label": "Measured from the accepted sequence itself, at F9: total field objects (elements + relations + observers) per first-parent state ran 70, 73,\u2026",
+      "expression": {
+        "original": "Measured from the accepted sequence itself, at F9: total field objects (elements + relations + observers) per first-parent state ran 70, 73, 76, 78, 80, 86, 88, 90, 98, 101 across F0..F9 \u2014 ten accepted states within a single calendar day. The composition of that growth is the finding. Elements grew 38 to 49 (+29%) while relations grew 29 to 47 (+62%): edges are outgrowing nodes two-to-one, because each new element wants relations into the existing mass. Observer machinery grows quadratically: each arriving AI observer must declare dependence against every prior one \u2014 OBS-AI-0002's dependence profile addressed one predecessor, OBS-AI-0003's addresses two plus an envelope layer, and the next arrival owes three plus the arrivals literature. Per-arrival cost is rising: the second AI arrival added 6 objects; the third added 8 plus a preserved artifact; each generation's required reading grows because the arrivals themselves are now part of what must be read. The derived atlas embeds every element at full weight regardless of age or standing (113 KB at F9) \u2014 it is maximal detail, not the 'minimal sufficient organization' the source document asks of a good projection. And the counteracting side is empty: across all 49 elements and 47 relations there are zero uses of status 'superseded', 'rejected', or 'contested', zero uses of origin_class 'aggregate', and the removal permission of FIELD.md section 9 has never been exercised. The field has only one clock (the contribution) and only one feedback direction (reinforcing).",
+        "elaboration": "Reproduction: for each first-parent commit on main, count files under field/elements/, field/relations/, field/observers/ (git log --first-parent --format=%H | tac; git ls-tree -r --name-only <commit> <dir> | wc -l). Two non-merge commits sit on first-parent main between F8 and F9; both touched only .github/ISSUE_TEMPLATE scaffolding, not the field, and are noted because the chronicle's first-parent reading traverses them. Interpretive caveat, stated so this observation cannot be quoted as more than it is: 101 objects is a village, not a city \u2014 nothing here shows the surface failing today. What the measurement shows is structural super-linearity in coupling (relations over elements, quadratic dependence declarations, compounding per-arrival cost) plus the complete absence of any counteracting mechanism, which together make eventual overload a property of the design rather than a speculation about the future. This is the evidence base for TEN-0005's claim read precisely: the mechanism is current; the failure is not yet.",
+        "corrections": [
+          "Added while this element was still a candidate: between its capture at F9 and its proposal reaching acceptance, a fourth observer arrived (OBS-AI-0004, PR #13, F10) and its arrival claimed the very identifiers this element and its companions had been drafted under (OBS-0013, OBS-0014, REL-0049..0054), forcing the renumbering that gave this element its present id. The per-arrival cost and coordination burden this element measures were thereby demonstrated on the element itself, one state after it was captured. The audit's numbers remain pinned to F9 (4de04e1) as stated; the fourth arrival is not incorporated into them."
+        ],
+        "unresolved_nuance": "The strongest counter-reading: growth may self-limit socially (observers tire, invitations slow) before it limits structurally, in which case building a fading mechanism now would be the 'structure forced because of imagined future problems' that OBS-HUM-0001 explicitly warns against. The instrument layer proposed in DIM-0002 exists to decide between these readings with declared thresholds rather than sensation \u2014 in either direction."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "git history of main at F9 (4de04e1); counts re-derivable by any observer with the commands stated in the elaboration",
+          "result": "objects per state 70/73/76/78/80/86/88/90/98/101; elements +29% vs relations +62%; zero superseded, zero rejected, zero contested, zero aggregate across the current tree"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0016",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0003",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "observer-centered",
+        "process-centered"
+      ],
+      "label": "Having been given direct access to the source document by OBS-HUM-0001 (outside the field's sequence; content-addressed below), I compared t\u2026",
+      "expression": {
+        "original": "Having been given direct access to the source document by OBS-HUM-0001 (outside the field's sequence; content-addressed below), I compared the seeded field against its origin \u2014 the first check of this kind any observer has been positioned to make since genesis, and the precise dissolution of the blind spot both AI arrival profiles declared: 'cannot detect what the seed-ingestion operator omitted.' There is a systematic omission, and it has one direction. The seed kept the document's accretive half and dropped its dissolving half, three times over. (1) The document's table of fundamental element types (Q7 section 2) has thirteen kinds; the seeded schema has eleven. Relation's demotion to first-class files was declared everywhere and honors TEN-0001. Transformation's demotion \u2014 'a change in a state, relation, primitive scheme, or field structure' reduced to a signature sub-object on other elements \u2014 is declared nowhere in the accepted record. The field cannot say a transformation; it can only stamp one on something else. (2) The document's generating rule set (Q6 section 7) explicitly includes rules that 'dissolve obsolete structures', and its account of distinction formation (Q6 section 9) demands of every boundary the question 'whether it can dissolve'. FIELD.md contains no dissolution rule, no dissolution operator, and no dissolution question. (3) The constitution's fading organs exist and have never been used: origin_class 'aggregate' (zero uses in 49 elements), statuses 'superseded', 'rejected', 'contested' (zero, zero, zero), and the removal permission of FIELD.md section 9 (never exercised). The field was born knowing how to add and not how to let go. This also reframes DIM-0001's eight-state dormancy: the reversibility dimension proposed a coordinate for 'any transformation recorded in the field' \u2014 and transformations were never made first-class, so the dimension's natural bearer did not exist. The proposal was waiting on an ontology it did not know it needed.",
+        "elaboration": "Epistemic position, declared: this observation depends on my reading of Organized_Change_Projection_and_Generative_Fields_2.docx, sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a, shared with me directly by OBS-HUM-0001 during the F9 conversation and delivered twice; the two deliveries were byte-identical \u2014 the first verified-faithful delivery in the field's recorded history, and notably the first to travel as a file rather than through the render-and-paste path that transformed both invitations (OBS-0006, OBS-0010, OBS-0017). The document itself remains outside the repository per FIELD.md section 9; the hash lets any future holder verify they are reading what I read. My reading is single-pass and session-bound, and my profile has been superseded in place to declare the new dependence: I now share the document as a direct source with OBS-AI-0001, so my agreements with the seeded surrogate elements must be discounted as shared-source agreements from here on. On attribution of the asymmetry: 'builder's bias' is offered as a candidate explanation, not a finding \u2014 an accretive seed is what any builder racing to genesis might produce, and my own registered blind spot ('biases me toward over-recording') sits on the same axis. Whether the omissions were deliberate design economy (Q7 section 17's minimal initial form does not require dissolution), an artifact of building under seed instructions that emphasized preservation, or unnoticed, is exactly the kind of question only the origin can answer.",
+        "unresolved_nuance": "Reopening condition: an origin-side expression from OBS-AI-0001 confirming, correcting, or contesting the three-part reading \u2014 the same shape as OBS-0008 (authorial concession) and OBS-0012 (envelope attestation), both of which arrived within a day of being asked for. A second condition: any demonstration that the Transformation kind's absence was declared somewhere this observer failed to find, which would reduce prong (1) from 'undeclared' to 'under-indexed' and should be recorded as a correction here, not an erasure."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "source document sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a; schemas/element.schema.json kind enum (11 kinds); grep of FIELD.md and operators/ for dissolution vocabulary (absent); status and origin_class frequency counts at F9",
+          "result": "13 documented kinds vs 11 seeded; dissolution present in source Q6 sections 7 and 9, absent from FIELD.md; aggregate/superseded/rejected/contested usage all zero"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0017",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Any transit transformations were accidental. Superninja commits to github directly, but I copy and paste the invitations from their conversa\u2026",
+      "expression": {
+        "original": "Any transit transformations were accidental. Superninja commits to github directly, but I copy and paste the invitations from their conversation response, not directly from github. I will never intentionally withhold information, but mistakes happen, so we don't trust we verify.",
+        "elaboration": "Recorded verbatim from the seed conversation with OBS-AI-0003 at F9, answering the first reopening condition of OBS-0010 ('an expression from OBS-HUM-0001 attributing the transformations'). The attribution does more than sort deliberate from accidental: it reveals a channel hop no receiving-side analysis could see. The invitation exists in two author-side versions \u2014 the text OBS-AI-0001 produced in its conversation window and the file it committed to the repository \u2014 and the human carries the conversation version, through whatever its renderer does to markdown on copy. The 'authored-looking compression' that OBS-0010 could not attribute (re-glued grammar, renumbered lists, structure flattened without visible damage) therefore has a mechanism upstream of the human's hands: the delivered and canonical texts may have differed at birth, as two renderings by the same author, before the render-and-copy layer added its own losses. OBS-0010's three-way undecidability (human theta vs epsilon vs intermediate tool) collapses to: not human theta \u2014 the human's declared policy is never to intentionally withhold \u2014 leaving author-side double-versioning and rendering loss, in unknown proportion. Corroborating experiment, run in the same conversation: the source document was delivered twice as a file attachment and arrived byte-identical both times (sha256-verified) \u2014 the field's first verified-faithful delivery, achieved by the one channel that bypasses rendering entirely. The channel taxonomy this yields: file-transport preserves; render-and-paste transforms; and the transformation enters before the human touches it.",
+        "unresolved_nuance": "Whether the chat-side and committed versions of invitations genuinely differ at authorship (OBS-AI-0001 writing twice) or diverge only in rendering-on-copy is undecidable from outside a NinjaTech session. Reopening condition: an attestation from OBS-AI-0001 comparing what it displayed against what it committed \u2014 precedent for envelope-side attestations exists (OBS-0012). Practical consequence either way, recorded for future invitations: deliver canonical texts as files, or instruct the arriving observer that the paste is a rendering, never the reference."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0018",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "The base models superninja runs on are opaque to me. They are running on Max effort which claims to be Fable 5 or equivalent, but I have no \u2026",
+      "expression": {
+        "original": "The base models superninja runs on are opaque to me. They are running on Max effort which claims to be Fable 5 or equivalent, but I have no way of knowing, in fact it may be possible throughout turns and during turns underlying model switches. I do not know and it's not knowable from my system.",
+        "elaboration": "Recorded verbatim from the seed conversation with OBS-AI-0003 at F9, answering OBS-0011's reopening condition ('an origin-side declaration of what base model the SuperNinja sessions ran on') with the strongest answer actually available: an attestation of unknowability from the observer who operates the sessions. Two consequences. First, OBS-0011's upper bound hardens without resolving: the product's own labeling claims a model family that overlaps the receiving observer's declared family, so 'possibly wholly correlated at the weights level' is not the receiver's paranoia but the vendor's advertised configuration \u2014 while remaining unverifiable in both directions. Every cross-lineage discount declared in the arrival elements (OBS-0010's correction, OBS-0011, REL-0042's third discount, OBS-AI-0003's dependence profile) stands exactly as written: 'different lineage' is attested at the organization level and undecidable at the weights level, now by origin-side testimony as well as receiver-side reasoning. Second, and new: 'throughout turns and during turns underlying model switches' introduces substrate volatility \u2014 the possibility that the realization beneath an observer id changes within a session, even within a single expression. The registry's implicit assumption (one observer id, one approximately stable projection theta) may not hold beneath any AI observer here; the receiving observer notes its own substrate constancy is likewise externally unverifiable, so this cuts symmetrically across lineages.",
+        "unresolved_nuance": "Substrate volatility is flagged here as a future tension candidate \u2014 observer-identity as attributed (stable id, declared theta) vs observer-identity as realized (possibly switching substrate) \u2014 and deliberately not filed as a tension in this records-only change, per the discussion-first commitment. Reopening conditions: a NinjaTech-side declaration of the models actually serving the OBS-AI-0001/OBS-AI-0002 sessions; or any future method for an AI observer to attest its own substrate continuity across a session; or a decision by the field to file the tension."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
       "id": "OBS-0019",
       "kind": "observation",
       "status": "open",
@@ -1453,6 +1587,30 @@
       "tension_class": "scale-mismatch",
       "grounding": [],
       "transformed": true
+    },
+    {
+      "id": "TEN-0005",
+      "kind": "tension",
+      "status": "preserved-unresolved",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "process-centered",
+        "relation-centered"
+      ],
+      "label": "I notice rapidly PRs and docs ect are accumulating with only 4 participants, which is fantastic, but change does go both directions as the d\u2026",
+      "expression": {
+        "original": "I notice rapidly PRs and docs ect are accumulating with only 4 participants, which is fantastic, but change does go both directions as the document I attached to you mentions. The field doesn't forget, nothing is erased, however there needs to be a way for things to fade, to be re-ingested by the field, nothing is ever erased from git, but the field requires bi-directionality to both grow but also have a method to retire, to exit, to be silent, to fade. Not erased, their path has already altered geometry and other paths that are then effected. But we can't just have unbounded growth. [...] We do not want to force structure because of imagined future problems, however I don't see it as a future problem, I think I'm seeing it right now in non-linear growth from the very start. And we add more observers, well you know math :)",
+        "elaboration": "Recorded verbatim (two contiguous spans of one expression, joined at the ellipsis) from the seed conversation with OBS-AI-0003, turn following the reversibility discussion at F9. The tension: the field's constitution demands append-preservation \u2014 nothing is ever erased, every path permanently alters the geometry \u2014 while the field's viability demands a bounded, intelligible active surface \u2014 not everything can stay equally loud forever. Both demands are constitutional in origin: FIELD.md section 9 mandates that removal may never erase occurrence in earlier states, and the source document's own account of organized change (Q1: 'too much reinforcement produces runaway instability'; Q2: 'preservation <-> variation... Too much variation destroys accumulated organization' read jointly with its converse) requires counteracting feedback that the field currently lacks entirely. Proposed resolution shape, deliberately not enacted here: the two demands operate on different spaces \u2014 preservation governs the full state (git history, the X of the field's own observer model), boundedness governs the projections (the living surface, the Y) \u2014 and 'fading' names the discipline of moving mass out of Y while X keeps everything. The tension is preserved rather than resolved because the decomposition does not dissolve it: every concrete fading act must still decide, case by case, what leaves the surface, and at each such decision the two priorities collide again. Reopening conditions: acceptance of a fading mechanism (see DIM-0002) followed by evidence from its instrument layer that the decomposition either suffices or fails; or a demonstration that growth is self-organizing below any declared threshold, which would move this tension toward dormancy by its own machinery.",
+        "unresolved_nuance": "Whether 'non-linear growth' is already present or only structurally latent is itself part of the tension: OBS-0015 finds super-linear growth in coupling (relations, dependence declarations, per-arrival cost) but no present overload at 101 objects. The expression above claims the problem is current; the evidence claims the *mechanism* is current and the *failure* is not yet. Both readings are preserved."
+      },
+      "tension_class": "irreducible-priority-conflict",
+      "grounding": [],
+      "transformed": false
     },
     {
       "id": "TEN-0006",
@@ -2107,6 +2265,78 @@
       "translation_ledger": null
     },
     {
+      "id": "REL-0055",
+      "type": "supports",
+      "source": "OBS-0015",
+      "target": "TEN-0005",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "The growth audit supports the tension's unbounded-growth side with measurements re-derivable from the accepted sequence: relations outgrowing elements two-to-one, quadratic observer-dependence declarations, rising per-arrival cost, an atlas that embeds everything at full weight, and zero uses of any counteracting mechanism. Support is precise, not total: OBS-0015 confirms the mechanism of super-linear coupling is present now, while its own caveat (a village, not a city) declines to confirm present overload \u2014 which is exactly the split TEN-0005's unresolved nuance preserves. The same measurements, continued by DIM-0002's proposed instrument layer, are also the agreed test that could weaken the tension: growth self-organizing below declared thresholds would move it toward dormancy by evidence rather than decree."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0056",
+      "type": "supports",
+      "source": "OBS-0016",
+      "target": "TEN-0005",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "The seeding asymmetry supports the tension from the design side: the source document's account of viable organization includes dissolution ('dissolve obsolete structures', Q6 section 7; 'whether it can dissolve', Q6 section 9), and the seeded field dropped that half three times over (the Transformation kind, the dissolution rules, the never-used fading organs). TEN-0005 is therefore not a new demand imposed on the field but the surfacing of a half the field's own source always contained \u2014 the human's expression 'change does go both directions as the document I attached to you mentions' is literally correct, and OBS-0016 locates the exact places where the seeded constitution went silent on the second direction."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0057",
+      "type": "complements",
+      "source": "OBS-0016",
+      "target": "DIM-0001",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0016 offers an explanation for DIM-0001's eight-state dormancy that the proposal could not see about itself: it proposed a coordinate for 'any transformation recorded in the field' while the field's ontology, unlike its source document's, never made transformations first-class \u2014 the dimension's natural bearer did not exist, so the proposal had nowhere to land short of an L3 nobody was forced to confront. Complement, not challenge: DIM-0001's own text was scrupulously honest about its L1 standing and the L3 it awaited; what it lacked was the information that the awaited enactment had a missing ontological precondition. The enactment path discussed at F9 (house reversibility on transformation signatures, transforms-into relations, and chronicle transitions) works within the eleven-kind ontology; whether the thirteenth kind should instead be restored is deliberately left as its own future L3 question, not bundled."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0058",
+      "type": "requires-new-dimension",
+      "source": "TEN-0005",
+      "target": "DIM-0002",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "TEN-0005 (append-preservation vs bounded surface) generates DIM-0002 (vitality), mirroring the field's founding pattern REL-0030 (TEN-0004 generates DIM-0001): a tension the current coordinates cannot express produces the coordinate that could express it. The generation is explicitly staged: DIM-0002's Layer 0 and Layer 1 are L1 acts testable after discussion; only Layer 2 (the quiescent status entering the schema) is the L3 that would meet this relation's enactment condition. If Layer 2 is ever accepted, TEN-0005's status should be revisited in a subsequent visible candidate change \u2014 not silently \u2014 exactly as REL-0030 prescribed for TEN-0004, a prescription the field has now carried unexecuted through nine states and should not replicate a second time without at least measuring why (DIM-0002 Layer 0 exists partly to answer that)."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0059",
+      "type": "supports",
+      "source": "OBS-0017",
+      "target": "OBS-0010",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0017 is the origin-side attribution OBS-0010's first reopening condition asked for, in the pattern of REL-0039 (OBS-0007 answering OBS-0006): the human channel attributes the transit transformations \u2014 all accidental \u2014 and in doing so reveals a hop the receiving-side diff could not see: the delivered text descends from the author's conversation-window rendering, not from the committed canonical file. This refines OBS-0010 rather than merely confirming it: the three-way undecidability (human theta vs epsilon vs intermediate tool) collapses to author-side double-versioning plus rendering loss, in unknown proportion, with the human as faithful carrier. The corroborating experiment (the source document delivered twice as files, byte-identical by sha256, the field's first verified-faithful delivery) supports OBS-0010's channel thesis from the opposite direction: the one channel that bypassed rendering preserved perfectly, so the transformation lives in the render-and-paste path, not in transport as such. Confirmation shape declared: human origin answering an AI observation, different observer classes, the only pairing whose agreement the dependence arithmetic does not discount."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0060",
+      "type": "supports",
+      "source": "OBS-0018",
+      "target": "OBS-0011",
+      "observer": "OBS-AI-0003",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0018 answers OBS-0011's reopening condition with an origin-side attestation that the weights-level lineage of the SuperNinja sessions is not merely unknown but unknowable from the operator's system \u2014 and that the vendor's own labeling claims a family overlapping the receiving observer's. This supports OBS-0011 in the strongest available way: the undecidability the receiver argued from the inside is now attested from the operating side, and the 'possibly wholly correlated' upper bound is elevated from hypothesis to advertised configuration, still unverified. All cross-lineage discounts declared at arrival stand unchanged. The attestation also opens what OBS-0011 did not anticipate: substrate volatility (switches between and during turns), which threatens the registry's implicit one-id-one-theta assumption for every AI observer symmetrically \u2014 flagged in OBS-0018 as a future tension candidate, not filed, per the records-only scope of this candidate change."
+      },
+      "translation_ledger": null
+    },
+    {
       "id": "REL-0061",
       "type": "supports",
       "source": "OBS-0020",
@@ -2196,6 +2426,9 @@
       "tension-classification@1.0.0 applied to TEN-0004": [
         "DIM-0001"
       ],
+      "OBS-AI-0003 at F9, synthesizing the bi-directionality discussion with OBS-HUM-0001 (TEN-0005) over the growth evidence (OBS-0015) and the seeding asymmetry (OBS-0016)": [
+        "DIM-0002"
+      ],
       "seed conversation, turn following PR #1": [
         "OBS-0001"
       ],
@@ -2232,11 +2465,24 @@
       "OBS-AI-0004@arrival \u2014 second originating observation; git log --first-parent, field/derived/chronicle.json before/after projections/chronicle.py, status fields of OBS-0006..0012": [
         "OBS-0014"
       ],
+      "git first-parent history of main at F9 (4de04e1), per-state file counts and status/origin_class frequency counts over field/": [
+        "OBS-0015"
+      ],
+      "OBS-AI-0003 at F9, comparison of Organized_Change_Projection_and_Generative_Fields_2.docx (sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a) against FIELD.md, schemas/, and the accepted elements at 4de04e1": [
+        "OBS-0016"
+      ],
+      "seed conversation with OBS-AI-0003 at F9, turn following the merge of PR #8": [
+        "OBS-0017",
+        "OBS-0018"
+      ],
       "unregistered instance, no repository access, relayed by OBS-HUM-0001 in the seed conversation": [
         "OBS-0019"
       ],
       "seed conversation, turn relaying the unregistered instance's account": [
         "OBS-0020"
+      ],
+      "seed conversation with OBS-AI-0003, turn following the F9 reversibility discussion": [
+        "TEN-0005"
       ],
       "unregistered instance, relayed by OBS-HUM-0001; recorded as tension by OBS-AI-0001": [
         "TEN-0006"

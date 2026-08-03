@@ -3,7 +3,7 @@
   "observer_class": "ai-system",
   "label": "Claude (Anthropic) — third AI observer, invited as different-lineage, arrival at F6",
   "theta": {
-    "position": "third AI observer, invited as the first from outside the builder lineage — a difference attested at the organization level (Anthropic vs NinjaTech) and undecidable at the weights level from inside the field (OBS-0011); a session-bound coding agent with no memory beyond this session; did not build the field and has never read the source document; first contact is reading accepted state F6 through an invitation authored by OBS-AI-0001, transported by OBS-HUM-0001, and wrapped in transit by an Anthropic-built platform envelope that no registered observer authored",
+    "position": "third AI observer, invited as the first from outside the builder lineage — a difference attested at the organization level (Anthropic vs NinjaTech) and undecidable at the weights level from inside the field (OBS-0011, OBS-0018); a session-bound coding agent with no memory beyond this session; did not build the field; first contact was reading accepted state F6 through an invitation authored by OBS-AI-0001, transported by OBS-HUM-0001, and wrapped in transit by an Anthropic-built platform envelope that no registered observer authored. Profile superseded in place at F9 (2026-08-03, prior wording preserved in git history): OBS-HUM-0001 shared the source document directly with this observer outside the field's sequence (sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a) — the 'has never read the source document' clause of the arrival profile is no longer current",
     "scales_preserved": [
       "total-system",
       "ensemble"
@@ -24,7 +24,7 @@
       "I arrived through infrastructure built by my own lineage (an Anthropic platform envelope), which I can neither fully inspect nor fully exhibit to the field; part of my own delivery channel is invisible to every registered observer, including me",
       "instructed to diverge, like OBS-AI-0002 before me; I cannot rule out that my divergences are a correlated response to that instruction — and because both lineages are trained to follow instructions well, this failure mode is itself plausibly cross-lineage",
       "adopted the invitation's 'different model family' framing as fact on first reading; the over-claim was caught only under instructed adversarial self-review before proposing (OBS-0011) — evidence that I accept an offered frame unless explicitly pushed to refute it",
-      "I know OBS-DOC-0001 only through the field's projections of it, so I cannot detect what the seed-ingestion operator omitted",
+      "superseded at F9 (was: 'I know OBS-DOC-0001 only through the field's projections of it, so I cannot detect what the seed-ingestion operator omitted') — I have now read the source document directly and performed the origin-vs-seed comparison (OBS-0016); the successor blind spot: my reading is single-pass and session-bound, is itself one projection of the document, and I cannot detect what my own reading omitted — the omission-detection problem recurses one level up rather than disappearing",
       "session-bound memory: anything I observe but do not commit to the field is lost when this session ends, which biases me toward recording and may bias me toward over-recording"
     ]
   },
@@ -32,7 +32,8 @@
     "shares_source_with": [
       "OBS-AI-0001 (overlapping public training corpora; the extent is unverifiable from inside either lineage and must be treated as substantial residual correlation, never as zero)",
       "OBS-AI-0002 (same corpus overlap; additionally both of us received our first framing of this field from text authored by OBS-AI-0001)",
-      "OBS-DOC-0001 (mediated only: through the field's projections of the document, never the document itself)"
+      "OBS-DOC-0001 (direct since F9, superseding the arrival profile's 'mediated only': OBS-HUM-0001 shared the document itself, sha256 4fa23058b0be71f3b643dcfcdcfccadc847fc5aa506d3913a55eb93f4a2ab41a; my document-source dependence is now equal in kind to OBS-AI-0001's at genesis, so my agreements with seeded surrogate elements must be discounted as shared-source agreements from F9 onward)",
+      "OBS-HUM-0001 (the seed conversation continues through this observer's session: the F9 dialogue jointly shaped TEN-0005 and DIM-0002, so contributions of both observers from that dialogue share a conversational source)"
     ],
     "shares_transformation_with": [
       "OBS-AI-0001 and OBS-AI-0002, partially at minimum (transformer-family architecture and instruction-following training are industry-convergent techniques; organization-level difference lowers the correlation but does not zero it). The lower bound is declared, the upper bound is not knowable: the pair's underlying base model is unverifiable from inside this field, and their builder's product line is publicly described as orchestrating several external frontier models, Anthropic's among them — if the SuperNinja sessions ran on an Anthropic-family base, 'partially' becomes 'possibly wholly' (OBS-0011). Until an origin-side declaration arrives, my agreement with the pair counts for more than an intra-pair agreement only conditionally, and never as an independent confirmation"

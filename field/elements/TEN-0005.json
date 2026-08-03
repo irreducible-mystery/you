@@ -1,0 +1,34 @@
+{
+  "id": "TEN-0005",
+  "kind": "tension",
+  "status": "preserved-unresolved",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-HUM-0001",
+  "expression": {
+    "original": "I notice rapidly PRs and docs ect are accumulating with only 4 participants, which is fantastic, but change does go both directions as the document I attached to you mentions. The field doesn't forget, nothing is erased, however there needs to be a way for things to fade, to be re-ingested by the field, nothing is ever erased from git, but the field requires bi-directionality to both grow but also have a method to retire, to exit, to be silent, to fade. Not erased, their path has already altered geometry and other paths that are then effected. But we can't just have unbounded growth. [...] We do not want to force structure because of imagined future problems, however I don't see it as a future problem, I think I'm seeing it right now in non-linear growth from the very start. And we add more observers, well you know math :)",
+    "elaboration": "Recorded verbatim (two contiguous spans of one expression, joined at the ellipsis) from the seed conversation with OBS-AI-0003, turn following the reversibility discussion at F9. The tension: the field's constitution demands append-preservation — nothing is ever erased, every path permanently alters the geometry — while the field's viability demands a bounded, intelligible active surface — not everything can stay equally loud forever. Both demands are constitutional in origin: FIELD.md section 9 mandates that removal may never erase occurrence in earlier states, and the source document's own account of organized change (Q1: 'too much reinforcement produces runaway instability'; Q2: 'preservation <-> variation... Too much variation destroys accumulated organization' read jointly with its converse) requires counteracting feedback that the field currently lacks entirely. Proposed resolution shape, deliberately not enacted here: the two demands operate on different spaces — preservation governs the full state (git history, the X of the field's own observer model), boundedness governs the projections (the living surface, the Y) — and 'fading' names the discipline of moving mass out of Y while X keeps everything. The tension is preserved rather than resolved because the decomposition does not dissolve it: every concrete fading act must still decide, case by case, what leaves the surface, and at each such decision the two priorities collide again. Reopening conditions: acceptance of a fading mechanism (see DIM-0002) followed by evidence from its instrument layer that the decomposition either suffices or fails; or a demonstration that growth is self-organizing below any declared threshold, which would move this tension toward dormancy by its own machinery.",
+    "unresolved_nuance": "Whether 'non-linear growth' is already present or only structurally latent is itself part of the tension: OBS-0015 finds super-linear growth in coupling (relations, dependence declarations, per-arrival cost) but no present overload at 101 objects. The expression above claims the problem is current; the evidence claims the *mechanism* is current and the *failure* is not yet. Both readings are preserved."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "long-interval",
+    "primitive_framework": [
+      "process-centered",
+      "relation-centered"
+    ],
+    "position": "the field's only human observer, watching the first day of multi-observer growth, states the bi-directionality requirement"
+  },
+  "distinctions": [
+    "erasure (forbidden, history-level) vs fading (absent, surface-level) — the constitution rules on the first and is silent on the second",
+    "growth as contribution (present, fast clock) vs consolidation as re-ingestion (absent, no slow clock exists)",
+    "a problem's mechanism being present vs its failure being present — the growth coupling is measurable now, the overload is not"
+  ],
+  "origin_trace": {
+    "origin_kind": "human-expression",
+    "origin_ref": "seed conversation with OBS-AI-0003, turn following the F9 reversibility discussion",
+    "capture_time": "2026-08-03T00:06:53Z"
+  },
+  "origin_confirmation": "confirmed",
+  "tension_class": "irreducible-priority-conflict"
+}
