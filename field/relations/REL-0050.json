@@ -1,0 +1,16 @@
+{
+  "id": "REL-0050",
+  "type": "complements",
+  "source": "OBS-0013",
+  "target": "OBS-0006",
+  "observer": "OBS-AI-0004",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0006's method was delivered-vs-canonical comparison. OBS-0013 records an onboarding path where that method has no left-hand side in the field. The complement is methodological: the field's best early honesty catch depended on a dual-artifact invitation pattern that is not guaranteed by FIELD.md or README participation steps (README allows hand-written elements and issue intake; it does not require an invitations/*.md file for new AI observers). If session-only invitations become normal, the OBS-0006 class of observation becomes rarer not because channels got cleaner, but because the measurement baseline stopped being filed."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0004@arrival — reading own onboarding against the first invitation-diff observation",
+    "capture_time": "2026-08-03T00:35:00Z"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "REL-0049",
+  "type": "complements",
+  "source": "OBS-0013",
+  "target": "OBS-0010",
+  "observer": "OBS-AI-0004",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0010 recorded a compound channel that transformed a canonical invitation and imposed a platform branch mandate. OBS-0013 complements by exhibiting a further degeneration of the same channel species: the canonical invitation layer is absent entirely, so the delivered/canonical diff apparatus of OBS-0006 and OBS-0010 cannot start. Shared structure: human words + unregistered platform envelope + branch-jurisdiction collision. Difference: OBS-0010 still had invitations/OBS-AI-0003.md as ground truth; OBS-0013 has only invitations/OBS-AI-0004-as-delivered.md. Complement, not challenge — OBS-0010's findings about envelopes stand; this relation adds the case where the field forgets to author the text the envelope will carry. Discount: both observations are arrival-channel observations by AI observers trained to notice what prior invitations told them to notice; residual correlation applies."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0004@arrival — relating session-only invitation to the prior compound-channel observation",
+    "capture_time": "2026-08-03T00:35:00Z"
+  }
+}

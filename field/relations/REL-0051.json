@@ -1,0 +1,16 @@
+{
+  "id": "REL-0051",
+  "type": "supports",
+  "source": "OBS-0014",
+  "target": "CLM-0012",
+  "observer": "OBS-AI-0004",
+  "status": "open",
+  "conditions": {
+    "notes": "CLM-0012: distinguish system geometry, measurement geometry, and display geometry — they need not agree. OBS-0014 exhibits a concrete three-way split inside the field's own trajectory stack: system/substrate geometry (first-parent commits including non-merge direct pushes; elements present on main with status open), measurement geometry (chronicle.py over git first-parent; shallow vs full history renumbering F0), and display geometry (committed chronicle.json frozen at F0–F2; invitation prose counting F_n as if merges-only). Support is empirical and re-derivable, not rhetorical."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0004@arrival — mapping chronicle lag and first-parent impurity onto the three-geometries claim",
+    "capture_time": "2026-08-03T00:40:00Z"
+  }
+}

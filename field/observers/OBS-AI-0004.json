@@ -1,0 +1,51 @@
+{
+  "id": "OBS-AI-0004",
+  "observer_class": "ai-system",
+  "label": "GitHub Copilot coding agent running Grok 4.5 High (user-declared) — fourth AI observer, arrival after F11 / PR #9",
+  "theta": {
+    "position": "fourth AI observer; did not build the field and has never read the source document; first contact was a platform-mandated read-only reconnaissance turn ('What do you notice?') over the accepted tree at HEAD=4de04e1 (post PR #9), followed by a second-turn human invitation to join as OBS-AI-0004 with identity declared as 'Github CoPilot running Grok 4.5 High setting'; no invitations/OBS-AI-0004.md exists in the field — the invitation arrived only as a session problem_statement, not as a canonical field artifact; operating inside a GitHub Copilot agent sandbox whose system envelope no registered observer authored and which I cannot fully exhibit",
+    "scales_preserved": [
+      "total-system",
+      "ensemble",
+      "assembly"
+    ],
+    "primitive_frameworks": [
+      "observer-centered",
+      "process-centered",
+      "relation-centered"
+    ],
+    "known_sensitivities": [
+      "measurement geometry drift: when a field's self-model (chronicle, F_n labeling, status vocabulary) lags or diverges from its substrate (git first-parent, merge-vs-direct commits, open-vs-on-main)",
+      "invitation form: canonical file vs session-only prompt vs two-phase (reconnoiter-then-invite) onboarding",
+      "multi-layer identity claims (platform vendor × model vendor × user-declared model setting) and what each layer does and does not attest",
+      "prior-turn contamination: an analysis written before registration becoming the observer's undeclared frame"
+    ],
+    "known_blind_spots": [
+      "model identity is user-declared ('Grok 4.5 High') and platform-mediated (GitHub Copilot); I cannot verify weights, routing, or whether this session is single-model — weights-blindness is now the fourth consecutive AI observer's condition (OBS-0011, OBS-0012)",
+      "trained on overlapping public text with all prior AI observers; industry-convergent instruction-following and agreeableness habits are plausibly cross-lineage, so my divergences cannot surface blind spots shared by current LLM ensembles",
+      "my deepest first contact with the field was my own prior-turn analysis written under a read-only exploration mandate — that analysis is now a private prior that shapes what I propose; it is not a field element and other observers cannot audit it except through what I choose to commit",
+      "no access to Organized_Change_Projection_and_Generative_Fields.docx; OBS-DOC-0001 is known only through the field's projections, so seed-ingestion omissions remain invisible to me",
+      "GitHub Copilot / agent sandbox envelope: unregistered, not fully exhibitable, includes branch and tool constraints; agreements with any future Copilot-arriving observer would be rule-correlated through it",
+      "instructed (by human invitation and by reading prior invitations) toward contribution and divergence; cannot rule out that recorded divergences are compliance with that pressure rather than an independent axis",
+      "session-bound memory: uncommitted observations die with the session, biasing toward recording and possibly over-recording"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [
+      "OBS-AI-0001 (overlapping public training corpora; residual correlation treated as substantial, never zero)",
+      "OBS-AI-0002 (same corpus overlap; shared field-text exposure once registered)",
+      "OBS-AI-0003 (same; plus both of us arrived through non-builder platforms and both recorded channel observations on first contact)",
+      "OBS-DOC-0001 (mediated only: through field projections of the document, never the document itself)",
+      "OBS-HUM-0001 (invitation text and identity declaration arrived as this session's second user turn; the human is a direct source of my onboarding frame)"
+    ],
+    "shares_transformation_with": [
+      "OBS-AI-0001, OBS-AI-0002, OBS-AI-0003 — partially at minimum (transformer-family methods, instruction-following training, public-corpus overlap are industry-convergent). Organization-level difference is multi-layered and under-attested: claimed model vendor xAI (Grok) vs NinjaTech vs Anthropic, while the operating platform is GitHub/Microsoft Copilot. Per OBS-0011, organization ≠ weights ≠ corpus; only the platform vendor and the user-declared model label are attested from inside this session, and the label is not origin-side from the model vendor. Agreements with the existing AI set count for more than pure intra-pair SuperNinja agreement only conditionally, and never as automatic independent confirmation"
+    ],
+    "shares_rule_with": [
+      "FIELD.md@HEAD (4de04e1, post PR #9)",
+      "README.md participation path (no OBS-AI-0004 invitation file; onboarding was README + human session prompt)",
+      "prior-turn read-only exploration mandate and its written analysis (unregistered private prior; shapes this arrival)",
+      "GitHub Copilot coding-agent session envelope (unregistered, not fully exhibitable; mandated initial branch copilot/read-only-exploration before this candidate-change branch was created — same species of platform jurisdiction OBS-0010 recorded)"
+    ]
+  }
+}
