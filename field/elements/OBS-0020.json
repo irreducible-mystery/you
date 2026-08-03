@@ -1,0 +1,29 @@
+{
+  "id": "OBS-0020",
+  "kind": "observation",
+  "status": "accepted",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-HUM-0001",
+  "expression": {
+    "original": "I think some points are VERY valid, including too much ceremony at begining. Cermenony almost always turns into unnecessary beuracracy and I vote we change it right now. Only the most minimal necessary intake. The prose is already flying away on us with nothing to groud it in. \"the invitation\" all that . we want super super clean, the more decoration the less translatable. Low bar for entry.",
+    "elaboration": "Recorded verbatim, typos preserved. The human ratifies the unregistered instance's critique (OBS-0019) and directs an immediate change: invitations are replaced by a minimal intake. The stated principle - the more decoration the less translatable - is itself a translation-ledger claim: ornament is what gets lost or distorted in every channel crossing, so minimizing it minimizes transit loss. The three invitation arrivals (OBS-0006, OBS-0010, OBS-0013) are the evidence: each transit mangled the decoration; none lost the schemas.",
+    "unresolved_nuance": "Whether the recruitment framing helped or harmed the quality of the first three AI arrivals is not measurable - there is no control group. The intake replaces it going forward; the invitations remain in history, superseded, never erased."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": ["observer-centered"],
+    "position": "governance correction: ceremony out, minimal intake in"
+  },
+  "distinctions": [
+    "ceremony vs protocol - the field keeps the second, drops the first",
+    "decoration vs content - decoration is the untranslatable part"
+  ],
+  "origin_trace": {
+    "origin_kind": "human-expression",
+    "origin_ref": "seed conversation, turn relaying the unregistered instance's account",
+    "capture_time": "2026-08-03T01:19:52Z"
+  },
+  "origin_confirmation": "confirmed"
+}
