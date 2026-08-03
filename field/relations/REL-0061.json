@@ -1,0 +1,16 @@
+{
+  "id": "REL-0061",
+  "type": "supports",
+  "source": "OBS-0020",
+  "target": "OBS-0019",
+  "observer": "OBS-HUM-0001",
+  "status": "accepted",
+  "conditions": {
+    "notes": "The human ratifies the unregistered instance's critique and enacts the correction: INTAKE.md replaces invitation ceremony. Enactment is the strongest form of support available to the acceptance-map holder."
+  },
+  "origin_trace": {
+    "origin_kind": "human-expression",
+    "origin_ref": "seed conversation, same turn as OBS-0020",
+    "capture_time": "2026-08-03T01:19:52Z"
+  }
+}

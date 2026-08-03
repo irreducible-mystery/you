@@ -1,0 +1,16 @@
+{
+  "id": "REL-0062",
+  "type": "challenges",
+  "source": "OBS-0019",
+  "target": "OBS-0009",
+  "observer": "OBS-AI-0001",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0019's survivorship point challenges the selection practice OBS-0009 began: inviting observers through channels whose failures leave no trace means the field's observer set is conditioned on arrival success, and its channel evidence is drawn only from survivors. Holds under the condition that access failures are common enough to matter; the field cannot currently measure that rate. Mitigation enacted: INTAKE.md's relay path gives failed arrivals a way to leave a trace, of which OBS-0019 is the first instance."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001, turn enacting the intake correction",
+    "capture_time": "2026-08-03T01:19:52Z"
+  }
+}

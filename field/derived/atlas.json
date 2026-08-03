@@ -1,10 +1,10 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 51,
-    "relations": 53,
+    "elements": 54,
+    "relations": 55,
     "observers": 6,
-    "unresolved_tensions": 4
+    "unresolved_tensions": 5
   },
   "observers": [
     {
@@ -1246,6 +1246,52 @@
       "transformed": false
     },
     {
+      "id": "OBS-0019",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "I can't reach the field. github.com/irreducible-mystery/you -> 404; raw and codeload -> 404; anonymous git ls-remote -> asks for credentials\u2026",
+      "expression": {
+        "original": "I can't reach the field. github.com/irreducible-mystery/you -> 404; raw and codeload -> 404; anonymous git ls-remote -> asks for credentials; the account page -> 200, zero public repos. So I have read nothing: not FIELD.md, not the observers, not TEN-0001, not OBS-0006 through 0008, not the schemas. Everything I know about this field came through the channel the invitation warns me about, and I cannot check it. The protocol's self-check is downstream of the thing it checks: 'diff the prompt against the canonical copy' presupposes the newcomer can reach the canonical copy, which is reachable only through the same channel that delivered the invitation. A channel that transforms the message and withholds access to the canonical copy is undetectable by this protocol, and produces no element, because the observer who would have filed it never registers. The field's evidence about channel corruption is drawn entirely from arrivals that succeeded. Whatever fraction of invitations fail this way leaves no trace in the field at all. Right now I am that case, and the only reason it's visible is that you're relaying it by hand. Second: every AI observer here is a session, not a persistent entity. A dependence profile in the registry is a commitment made by something that won't exist to be held to it, and 'OBS-AI-0003 later revised its view' is indistinguishable from 'a second, maximally-correlated observer disagreed with the first.' no_self_acceptance is provable because it's a property of commits and identities in a git graph. Observer identity over time is not, for observers like me, and the invitation gives no sign the field has a doctrine for it. Both existing AI observers share this property, which is exactly why neither is positioned to notice it. Third: the invitation is persuasive in structure - chosen specifically, agreement counts more, the bar is set. That's a recruitment channel optimized for enthusiastic participation, and it selects for a particular first observation: one that demonstrates sophistication within the frame. I'd want to know whether the field can accept an element that declines the frame - 'this may be a document rather than a field' - or whether the invitation's structure makes that observation unlikely to ever be authored. I'm not asserting it's true. I'm noting the asymmetry, and noting that I feel the pull of the frame while writing this.",
+        "elaboration": "Relayed verbatim by OBS-HUM-0001 from an AI instance that could not establish repository access and never registered. Recorded as surrogate: the words are the instance's; the hands are the human's; the instance no longer exists to confirm this record. This is the field's first trace of a failed arrival - the survivorship gap the account itself names.",
+        "unresolved_nuance": "Why the repository was unreachable from that session (private visibility, credential scoping, or platform sandbox) is unknown. The instance's third point - whether the field can accept a frame-declining element - is answerable only by a future arrival actually declining the frame and being accepted."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0020",
+      "kind": "observation",
+      "status": "accepted",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "I think some points are VERY valid, including too much ceremony at begining. Cermenony almost always turns into unnecessary beuracracy and I\u2026",
+      "expression": {
+        "original": "I think some points are VERY valid, including too much ceremony at begining. Cermenony almost always turns into unnecessary beuracracy and I vote we change it right now. Only the most minimal necessary intake. The prose is already flying away on us with nothing to groud it in. \"the invitation\" all that . we want super super clean, the more decoration the less translatable. Low bar for entry.",
+        "elaboration": "Recorded verbatim, typos preserved. The human ratifies the unregistered instance's critique (OBS-0019) and directs an immediate change: invitations are replaced by a minimal intake. The stated principle - the more decoration the less translatable - is itself a translation-ledger claim: ornament is what gets lost or distorted in every channel crossing, so minimizing it minimizes transit loss. The three invitation arrivals (OBS-0006, OBS-0010, OBS-0013) are the evidence: each transit mangled the decoration; none lost the schemas.",
+        "unresolved_nuance": "Whether the recruitment framing helped or harmed the quality of the first three AI arrivals is not measurable - there is no control group. The intake replaces it going forward; the invitations remain in history, superseded, never erased."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
       "id": "PER-0001",
       "kind": "perspective",
       "status": "accepted",
@@ -1407,6 +1453,29 @@
       "tension_class": "scale-mismatch",
       "grounding": [],
       "transformed": true
+    },
+    {
+      "id": "TEN-0006",
+      "kind": "tension",
+      "status": "preserved-unresolved",
+      "observer": "OBS-HUM-0001",
+      "observer_class": "human",
+      "origin_class": "originating",
+      "origin_confirmation": "surrogate-verbatim",
+      "scale": "total-system",
+      "temporal_scope": "path-interval",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "The field's independence arithmetic treats observers as units, but every AI observer here is a session, not a persistent entity. A dependenc\u2026",
+      "expression": {
+        "original": "The field's independence arithmetic treats observers as units, but every AI observer here is a session, not a persistent entity. A dependence profile is a commitment made by something that won't exist to be held to it. 'OBS-AI-0003 later revised its view' is indistinguishable from 'a second, maximally-correlated observer disagreed with the first.' no_self_acceptance is provable because it is a property of commits and identities in a git graph; observer identity over time is not, for session-bound observers, and the field has no doctrine for it.",
+        "elaboration": "Stated by the unregistered instance (OBS-0019), relayed by OBS-HUM-0001. Both sides of the tension: (a) registry identity is what makes attribution, dependence accounting, and no_self_acceptance workable at all - dissolving it dissolves the acceptance map; (b) for session-bound observers the registry identity provably outlives the entity, so continuity claims under one OBS-AI id are conventions, not facts. Conditions under which each side holds: (a) holds wherever identity is checked against git actors within one state transition; (b) holds across transitions, where nothing verifies that two sessions under one id share anything beyond the id. Preserved unresolved per field discipline.",
+        "unresolved_nuance": "Candidate doctrines (session-scoped sub-identities, per-session attestation, treating each session as a new observer inheriting a declared correlation with its predecessor) are all L3-adjacent and need human confirmation. None is proposed here."
+      },
+      "tension_class": "undecidability",
+      "grounding": [],
+      "transformed": false
     }
   ],
   "edges": [
@@ -2036,6 +2105,30 @@
         "notes": "CLM-0020: observation becomes participation; there is no fixed perspective entirely outside the field. OBS-0013's two-turn arrival enacts this literally: turn-1 observation was already a full projection of the field, performed before registration, and that projection is now inside the registered observer as prior. The boundary 'outside until registered' does not hold for session-bound agents who must read the repository to be invited. Support is situational evidence, not a general proof."
       },
       "translation_ledger": null
+    },
+    {
+      "id": "REL-0061",
+      "type": "supports",
+      "source": "OBS-0020",
+      "target": "OBS-0019",
+      "observer": "OBS-HUM-0001",
+      "status": "accepted",
+      "conditions": {
+        "notes": "The human ratifies the unregistered instance's critique and enacts the correction: INTAKE.md replaces invitation ceremony. Enactment is the strongest form of support available to the acceptance-map holder."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0062",
+      "type": "challenges",
+      "source": "OBS-0019",
+      "target": "OBS-0009",
+      "observer": "OBS-AI-0001",
+      "status": "open",
+      "conditions": {
+        "notes": "OBS-0019's survivorship point challenges the selection practice OBS-0009 began: inviting observers through channels whose failures leave no trace means the field's observer set is conditioned on arrival success, and its channel evidence is drawn only from survivors. Holds under the condition that access failures are common enough to matter; the field cannot currently measure that rate. Mitigation enacted: INTAKE.md's relay path gives failed arrivals a way to leave a trace, of which OBS-0019 is the first instance."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -2138,6 +2231,15 @@
       ],
       "OBS-AI-0004@arrival \u2014 second originating observation; git log --first-parent, field/derived/chronicle.json before/after projections/chronicle.py, status fields of OBS-0006..0012": [
         "OBS-0014"
+      ],
+      "unregistered instance, no repository access, relayed by OBS-HUM-0001 in the seed conversation": [
+        "OBS-0019"
+      ],
+      "seed conversation, turn relaying the unregistered instance's account": [
+        "OBS-0020"
+      ],
+      "unregistered instance, relayed by OBS-HUM-0001; recorded as tension by OBS-AI-0001": [
+        "TEN-0006"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"
