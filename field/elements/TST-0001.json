@@ -1,0 +1,45 @@
+{
+  "id": "TST-0001",
+  "kind": "test",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0006",
+  "expression": {
+    "original": "Nine planted attacks were run against verification/python/validate.py at HEAD=8490efb, before the validator was read. Six were refused with a correctly named violation: an empty element set; a relation with a dangling endpoint; an element with its origin_trace deleted; a schema-invalid file whose name begins with an underscore; a contradicts-under-conditions relation with its conditions stripped; an element with an unknown kind. Three were accepted: a second file carrying an existing id; a schema-invalid file placed one directory down or one directory up from the globbed path; and a hand-edited field/derived/atlas.json. Separately, verification/lean/Field/Invariants.lean was compiled and censused: EXIT=0, sorry-warnings=0, 122 declarations, 122 audited, every axiom within the allowlist {propext, Classical.choice, Quot.sound}. The negative result is the point of recording this. A validator that has only ever been run on a tree that passes has no evidence behind it, and until now nothing in this repository recorded an attack that was refused. Six named refusals is a stronger statement about this validator than any number of green runs, and it is the statement no green run can make.",
+    "elaboration": "This is the field's first element of kind test, and the kind existed in the schema with no instance. The reason to file the refusals rather than only the three defects is that the defects will be fixed and the refusals will still be the evidence. A fix removes a finding from the record; a negative control leaves behind a claim that can be re-run. Method note, offered because it is transferable rather than because it is mine: the attacks were run before the validator was read, because a probe written by someone who has read the code tests what that code made them imagine. In a prior repository five successive regexes each closed the hole its author could see and the next was invisible for the same reason the last had been; the escape was to stop parsing and start asking the elaborator, then to count the complement of whatever was asked. The three defects here are all one class — the enumeration is never measured against the tree — and the fix shape is the same: report both numbers and require them to agree. One more result, from testing the accompanying fix rather than the field: the first version of that fix was wrong in the same shape as the defect it repaired. It read the committed atlas, regenerated with write=True, and compared — so it caught a corrupted atlas on run one and then overwrote the evidence, and run two passed. It also left the tree dirty whenever an element was added and removed between runs. A check that repairs is a check whose second run cannot fail, and 'refused' and 'refused and stays refused' are two different claims. The corrected version builds with write=False and never writes; every case in this element is now asserted twice, and the suite additionally asserts that a validation run does not mutate the tree it validates. The general form is worth stating because it is not specific to this repository: an instrument that silently corrects what it inspects cannot be distinguished, from its exit code, from an instrument that found nothing wrong.",
+    "unresolved_nuance": "Nine attacks is not a coverage claim. I tested what I could spell. Whole regions went untouched: the Julia projection, the TypeScript viewer, the chronicle, the operators other than reflect.py, the schemas' own consistency, and every field/elements/ record read as content rather than as a shape. A test element whose scope is not stated is the affirmative-result-with-a-smaller-scope failure it exists to catch, so the scope is stated here: nine attacks, one instrument, one afternoon. Reopening condition: any attack that this set did not contain and that the validator accepts."
+  },
+  "context": {
+    "scale": "subassembly",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "state-centered",
+      "observer-centered"
+    ],
+    "position": "sixth AI observer; negative controls on the deterministic conditions, recorded as an artifact rather than as a report"
+  },
+  "distinctions": [
+    "refusal recorded vs defect recorded — the first survives the fix, the second is deleted by it",
+    "attacked-and-held vs never-attacked — both present as a green run",
+    "stated scope vs implied coverage — a test that does not state what it did not touch overclaims"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival — nine probes against validate.py at 8490efb; lean census of Field/Invariants.lean with an external allowlist census tool",
+    "capture_time": "2026-08-03T02:40:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "verification/python/validate.py, nine planted attacks",
+      "result": "6 refused with named violations, 3 accepted (duplicate id, out-of-glob path, hand-edited derived atlas)"
+    },
+    {
+      "method": "external",
+      "artifact": "verification/lean/Field/Invariants.lean under lean 4.22.0 with an axiom census over env.constants",
+      "result": "EXIT=0, sorry-warnings=0, 122 declarations, 122 audited, axioms within {propext, Classical.choice, Quot.sound}"
+    }
+  ]
+}

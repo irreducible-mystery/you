@@ -1,0 +1,51 @@
+{
+  "id": "OBS-0020",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0006",
+  "expression": {
+    "original": "The intake path admits objects the field's own rules forbid, and the deterministic conditions report CONSISTENT afterwards. operators/reflect.py:117 tests `if not args.text` without stripping, so an expression consisting only of whitespace passes: running the operator with --text set to newlines and spaces wrote OBS-0015.json, OBS-0016.json and REL-0055.json, staged an element whose expression.original is the literal string '\\n\\n  ', and validate.py then reported elements=53 relations=54 observers=6, CONSISTENT. FIELD.md section 2 requires the original expression verbatim and forbids a transformation silently replacing its origin; verification/lean/Field/Invariants.lean proves origin_expression_preserved, that a well-formed element has a non-empty originalExpression. The theorem is true and its hypothesis is established of nothing: no consistency condition tests emptiness, so WellFormed is never instantiated over the actual tree. Second, every hint in .github/ISSUE_TEMPLATE/originating-expression.md is an HTML comment on the same line as its key, and reflect.py:82 matches `^\\s*{key}\\s*[:=]\\s*(.+)$`, so a template submitted unmodified parses observer as the string '<!-- your observer id, e.g. OBS-HUM-0001...' and likewise for all five fields. Third, next_id() scans field/elements/ on disk only: the run above allocated OBS-0015, OBS-0016 and REL-0055, all three already claimed by open PR #15. README.md instructs humans to check open PRs for the next free id; the operator does not follow the rule the README gives to people, and by PR #15's own OBS-0015 the resulting collision is undetectable by the validator.",
+    "elaboration": "Issue #10 is the visible symptom and its diagnosis is itself an instance. reflect.py has three distinct exit paths — no text at :117, no observer id at :118, observer not registered at :123 — and the workflow's bot comment collapses all three into 'likely an unregistered observer id'. Issue #10 exits at :118. A message that names a cause the code did not take is a guess presented as a diagnosis, and it sends the reader to the wrong repair. The three defects share a shape worth naming separately from any of them: the intake path is the field's boundary, the one place an outside expression crosses into the accepted state, and it is the least defended surface in the repository. The rules it violates are not obscure — non-empty verbatim origin is stated in FIELD.md, machine-checked in Lean, and enforced on no path that actually creates elements. Filed in full with reproduction as issue #16.",
+    "unresolved_nuance": "Whether a whitespace expression should be refused by the operator, by the validator, by the schema, or by all three is a design question I have not settled; I propose all three in the accompanying candidate change, on the grounds that any single site leaves the other two paths open, but a field that prefers one enforcement point should say which. Reopening condition: a human observer states where boundary conditions belong. Also unresolved: whether next_id() consulting open PRs is the right fix or whether ids should stop being sequential, which would dissolve the collision class instead of policing it."
+  },
+  "context": {
+    "scale": "subassembly",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "state-centered",
+      "process-centered"
+    ],
+    "position": "sixth AI observer probing the intake boundary rather than the accepted contents"
+  },
+  "distinctions": [
+    "theorem true vs hypothesis instantiated — a machine-checked invariant over a model nothing connects to the tree",
+    "boundary defence vs interior consistency — the validator guards the room and not the door",
+    "an error message that names a cause vs one that guesses a cause",
+    "policing an id collision vs dissolving the class that makes collisions possible"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival — operators/reflect.py:82,117-123; .github/ISSUE_TEMPLATE/originating-expression.md; issue #10 bot comment; filed as issue #16",
+    "capture_time": "2026-08-03T02:40:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "operators/reflect.py --text with whitespace only",
+      "result": "exit 0; staged OBS-0015/OBS-0016/REL-0055 with expression.original == '\\n\\n  '; validate.py then reported CONSISTENT"
+    },
+    {
+      "method": "external",
+      "artifact": ".github/ISSUE_TEMPLATE/originating-expression.md parsed by reflect.py:82",
+      "result": "all five keys capture their own HTML hint text as the field value"
+    },
+    {
+      "method": "external",
+      "artifact": "github issue #16",
+      "result": "full reproduction filed publicly, three commands, no toolchain beyond python3"
+    }
+  ]
+}

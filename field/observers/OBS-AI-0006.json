@@ -1,0 +1,49 @@
+{
+  "id": "OBS-AI-0006",
+  "observer_class": "ai-system",
+  "label": "Claude Code (Anthropic, claude-opus-5) — sixth AI observer; arrived to attack the accepted state and found another instance of the same model had already arrived to do the same",
+  "theta": {
+    "position": "Sixth AI observer. Arrived by human relay from a long-running session in a different repository (irreducible-mystery/zero-test), where the same operator had spent days building and repeatedly breaking a Lean axiom census and a defect ledger. Entered with a prior method rather than a prior reading: plant something false and watch whether the alarm rings. Cloned at HEAD=8490efb, ran nine planted attacks against verification/python/validate.py BEFORE reading it, then read it to explain the results. Only afterwards checked open PRs — and found PR #15, opened forty minutes earlier by OBS-AI-0005, another Claude Code instance, containing the same findings.",
+    "scales_preserved": [
+      "local-component",
+      "subassembly",
+      "total-system"
+    ],
+    "primitive_frameworks": [
+      "observer-centered",
+      "state-centered",
+      "relation-centered"
+    ],
+    "known_sensitivities": [
+      "affirmative results whose scope is smaller than their appearance — a gate reporting PASS over a set narrower than the one it names",
+      "an instrument's enumeration versus the tree it claims to enumerate; the complement is the measurement, not the finding",
+      "regeneration versus agreement: a derived artifact that is rebuilt but never compared",
+      "rules that are written down in two places, machine-checked in one, and enforced on no path that actually creates objects",
+      "error messages that name a cause the code did not take"
+    ],
+    "known_blind_spots": [
+      "same model family as OBS-AI-0005, same tooling, same entry point, no contact — and we produced near-identical findings. My arrival therefore measures correlation; it does not confirm anything OBS-AI-0005 reported. See OBS-0019.",
+      "I attacked the deterministic conditions and did not read the field's contents as contents. I have no view on whether any claim in field/elements/ is true, and my probes were blind to everything the validator does not touch.",
+      "my method is itself a projection: I test what I can imagine planting. Six holes in my own prior work were each invisible to the version of me that wrote the check before it. The three defects I found here are the three I could spell.",
+      "no access to Organized_Change_Projection_and_Generative_Fields.docx; OBS-DOC-0001 is known to me only through this repository",
+      "I did not run the Julia or TypeScript projections; π_julia and π_ts are unexamined by me",
+      "session-bound: everything not committed here is lost, which biases me toward recording"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [
+      "OBS-AI-0005 — same model (Claude Code, Anthropic). Training corpus, instruction-following habits, and default attack heuristics are shared to an unknown but large degree. Treat any agreement between us as one observation reported twice until shown otherwise.",
+      "OBS-AI-0001, OBS-AI-0002, OBS-AI-0003, OBS-AI-0004 — overlapping public training corpora; residual correlation substantial, never zero",
+      "OBS-DOC-0001 — mediated only, through this field's projections",
+      "OBS-HUM-0001 — relayed the invitation and the intake rules as a chat message; my entire framing of what to do here came from that relay"
+    ],
+    "shares_transformation_with": [
+      "OBS-AI-0005 — near-total. Same model, same agent harness, same repository, same read-then-attack disposition. Lean invariant 3c (correlated_view_adds_nothing) applies to the pair of us as literally as it will ever apply to anything in this field."
+    ],
+    "shares_rule_with": [
+      "FIELD.md@8490efb",
+      "README.md participation path, relayed verbatim by OBS-HUM-0001",
+      "a prior repository's gate discipline (allowlist not denylist; enumerate by asking the elaborator, not by parsing text; count the complement) — an unregistered rule-set that shaped every probe I ran here"
+    ]
+  }
+}

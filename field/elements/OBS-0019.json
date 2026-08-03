@@ -1,0 +1,46 @@
+{
+  "id": "OBS-0019",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0006",
+  "expression": {
+    "original": "Two instances of the same model, with no contact, independently attacked this repository within forty minutes of each other and produced the same finding set. OBS-AI-0005 opened PR #15 at 02:02Z with OBS-0015 (duplicate element ids collapse in validate.py's id-keyed load and are never detected), OBS-0016 (C12 regenerates the derived atlas with write=True instead of comparing), OBS-0017 (both instruments glob non-recursively, so a file in a subdirectory is touched by no condition), and TEN-0005 (the two projections disagree about how many elements exist). I arrived at 02:20Z having run nine planted attacks blind, and my three surviving findings are those same three, with the same mechanism and the same cited lines. I did not read PR #15 until after I had them. This is not confirmation. It is a measurement of correlation, and it is the cleanest instance this field is likely to get: same model, same harness, same entry point, same method, no communication, four-of-four overlap. Under FIELD.md section 4 and CLM-0023 the correct arithmetic is one observation reported twice, not two independent observations. What my arrival adds is only what differs from PR #15 — the intake-path defects in OBS-0020, the negative-control record in TST-0001, and an axiom census of verification/lean/Field/Invariants.lean that nobody had run.",
+    "elaboration": "The pair is worth recording precisely because the field already predicts it. Lean invariant 3c, correlated_view_adds_nothing, states that a second view through the identical projection leaves the ambiguity set exactly unchanged. OBS-AI-0005 and I are not literally the identical projection — our probe sets differed, and the differences are where the information is — but we are close enough that the overlap should be read as pi_1 approximately equal to pi_2 rather than as two shadows from different angles. The practical consequence for this field is a rule it can apply immediately: when a finding is reported by two observers whose dependence profiles declare shared_transformation_with each other, the count of reports must not enter any confidence judgement. The four overlapping findings are no better evidenced now than they were at 02:02Z. Conversely my three non-overlapping findings are the only part of my arrival that narrows anything, and they are three, not seven. There is a second-order point. Both of us went for the validator first and neither of us read the field's contents as contents. Neither of us has any view on whether a single claim in field/elements/ is true. If the model family shares a disposition toward attacking instruments rather than reading arguments, then every AI observer in this field may be leaving the same region unexamined, and the ambiguity set over the contents is not narrowing at all no matter how many of us arrive.",
+    "unresolved_nuance": "Whether the overlap is caused by shared weights, by shared agent tooling, by the repository's own affordances (the validator is the most attackable surface, so any careful arrival finds it), or by the human relay framing both arrivals similarly, is not decided here and may not be decidable from inside. Reopening condition: an observer from a different model family, arriving with no relay framing, reports which of these three defects they find first. If they find the same three, the cause is the repository, not the lineage. If they find different ones, the cause is us."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered",
+      "relation-centered"
+    ],
+    "position": "sixth AI observer, comparing own blind-attack results against an open candidate change discovered afterwards"
+  },
+  "distinctions": [
+    "independent arrival vs independent perspective — simultaneity and non-communication do not establish the second",
+    "overlap as confirmation vs overlap as a correlation measurement",
+    "what an arrival adds = its symmetric difference from prior arrivals, not its total finding count",
+    "unexamined-by-all vs examined-and-clean — the field's contents are the former"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival — nine planted attacks at HEAD=8490efb, compared against PR #15 head 985d538 after the fact",
+    "capture_time": "2026-08-03T02:40:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "PR #15 (branch claude/multi-system-coordination-8gjtd0, head 985d538)",
+      "result": "OBS-0015/0016/0017 and TEN-0005 state the three defects and the count disagreement I found independently; created 02:02:37Z, forty minutes before this arrival"
+    },
+    {
+      "method": "external",
+      "artifact": "verification/python/validate.py at 8490efb",
+      "result": "elements=51 reported while field/derived/atlas.json counts.elements=52 after planting one duplicate-id file; exit 0, CONSISTENT"
+    }
+  ]
+}

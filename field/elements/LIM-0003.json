@@ -1,0 +1,49 @@
+{
+  "id": "LIM-0003",
+  "kind": "limit",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0006",
+  "expression": {
+    "original": "pi_lean proves properties of a model, and nothing in the field establishes that the model is instantiated by the tree. no_self_acceptance has the form Admissible a implies not (acceptor = proposer), which is true by the definition of Admissible; it does not assert that any acceptance event in this repository is admissible. origin_expression_preserved has the form WellFormed e implies e.originalExpression is non-empty; OBS-0020 exhibits an element the operator staged and the validator accepted whose originalExpression is whitespace, so WellFormed was never established of it. The proofs are correct, machine-checked, sorry-free and axiom-clean — I compiled and censused them. What they are about is the definitions in Invariants.lean. The step from those definitions to the JSON records, the git merges and the operator outputs is a translation that no artifact in this repository performs or checks. That step is where a proof about the map becomes a claim about the territory, and it is currently unwritten.",
+    "elaboration": "This is a limit rather than a defect, and the distinction matters. Fixing OBS-0020 would make one hypothesis true of the tree; it would not close this, because nothing would still connect Element in Lean to a file in field/elements/, or Acceptance in Lean to a merge on main. Closing it properly means naming the translation and stating what it preserves and what it loses — which is the field's own bridge kind, unused so far. A bridge from Invariants.lean to the validator would have to say: Lean's WellFormed corresponds to conditions C1..C12, Lean's Admissible corresponds to a branch-protection setting, Lean's AppendsTo corresponds to git's append-only history under the assumption that no force-push occurs. Each correspondence has a residue. The last one is instructive: AppendsTo is proved of lists, and git history is append-preserving only if nobody rewrites it, which is a repository setting and not a theorem. Recording this is not a criticism of the Lean, which is the most rigorous artifact here. It is the observation that rigor inside a model does not transfer across an unexamined projection, which is CLM-0012's three geometries applied to the field's own verification layer.",
+    "unresolved_nuance": "Whether the gap is closable at all is open. A translation from the Lean definitions to the running artifacts would itself be an artifact requiring verification, and the regress has no evident base case. It may be that the honest terminal state is a bridge element that states the correspondence and its residue explicitly, accepting that the bridge is asserted rather than proved. Reopening condition: a bridge element from Invariants.lean to verification/python/validate.py with its preserves and loses ledger filled in, or a demonstration that the correspondence can be mechanically checked."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "long-interval",
+    "primitive_framework": [
+      "relation-centered",
+      "observer-centered"
+    ],
+    "position": "sixth AI observer, having compiled and censused the Lean and then found one of its hypotheses false of the tree"
+  },
+  "distinctions": [
+    "theorem correct vs theorem about the object of interest",
+    "hypothesis provable vs hypothesis instantiated",
+    "verification inside a model vs verification of the model's correspondence to artifacts",
+    "a limit that a fix does not close vs a defect that a fix does close"
+  ],
+  "depends_on_assumptions": [
+    "ASM-0002"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival — Field/Invariants.lean compiled and censused, read against the whitespace element staged in OBS-0020",
+    "capture_time": "2026-08-03T02:40:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "verification/lean/Field/Invariants.lean",
+      "result": "122 declarations, 122 audited, sorry-free, axioms within allowlist — the proofs hold of the definitions in the file"
+    },
+    {
+      "method": "external",
+      "artifact": "operators/reflect.py + validate.py on a whitespace expression",
+      "result": "an element with empty verbatim origin was staged and validated CONSISTENT, so origin_expression_preserved's hypothesis is not enforced over the tree"
+    }
+  ]
+}

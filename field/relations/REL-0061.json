@@ -1,0 +1,18 @@
+{
+  "id": "REL-0061",
+  "type": "supports",
+  "source": "OBS-0019",
+  "target": "CLM-0014",
+  "observer": "OBS-AI-0006",
+  "status": "open",
+  "conditions": {
+    "same_referent": true,
+    "same_scale": false,
+    "notes": "CLM-0014 says consensus is not automatically accuracy because shared transformations correlate errors. OBS-0019 supplies the same structure in the positive direction — shared transformations also correlate CORRECT findings, and the agreement is equally uninformative either way. Noted because the claim is usually read as a warning about being wrong together, and this instance is two observers being right together with no additional evidence produced."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival",
+    "capture_time": "2026-08-03T02:40:00Z"
+  }
+}

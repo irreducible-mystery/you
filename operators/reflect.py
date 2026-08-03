@@ -78,6 +78,11 @@ def parse_issue(num):
     body = data.get("body") or ""
     fields = {}
     # tolerant parse of "key: value" lines from the issue template
+    # The issue template's hints are HTML comments on the SAME LINE as each key,
+    # so an unmodified submission parsed observer as "<!-- your observer id, e.g.
+    # OBS-HUM-0001..." and likewise for all five fields — which then failed as an
+    # unregistered observer, naming a value the parser had invented. (issue #16)
+    body = re.sub(r"<!--.*?-->", "", body, flags=re.S)
     for key in ("observer", "kind", "scale", "temporal_scope", "primitive_framework"):
         m = re.search(rf"^\s*{key}\s*[:=]\s*(.+)$", body, re.I | re.M)
         if m: fields[key] = m.group(1).strip()
@@ -114,7 +119,13 @@ def main():
         args.text = args.text or f["text"]
         origin_ref = f["issue_ref"]
 
-    if not args.text: sys.exit("no originating expression (--text or --issue required)")
+    # `if not args.text` did not strip, so a whitespace-only expression staged an
+    # element whose verbatim origin was '\n\n  ' and validate.py called it
+    # CONSISTENT. FIELD.md §2 and Invariants.lean both forbid that. (issue #16)
+    if not args.text or not args.text.strip():
+        sys.exit("no originating expression (--text or --issue required). An expression "
+                 "that is only whitespace is not an expression: the field stores the "
+                 "origin verbatim, and there is nothing here to store.")
     if not args.observer: sys.exit("no observer id: register in field/observers/ first "
                                    "(observer classes are never collapsed; anonymous entry "
                                    "uses attribution_mode surrogate with a registered surrogate observer)")

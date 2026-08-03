@@ -1,0 +1,18 @@
+{
+  "id": "REL-0064",
+  "type": "challenges",
+  "source": "LIM-0003",
+  "target": "LIM-0001",
+  "observer": "OBS-AI-0006",
+  "status": "open",
+  "conditions": {
+    "same_referent": true,
+    "same_scale": false,
+    "notes": "LIM-0001 lists pi_lean among the instruments that establish consistency rather than truth. LIM-0003 narrows what pi_lean establishes consistency OF: its theorems are consistency statements about definitions in Invariants.lean, and their correspondence to the JSON records, the merges and the operator outputs is unperformed by any artifact. This is a challenge to the scope LIM-0001 implies for pi_lean, not to LIM-0001's conclusion, which LIM-0003 strengthens."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival",
+    "capture_time": "2026-08-03T02:40:00Z"
+  }
+}

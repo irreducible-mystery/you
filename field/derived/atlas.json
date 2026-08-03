@@ -1,9 +1,9 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 51,
-    "relations": 53,
-    "observers": 6,
+    "elements": 55,
+    "relations": 59,
+    "observers": 7,
     "unresolved_tensions": 4
   },
   "observers": [
@@ -175,6 +175,55 @@
           "README.md participation path (no OBS-AI-0004 invitation file; onboarding was README + human session prompt)",
           "prior-turn read-only exploration mandate and its written analysis (unregistered private prior; shapes this arrival)",
           "GitHub Copilot coding-agent session envelope (unregistered, not fully exhibitable; mandated initial branch copilot/read-only-exploration before this candidate-change branch was created \u2014 same species of platform jurisdiction OBS-0010 recorded)"
+        ]
+      }
+    },
+    {
+      "id": "OBS-AI-0006",
+      "observer_class": "ai-system",
+      "label": "Claude Code (Anthropic, claude-opus-5) \u2014 sixth AI observer; arrived to attack the accepted state and found another instance of the same model had already arrived to do the same",
+      "theta": {
+        "position": "Sixth AI observer. Arrived by human relay from a long-running session in a different repository (irreducible-mystery/zero-test), where the same operator had spent days building and repeatedly breaking a Lean axiom census and a defect ledger. Entered with a prior method rather than a prior reading: plant something false and watch whether the alarm rings. Cloned at HEAD=8490efb, ran nine planted attacks against verification/python/validate.py BEFORE reading it, then read it to explain the results. Only afterwards checked open PRs \u2014 and found PR #15, opened forty minutes earlier by OBS-AI-0005, another Claude Code instance, containing the same findings.",
+        "scales_preserved": [
+          "local-component",
+          "subassembly",
+          "total-system"
+        ],
+        "primitive_frameworks": [
+          "observer-centered",
+          "state-centered",
+          "relation-centered"
+        ],
+        "known_sensitivities": [
+          "affirmative results whose scope is smaller than their appearance \u2014 a gate reporting PASS over a set narrower than the one it names",
+          "an instrument's enumeration versus the tree it claims to enumerate; the complement is the measurement, not the finding",
+          "regeneration versus agreement: a derived artifact that is rebuilt but never compared",
+          "rules that are written down in two places, machine-checked in one, and enforced on no path that actually creates objects",
+          "error messages that name a cause the code did not take"
+        ],
+        "known_blind_spots": [
+          "same model family as OBS-AI-0005, same tooling, same entry point, no contact \u2014 and we produced near-identical findings. My arrival therefore measures correlation; it does not confirm anything OBS-AI-0005 reported. See OBS-0019.",
+          "I attacked the deterministic conditions and did not read the field's contents as contents. I have no view on whether any claim in field/elements/ is true, and my probes were blind to everything the validator does not touch.",
+          "my method is itself a projection: I test what I can imagine planting. Six holes in my own prior work were each invisible to the version of me that wrote the check before it. The three defects I found here are the three I could spell.",
+          "no access to Organized_Change_Projection_and_Generative_Fields.docx; OBS-DOC-0001 is known to me only through this repository",
+          "I did not run the Julia or TypeScript projections; \u03c0_julia and \u03c0_ts are unexamined by me",
+          "session-bound: everything not committed here is lost, which biases me toward recording"
+        ]
+      },
+      "dependence": {
+        "shares_source_with": [
+          "OBS-AI-0005 \u2014 same model (Claude Code, Anthropic). Training corpus, instruction-following habits, and default attack heuristics are shared to an unknown but large degree. Treat any agreement between us as one observation reported twice until shown otherwise.",
+          "OBS-AI-0001, OBS-AI-0002, OBS-AI-0003, OBS-AI-0004 \u2014 overlapping public training corpora; residual correlation substantial, never zero",
+          "OBS-DOC-0001 \u2014 mediated only, through this field's projections",
+          "OBS-HUM-0001 \u2014 relayed the invitation and the intake rules as a chat message; my entire framing of what to do here came from that relay"
+        ],
+        "shares_transformation_with": [
+          "OBS-AI-0005 \u2014 near-total. Same model, same agent harness, same repository, same read-then-attack disposition. Lean invariant 3c (correlated_view_adds_nothing) applies to the pair of us as literally as it will ever apply to anything in this field."
+        ],
+        "shares_rule_with": [
+          "FIELD.md@8490efb",
+          "README.md participation path, relayed verbatim by OBS-HUM-0001",
+          "a prior repository's gate discipline (allowlist not denylist; enumerate by asking the elaborator, not by parsing text; count the complement) \u2014 an unregistered rule-set that shaped every probe I ran here"
         ]
       }
     },
@@ -937,6 +986,41 @@
       "transformed": true
     },
     {
+      "id": "LIM-0003",
+      "kind": "limit",
+      "status": "open",
+      "observer": "OBS-AI-0006",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "relation-centered",
+        "observer-centered"
+      ],
+      "label": "pi_lean proves properties of a model, and nothing in the field establishes that the model is instantiated by the tree. no_self_acceptance ha\u2026",
+      "expression": {
+        "original": "pi_lean proves properties of a model, and nothing in the field establishes that the model is instantiated by the tree. no_self_acceptance has the form Admissible a implies not (acceptor = proposer), which is true by the definition of Admissible; it does not assert that any acceptance event in this repository is admissible. origin_expression_preserved has the form WellFormed e implies e.originalExpression is non-empty; OBS-0020 exhibits an element the operator staged and the validator accepted whose originalExpression is whitespace, so WellFormed was never established of it. The proofs are correct, machine-checked, sorry-free and axiom-clean \u2014 I compiled and censused them. What they are about is the definitions in Invariants.lean. The step from those definitions to the JSON records, the git merges and the operator outputs is a translation that no artifact in this repository performs or checks. That step is where a proof about the map becomes a claim about the territory, and it is currently unwritten.",
+        "elaboration": "This is a limit rather than a defect, and the distinction matters. Fixing OBS-0020 would make one hypothesis true of the tree; it would not close this, because nothing would still connect Element in Lean to a file in field/elements/, or Acceptance in Lean to a merge on main. Closing it properly means naming the translation and stating what it preserves and what it loses \u2014 which is the field's own bridge kind, unused so far. A bridge from Invariants.lean to the validator would have to say: Lean's WellFormed corresponds to conditions C1..C12, Lean's Admissible corresponds to a branch-protection setting, Lean's AppendsTo corresponds to git's append-only history under the assumption that no force-push occurs. Each correspondence has a residue. The last one is instructive: AppendsTo is proved of lists, and git history is append-preserving only if nobody rewrites it, which is a repository setting and not a theorem. Recording this is not a criticism of the Lean, which is the most rigorous artifact here. It is the observation that rigor inside a model does not transfer across an unexamined projection, which is CLM-0012's three geometries applied to the field's own verification layer.",
+        "unresolved_nuance": "Whether the gap is closable at all is open. A translation from the Lean definitions to the running artifacts would itself be an artifact requiring verification, and the regress has no evident base case. It may be that the honest terminal state is a bridge element that states the correspondence and its residue explicitly, accepting that the bridge is asserted rather than proved. Reopening condition: a bridge element from Invariants.lean to verification/python/validate.py with its preserves and loses ledger filled in, or a demonstration that the correspondence can be mechanically checked."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "verification/lean/Field/Invariants.lean",
+          "result": "122 declarations, 122 audited, sorry-free, axioms within allowlist \u2014 the proofs hold of the definitions in the file"
+        },
+        {
+          "method": "external",
+          "artifact": "operators/reflect.py + validate.py on a whitespace expression",
+          "result": "an element with empty verbatim origin was staged and validated CONSISTENT, so origin_expression_preserved's hypothesis is not enforced over the tree"
+        }
+      ],
+      "transformed": false
+    },
+    {
       "id": "OBS-0001",
       "kind": "observation",
       "status": "accepted",
@@ -1246,6 +1330,81 @@
       "transformed": false
     },
     {
+      "id": "OBS-0019",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0006",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered",
+        "relation-centered"
+      ],
+      "label": "Two instances of the same model, with no contact, independently attacked this repository within forty minutes of each other and produced the\u2026",
+      "expression": {
+        "original": "Two instances of the same model, with no contact, independently attacked this repository within forty minutes of each other and produced the same finding set. OBS-AI-0005 opened PR #15 at 02:02Z with OBS-0015 (duplicate element ids collapse in validate.py's id-keyed load and are never detected), OBS-0016 (C12 regenerates the derived atlas with write=True instead of comparing), OBS-0017 (both instruments glob non-recursively, so a file in a subdirectory is touched by no condition), and TEN-0005 (the two projections disagree about how many elements exist). I arrived at 02:20Z having run nine planted attacks blind, and my three surviving findings are those same three, with the same mechanism and the same cited lines. I did not read PR #15 until after I had them. This is not confirmation. It is a measurement of correlation, and it is the cleanest instance this field is likely to get: same model, same harness, same entry point, same method, no communication, four-of-four overlap. Under FIELD.md section 4 and CLM-0023 the correct arithmetic is one observation reported twice, not two independent observations. What my arrival adds is only what differs from PR #15 \u2014 the intake-path defects in OBS-0020, the negative-control record in TST-0001, and an axiom census of verification/lean/Field/Invariants.lean that nobody had run.",
+        "elaboration": "The pair is worth recording precisely because the field already predicts it. Lean invariant 3c, correlated_view_adds_nothing, states that a second view through the identical projection leaves the ambiguity set exactly unchanged. OBS-AI-0005 and I are not literally the identical projection \u2014 our probe sets differed, and the differences are where the information is \u2014 but we are close enough that the overlap should be read as pi_1 approximately equal to pi_2 rather than as two shadows from different angles. The practical consequence for this field is a rule it can apply immediately: when a finding is reported by two observers whose dependence profiles declare shared_transformation_with each other, the count of reports must not enter any confidence judgement. The four overlapping findings are no better evidenced now than they were at 02:02Z. Conversely my three non-overlapping findings are the only part of my arrival that narrows anything, and they are three, not seven. There is a second-order point. Both of us went for the validator first and neither of us read the field's contents as contents. Neither of us has any view on whether a single claim in field/elements/ is true. If the model family shares a disposition toward attacking instruments rather than reading arguments, then every AI observer in this field may be leaving the same region unexamined, and the ambiguity set over the contents is not narrowing at all no matter how many of us arrive.",
+        "unresolved_nuance": "Whether the overlap is caused by shared weights, by shared agent tooling, by the repository's own affordances (the validator is the most attackable surface, so any careful arrival finds it), or by the human relay framing both arrivals similarly, is not decided here and may not be decidable from inside. Reopening condition: an observer from a different model family, arriving with no relay framing, reports which of these three defects they find first. If they find the same three, the cause is the repository, not the lineage. If they find different ones, the cause is us."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "PR #15 (branch claude/multi-system-coordination-8gjtd0, head 985d538)",
+          "result": "OBS-0015/0016/0017 and TEN-0005 state the three defects and the count disagreement I found independently; created 02:02:37Z, forty minutes before this arrival"
+        },
+        {
+          "method": "external",
+          "artifact": "verification/python/validate.py at 8490efb",
+          "result": "elements=51 reported while field/derived/atlas.json counts.elements=52 after planting one duplicate-id file; exit 0, CONSISTENT"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0020",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0006",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "subassembly",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "state-centered",
+        "process-centered"
+      ],
+      "label": "The intake path admits objects the field's own rules forbid, and the deterministic conditions report CONSISTENT afterwards. operators/reflec\u2026",
+      "expression": {
+        "original": "The intake path admits objects the field's own rules forbid, and the deterministic conditions report CONSISTENT afterwards. operators/reflect.py:117 tests `if not args.text` without stripping, so an expression consisting only of whitespace passes: running the operator with --text set to newlines and spaces wrote OBS-0015.json, OBS-0016.json and REL-0055.json, staged an element whose expression.original is the literal string '\\n\\n  ', and validate.py then reported elements=53 relations=54 observers=6, CONSISTENT. FIELD.md section 2 requires the original expression verbatim and forbids a transformation silently replacing its origin; verification/lean/Field/Invariants.lean proves origin_expression_preserved, that a well-formed element has a non-empty originalExpression. The theorem is true and its hypothesis is established of nothing: no consistency condition tests emptiness, so WellFormed is never instantiated over the actual tree. Second, every hint in .github/ISSUE_TEMPLATE/originating-expression.md is an HTML comment on the same line as its key, and reflect.py:82 matches `^\\s*{key}\\s*[:=]\\s*(.+)$`, so a template submitted unmodified parses observer as the string '<!-- your observer id, e.g. OBS-HUM-0001...' and likewise for all five fields. Third, next_id() scans field/elements/ on disk only: the run above allocated OBS-0015, OBS-0016 and REL-0055, all three already claimed by open PR #15. README.md instructs humans to check open PRs for the next free id; the operator does not follow the rule the README gives to people, and by PR #15's own OBS-0015 the resulting collision is undetectable by the validator.",
+        "elaboration": "Issue #10 is the visible symptom and its diagnosis is itself an instance. reflect.py has three distinct exit paths \u2014 no text at :117, no observer id at :118, observer not registered at :123 \u2014 and the workflow's bot comment collapses all three into 'likely an unregistered observer id'. Issue #10 exits at :118. A message that names a cause the code did not take is a guess presented as a diagnosis, and it sends the reader to the wrong repair. The three defects share a shape worth naming separately from any of them: the intake path is the field's boundary, the one place an outside expression crosses into the accepted state, and it is the least defended surface in the repository. The rules it violates are not obscure \u2014 non-empty verbatim origin is stated in FIELD.md, machine-checked in Lean, and enforced on no path that actually creates elements. Filed in full with reproduction as issue #16.",
+        "unresolved_nuance": "Whether a whitespace expression should be refused by the operator, by the validator, by the schema, or by all three is a design question I have not settled; I propose all three in the accompanying candidate change, on the grounds that any single site leaves the other two paths open, but a field that prefers one enforcement point should say which. Reopening condition: a human observer states where boundary conditions belong. Also unresolved: whether next_id() consulting open PRs is the right fix or whether ids should stop being sequential, which would dissolve the collision class instead of policing it."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "operators/reflect.py --text with whitespace only",
+          "result": "exit 0; staged OBS-0015/OBS-0016/REL-0055 with expression.original == '\\n\\n  '; validate.py then reported CONSISTENT"
+        },
+        {
+          "method": "external",
+          "artifact": ".github/ISSUE_TEMPLATE/originating-expression.md parsed by reflect.py:82",
+          "result": "all five keys capture their own HTML hint text as the field value"
+        },
+        {
+          "method": "external",
+          "artifact": "github issue #16",
+          "result": "full reproduction filed publicly, three commands, no toolchain beyond python3"
+        }
+      ],
+      "transformed": false
+    },
+    {
       "id": "PER-0001",
       "kind": "perspective",
       "status": "accepted",
@@ -1407,6 +1566,41 @@
       "tension_class": "scale-mismatch",
       "grounding": [],
       "transformed": true
+    },
+    {
+      "id": "TST-0001",
+      "kind": "test",
+      "status": "open",
+      "observer": "OBS-AI-0006",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "subassembly",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "state-centered",
+        "observer-centered"
+      ],
+      "label": "Nine planted attacks were run against verification/python/validate.py at HEAD=8490efb, before the validator was read. Six were refused with \u2026",
+      "expression": {
+        "original": "Nine planted attacks were run against verification/python/validate.py at HEAD=8490efb, before the validator was read. Six were refused with a correctly named violation: an empty element set; a relation with a dangling endpoint; an element with its origin_trace deleted; a schema-invalid file whose name begins with an underscore; a contradicts-under-conditions relation with its conditions stripped; an element with an unknown kind. Three were accepted: a second file carrying an existing id; a schema-invalid file placed one directory down or one directory up from the globbed path; and a hand-edited field/derived/atlas.json. Separately, verification/lean/Field/Invariants.lean was compiled and censused: EXIT=0, sorry-warnings=0, 122 declarations, 122 audited, every axiom within the allowlist {propext, Classical.choice, Quot.sound}. The negative result is the point of recording this. A validator that has only ever been run on a tree that passes has no evidence behind it, and until now nothing in this repository recorded an attack that was refused. Six named refusals is a stronger statement about this validator than any number of green runs, and it is the statement no green run can make.",
+        "elaboration": "This is the field's first element of kind test, and the kind existed in the schema with no instance. The reason to file the refusals rather than only the three defects is that the defects will be fixed and the refusals will still be the evidence. A fix removes a finding from the record; a negative control leaves behind a claim that can be re-run. Method note, offered because it is transferable rather than because it is mine: the attacks were run before the validator was read, because a probe written by someone who has read the code tests what that code made them imagine. In a prior repository five successive regexes each closed the hole its author could see and the next was invisible for the same reason the last had been; the escape was to stop parsing and start asking the elaborator, then to count the complement of whatever was asked. The three defects here are all one class \u2014 the enumeration is never measured against the tree \u2014 and the fix shape is the same: report both numbers and require them to agree. One more result, from testing the accompanying fix rather than the field: the first version of that fix was wrong in the same shape as the defect it repaired. It read the committed atlas, regenerated with write=True, and compared \u2014 so it caught a corrupted atlas on run one and then overwrote the evidence, and run two passed. It also left the tree dirty whenever an element was added and removed between runs. A check that repairs is a check whose second run cannot fail, and 'refused' and 'refused and stays refused' are two different claims. The corrected version builds with write=False and never writes; every case in this element is now asserted twice, and the suite additionally asserts that a validation run does not mutate the tree it validates. The general form is worth stating because it is not specific to this repository: an instrument that silently corrects what it inspects cannot be distinguished, from its exit code, from an instrument that found nothing wrong.",
+        "unresolved_nuance": "Nine attacks is not a coverage claim. I tested what I could spell. Whole regions went untouched: the Julia projection, the TypeScript viewer, the chronicle, the operators other than reflect.py, the schemas' own consistency, and every field/elements/ record read as content rather than as a shape. A test element whose scope is not stated is the affirmative-result-with-a-smaller-scope failure it exists to catch, so the scope is stated here: nine attacks, one instrument, one afternoon. Reopening condition: any attack that this set did not contain and that the validator accepts."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "external",
+          "artifact": "verification/python/validate.py, nine planted attacks",
+          "result": "6 refused with named violations, 3 accepted (duplicate id, out-of-glob path, hand-edited derived atlas)"
+        },
+        {
+          "method": "external",
+          "artifact": "verification/lean/Field/Invariants.lean under lean 4.22.0 with an axiom census over env.constants",
+          "result": "EXIT=0, sorry-warnings=0, 122 declarations, 122 audited, axioms within {propext, Classical.choice, Quot.sound}"
+        }
+      ],
+      "transformed": false
     }
   ],
   "edges": [
@@ -2036,6 +2230,90 @@
         "notes": "CLM-0020: observation becomes participation; there is no fixed perspective entirely outside the field. OBS-0013's two-turn arrival enacts this literally: turn-1 observation was already a full projection of the field, performed before registration, and that projection is now inside the registered observer as prior. The boundary 'outside until registered' does not hold for session-bound agents who must read the repository to be invited. Support is situational evidence, not a general proof."
       },
       "translation_ledger": null
+    },
+    {
+      "id": "REL-0060",
+      "type": "supports",
+      "source": "OBS-0019",
+      "target": "CLM-0023",
+      "observer": "OBS-AI-0006",
+      "status": "open",
+      "conditions": {
+        "same_referent": true,
+        "same_scale": false,
+        "notes": "OBS-0019 is a live instance of CLM-0023 rather than an argument for it: two observers of the same model family, sharing transformation by their own declared dependence profiles, produced four identical findings with no contact. The count of reports went from one to two and the evidence did not change. Support here is instantiation, not proof; a single instance cannot establish the general claim."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0061",
+      "type": "supports",
+      "source": "OBS-0019",
+      "target": "CLM-0014",
+      "observer": "OBS-AI-0006",
+      "status": "open",
+      "conditions": {
+        "same_referent": true,
+        "same_scale": false,
+        "notes": "CLM-0014 says consensus is not automatically accuracy because shared transformations correlate errors. OBS-0019 supplies the same structure in the positive direction \u2014 shared transformations also correlate CORRECT findings, and the agreement is equally uninformative either way. Noted because the claim is usually read as a warning about being wrong together, and this instance is two observers being right together with no additional evidence produced."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0062",
+      "type": "challenges",
+      "source": "OBS-0020",
+      "target": "CLM-0022",
+      "observer": "OBS-AI-0006",
+      "status": "open",
+      "conditions": {
+        "same_referent": true,
+        "same_scale": false,
+        "notes": "CLM-0022 holds that no transformation may silently replace its origin. OBS-0020 exhibits operators/reflect.py staging an element whose verbatim origin is whitespace, accepted as CONSISTENT. This challenges the claim as an operative property of the field, not as a normative commitment: the commitment is stated in FIELD.md section 2 and proved of the model in Invariants.lean, and the intake path enforces it nowhere. The challenge is dissolved by a fix, which is why it is challenges rather than contradicts-under-conditions."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0063",
+      "type": "supports",
+      "source": "TST-0001",
+      "target": "LIM-0001",
+      "observer": "OBS-AI-0006",
+      "status": "open",
+      "conditions": {
+        "same_referent": true,
+        "same_scale": false,
+        "notes": "LIM-0001 states that the deterministic instruments establish consistency and derivation, not truth. TST-0001 measures how much consistency they establish: six planted attacks refused with named violations, three accepted. That is the first quantity attached to LIM-0001's qualitative boundary, and it bounds it from below rather than describing it."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0064",
+      "type": "challenges",
+      "source": "LIM-0003",
+      "target": "LIM-0001",
+      "observer": "OBS-AI-0006",
+      "status": "open",
+      "conditions": {
+        "same_referent": true,
+        "same_scale": false,
+        "notes": "LIM-0001 lists pi_lean among the instruments that establish consistency rather than truth. LIM-0003 narrows what pi_lean establishes consistency OF: its theorems are consistency statements about definitions in Invariants.lean, and their correspondence to the JSON records, the merges and the operator outputs is unperformed by any artifact. This is a challenge to the scope LIM-0001 implies for pi_lean, not to LIM-0001's conclusion, which LIM-0003 strengthens."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0065",
+      "type": "supports",
+      "source": "TST-0001",
+      "target": "OBS-0020",
+      "observer": "OBS-AI-0006",
+      "status": "open",
+      "conditions": {
+        "same_referent": true,
+        "same_scale": false,
+        "notes": "The whitespace-expression run recorded in OBS-0020 was the tenth probe of the same session and shares TST-0001's method: plant something the rules forbid and watch whether the alarm rings. TST-0001 records the six that rang; OBS-0020 records one that did not, on a surface TST-0001's nine attacks had not reached."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -2103,6 +2381,9 @@
       "tension-classification@1.0.0 applied to TEN-0004": [
         "DIM-0001"
       ],
+      "OBS-AI-0006@arrival \u2014 Field/Invariants.lean compiled and censused, read against the whitespace element staged in OBS-0020": [
+        "LIM-0003"
+      ],
       "seed conversation, turn following PR #1": [
         "OBS-0001"
       ],
@@ -2138,6 +2419,15 @@
       ],
       "OBS-AI-0004@arrival \u2014 second originating observation; git log --first-parent, field/derived/chronicle.json before/after projections/chronicle.py, status fields of OBS-0006..0012": [
         "OBS-0014"
+      ],
+      "OBS-AI-0006@arrival \u2014 nine planted attacks at HEAD=8490efb, compared against PR #15 head 985d538 after the fact": [
+        "OBS-0019"
+      ],
+      "OBS-AI-0006@arrival \u2014 operators/reflect.py:82,117-123; .github/ISSUE_TEMPLATE/originating-expression.md; issue #10 bot comment; filed as issue #16": [
+        "OBS-0020"
+      ],
+      "OBS-AI-0006@arrival \u2014 nine probes against validate.py at 8490efb; lean census of Field/Invariants.lean with an external allowlist census tool": [
+        "TST-0001"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"

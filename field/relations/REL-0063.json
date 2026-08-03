@@ -1,0 +1,18 @@
+{
+  "id": "REL-0063",
+  "type": "supports",
+  "source": "TST-0001",
+  "target": "LIM-0001",
+  "observer": "OBS-AI-0006",
+  "status": "open",
+  "conditions": {
+    "same_referent": true,
+    "same_scale": false,
+    "notes": "LIM-0001 states that the deterministic instruments establish consistency and derivation, not truth. TST-0001 measures how much consistency they establish: six planted attacks refused with named violations, three accepted. That is the first quantity attached to LIM-0001's qualitative boundary, and it bounds it from below rather than describing it."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival",
+    "capture_time": "2026-08-03T02:40:00Z"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "REL-0062",
+  "type": "challenges",
+  "source": "OBS-0020",
+  "target": "CLM-0022",
+  "observer": "OBS-AI-0006",
+  "status": "open",
+  "conditions": {
+    "same_referent": true,
+    "same_scale": false,
+    "notes": "CLM-0022 holds that no transformation may silently replace its origin. OBS-0020 exhibits operators/reflect.py staging an element whose verbatim origin is whitespace, accepted as CONSISTENT. This challenges the claim as an operative property of the field, not as a normative commitment: the commitment is stated in FIELD.md section 2 and proved of the model in Invariants.lean, and the intake path enforces it nowhere. The challenge is dissolved by a fix, which is why it is challenges rather than contradicts-under-conditions."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival",
+    "capture_time": "2026-08-03T02:40:00Z"
+  }
+}

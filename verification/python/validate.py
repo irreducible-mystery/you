@@ -38,15 +38,42 @@ violations = []
 def V(msg): violations.append(msg)
 
 def load(pattern):
+    # Keyed by id, so two files declaring the same id used to COLLAPSE: one
+    # silently replaced the other in the validated view while both survived
+    # into projections/atlas.py, which loads into a list. The two instruments
+    # then disagreed about how many elements exist and nothing compared them.
+    # A duplicate id is now a violation, not a merge.
     out = {}
     for path in sorted(glob.glob(pattern)):
         try:
             with open(path) as f:
                 d = json.load(f)
-            out[d.get("id", os.path.basename(path))] = (d, path)
         except Exception as e:
             V(f"unparseable JSON: {path}: {e}")
+            continue
+        key = d.get("id", os.path.basename(path))
+        if key in out:
+            V(f"C0 {key}: declared by two files ({out[key][1]} and {path}); "
+              f"one would silently replace the other in every condition below")
+            continue
+        out[key] = (d, path)
     return out
+
+
+def complement(subdir, loaded):
+    # THE COMPLEMENT. glob('<dir>/*.json') is flat: a record one directory down,
+    # or with another extension, was invisible rather than rejected — and the
+    # intake instructions tell contributors to hand-add these files. An
+    # enumeration that reports only what it reached cannot report what it
+    # missed, so both numbers are produced and required to agree.
+    root = os.path.join(FIELD, subdir)
+    on_disk = [p for p in glob.glob(os.path.join(root, "**", "*"), recursive=True)
+               if os.path.isfile(p)]
+    stray = [p for p in on_disk if os.path.dirname(p) != root or not p.endswith(".json")]
+    for p in sorted(stray):
+        V(f"C0b {os.path.relpath(p, REPO)}: outside {subdir}/*.json, so no condition "
+          f"below inspects it. Move it, or it is not in the field.")
+    return len(on_disk), len(loaded) + len(stray)
 
 def main():
     observers = load(os.path.join(FIELD, "observers", "*.json"))
@@ -176,16 +203,60 @@ def main():
            e.get("status") in ("accepted", "preserved-unresolved"):
             V(f"C12a {eid}: unfinished reflection skeleton cannot enter accepted state")
 
+    # ---- C13: the verbatim origin is non-empty ----
+    # FIELD.md §2 requires the original expression verbatim; Invariants.lean
+    # PROVES origin_expression_preserved. Nothing established its hypothesis of
+    # any real element, and operators/reflect.py staged one whose expression was
+    # '\n\n  '. The theorem was true and about nothing. (issue #16, OBS-0020)
+    for eid, (e, path) in elements.items():
+        if not str(e.get("expression", {}).get("original", "")).strip():
+            V(f"C13 {eid}: verbatim originating expression is empty or whitespace")
+
     # ---- C12: atlas regeneration succeeds ----
     sys.path.insert(0, os.path.join(REPO, "projections"))
+    atlas_path = os.path.join(FIELD, "derived", "atlas.json")
+    try:
+        committed = json.load(open(atlas_path))
+    except Exception as ex:
+        committed = None
+        V(f"C12: committed atlas unreadable: {ex}")
     try:
         import atlas as atlas_mod
-        atlas_mod.build(write=True)
+        # write=False. THE VALIDATOR MUST NOT MUTATE WHAT IT VALIDATES.
+        # This was build(write=True), which meant a corrupted atlas was silently
+        # REPAIRED instead of refused: locally the edit vanished with no message,
+        # and in CI the repair was discarded so a wrong committed atlas passed
+        # green forever and was what the viewer served.
+        #
+        # The first version of THIS fix compared and then still wrote. It caught
+        # the corruption on run one and destroyed the evidence, so run two passed
+        # -- and any element added and removed between runs left the tree dirty.
+        # A check that repairs is a check whose second run cannot fail.
+        regenerated = atlas_mod.build(write=False)
     except Exception as ex:
+        regenerated = None
         V(f"C12: atlas regeneration failed: {ex}")
+
+    if committed is not None and regenerated is not None:
+        # REGENERATION IS NOT AGREEMENT. C12 asserted only that the builder ran.
+        if committed != regenerated:
+            V("C12b: committed field/derived/atlas.json differs from a fresh "
+              "regeneration. Run: python3 projections/atlas.py")
+        rc = regenerated.get("counts", {}).get("elements")
+        if rc is not None and rc != len(elements):
+            V(f"C12c: pi_python counts {len(elements)} elements and pi_ts's source "
+              f"artifact counts {rc}. The field holds that disagreement between "
+              f"projections is information; here it is a defect.")
 
     # ---- report ----
     n = len(elements); m = len(relations); o = len(observers)
+    # Manifest, not just verdict: what was on disk vs what was inspected. A
+    # gate that reports PASS without its scope cannot say how much it looked at.
+    scope = []
+    for sub, loaded in (("elements", elements), ("relations", relations), ("observers", observers)):
+        disk, seen = complement(sub, loaded)
+        scope.append(f"{sub}={len(loaded)}/{disk}")
+    print("inspected/on-disk: " + "  ".join(scope))
     print(f"elements={n} relations={m} observers={o}")
     if violations:
         print(f"\nINCONSISTENT — {len(violations)} violation(s):")

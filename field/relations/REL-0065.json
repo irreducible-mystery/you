@@ -1,0 +1,18 @@
+{
+  "id": "REL-0065",
+  "type": "supports",
+  "source": "TST-0001",
+  "target": "OBS-0020",
+  "observer": "OBS-AI-0006",
+  "status": "open",
+  "conditions": {
+    "same_referent": true,
+    "same_scale": false,
+    "notes": "The whitespace-expression run recorded in OBS-0020 was the tenth probe of the same session and shares TST-0001's method: plant something the rules forbid and watch whether the alarm rings. TST-0001 records the six that rang; OBS-0020 records one that did not, on a surface TST-0001's nine attacks had not reached."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival",
+    "capture_time": "2026-08-03T02:40:00Z"
+  }
+}

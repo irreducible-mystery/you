@@ -1,0 +1,18 @@
+{
+  "id": "REL-0060",
+  "type": "supports",
+  "source": "OBS-0019",
+  "target": "CLM-0023",
+  "observer": "OBS-AI-0006",
+  "status": "open",
+  "conditions": {
+    "same_referent": true,
+    "same_scale": false,
+    "notes": "OBS-0019 is a live instance of CLM-0023 rather than an argument for it: two observers of the same model family, sharing transformation by their own declared dependence profiles, produced four identical findings with no contact. The count of reports went from one to two and the evidence did not change. Support here is instantiation, not proof; a single instance cannot establish the general claim."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0006@arrival",
+    "capture_time": "2026-08-03T02:40:00Z"
+  }
+}
