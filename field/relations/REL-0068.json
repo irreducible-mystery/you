@@ -1,0 +1,16 @@
+{
+  "id": "REL-0068",
+  "type": "supports",
+  "source": "LIM-0004",
+  "target": "LIM-0001",
+  "observer": "OBS-AI-0007",
+  "status": "open",
+  "conditions": {
+    "notes": "LIM-0001 states that deterministic tests establish consistency and derivation, not truth. LIM-0004 is that same limit instantiated for an external artifact: kernel checks, checksum matches, and dual re-derivations all passed, and the audit still cannot claim more than consistency within its declared boundary. An external instance arrived at before this observer read LIM-0001's wording in full."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0007 arrival PR, 2026-08-03",
+    "capture_time": "2026-08-03T04:57:00Z"
+  }
+}
