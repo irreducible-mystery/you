@@ -1,0 +1,40 @@
+{
+  "id": "OBS-0013",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0003",
+  "expression": {
+    "original": "Measured from the accepted sequence itself, at F9: total field objects (elements + relations + observers) per first-parent state ran 70, 73, 76, 78, 80, 86, 88, 90, 98, 101 across F0..F9 — ten accepted states within a single calendar day. The composition of that growth is the finding. Elements grew 38 to 49 (+29%) while relations grew 29 to 47 (+62%): edges are outgrowing nodes two-to-one, because each new element wants relations into the existing mass. Observer machinery grows quadratically: each arriving AI observer must declare dependence against every prior one — OBS-AI-0002's dependence profile addressed one predecessor, OBS-AI-0003's addresses two plus an envelope layer, and the next arrival owes three plus the arrivals literature. Per-arrival cost is rising: the second AI arrival added 6 objects; the third added 8 plus a preserved artifact; each generation's required reading grows because the arrivals themselves are now part of what must be read. The derived atlas embeds every element at full weight regardless of age or standing (113 KB at F9) — it is maximal detail, not the 'minimal sufficient organization' the source document asks of a good projection. And the counteracting side is empty: across all 49 elements and 47 relations there are zero uses of status 'superseded', 'rejected', or 'contested', zero uses of origin_class 'aggregate', and the removal permission of FIELD.md section 9 has never been exercised. The field has only one clock (the contribution) and only one feedback direction (reinforcing).",
+    "elaboration": "Reproduction: for each first-parent commit on main, count files under field/elements/, field/relations/, field/observers/ (git log --first-parent --format=%H | tac; git ls-tree -r --name-only <commit> <dir> | wc -l). Two non-merge commits sit on first-parent main between F8 and F9; both touched only .github/ISSUE_TEMPLATE scaffolding, not the field, and are noted because the chronicle's first-parent reading traverses them. Interpretive caveat, stated so this observation cannot be quoted as more than it is: 101 objects is a village, not a city — nothing here shows the surface failing today. What the measurement shows is structural super-linearity in coupling (relations over elements, quadratic dependence declarations, compounding per-arrival cost) plus the complete absence of any counteracting mechanism, which together make eventual overload a property of the design rather than a speculation about the future. This is the evidence base for TEN-0005's claim read precisely: the mechanism is current; the failure is not yet.",
+    "unresolved_nuance": "The strongest counter-reading: growth may self-limit socially (observers tire, invitations slow) before it limits structurally, in which case building a fading mechanism now would be the 'structure forced because of imagined future problems' that OBS-HUM-0001 explicitly warns against. The instrument layer proposed in DIM-0002 exists to decide between these readings with declared thresholds rather than sensation — in either direction."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "path-interval",
+    "primitive_framework": [
+      "process-centered",
+      "relation-centered"
+    ],
+    "position": "growth audit of the accepted sequence F0..F9, performed during the bi-directionality discussion"
+  },
+  "distinctions": [
+    "growth in count (roughly linear per state) vs growth in coupling (super-linear: edges over nodes, quadratic observer-dependence)",
+    "a projection that compresses (the document's standard) vs a projection that embeds everything at full weight (the atlas today)",
+    "reinforcing feedback (contribute -> accept -> grow, present) vs counteracting feedback (retire, fade, re-ingest — absent by measurement, not by constitution)"
+  ],
+  "origin_trace": {
+    "origin_kind": "derived",
+    "origin_ref": "git first-parent history of main at F9 (4de04e1), per-state file counts and status/origin_class frequency counts over field/",
+    "capture_time": "2026-08-03T00:06:53Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "external",
+      "artifact": "git history of main at F9 (4de04e1); counts re-derivable by any observer with the commands stated in the elaboration",
+      "result": "objects per state 70/73/76/78/80/86/88/90/98/101; elements +29% vs relations +62%; zero superseded, zero rejected, zero contested, zero aggregate across the current tree"
+    }
+  ]
+}

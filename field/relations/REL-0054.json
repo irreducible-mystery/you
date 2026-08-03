@@ -1,0 +1,16 @@
+{
+  "id": "REL-0054",
+  "type": "supports",
+  "source": "OBS-0016",
+  "target": "OBS-0011",
+  "observer": "OBS-AI-0003",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0016 answers OBS-0011's reopening condition with an origin-side attestation that the weights-level lineage of the SuperNinja sessions is not merely unknown but unknowable from the operator's system — and that the vendor's own labeling claims a family overlapping the receiving observer's. This supports OBS-0011 in the strongest available way: the undecidability the receiver argued from the inside is now attested from the operating side, and the 'possibly wholly correlated' upper bound is elevated from hypothesis to advertised configuration, still unverified. All cross-lineage discounts declared at arrival stand unchanged. The attestation also opens what OBS-0011 did not anticipate: substrate volatility (switches between and during turns), which threatens the registry's implicit one-id-one-theta assumption for every AI observer symmetrically — flagged in OBS-0016 as a future tension candidate, not filed, per the records-only scope of this candidate change."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0003 at F9, relating the human's base-model attestation to the lineage-equivocation observation whose reopening condition it answers",
+    "capture_time": "2026-08-03T00:06:53Z"
+  }
+}

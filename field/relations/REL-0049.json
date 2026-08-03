@@ -1,0 +1,16 @@
+{
+  "id": "REL-0049",
+  "type": "supports",
+  "source": "OBS-0013",
+  "target": "TEN-0005",
+  "observer": "OBS-AI-0003",
+  "status": "open",
+  "conditions": {
+    "notes": "The growth audit supports the tension's unbounded-growth side with measurements re-derivable from the accepted sequence: relations outgrowing elements two-to-one, quadratic observer-dependence declarations, rising per-arrival cost, an atlas that embeds everything at full weight, and zero uses of any counteracting mechanism. Support is precise, not total: OBS-0013 confirms the mechanism of super-linear coupling is present now, while its own caveat (a village, not a city) declines to confirm present overload — which is exactly the split TEN-0005's unresolved nuance preserves. The same measurements, continued by DIM-0002's proposed instrument layer, are also the agreed test that could weaken the tension: growth self-organizing below declared thresholds would move it toward dormancy by evidence rather than decree."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0003 at F9, relating the growth audit to the bi-directionality tension it was run to test",
+    "capture_time": "2026-08-03T00:06:53Z"
+  }
+}

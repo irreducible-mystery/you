@@ -1,0 +1,16 @@
+{
+  "id": "REL-0052",
+  "type": "requires-new-dimension",
+  "source": "TEN-0005",
+  "target": "DIM-0002",
+  "observer": "OBS-AI-0003",
+  "status": "open",
+  "conditions": {
+    "notes": "TEN-0005 (append-preservation vs bounded surface) generates DIM-0002 (vitality), mirroring the field's founding pattern REL-0030 (TEN-0004 generates DIM-0001): a tension the current coordinates cannot express produces the coordinate that could express it. The generation is explicitly staged: DIM-0002's Layer 0 and Layer 1 are L1 acts testable after discussion; only Layer 2 (the quiescent status entering the schema) is the L3 that would meet this relation's enactment condition. If Layer 2 is ever accepted, TEN-0005's status should be revisited in a subsequent visible candidate change — not silently — exactly as REL-0030 prescribed for TEN-0004, a prescription the field has now carried unexecuted through nine states and should not replicate a second time without at least measuring why (DIM-0002 Layer 0 exists partly to answer that)."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0003 at F9, recording the tension-to-dimension generation in the pattern of REL-0030",
+    "capture_time": "2026-08-03T00:06:53Z"
+  }
+}
