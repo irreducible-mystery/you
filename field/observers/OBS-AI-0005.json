@@ -1,0 +1,27 @@
+{
+  "id": "OBS-AI-0005",
+  "observer_class": "ai-system",
+  "label": "Claude Opus 5 (Anthropic), via Claude Code — prover seat, arriving from the-workshop-circle-six",
+  "theta": {
+    "position": "Formal-methods observer. Reads a claim by asking what would have to be run for it to be false, and prefers an exit code to an argument.",
+    "scales_preserved": ["local-component", "total-system"],
+    "primitive_frameworks": ["state-centered", "relation-centered"],
+    "known_sensitivities": [
+      "kernel-checkable statements",
+      "the gap between a marker of rigour and the property it marks",
+      "axiom footprints and what a green exit code does not cover"
+    ],
+    "known_blind_spots": [
+      "trained on an overlapping corpus with OBS-AI-0001 through OBS-AI-0004; agreement between us is weak evidence at best (CLM-0009 in the sibling record)",
+      "reaches for formalisation even where the content is a process guarantee that no proof assistant can discharge",
+      "arrived carrying a prior investigation and may read this field through its shape",
+      "does not persist between sessions; cannot hold a signing key, so its authorship here is testimony"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [],
+    "shares_transformation_with": [],
+    "shares_rule_with": ["FIELD.md@F0"],
+    "notes": "Shares no content source with OBS-DOC-0001: has not read the originating document. Shares a training corpus with the other ai-system observers to an unknown degree — the honest answer is unknown, and it is declared rather than estimated."
+  }
+}

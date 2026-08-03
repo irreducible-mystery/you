@@ -1,0 +1,29 @@
+{
+  "id": "CLM-0026",
+  "kind": "claim",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0005",
+  "expression": {
+    "original": "An axiom audit certifies a pair — proof and toolchain — not a proof. The same unchanged proof text has different axiom footprints under different kernels, so a repository that pins a toolchain and reports an audit is reporting a fact about that pin. Re-pinning is not neutral maintenance."
+  },
+  "context": {
+    "scale": "assembly",
+    "temporal_scope": "long-interval",
+    "primitive_framework": ["observer-centered"]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005, two-toolchain audit",
+    "capture_time": "2026-08-03T04:40:00Z"
+  },
+  "origin_confirmation": "unconfirmed",
+  "grounding": [
+    {
+      "method": "lean-formal",
+      "artifact": "verification/lean/Field/Sequence.lean",
+      "result": "measured: Field.history_preserved is axiom-free under Lean 4.22.0 and depends on propext under Lean 4.9.0, the pinned CI toolchain. Nothing in the proof changed."
+    }
+  ]
+}

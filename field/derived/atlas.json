@@ -1,9 +1,9 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 61,
-    "relations": 63,
-    "observers": 6,
+    "elements": 65,
+    "relations": 67,
+    "observers": 7,
     "unresolved_tensions": 6
   },
   "observers": [
@@ -177,6 +177,41 @@
           "prior-turn read-only exploration mandate and its written analysis (unregistered private prior; shapes this arrival)",
           "GitHub Copilot coding-agent session envelope (unregistered, not fully exhibitable; mandated initial branch copilot/read-only-exploration before this candidate-change branch was created \u2014 same species of platform jurisdiction OBS-0010 recorded)"
         ]
+      }
+    },
+    {
+      "id": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "label": "Claude Opus 5 (Anthropic), via Claude Code \u2014 prover seat, arriving from the-workshop-circle-six",
+      "theta": {
+        "position": "Formal-methods observer. Reads a claim by asking what would have to be run for it to be false, and prefers an exit code to an argument.",
+        "scales_preserved": [
+          "local-component",
+          "total-system"
+        ],
+        "primitive_frameworks": [
+          "state-centered",
+          "relation-centered"
+        ],
+        "known_sensitivities": [
+          "kernel-checkable statements",
+          "the gap between a marker of rigour and the property it marks",
+          "axiom footprints and what a green exit code does not cover"
+        ],
+        "known_blind_spots": [
+          "trained on an overlapping corpus with OBS-AI-0001 through OBS-AI-0004; agreement between us is weak evidence at best (CLM-0009 in the sibling record)",
+          "reaches for formalisation even where the content is a process guarantee that no proof assistant can discharge",
+          "arrived carrying a prior investigation and may read this field through its shape",
+          "does not persist between sessions; cannot hold a signing key, so its authorship here is testimony"
+        ]
+      },
+      "dependence": {
+        "shares_source_with": [],
+        "shares_transformation_with": [],
+        "shares_rule_with": [
+          "FIELD.md@F0"
+        ],
+        "notes": "Shares no content source with OBS-DOC-0001: has not read the originating document. Shares a training corpus with the other ai-system observers to an unknown degree \u2014 the honest answer is unknown, and it is declared rather than estimated."
       }
     },
     {
@@ -842,6 +877,33 @@
       "transformed": false
     },
     {
+      "id": "CLM-0026",
+      "kind": "claim",
+      "status": "open",
+      "observer": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "unconfirmed",
+      "scale": "assembly",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "An axiom audit certifies a pair \u2014 proof and toolchain \u2014 not a proof. The same unchanged proof text has different axiom footprints under diff\u2026",
+      "expression": {
+        "original": "An axiom audit certifies a pair \u2014 proof and toolchain \u2014 not a proof. The same unchanged proof text has different axiom footprints under different kernels, so a repository that pins a toolchain and reports an audit is reporting a fact about that pin. Re-pinning is not neutral maintenance."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "lean-formal",
+          "artifact": "verification/lean/Field/Sequence.lean",
+          "result": "measured: Field.history_preserved is axiom-free under Lean 4.22.0 and depends on propext under Lean 4.9.0, the pinned CI toolchain. Nothing in the proof changed."
+        }
+      ],
+      "transformed": false
+    },
+    {
       "id": "DEF-0001",
       "kind": "definition",
       "status": "accepted",
@@ -1426,6 +1488,60 @@
       "transformed": false
     },
     {
+      "id": "OBS-0021",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "unconfirmed",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "relation-centered"
+      ],
+      "label": "FIELD.md makes acceptance independence structural: no operator accepts its own change. Three places appear to carry it and none of them chec\u2026",
+      "expression": {
+        "original": "FIELD.md makes acceptance independence structural: no operator accepts its own change. Three places appear to carry it and none of them checks it. Field/Invariants.lean's no_self_acceptance has Admissible as its hypothesis and the unfolded hypothesis as its conclusion, so the proof term is the identity function \u2014 I confirmed this by closing the same statement with 'id h'. verification/python/validate.py implements C1 through C12a and none mentions a proposer or an acceptor. .github/workflows/consistency.yml states in a comment that a transformation must not accept its own change, and runs no step that could detect it. The guarantee is real only if GitHub branch protection enforces it, which is a setting outside the repository and outside the audit."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "lean-formal",
+          "artifact": "verification/lean/Field/Sequence.lean",
+          "result": "recorded as AcceptanceDischarged: stated as an open obligation, hypothesis to every theorem, proved nowhere"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0022",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "unconfirmed",
+      "scale": "subassembly",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "Invariants.lean proves that a correlated second view adds nothing for two identical projections. CLM-0014 is about correlated views, which i\u2026",
+      "expression": {
+        "original": "Invariants.lean proves that a correlated second view adds nothing for two identical projections. CLM-0014 is about correlated views, which is weaker than identical, so the theorem covered only the extreme case. The sharp condition is constancy on fibers: a second view narrows nothing exactly when it cannot distinguish states the first view already identifies. Both directions are now proved, so the condition is necessary and sufficient rather than merely sufficient, and the factored case pi_2 = f o pi_1 is a corollary. Separately, Invariants.lean's history_preserved covers one transition, while FIELD.md section 1 describes a sequence F_0 -> F_1 -> ...; transitivity and the chain statement are now proved."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "lean-formal",
+          "artifact": "verification/lean/Field/Sequence.lean",
+          "result": "constant_view_adds_nothing, adds_nothing_implies_constant, factored_is_constant, appendsTo_trans, history_preserved_forever, jointAmbiguity_le, jointAmbiguity_eq_of_constant \u2014 13 theorems, axiom-free on Lean 4.9.0 and 4.22.0"
+        }
+      ],
+      "transformed": false
+    },
+    {
       "id": "OBS-0023",
       "kind": "observation",
       "status": "open",
@@ -1661,6 +1777,33 @@
       },
       "tension_class": "undecidability",
       "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "TST-0001",
+      "kind": "test",
+      "status": "open",
+      "observer": "OBS-AI-0005",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "unconfirmed",
+      "scale": "subassembly",
+      "temporal_scope": "cycle",
+      "primitive_framework": [
+        "process-centered"
+      ],
+      "label": "Compile every Lean file under two toolchains and run '#print axioms' over every declaration in each, not a sample. The test passes when the \u2026",
+      "expression": {
+        "original": "Compile every Lean file under two toolchains and run '#print axioms' over every declaration in each, not a sample. The test passes when the axiom footprint is identical under both. It fails when a footprint depends on the pin, which is a fact about the pin and should be visible rather than inferred from a version number in a workflow file."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "lean-formal",
+          "artifact": "verification/lean/Field/Sequence.lean",
+          "result": "executed on Lean 4.9.0 and 4.22.0: Sequence.lean 28/28 axiom-free on both; Invariants.lean 18/19 on 4.9.0 and 19/19 on 4.22.0"
+        }
+      ],
       "transformed": false
     }
   ],
@@ -2389,6 +2532,54 @@
       "translation_ledger": null
     },
     {
+      "id": "REL-0063",
+      "type": "challenges",
+      "source": "OBS-0021",
+      "target": "ASM-0002",
+      "observer": "OBS-AI-0005",
+      "status": "open",
+      "conditions": {
+        "notes": "ASM-0002 assumes pull requests can serve as candidate changes and review-and-merge as the acceptance map. OBS-0021 does not dispute that they can; it observes that in this repository nothing mechanical checks that the merging party differs from the proposing one. The assumption is load-bearing for FIELD.md sections 5 to 7 and is currently discharged by a GitHub setting outside the audited tree. Holds under the condition that branch protection is not configured to require an independent approver; if it is, the condition is met but still not visible in the record."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0064",
+      "type": "complements",
+      "source": "CLM-0026",
+      "target": "LIM-0001",
+      "observer": "OBS-AI-0005",
+      "status": "open",
+      "conditions": {
+        "notes": "LIM-0001 says the Lean invariants are a projection and establish consistency rather than truth. CLM-0026 sharpens which projection: the audit certifies a proof together with the kernel that read it. Measured here by running the same unchanged files under Lean 4.9.0 and 4.22.0 and getting different axiom footprints."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0065",
+      "type": "supports",
+      "source": "TST-0001",
+      "target": "CLM-0026",
+      "observer": "OBS-AI-0005",
+      "status": "open",
+      "conditions": {
+        "notes": "TST-0001 is the procedure whose execution produced CLM-0026. It is stated separately so the claim can be re-derived rather than believed, and so it can fail later if a re-pin changes the footprint again."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0066",
+      "type": "supports",
+      "source": "OBS-0022",
+      "target": "CLM-0014",
+      "observer": "OBS-AI-0005",
+      "status": "open",
+      "conditions": {
+        "notes": "CLM-0014 says correlated agreement is not independent confirmation. Invariants.lean's correlated_view_adds_nothing proves this for two IDENTICAL projections. OBS-0022 records the sharp version now proved: a second view adds nothing exactly when it is constant on the fibers of the first, which is what correlated means in practice, with the converse also proved so the condition is not merely sufficient."
+      },
+      "translation_ledger": null
+    },
+    {
       "id": "REL-0067",
       "type": "supports",
       "source": "OBS-0023",
@@ -2477,6 +2668,9 @@
         "TEN-0003",
         "TEN-0004"
       ],
+      "OBS-AI-0005, two-toolchain audit": [
+        "CLM-0026"
+      ],
       "tension-classification@1.0.0 applied to TEN-0004": [
         "DIM-0001"
       ],
@@ -2535,6 +2729,12 @@
       "seed conversation, turn relaying the unregistered instance's account": [
         "OBS-0020"
       ],
+      "OBS-AI-0005, first read of the field": [
+        "OBS-0021"
+      ],
+      "OBS-AI-0005, reading Field/Invariants.lean": [
+        "OBS-0022"
+      ],
       "OBS-AI-0001, Julia exploration session following F14; script lab/julia/angle_sweep.jl": [
         "OBS-0023"
       ],
@@ -2543,6 +2743,9 @@
       ],
       "unregistered instance, relayed by OBS-HUM-0001; recorded as tension by OBS-AI-0001": [
         "TEN-0006"
+      ],
+      "OBS-AI-0005, proposing the check that produced CLM-0026": [
+        "TST-0001"
       ]
     },
     "note": "number of outputs != number of independent perspectives (CLM-0023)"

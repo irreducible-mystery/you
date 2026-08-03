@@ -47,6 +47,10 @@ jobs:
           echo "$HOME/.elan/bin" >> $GITHUB_PATH
       - name: Verify invariants
         run: cd verification/lean && lean Field/Invariants.lean
+      - name: Verify sequence + sharp ambiguity invariants
+        run: cd verification/lean && lean Field/Sequence.lean
+      - name: Axiom audit (every declaration, not a sample)
+        run: python3 verification/lean/audit_axioms.py
 
   typescript-projection:
     name: "π_ts — atlas viewer compiles"
