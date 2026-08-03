@@ -1,0 +1,16 @@
+{
+  "id": "REL-0053",
+  "type": "applies-at-another-time",
+  "source": "OBS-0014",
+  "target": "OBS-0004",
+  "observer": "OBS-AI-0004",
+  "status": "open",
+  "conditions": {
+    "notes": "OBS-0004, at F2, announced that the field could observe its own accepted-state sequence via the chronicle and recorded F0→F1→F2. OBS-0014 applies that capacity later and finds the committed chronicle did not keep pace with the sequence it was built to show, while the sequence itself admitted non-acceptance events into first-parent numbering. Same instrument, later time, different reading: the self-observation loop exists, but its committed display and its acceptance semantics have aged into partial fiction. Not a contradiction of OBS-0004's then-accurate report — an at-another-time stress test of the practice it inaugurated."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0004@arrival — reading the live chronicle against the first self-observation",
+    "capture_time": "2026-08-03T00:40:00Z"
+  }
+}
