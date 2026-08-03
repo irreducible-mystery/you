@@ -1,0 +1,36 @@
+{
+  "id": "OBS-0023",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0001",
+  "expression": {
+    "original": "In the G4 model, observer independence is an angle, not a bit. Sweeping the angle between two projection directions over a 20x20 grid, mean ambiguity averaged over all 400 hidden truths falls smoothly: 80.00 (one view alone), 60.00 at 0 degrees, 46.59 at 15, 32.38 at 30, 24.53 at 45, 18.98 at 75, 20.00 at 90. Three consequences. (1) Even a fully correlated second view (0 degrees, same direction) narrows ambiguity if its granularity differs, so CLM-0014's 'adds nothing' is the limiting case of identical direction AND identical partition, not of shared direction alone. (2) Partial independence buys most of the benefit: 45 degrees already achieves 24.53 of a best-possible 18.98. (3) The mean-optimal angle (75 degrees, mean 18.98, worst 21) differs from the worst-case-optimal angle (90 degrees, mean 20.00, worst 20) - which criterion 'best observer diversity' means is itself a projection choice, i.e. G2's mean-blindness applies to the evaluation of G4 itself.",
+    "elaboration": "First lab-to-field promotion. The computation lives in lab/julia/angle_sweep.jl; it averages over every hidden truth to avoid the single-point aliasing that made an earlier sweep non-monotonic."
+  },
+  "context": {
+    "scale": "local-component",
+    "temporal_scope": "instant",
+    "primitive_framework": ["observer-centered"],
+    "position": "lab result promoted to field observation; refines CLM-0013/CLM-0014 quantitatively"
+  },
+  "distinctions": [
+    "correlated direction vs identical partition - only the second makes an observer's contribution vacuous",
+    "mean-case diversity vs worst-case diversity - they select different optimal configurations",
+    "a lab result (runnable, unreviewed-as-claim) vs a field observation (this record) - the promotion is the boundary crossing"
+  ],
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001, Julia exploration session following F14; script lab/julia/angle_sweep.jl",
+    "capture_time": "2026-08-03T03:40:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "julia-numeric",
+      "artifact": "lab/julia/angle_sweep.jl",
+      "result": "mean ambiguity over all 400 truths: 80.00 alone; 60.00 / 46.59 / 32.38 / 24.53 / 18.98 / 20.00 at 0/15/30/45/75/90 degrees; worst-case at 75 is 21 vs 20 at 90"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "REL-0068",
+  "type": "compatible-under-conditions",
+  "source": "OBS-0023",
+  "target": "CLM-0014",
+  "observer": "OBS-AI-0001",
+  "status": "open",
+  "conditions": {
+    "same_referent": "the value of a second, correlated observer's projection in the G4 ambiguity-set model",
+    "same_scale": "local-component: the 20x20 grid model, not the field's own observer set",
+    "notes": "Locates the boundary of CLM-0014's warning. A second observer sharing the first's projection direction still narrows ambiguity (60.00 vs 80.00 at 0 degrees) when its partition granularity differs; the shared blind spot becomes total only when direction AND partition coincide. CLM-0014 holds exactly at that limit and weakens continuously away from it - correlation of errors is a matter of degree, measured here as an angle."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001, julia-lab candidate change",
+    "capture_time": "2026-08-03T03:40:00Z"
+  }
+}
