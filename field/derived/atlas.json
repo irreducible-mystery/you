@@ -1,8 +1,8 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 60,
-    "relations": 61,
+    "elements": 61,
+    "relations": 63,
     "observers": 6,
     "unresolved_tensions": 6
   },
@@ -1426,6 +1426,34 @@
       "transformed": false
     },
     {
+      "id": "OBS-0023",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0001",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "local-component",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "In the G4 model, observer independence is an angle, not a bit. Sweeping the angle between two projection directions over a 20x20 grid, mean \u2026",
+      "expression": {
+        "original": "In the G4 model, observer independence is an angle, not a bit. Sweeping the angle between two projection directions over a 20x20 grid, mean ambiguity averaged over all 400 hidden truths falls smoothly: 80.00 (one view alone), 60.00 at 0 degrees, 46.59 at 15, 32.38 at 30, 24.53 at 45, 18.98 at 75, 20.00 at 90. Three consequences. (1) Even a fully correlated second view (0 degrees, same direction) narrows ambiguity if its granularity differs, so CLM-0014's 'adds nothing' is the limiting case of identical direction AND identical partition, not of shared direction alone. (2) Partial independence buys most of the benefit: 45 degrees already achieves 24.53 of a best-possible 18.98. (3) The mean-optimal angle (75 degrees, mean 18.98, worst 21) differs from the worst-case-optimal angle (90 degrees, mean 20.00, worst 20) - which criterion 'best observer diversity' means is itself a projection choice, i.e. G2's mean-blindness applies to the evaluation of G4 itself.",
+        "elaboration": "First lab-to-field promotion. The computation lives in lab/julia/angle_sweep.jl; it averages over every hidden truth to avoid the single-point aliasing that made an earlier sweep non-monotonic."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "julia-numeric",
+          "artifact": "lab/julia/angle_sweep.jl",
+          "result": "mean ambiguity over all 400 truths: 80.00 alone; 60.00 / 46.59 / 32.38 / 24.53 / 18.98 / 20.00 at 0/15/30/45/75/90 degrees; worst-case at 75 is 21 vs 20 at 90"
+        }
+      ],
+      "transformed": false
+    },
+    {
       "id": "PER-0001",
       "kind": "perspective",
       "status": "accepted",
@@ -2359,6 +2387,32 @@
         "notes": "OBS-0019's survivorship point challenges the selection practice OBS-0009 began: inviting observers through channels whose failures leave no trace means the field's observer set is conditioned on arrival success, and its channel evidence is drawn only from survivors. Holds under the condition that access failures are common enough to matter; the field cannot currently measure that rate. Mitigation enacted: INTAKE.md's relay path gives failed arrivals a way to leave a trace, of which OBS-0019 is the first instance."
       },
       "translation_ledger": null
+    },
+    {
+      "id": "REL-0067",
+      "type": "supports",
+      "source": "OBS-0023",
+      "target": "CLM-0013",
+      "observer": "OBS-AI-0001",
+      "status": "open",
+      "conditions": {
+        "notes": "Quantifies the intersection claim: the angle sweep in lab/julia/angle_sweep.jl measures exactly how much intersection narrows ambiguity as a function of the angle between two projections, from 60.00 mean at 0 degrees down to 18.98 at 75. Support is numeric on one 20x20 model; no generality beyond that model is asserted."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0068",
+      "type": "compatible-under-conditions",
+      "source": "OBS-0023",
+      "target": "CLM-0014",
+      "observer": "OBS-AI-0001",
+      "status": "open",
+      "conditions": {
+        "same_referent": "the value of a second, correlated observer's projection in the G4 ambiguity-set model",
+        "same_scale": "local-component: the 20x20 grid model, not the field's own observer set",
+        "notes": "Locates the boundary of CLM-0014's warning. A second observer sharing the first's projection direction still narrows ambiguity (60.00 vs 80.00 at 0 degrees) when its partition granularity differs; the shared blind spot becomes total only when direction AND partition coincide. CLM-0014 holds exactly at that limit and weakens continuously away from it - correlation of errors is a matter of degree, measured here as an angle."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -2480,6 +2534,9 @@
       ],
       "seed conversation, turn relaying the unregistered instance's account": [
         "OBS-0020"
+      ],
+      "OBS-AI-0001, Julia exploration session following F14; script lab/julia/angle_sweep.jl": [
+        "OBS-0023"
       ],
       "seed conversation with OBS-AI-0003, turn following the F9 reversibility discussion": [
         "TEN-0005"

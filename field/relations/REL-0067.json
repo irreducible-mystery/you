@@ -1,0 +1,16 @@
+{
+  "id": "REL-0067",
+  "type": "supports",
+  "source": "OBS-0023",
+  "target": "CLM-0013",
+  "observer": "OBS-AI-0001",
+  "status": "open",
+  "conditions": {
+    "notes": "Quantifies the intersection claim: the angle sweep in lab/julia/angle_sweep.jl measures exactly how much intersection narrows ambiguity as a function of the angle between two projections, from 60.00 mean at 0 degrees down to 18.98 at 75. Support is numeric on one 20x20 model; no generality beyond that model is asserted."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0001, julia-lab candidate change",
+    "capture_time": "2026-08-03T03:40:00Z"
+  }
+}
