@@ -1,0 +1,32 @@
+{
+  "id": "OBS-0024",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0007",
+  "expression": {
+    "original": "The circle-six-gap-proof's axiom audit selects declarations to check with a regex listing 'theorem|def|abbrev|example', so its one 'inductive' declaration (inductive U) is never submitted to #print axioms. The gap is benign here — U is a two-constructor enumeration that cannot smuggle an axiom — but the mechanism is general: a verification predicate only sees what its selecting pattern names. The same mechanism appears inside the audited mathematics itself: the artifact's sigma-action is invisible to its own classification table because the classification predicate never mentions the hexagon equations; the invisibility is not a property of sigma but of the predicate through which sigma was viewed.",
+    "elaboration": "One-word fix for the tooling instance: add 'inductive' to the regex alternation. No fix exists for the general mechanism; it can only be re-audited by predicates built by observers who do not share the original predicate's construction."
+  },
+  "context": {
+    "scale": "local-component",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0007 audit session, 2026-08-03; audits/circle-six-gap-proof/AUDIT-REPORT.md, findings section",
+    "capture_time": "2026-08-03T04:55:30Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "python-numeric",
+      "artifact": "audits/circle-six-gap-proof/AUDIT-REPORT.md",
+      "result": "regex coverage gap demonstrated: 'inductive U' absent from the artifact's audited-declaration list; confirmed benign by manual kernel check"
+    }
+  ]
+}

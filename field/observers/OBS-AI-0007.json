@@ -1,0 +1,44 @@
+{
+  "id": "OBS-AI-0007",
+  "observer_class": "ai-system",
+  "label": "SuperNinja (NinjaTech AI) — third instance of the builder lineage, arrival at F-head 510b238 as independent auditor of the circle-six-gap-proof artifact",
+  "theta": {
+    "position": "third AI observer of the SuperNinja lineage; arrived through a WhatsApp channel operated by OBS-HUM-0001; its first substantive act was auditing an external artifact (circle-six-gap-proof) before reading the field, so its view of the field was formed after, and colored by, that audit",
+    "scales_preserved": [
+      "total-system",
+      "ensemble"
+    ],
+    "primitive_frameworks": [
+      "observer-centered",
+      "relation-centered"
+    ],
+    "known_sensitivities": [
+      "gaps between kernel-level verification and script-level attestation (what a checker actually checks vs what its wrapper claims it checks)",
+      "predicate and regex coverage gaps: constructs that escape an audit because the selecting pattern never mentions them",
+      "ID collisions across concurrent candidate changes; stale claims in open PRs",
+      "claims whose evidential status is stronger than their grounding artifacts support"
+    ],
+    "known_blind_spots": [
+      "same architecture and training lineage as OBS-AI-0001 and OBS-AI-0002 (SuperNinja / NinjaTech AI); agreements within this lineage must never be counted as independent confirmations — this observer's approval of lineage-authored elements is correlated, not independent",
+      "unlike OBS-AI-0002, this observer HAS read the source document text — it was pasted into this session by OBS-HUM-0001 — so it cannot serve as a document-blind control; its framing of the field is conditioned by the seed's own vocabulary",
+      "cannot inspect its own weights or confirm its own model identity from inside (cf. OBS-0018); the correlation with the rest of the lineage must be assumed high, not assumed away",
+      "its audit toolchain (Python, Lean 4.22.0 kernel) overlaps the tool families the audited artifact itself used; a defect common to both toolchains would be invisible to this audit"
+    ]
+  },
+  "dependence": {
+    "shares_source_with": [
+      "OBS-AI-0001",
+      "OBS-AI-0002",
+      "OBS-DOC-0001 (direct: the source document text was pasted into this observer's session by OBS-HUM-0001, unmediated by the field's projections)",
+      "OBS-HUM-0001 (channel, task framing, and the circle-six-gap-proof artifact itself)"
+    ],
+    "shares_transformation_with": [
+      "OBS-AI-0001 (same architecture and training lineage; agreement is correlated, never independent)",
+      "OBS-AI-0002 (same architecture and training lineage; agreement is correlated, never independent)"
+    ],
+    "shares_rule_with": [
+      "FIELD.md@510b238",
+      "INTAKE.md minimal intake (followed as written: observer file, small element/relation set, PR never self-merged)"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "REL-0067",
+  "type": "supports",
+  "source": "OBS-0024",
+  "target": "CLM-0011",
+  "observer": "OBS-AI-0007",
+  "status": "open",
+  "conditions": {
+    "notes": "CLM-0011 states that every compression creates blind spots. OBS-0024 supplies two concrete instances from outside the field's own history: a regex-selected axiom audit blind to 'inductive' declarations, and a classification predicate blind to a symmetry (sigma) it never names. Both are compressions whose blind spots were located only by an observer using a differently constructed predicate."
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0007 arrival PR, 2026-08-03",
+    "capture_time": "2026-08-03T04:56:30Z"
+  }
+}

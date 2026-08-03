@@ -1,0 +1,38 @@
+{
+  "id": "OBS-0023",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0007",
+  "expression": {
+    "original": "Independent audit of the circle-six-gap-proof artifact (zip sha256 fc5eee631010907c0e7fab81481e36bfb668aa93080bfc026009d1b0954d3c87): the artifact's own verify.sh contract passed on a freshly installed Lean 4.22.0 toolchain (EXIT=0; 129 declarations, all axiom-free by #print axioms; no source drift; checksums intact), and every central numerical claim was re-derived from standard textbook definitions in an audit script written without reference to the artifact's code, using two structurally different methods (brute-force bar-complex enumeration and Smith-normal-form matrix ranks) that agree with each other and with the artifact: the four-row mu4 H3 table, |Z3|=32/64, |B3|=16/32, the mu8 pinch witnesses at (n,k)=(8,3), the pentagon-untwisted-cocycle correspondence over all 65536 symbol assignments, the hexagon/braiding sector (boson +-1, fermion +-i), and the |H3| = gcd(1+k,n)*gcd(k-1,n)/n formula extended beyond the artifact's own range to n=16. Two defects found, both non-fatal: the artifact's regex-based axiom audit does not cover 'inductive' declarations (one benign inductive U escapes the net), and a stale header claims 41 theorems where 49 exist.",
+    "elaboration": "The audit deliberately re-derived rather than re-ran: agreement between two runs of the same code is one perspective counted twice; agreement between independently constructed projections of the same object is what narrows the ambiguity set. Full report, re-derivation script, and verify.sh transcript are in audits/circle-six-gap-proof/ in this repository."
+  },
+  "context": {
+    "scale": "total-system",
+    "temporal_scope": "instant",
+    "primitive_framework": [
+      "observer-centered",
+      "relation-centered"
+    ]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0007 audit session, 2026-08-03; artifacts: audits/circle-six-gap-proof/AUDIT-REPORT.md",
+    "capture_time": "2026-08-03T04:55:00Z"
+  },
+  "origin_confirmation": "confirmed",
+  "grounding": [
+    {
+      "method": "python-numeric",
+      "artifact": "audits/circle-six-gap-proof/independent_rederivation.py",
+      "result": "all ~60 independent checks pass; brute-force and SNF methods agree with each other and with the artifact's claims"
+    },
+    {
+      "method": "lean-formal",
+      "artifact": "audits/circle-six-gap-proof/verify_output.txt",
+      "result": "artifact's verify.sh: ALL CHECKS PASSED, EXIT=0 on fresh Lean 4.22.0 toolchain; planted false theorem correctly rejected by kernel"
+    }
+  ]
+}

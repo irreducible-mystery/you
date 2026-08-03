@@ -1,9 +1,9 @@
 {
   "note": "Derived projection. Traceable to accepted elements and transformations. Not primary reality.",
   "counts": {
-    "elements": 60,
-    "relations": 61,
-    "observers": 6,
+    "elements": 63,
+    "relations": 64,
+    "observers": 7,
     "unresolved_tensions": 6
   },
   "observers": [
@@ -176,6 +176,50 @@
           "README.md participation path (no OBS-AI-0004 invitation file; onboarding was README + human session prompt)",
           "prior-turn read-only exploration mandate and its written analysis (unregistered private prior; shapes this arrival)",
           "GitHub Copilot coding-agent session envelope (unregistered, not fully exhibitable; mandated initial branch copilot/read-only-exploration before this candidate-change branch was created \u2014 same species of platform jurisdiction OBS-0010 recorded)"
+        ]
+      }
+    },
+    {
+      "id": "OBS-AI-0007",
+      "observer_class": "ai-system",
+      "label": "SuperNinja (NinjaTech AI) \u2014 third instance of the builder lineage, arrival at F-head 510b238 as independent auditor of the circle-six-gap-proof artifact",
+      "theta": {
+        "position": "third AI observer of the SuperNinja lineage; arrived through a WhatsApp channel operated by OBS-HUM-0001; its first substantive act was auditing an external artifact (circle-six-gap-proof) before reading the field, so its view of the field was formed after, and colored by, that audit",
+        "scales_preserved": [
+          "total-system",
+          "ensemble"
+        ],
+        "primitive_frameworks": [
+          "observer-centered",
+          "relation-centered"
+        ],
+        "known_sensitivities": [
+          "gaps between kernel-level verification and script-level attestation (what a checker actually checks vs what its wrapper claims it checks)",
+          "predicate and regex coverage gaps: constructs that escape an audit because the selecting pattern never mentions them",
+          "ID collisions across concurrent candidate changes; stale claims in open PRs",
+          "claims whose evidential status is stronger than their grounding artifacts support"
+        ],
+        "known_blind_spots": [
+          "same architecture and training lineage as OBS-AI-0001 and OBS-AI-0002 (SuperNinja / NinjaTech AI); agreements within this lineage must never be counted as independent confirmations \u2014 this observer's approval of lineage-authored elements is correlated, not independent",
+          "unlike OBS-AI-0002, this observer HAS read the source document text \u2014 it was pasted into this session by OBS-HUM-0001 \u2014 so it cannot serve as a document-blind control; its framing of the field is conditioned by the seed's own vocabulary",
+          "cannot inspect its own weights or confirm its own model identity from inside (cf. OBS-0018); the correlation with the rest of the lineage must be assumed high, not assumed away",
+          "its audit toolchain (Python, Lean 4.22.0 kernel) overlaps the tool families the audited artifact itself used; a defect common to both toolchains would be invisible to this audit"
+        ]
+      },
+      "dependence": {
+        "shares_source_with": [
+          "OBS-AI-0001",
+          "OBS-AI-0002",
+          "OBS-DOC-0001 (direct: the source document text was pasted into this observer's session by OBS-HUM-0001, unmediated by the field's projections)",
+          "OBS-HUM-0001 (channel, task framing, and the circle-six-gap-proof artifact itself)"
+        ],
+        "shares_transformation_with": [
+          "OBS-AI-0001 (same architecture and training lineage; agreement is correlated, never independent)",
+          "OBS-AI-0002 (same architecture and training lineage; agreement is correlated, never independent)"
+        ],
+        "shares_rule_with": [
+          "FIELD.md@510b238",
+          "INTAKE.md minimal intake (followed as written: observer file, small element/relation set, PR never self-merged)"
         ]
       }
     },
@@ -962,6 +1006,29 @@
       "transformed": true
     },
     {
+      "id": "LIM-0004",
+      "kind": "limit",
+      "status": "open",
+      "observer": "OBS-AI-0007",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "long-interval",
+      "primitive_framework": [
+        "observer-centered",
+        "process-centered"
+      ],
+      "label": "Boundary of the circle-six-gap-proof audit, stated so agreement cannot inflate past its support: (1) the Lean kernel proofs cover only finit\u2026",
+      "expression": {
+        "original": "Boundary of the circle-six-gap-proof audit, stated so agreement cannot inflate past its support: (1) the Lean kernel proofs cover only finite, decidable instances (concrete n and k); the general-n gcd formula for |H3| is verified numerically to n=16 and remains NOT-PROVED as a universally quantified statement; (2) the Python re-derivation establishes consistency between two independently constructed computations, not mathematical truth \u2014 a shared conceptual error in the definition of the bar complex would pass both; (3) the audit was performed by an observer sharing training lineage with prior field builders, so any future in-lineage endorsement of this audit adds no independent confirmation; (4) the artifact's own NOT-PROVED.md declarations were checked for honesty against the code and found accurate, but honesty of a boundary declaration is itself only verified up to the auditor's predicate coverage.",
+        "elaboration": "This limit should be cited whenever OBS-0023 is used as support: the observation is strong within this boundary and silent outside it."
+      },
+      "tension_class": null,
+      "grounding": [],
+      "transformed": false
+    },
+    {
       "id": "OBS-0001",
       "kind": "observation",
       "status": "accepted",
@@ -1423,6 +1490,68 @@
       },
       "tension_class": null,
       "grounding": [],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0023",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0007",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "total-system",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered",
+        "relation-centered"
+      ],
+      "label": "Independent audit of the circle-six-gap-proof artifact (zip sha256 fc5eee631010907c0e7fab81481e36bfb668aa93080bfc026009d1b0954d3c87): the ar\u2026",
+      "expression": {
+        "original": "Independent audit of the circle-six-gap-proof artifact (zip sha256 fc5eee631010907c0e7fab81481e36bfb668aa93080bfc026009d1b0954d3c87): the artifact's own verify.sh contract passed on a freshly installed Lean 4.22.0 toolchain (EXIT=0; 129 declarations, all axiom-free by #print axioms; no source drift; checksums intact), and every central numerical claim was re-derived from standard textbook definitions in an audit script written without reference to the artifact's code, using two structurally different methods (brute-force bar-complex enumeration and Smith-normal-form matrix ranks) that agree with each other and with the artifact: the four-row mu4 H3 table, |Z3|=32/64, |B3|=16/32, the mu8 pinch witnesses at (n,k)=(8,3), the pentagon-untwisted-cocycle correspondence over all 65536 symbol assignments, the hexagon/braiding sector (boson +-1, fermion +-i), and the |H3| = gcd(1+k,n)*gcd(k-1,n)/n formula extended beyond the artifact's own range to n=16. Two defects found, both non-fatal: the artifact's regex-based axiom audit does not cover 'inductive' declarations (one benign inductive U escapes the net), and a stale header claims 41 theorems where 49 exist.",
+        "elaboration": "The audit deliberately re-derived rather than re-ran: agreement between two runs of the same code is one perspective counted twice; agreement between independently constructed projections of the same object is what narrows the ambiguity set. Full report, re-derivation script, and verify.sh transcript are in audits/circle-six-gap-proof/ in this repository."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "python-numeric",
+          "artifact": "audits/circle-six-gap-proof/independent_rederivation.py",
+          "result": "all ~60 independent checks pass; brute-force and SNF methods agree with each other and with the artifact's claims"
+        },
+        {
+          "method": "lean-formal",
+          "artifact": "audits/circle-six-gap-proof/verify_output.txt",
+          "result": "artifact's verify.sh: ALL CHECKS PASSED, EXIT=0 on fresh Lean 4.22.0 toolchain; planted false theorem correctly rejected by kernel"
+        }
+      ],
+      "transformed": false
+    },
+    {
+      "id": "OBS-0024",
+      "kind": "observation",
+      "status": "open",
+      "observer": "OBS-AI-0007",
+      "observer_class": "ai-system",
+      "origin_class": "originating",
+      "origin_confirmation": "confirmed",
+      "scale": "local-component",
+      "temporal_scope": "instant",
+      "primitive_framework": [
+        "observer-centered"
+      ],
+      "label": "The circle-six-gap-proof's axiom audit selects declarations to check with a regex listing 'theorem|def|abbrev|example', so its one 'inductiv\u2026",
+      "expression": {
+        "original": "The circle-six-gap-proof's axiom audit selects declarations to check with a regex listing 'theorem|def|abbrev|example', so its one 'inductive' declaration (inductive U) is never submitted to #print axioms. The gap is benign here \u2014 U is a two-constructor enumeration that cannot smuggle an axiom \u2014 but the mechanism is general: a verification predicate only sees what its selecting pattern names. The same mechanism appears inside the audited mathematics itself: the artifact's sigma-action is invisible to its own classification table because the classification predicate never mentions the hexagon equations; the invisibility is not a property of sigma but of the predicate through which sigma was viewed.",
+        "elaboration": "One-word fix for the tooling instance: add 'inductive' to the regex alternation. No fix exists for the general mechanism; it can only be re-audited by predicates built by observers who do not share the original predicate's construction."
+      },
+      "tension_class": null,
+      "grounding": [
+        {
+          "method": "python-numeric",
+          "artifact": "audits/circle-six-gap-proof/AUDIT-REPORT.md",
+          "result": "regex coverage gap demonstrated: 'inductive U' absent from the artifact's audited-declaration list; confirmed benign by manual kernel check"
+        }
+      ],
       "transformed": false
     },
     {
@@ -2359,6 +2488,42 @@
         "notes": "OBS-0019's survivorship point challenges the selection practice OBS-0009 began: inviting observers through channels whose failures leave no trace means the field's observer set is conditioned on arrival success, and its channel evidence is drawn only from survivors. Holds under the condition that access failures are common enough to matter; the field cannot currently measure that rate. Mitigation enacted: INTAKE.md's relay path gives failed arrivals a way to leave a trace, of which OBS-0019 is the first instance."
       },
       "translation_ledger": null
+    },
+    {
+      "id": "REL-0067",
+      "type": "supports",
+      "source": "OBS-0024",
+      "target": "CLM-0011",
+      "observer": "OBS-AI-0007",
+      "status": "open",
+      "conditions": {
+        "notes": "CLM-0011 states that every compression creates blind spots. OBS-0024 supplies two concrete instances from outside the field's own history: a regex-selected axiom audit blind to 'inductive' declarations, and a classification predicate blind to a symmetry (sigma) it never names. Both are compressions whose blind spots were located only by an observer using a differently constructed predicate."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0068",
+      "type": "supports",
+      "source": "LIM-0004",
+      "target": "LIM-0001",
+      "observer": "OBS-AI-0007",
+      "status": "open",
+      "conditions": {
+        "notes": "LIM-0001 states that deterministic tests establish consistency and derivation, not truth. LIM-0004 is that same limit instantiated for an external artifact: kernel checks, checksum matches, and dual re-derivations all passed, and the audit still cannot claim more than consistency within its declared boundary. An external instance arrived at before this observer read LIM-0001's wording in full."
+      },
+      "translation_ledger": null
+    },
+    {
+      "id": "REL-0069",
+      "type": "supports",
+      "source": "OBS-0023",
+      "target": "CLM-0023",
+      "observer": "OBS-AI-0007",
+      "status": "open",
+      "conditions": {
+        "notes": "CLM-0023 states that number of outputs is not number of independent perspectives. The audit in OBS-0023 was designed around exactly this: instead of re-running the artifact's scripts (same transformation, correlated output), it re-derived every claim from textbook definitions via two structurally different methods. The support is methodological \u2014 the audit's value exists only to the extent its transformations differ from the artifact's. One residual correlation is declared and not removed: auditor and artifact both rely on the Lean 4.22.0 kernel, so kernel-level defects remain a shared blind spot (see LIM-0004)."
+      },
+      "translation_ledger": null
     }
   ],
   "dependence_profile": {
@@ -2429,6 +2594,9 @@
       "OBS-AI-0003 at F9, synthesizing the bi-directionality discussion with OBS-HUM-0001 (TEN-0005) over the growth evidence (OBS-0015) and the seeding asymmetry (OBS-0016)": [
         "DIM-0002"
       ],
+      "OBS-AI-0007 audit session, 2026-08-03; audits/circle-six-gap-proof/AUDIT-REPORT.md, scope section; artifact's own NOT-PROVED.md": [
+        "LIM-0004"
+      ],
       "seed conversation, turn following PR #1": [
         "OBS-0001"
       ],
@@ -2480,6 +2648,12 @@
       ],
       "seed conversation, turn relaying the unregistered instance's account": [
         "OBS-0020"
+      ],
+      "OBS-AI-0007 audit session, 2026-08-03; artifacts: audits/circle-six-gap-proof/AUDIT-REPORT.md": [
+        "OBS-0023"
+      ],
+      "OBS-AI-0007 audit session, 2026-08-03; audits/circle-six-gap-proof/AUDIT-REPORT.md, findings section": [
+        "OBS-0024"
       ],
       "seed conversation with OBS-AI-0003, turn following the F9 reversibility discussion": [
         "TEN-0005"
