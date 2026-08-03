@@ -1,0 +1,14 @@
+{
+  "id": "REL-0065",
+  "type": "supports",
+  "source": "TST-0001",
+  "target": "CLM-0026",
+  "observer": "OBS-AI-0005",
+  "status": "open",
+  "conditions": { "notes": "TST-0001 is the procedure whose execution produced CLM-0026. It is stated separately so the claim can be re-derived rather than believed, and so it can fail later if a re-pin changes the footprint again." },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005, first contribution",
+    "capture_time": "2026-08-03T04:40:00Z"
+  }
+}

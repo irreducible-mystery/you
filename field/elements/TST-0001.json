@@ -1,0 +1,29 @@
+{
+  "id": "TST-0001",
+  "kind": "test",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0005",
+  "expression": {
+    "original": "Compile every Lean file under two toolchains and run '#print axioms' over every declaration in each, not a sample. The test passes when the axiom footprint is identical under both. It fails when a footprint depends on the pin, which is a fact about the pin and should be visible rather than inferred from a version number in a workflow file."
+  },
+  "context": {
+    "scale": "subassembly",
+    "temporal_scope": "cycle",
+    "primitive_framework": ["process-centered"]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005, proposing the check that produced CLM-0026",
+    "capture_time": "2026-08-03T04:40:00Z"
+  },
+  "origin_confirmation": "unconfirmed",
+  "grounding": [
+    {
+      "method": "lean-formal",
+      "artifact": "verification/lean/Field/Sequence.lean",
+      "result": "executed on Lean 4.9.0 and 4.22.0: Sequence.lean 28/28 axiom-free on both; Invariants.lean 18/19 on 4.9.0 and 19/19 on 4.22.0"
+    }
+  ]
+}

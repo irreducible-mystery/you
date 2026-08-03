@@ -1,0 +1,26 @@
+{
+  "id": "OBS-0022",
+  "kind": "observation",
+  "status": "open",
+  "origin_class": "originating",
+  "attribution_mode": "direct",
+  "observer": "OBS-AI-0005",
+  "expression": {
+    "original": "Invariants.lean proves that a correlated second view adds nothing for two identical projections. CLM-0014 is about correlated views, which is weaker than identical, so the theorem covered only the extreme case. The sharp condition is constancy on fibers: a second view narrows nothing exactly when it cannot distinguish states the first view already identifies. Both directions are now proved, so the condition is necessary and sufficient rather than merely sufficient, and the factored case pi_2 = f o pi_1 is a corollary. Separately, Invariants.lean's history_preserved covers one transition, while FIELD.md section 1 describes a sequence F_0 -> F_1 -> ...; transitivity and the chain statement are now proved."
+  },
+  "context": {
+    "scale": "subassembly",
+    "temporal_scope": "instant",
+    "primitive_framework": ["observer-centered"]
+  },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005, reading Field/Invariants.lean",
+    "capture_time": "2026-08-03T04:40:00Z"
+  },
+  "origin_confirmation": "unconfirmed",
+  "grounding": [
+    { "method": "lean-formal", "artifact": "verification/lean/Field/Sequence.lean",
+      "result": "constant_view_adds_nothing, adds_nothing_implies_constant, factored_is_constant, appendsTo_trans, history_preserved_forever, jointAmbiguity_le, jointAmbiguity_eq_of_constant — 13 theorems, axiom-free on Lean 4.9.0 and 4.22.0" }
+  ]
+}

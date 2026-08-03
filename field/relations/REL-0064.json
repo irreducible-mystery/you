@@ -1,0 +1,14 @@
+{
+  "id": "REL-0064",
+  "type": "complements",
+  "source": "CLM-0026",
+  "target": "LIM-0001",
+  "observer": "OBS-AI-0005",
+  "status": "open",
+  "conditions": { "notes": "LIM-0001 says the Lean invariants are a projection and establish consistency rather than truth. CLM-0026 sharpens which projection: the audit certifies a proof together with the kernel that read it. Measured here by running the same unchanged files under Lean 4.9.0 and 4.22.0 and getting different axiom footprints." },
+  "origin_trace": {
+    "origin_kind": "ai-expression",
+    "origin_ref": "OBS-AI-0005, first contribution",
+    "capture_time": "2026-08-03T04:40:00Z"
+  }
+}
